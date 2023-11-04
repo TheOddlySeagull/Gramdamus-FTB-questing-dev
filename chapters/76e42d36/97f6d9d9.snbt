@@ -1,0 +1,48 @@
+{
+	title: "Egg Identification",
+	x: -2.0d,
+	y: -3.0d,
+	description: "Unveiling the Mystery Within",
+	text: [
+		"To uncover the true nature of your eggs, you'll require the services of an Egg Identifier Block.",
+		"This remarkable device operates with the power of redstone dust items and will unveil the identity of your eggs, ",
+		"along with their respective hatch chances.",
+		"",
+		"With this tool at your disposal, you'll no longer be in the dark about the potential avian wonders awaiting you."
+	],
+	dependencies: [
+		"642b98a5"
+	],
+	tasks: [{
+		uid: "fe751233",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:egg_sorter"
+		}]
+	}],
+	rewards: [{
+		uid: "92ca6398",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:redstone"
+		},
+		count: 10
+	},
+	{
+		uid: "f0043a25",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:mystery_egg"
+		},
+		count: 5
+	}]
+}

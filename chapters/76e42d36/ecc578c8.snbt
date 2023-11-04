@@ -1,0 +1,93 @@
+{
+	title: "Egg Collector's Triumph",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "betteranimalsplus:golden_goose_egg"
+	},
+	x: 13.5d,
+	y: -0.5d,
+	description: "A Nest of Diversity",
+	text: [
+		"Congratulations, adventurer of Gramdamus! Your journey into the avian world has been nothing short of remarkable.",
+		"The quest for eggs, a testament to your devotion and understanding of the world's avian residents, has reached its grand conclusion.",
+		"You've ventured into every habitat, learned the intricacies of each species, and welcomed new life to this realm.",
+		"",
+		"In this final quest, it's time to celebrate the diversity of Gramdamus' avian inhabitants.",
+		"To complete this quest, you must have gathered and nurtured a wide variety of eggs, each representing the unique charm of its species.",
+		"These eggs tell stories of vibrant jungles, tranquil rivers, and arid deserts.",
+		"They hold the essence of colorful plumage, enchanting melodies, and majestic flight.",
+		"",
+		"To triumph as an Egg Collector, ensure that you've undertaken and accomplished all the preceding quests related to each avian species.",
+		"With your diverse collection, you've brought together a symphony of Gramdamus' feathered inhabitants,",
+		"demonstrating your understanding of their world.",
+		"",
+		"This final quest serves as a testament to your dedication as an avian enthusiast and a collector of Gramdamus' diverse bird species.",
+		"It's a moment of pride, signifying your success in bringing the avian world to life."
+	],
+	dependencies: [
+		"0818701f",
+		"78b81cbf",
+		"18191ad1",
+		"b77a7a73",
+		"99201eeb",
+		"9055f959",
+		"7324b4f5",
+		"1eda4c0b",
+		"1154ba40",
+		"6ac53e92",
+		"2fde8185",
+		"4dc3031f",
+		"f1273bba",
+		"4ba850f5",
+		"9e0c4812",
+		"29ffed1f",
+		"57a16641",
+		"c40f16e9",
+		"7a486d6f",
+		"a0fd38d5",
+		"ef78e352",
+		"cf1748fc",
+		"63a7c2cc",
+		"493d5b10",
+		"d48e83fd",
+		"8e9699e0",
+		"778c07ba",
+		"a0cc9eb1",
+		"f253caae"
+	],
+	tasks: [{
+		uid: "fde91ed9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "betteranimalsplus:goose_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b037cdd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "betteranimalsplus:golden_goose_egg"
+		}
+	},
+	{
+		uid: "beae3f70",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 3s
+		}
+	}]
+}

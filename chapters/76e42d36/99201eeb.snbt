@@ -1,0 +1,38 @@
+{
+	title: "Flamingo Egg",
+	x: 4.5d,
+	y: 0.5d,
+	description: "Grace Amidst Swamps and Sunshine",
+	text: [
+		"Flamingos spawn naturally in the overworld in groups of two to three. They can be found in swamps and warm beaches.",
+		"",
+		"Flamingos can only breed with each other if they are the same variant.",
+		"They must be adults, and if fed raw cod, raw salmon or raw tropical fish, a baby flamingo will spawn.",
+		"The variant of the baby will match that of its parents. "
+	],
+	dependencies: [
+		"58031225"
+	],
+	tasks: [{
+		uid: "82e5d59b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:flamingo_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0c2b1509",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

@@ -1,0 +1,47 @@
+{
+	title: "Avian Discovery",
+	x: -9.0d,
+	y: -3.0d,
+	description: "The Feathered World of Gramdamus",
+	text: [
+		"he skies of Gramdamus are alive with the vibrant beauty of exotic birds, thanks to the Exotic Birds mod.",
+		"These feathered creatures of various species gracefully traverse the world.",
+		"",
+		"In the treetops, you'll discover nests harboring an array of fancy eggs. Your task is to find a nest and gather its eggs.",
+		"Some eggs remain unidentified until you take the time to examine them, revealing the bird they will hatch into.",
+		"",
+		"Collect ten of these unidentified eggs and embrace the diverse avian life of this enchanting land."
+	],
+	tasks: [{
+		uid: "c252b7fc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:mystery_egg"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "fafc6787",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:nest"
+		}
+	},
+	{
+		uid: "622f949e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:eggshell"
+		},
+		count: 10
+	}]
+}

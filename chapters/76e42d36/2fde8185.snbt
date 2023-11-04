@@ -1,0 +1,38 @@
+{
+	title: "Booby Egg",
+	x: 3.0d,
+	y: -1.5d,
+	description: "A Beachside Discovery",
+	text: [
+		"Boobies spawn naturally in the overworld in groups of two to three. They can be found in beach biomes. ",
+		"",
+		"Boobies can only breed with each other if they are the same variant.",
+		"They must be adults, and if fed raw cod, raw salmon or raw tropical fish, a baby booby will spawn.",
+		"The variant of the baby will match that of its parents. "
+	],
+	dependencies: [
+		"58031225"
+	],
+	tasks: [{
+		uid: "4d1cd547",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:booby_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ae37fce7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	title: "Vulture Egg",
+	x: 10.5d,
+	y: -0.5d,
+	description: "Skies of Scavengers",
+	text: [
+		"In the vast and open skies of Gramdamus, Vultures, known for their scavenging habits and aerial mastery, take their place.",
+		"These enigmatic and opportunistic birds soar high, often seen alone or in pairs, contributing to the ecosystem with their cleaning services.",
+		"",
+		"Venture into the world of Vultures and uncover their scavenging attributes.",
+		"Vultures are celebrated for their keen eyes and their role in maintaining the balance of nature by disposing of carrion.",
+		"To explore their world, you'll need to understand their breeding habits.",
+		"Breeding Vultures requires two adult birds, often found alone or in pairs, and provided with a diet that includes raw rabbit meat or rotten flesh.",
+		"From this union, a baby Vulture will emerge, inheriting the traits of its parents."
+	],
+	dependencies: [
+		"58031225"
+	],
+	tasks: [{
+		uid: "cb628c1d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:vulture_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4138a1ba",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

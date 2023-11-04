@@ -1,0 +1,54 @@
+{
+	title: "Phoenix Familiar",
+	x: -4.5d,
+	y: -1.5d,
+	description: "Unleash the Mystical Phoenix",
+	text: [
+		"With a phoenix egg in your possession, you're on the brink of unveiling the mystical world of phoenixes.",
+		"These legendary birds hold the power to adapt and change, influenced by their hatching environment.",
+		"Here are some possibilities:",
+		"",
+		"-    Regular Phoenix: Emits fire particles when content and smoke when wet. Resistant to lava and fire, but water blocks are harmful.",
+		"",
+		"-    Black Phoenix: Hatch under a full moon, and it becomes immune to water damage.",
+		"",
+		"-    Cloud Phoenix: Hatching above the clouds (y > 128) grants immunity to water damage.",
+		"",
+		"-    Desert Phoenix: Choose a desert biome for hatching.",
+		"",
+		"-    Ender Phoenix: Hatching in the End grants teleportation and vulnerability to water.",
+		"",
+		"-    Nether Phoenix: The Nether is its birthplace, immune to fire damage.",
+		"",
+		"-    Snow Phoenix: Hatch in snowy biomes, avoid warm biomes like jungles and deserts. Immune to water damage.",
+		"",
+		"-    Water Phoenix: Hatch in an ocean biome for water immunity.",
+		"",
+		"Equip your phoenix with a saddle to mount this magnificent creature. Be prepared to unlock the secrets and wonders of your very own phoenix!"
+	],
+	dependencies: [
+		"7ce1562f"
+	],
+	tasks: [{
+		uid: "bdeac395",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:phoenix_egg"
+		}]
+	}],
+	rewards: [{
+		uid: "e1fd2645",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 2s
+		},
+		count: 3
+	}]
+}

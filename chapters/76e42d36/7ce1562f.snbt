@@ -1,0 +1,60 @@
+{
+	title: "Pursuit of the Phoenix",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "exoticbirds:phoenix_egg"
+	},
+	x: -2.5d,
+	y: -1.5d,
+	description: "A Mythical Revelation",
+	text: [
+		"The legends of Gramdamus speak of majestic creatures, phoenixes, rare and mystical.",
+		"These extraordinary birds possess bodies adorned with shimmering, magic-infused red feathers,",
+		"their wings adorned with long, vibrant orange plumes, and eyes as dark as the night.",
+		"",
+		"The phoenix is a unique and mythical entity, unlike any other bird.",
+		"You won't encounter them freely roaming the wilds, for they are brought into being through phoenix eggs.",
+		"These eggs, the harbingers of these legendary creatures, are a treasure to behold.",
+		"They can be crafted from phoenix dust, a rare find in dungeons, or bestowed upon those who identify unidentified eggs—a rarity in itself.",
+		"",
+		"Your journey to witness the phoenix's resplendent glory begins with the pursuit of these elusive eggs,",
+		"a task that shall lead you to the heart of Gramdamus' most captivating myths."
+	],
+	dependencies: [
+		"7a1ba82f"
+	],
+	tasks: [{
+		uid: "4c72b331",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:phoenix_dust"
+		}],
+		count: 5L
+	},
+	{
+		uid: "06b2e51e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:egg"
+		}]
+	}],
+	rewards: [{
+		uid: "f0eca6f2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:phoenix_dust"
+		},
+		count: 3
+	}]
+}

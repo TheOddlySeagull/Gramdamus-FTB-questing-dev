@@ -1,0 +1,36 @@
+{
+	title: "Robin Egg",
+	x: 9.0d,
+	y: 1.5d,
+	description: "Forest Melodies",
+	text: [
+		"Robins spawn naturally in the overworld in groups of two to three. They can mostly be found in temperate forest biomes. ",
+		"",
+		"If two adult robins are fed wheat seeds, melon seeds, pumpkin seeds or beetroot seeds, a baby robin will spawn."
+	],
+	dependencies: [
+		"58031225"
+	],
+	tasks: [{
+		uid: "b3bf35bb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:robin_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "84f4ad94",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

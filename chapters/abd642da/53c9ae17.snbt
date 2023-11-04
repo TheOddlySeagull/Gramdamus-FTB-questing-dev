@@ -6,7 +6,7 @@
 		},
 		id: "biomesoplenty:berries"
 	},
-	x: -9.0d,
+	x: -9.5d,
 	y: -2.0d,
 	description: "Embracing Nature's Bounty",
 	text: [

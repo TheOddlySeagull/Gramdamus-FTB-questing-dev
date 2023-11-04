@@ -1,0 +1,39 @@
+{
+	title: "Owl Egg",
+	x: 7.5d,
+	y: 1.5d,
+	description: "Nocturnal Watchers",
+	text: [
+		"Owls spawn naturally in the overworld in groups of two to three. They can be found in cold forests and taigas.",
+		"",
+		"They have eyes that glow in the dark.",
+		"",
+		"Owls can only breed with each other if they are the same variant.",
+		"They must be adults, and if fed rotten flesh, raw rabbit meat or a rabbit foot, a baby owl will spawn. The variant of the baby will match that of its parents. "
+	],
+	dependencies: [
+		"58031225"
+	],
+	tasks: [{
+		uid: "56c32a61",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:owl_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4153533f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

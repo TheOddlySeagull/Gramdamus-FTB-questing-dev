@@ -1,0 +1,39 @@
+{
+	title: "Cardinal Egg",
+	x: 3.0d,
+	y: 0.5d,
+	description: "Nature's Gift of Vibrance",
+	text: [
+		"Cardinal spawn naturally in the overworld in groups of two to three. They can mostly be found in temperate forest biomes.",
+		"Cardinals are gendered; the female is a brown colour and the male is red. ",
+		"",
+		"Cardinals will breed if both a male and a female are present.",
+		"To enter breeding mode, they must be fed wheat seeds, melon seeds, pumpkin seeds or beetroot seeds.",
+		"A baby cardinal will spawn with a 50% chance of being male or female. "
+	],
+	dependencies: [
+		"58031225"
+	],
+	tasks: [{
+		uid: "962982f5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:cardinal_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bb281fb2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "Kingfisher Egg",
+	x: 6.0d,
+	y: 0.5d,
+	description: "Guardians of the Waters",
+	text: [
+		"Kingfisher spawn naturally in the overworld in groups of two to three.",
+		"",
+		"If two adult kingfishers are fed fed raw cod, raw salmon or raw tropical fish, a baby kingfisher will spawn.",
+		"The colour of the baby will depend on the parent; it has a 50% of being the same colour as its father, and a 50% chance of being the same as its mother. "
+	],
+	dependencies: [
+		"58031225"
+	],
+	tasks: [{
+		uid: "caa4770c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:kingfisher_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "17768200",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

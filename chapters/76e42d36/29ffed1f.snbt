@@ -1,0 +1,36 @@
+{
+	title: "Blue Jay Egg",
+	x: 3.0d,
+	y: -2.5d,
+	description: "Secrets of the Blue Skies",
+	text: [
+		"Blue jays spawn naturally in the overworld in groups of two to three. They can mostly be found in temperate forest biomes.",
+		"",
+		"If two adult blue jays are fed wheat seeds, melon seeds, pumpkin seeds or beetroot seeds, a baby blue jay will spawn."
+	],
+	dependencies: [
+		"58031225"
+	],
+	tasks: [{
+		uid: "b5134523",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:bluejay_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6456ef0d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

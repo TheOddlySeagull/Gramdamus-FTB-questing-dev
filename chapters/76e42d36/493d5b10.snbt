@@ -1,0 +1,38 @@
+{
+	title: "Pigeon Egg",
+	x: 4.5d,
+	y: -1.5d,
+	description: "Companions of Many Biomes",
+	text: [
+		"Pigeons spawn naturally in the overworld in groups of two to three. They can be found in a large majority of biomes where it can rain or snow.",
+		"",
+		"If two adult pigeons are fed wheat seeds, melon seeds, pumpkin seeds, beetroot seeds or bread, a baby pigeon will spawn.",
+		"The colour of the baby will depend on the parent;",
+		"it has a 50% of being the same colour as its father, and a 50% chance of being the same as its mother. "
+	],
+	dependencies: [
+		"58031225"
+	],
+	tasks: [{
+		uid: "820673f0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:pigeon_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ce0ee960",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

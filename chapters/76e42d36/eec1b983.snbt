@@ -1,0 +1,38 @@
+{
+	title: "The Flame-Kissed Feather",
+	x: -4.5d,
+	y: 0.5d,
+	description: "Treasures of the Phoenix",
+	text: [
+		"The phoenix, a creature of awe-inspiring splendor, holds more treasures than meets the eye.",
+		"Among its magnificent loot are phoenix feathers, even more sublime than the peacock's.",
+		"These feathers, adorned with the essence of fire, are a symbol of the phoenix's rebirth and eternal flame.",
+		"",
+		"Your next mission is to obtain one of these flame-kissed feathers, a radiant treasure that's tied to the mystical world of phoenixes.",
+		"Will you rise to the challenge and secure a symbol of the phoenix's blazing spirit?"
+	],
+	dependencies: [
+		"6ebc6449",
+		"a7807f16"
+	],
+	tasks: [{
+		uid: "5568d135",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:phoenix_feather"
+		}]
+	}],
+	rewards: [{
+		uid: "45954517",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "xreliquary:phoenix_down"
+		}
+	}]
+}

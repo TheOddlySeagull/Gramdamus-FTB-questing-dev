@@ -1,0 +1,40 @@
+{
+	title: "More than Birds: Dragons",
+	x: 0.5d,
+	y: 0.5d,
+	description: "Skies of Legend",
+	text: [
+		"As you tread the adventurous paths of Gramdamus, your journey might lead you to a fateful encounter with a creature of awe and dread – the Dragon.",
+		"Emerging from the depths of the MFR mod, these formidable dragons may eventually take flight near you,",
+		"accompanied by a warning message in the chat. In the face of this choice, you must decide whether to stand your ground and face the dragon in battle,",
+		"or seek refuge and remain hidden until the threat has passed.",
+		"",
+		"Confronting the dragon head-on, you must either defeat this mighty creature in a fierce battle or wait until it departs of its own accord.",
+		"A stroke of fortune might see you emerge victorious, earning a precious prize – a Dragon Heart,",
+		"a valuable element with significant uses on your ongoing adventures."
+	],
+	dependencies: [
+		"7a1ba82f"
+	],
+	tasks: [{
+		uid: "849621a5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:dragon_heart"
+		}]
+	}],
+	rewards: [{
+		uid: "17242976",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 3s
+		}
+	}]
+}

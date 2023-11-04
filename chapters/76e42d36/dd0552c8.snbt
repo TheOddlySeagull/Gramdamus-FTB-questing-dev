@@ -1,0 +1,37 @@
+{
+	title: "Aviary Mastery",
+	x: 0.5d,
+	y: -1.5d,
+	description: "Harnessing the Power of Cages",
+	text: [
+		"As your journey into the skies of Gramdamus continues, you'll come to appreciate the invaluable utility of cages.",
+		"These versatile tools grant you the ability to confine birds, enabling you to transport them just like any other items.",
+		"Simply break the cage to release the captive bird."
+	],
+	dependencies: [
+		"7a1ba82f"
+	],
+	tasks: [{
+		uid: "6465dc66",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:birdcage_oak"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "697b7f50",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:birdcage_gold"
+		}
+	}]
+}

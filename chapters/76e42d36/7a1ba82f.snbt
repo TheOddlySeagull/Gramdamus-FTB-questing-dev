@@ -1,0 +1,30 @@
+{
+	title: "Skyward Gaze",
+	x: -0.5d,
+	y: -0.5d,
+	description: "The Skies Beckon",
+	text: [
+		"When you cast your eyes upon the vast skies of Gramdamus, a wondrous array of creatures will reveal themselves.",
+		"",
+		"From the humble pigeons to the majestic dragons, the skies above are a realm of mystery and life.",
+		"",
+		"Prepare yourself to embark on an adventure of exploration and discovery among these enigmatic skies."
+	],
+	dependencies: [
+		"267bfcf3"
+	],
+	tasks: [{
+		uid: "1b044b29",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "313b48ef",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:bird_book"
+		}
+	}]
+}

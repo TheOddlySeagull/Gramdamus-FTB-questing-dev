@@ -1,0 +1,37 @@
+{
+	title: "Seagull Egg",
+	x: 6.0d,
+	y: -2.5d,
+	description: "Seaside Harmony",
+	text: [
+		"Gulls spawn naturally in the overworld in groups of two to three. They can be found on beaches and in ocean biomes. ",
+		"",
+		"If two adult gulls are fed wheat seeds, melon seeds, pumpkin seeds, beetroot seeds or bread, a baby gull will spawn. "
+	],
+	dependencies: [
+		"58031225"
+	],
+	tasks: [{
+		uid: "c5272132",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:seagull_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "38951087",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 1s
+		}
+	}]
+}

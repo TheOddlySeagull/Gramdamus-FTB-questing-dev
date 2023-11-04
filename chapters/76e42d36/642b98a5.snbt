@@ -1,0 +1,38 @@
+{
+	title: "Egg Cultivation",
+	x: -1.0d,
+	y: -2.0d,
+	description: "Hatching Hope",
+	text: [
+		"With a collection of nests in your possession, you are now poised to cultivate your very own unidentified eggs.",
+		"While these eggs could serve as a mere source of sustenance, you're on the threshold of something grander.",
+		"",
+		"Over time, these eggs have the potential to hatch into magnificent seagulls and other captivating birds."
+	],
+	dependencies: [
+		"7a1ba82f"
+	],
+	tasks: [{
+		uid: "4a227345",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:nest"
+		}],
+		count: 16L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "bce2f80e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:mystery_egg"
+		},
+		count: 10
+	}]
+}

@@ -1,0 +1,58 @@
+{
+	title: "Magpie Egg",
+	x: 7.5d,
+	y: -0.5d,
+	description: "Forest's Curious Collectors",
+	text: [
+		"Magpies spawn naturally in the overworld in groups of two to three. They can be found in all types of forest biomes. ",
+		"They are able to fly and will roost in trees. They are not scared of players, in fact they can be quite curious of them.",
+		"",
+		"Occasionally magpies will scavenge and hold an item in their beak. This item can be as common as a piece of string, or as rare as a gold ingot. The item can be retrieved in two ways:",
+		"-  Hitting the bird will make it drop the item, but it will upset it and will take a while for them to scavenge again.",
+		"-  Seeds can be thrown on the ground nearby, which will distract the bird and make it drop the item.",
+		"",
+		"If two adult magpies are fed wheat seeds, melon seeds, pumpkin seeds or beetroot seeds, a baby magpie will spawn.",
+		"The colour of the baby will depend on the parent; it has a 50% of being the same colour as its father, and a 50% chance of being the same as its mother. "
+	],
+	dependencies: [
+		"58031225"
+	],
+	tasks: [{
+		uid: "34784a13",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:magpie_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a00f295b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	},
+	{
+		uid: "8edf0ad5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:metal_hunk",
+			tag: {
+				mf_custom_materials: {
+					main_material: "gold"
+				}
+			}
+		},
+		count: 4
+	}]
+}

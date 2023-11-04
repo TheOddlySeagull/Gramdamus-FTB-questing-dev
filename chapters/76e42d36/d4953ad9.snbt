@@ -1,0 +1,50 @@
+{
+	title: "Egg Incubation",
+	x: -3.0d,
+	y: -4.0d,
+	description: "Nurturing Future Companions",
+	text: [
+		"With your eggs now identified, you have the power to influence their hatch chances.",
+		" If you find yourself dissatisfied with the initial odds, you can undertake the process of incubation to raise the chances of successful",
+		"hatching up to a guaranteed 100%. ",
+		"",
+		"The Egg Incubator, powered by blaze powder, is your tool for this task.",
+		"Each unit of blaze powder enhances the chances by 5% and can be applied to up to 14 eggs simultaneously.",
+		"Prepare to nurture your avian companions and ensure their successful entry into the world of Gramdamus."
+	],
+	dependencies: [
+		"97f6d9d9"
+	],
+	tasks: [{
+		uid: "53581c04",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:egg_incubator"
+		}]
+	}],
+	rewards: [{
+		uid: "c8ccab86",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:blaze_powder"
+		},
+		count: 10
+	},
+	{
+		uid: "9f95dd8d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:mystery_egg"
+		},
+		count: 10
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "Swan Egg",
+	x: 12.0d,
+	y: -0.5d,
+	description: "Graceful Waters",
+	text: [
+		"Swans spawn naturally in the overworld in groups of two to three. They can be found in beaches and rivers. They will often spawn on water.",
+		"",
+		"Swans can only breed with each other if they are the same variant.",
+		"They must be adults, and if fed wheat seeds, melon seeds, pumpkin seeds or beetroot seeds, a baby swan will spawn.",
+		"The variant of the baby will match that of its parents. "
+	],
+	dependencies: [
+		"58031225"
+	],
+	tasks: [{
+		uid: "a2db3a2c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:swan_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "014fb86a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

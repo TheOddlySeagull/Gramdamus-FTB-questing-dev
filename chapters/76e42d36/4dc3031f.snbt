@@ -1,0 +1,56 @@
+{
+	title: "Pelican Egg",
+	x: 9.0d,
+	y: -1.5d,
+	description: "Water's Aerial Guardians",
+	text: [
+		"Pelicans spawn naturally in the overworld in groups of two to five. They can be found in a biomes near water, such as rivers, beaches or jungles. ",
+		"",
+		"A pelican can be tamed by feeding it cooked salmon or cooked cod. Once tamed, a pelican will not eat any more cooked fish.",
+		"",
+		"Tamed pelicans have an inventory which can be opened by crouching and right-clicking the pelican.",
+		"Things cannot be placed in this inventory, but they can be taken out.",
+		"",
+		"Every 5-10 minutes, a tamed pelican will scavenge for fish and add it to its inventory.",
+		"",
+		"If two adult pelicans are fed raw salmon, raw cod or raw tropical fish, a baby pelican will spawn.",
+		"The colour of the baby will depend on the parent; it has a 50% of being the same colour as its father, and a 50% chance of being the same as its mother.",
+		"If both pelicans are tame, the baby will be tame too. "
+	],
+	dependencies: [
+		"58031225"
+	],
+	tasks: [{
+		uid: "ac0d4e29",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:pelican_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f9b3328b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	},
+	{
+		uid: "5a436f71",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:cooked_fish"
+		},
+		count: 5
+	}]
+}

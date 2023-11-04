@@ -1,0 +1,36 @@
+{
+	title: "Lyrebird Egg",
+	x: 7.5d,
+	y: -1.5d,
+	description: "Nature's Mimic",
+	text: [
+		"Lyrebirds spawn naturally in the overworld in groups of two to three.",
+		"",
+		"If two adult lyrebirds are fed wheat seeds, melon seeds, pumpkin seeds or beetroot seeds, a baby lyrebird will spawn."
+	],
+	dependencies: [
+		"58031225"
+	],
+	tasks: [{
+		uid: "b506d0e3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:lyrebird_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d16fd009",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

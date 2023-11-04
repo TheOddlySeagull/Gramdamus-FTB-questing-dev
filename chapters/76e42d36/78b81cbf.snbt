@@ -1,0 +1,38 @@
+{
+	title: "Toucan Egg",
+	x: 10.5d,
+	y: -1.5d,
+	description: "Jungle's Vibrance",
+	text: [
+		"Toucans spawn naturally in the overworld in groups of two to three. They can be found in jungles. ",
+		"",
+		"Toucans can only breed with each other if they are the same variant.",
+		"They must be adults, and if fed wheat seeds, melon seeds, pumpkin seeds or beetroot seeds, a baby toucan will spawn.",
+		"The variant of the baby will match that of its parents. "
+	],
+	dependencies: [
+		"58031225"
+	],
+	tasks: [{
+		uid: "7896cab1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:toucan_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ead4993e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

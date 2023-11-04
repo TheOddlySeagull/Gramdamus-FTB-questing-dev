@@ -1,0 +1,52 @@
+{
+	title: "Hummingbird Egg",
+	x: 6.0d,
+	y: -0.5d,
+	description: "A Flock of Jewels",
+	text: [
+		"Hummingbirds spawn naturally in the overworld in groups of two to three.",
+		"They can be found in warm, lush biomes, such as jungles, flower fields and savannahs.",
+		"",
+		"Hummingbirds are able to fly and will visit nearby flowers, rarely stopping for rest.",
+		"They will be attracted to a player holding sugar; often swarming them in a flock. ",
+		"",
+		"If two adult hummingbirds are fed sugar, a baby hummingbird will spawn.",
+		"The colour of the baby will depend on the parent; it has a 50% of being the same colour as its father, and a 50% chance of being the same as its mother. "
+	],
+	dependencies: [
+		"58031225"
+	],
+	tasks: [{
+		uid: "21c24ed5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:hummingbird_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f05a4b8d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	},
+	{
+		uid: "703451f6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sugar"
+		},
+		count: 4
+	}]
+}

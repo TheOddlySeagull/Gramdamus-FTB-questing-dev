@@ -1,0 +1,41 @@
+{
+	title: "Woodpecker Egg",
+	x: 10.5d,
+	y: 0.5d,
+	description: "Forest Percussionists",
+	text: [
+		"Amidst the verdant forests of Gramdamus, Woodpeckers, celebrated for their rhythmic drumming and woodland habitat, find their niche.",
+		"These spirited and rhythmic birds often appear as solo artists, adding a touch of percussion to the woodland's symphony.",
+		"",
+		"Set out on a journey into the world of Woodpeckers and explore their rhythmic attributes.",
+		"Woodpeckers are known for their drumming skills, creating lively beats on the trunks of trees.",
+		"To delve into their world and further understand their breeding habits, you'll need an adult Woodpecker,",
+		"often found as solo artists, and provide them with a diet of wheat seeds, melon seeds, pumpkin seeds, or beetroot seeds.",
+		"From this union, a baby Woodpecker will be born, inheriting the spirited rhythm of its parents."
+	],
+	dependencies: [
+		"58031225"
+	],
+	tasks: [{
+		uid: "52ed66b0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:woodpecker_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "778b71d5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

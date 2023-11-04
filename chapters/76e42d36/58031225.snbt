@@ -1,0 +1,49 @@
+{
+	title: "The Egg Gatherer",
+	x: 1.0d,
+	y: -0.5d,
+	description: "A Collector's Ambition",
+	text: [
+		"With your newfound ability to collect various eggs, you've set the stage for an ambitious quest.",
+		"Your mission, should you choose to accept it, is to gather all the different egg types from the vast array of bird species soaring through Gramdamus.",
+		"",
+		"As you build your collection, you'll uncover the treasures of each unique species.",
+		"Are you prepared to embark on this collector's journey and amass the stunning diversity of eggs that the world of Gramdamus has to offer?"
+	],
+	dependencies: [
+		"7a1ba82f"
+	],
+	tasks: [{
+		uid: "f5b24f0f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:mystery_egg"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "d7357fd5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:mystery_egg"
+		},
+		count: 20
+	},
+	{
+		uid: "023701bc",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:redstone"
+		},
+		count: 20
+	}]
+}

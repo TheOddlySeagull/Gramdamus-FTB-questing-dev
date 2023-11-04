@@ -1,0 +1,48 @@
+{
+	title: "Kiwi Egg",
+	x: 6.0d,
+	y: 1.5d,
+	description: "Forest's Hidden Gem",
+	text: [
+		"Kiwis spawn naturally in the overworld in groups of two to three. They can be found in warm forests. ",
+		"",
+		"Kiwis can only breed with each other if they are the same variant.",
+		"They must be adults, and if fed wheat seeds, melon seeds, pumpkin seeds or beetroot seeds, a baby kiwi will spawn.",
+		"The variant of the baby will match that of its parents. "
+	],
+	dependencies: [
+		"58031225"
+	],
+	tasks: [{
+		uid: "5fbfa1b8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:kiwi_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "511a192e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	},
+	{
+		uid: "e347fd58",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:kiwiitem"
+		}
+	}]
+}

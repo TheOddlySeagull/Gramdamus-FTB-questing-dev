@@ -1,0 +1,36 @@
+{
+	title: "Peacock's Finery",
+	x: -2.5d,
+	y: 0.5d,
+	description: "The Beauty of the Skies",
+	text: [
+		"Following your initiation into the wonders of Gramdamus' skies, you may have encountered one of nature's exquisite gifts—the peacock feather.",
+		"This resplendent plume, a symbol of grace and beauty, has the potential to play a significant role in your forthcoming adventures.",
+		"",
+		"Have you managed to obtain this magnificent feather, a token of the skies' allure and promise for your future quests?"
+	],
+	dependencies: [
+		"7a1ba82f"
+	],
+	tasks: [{
+		uid: "818ef16c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:peacock_feather"
+		}]
+	}],
+	rewards: [{
+		uid: "f7f2dcd9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 2s
+		}
+	}]
+}

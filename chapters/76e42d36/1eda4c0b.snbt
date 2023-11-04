@@ -1,0 +1,36 @@
+{
+	title: "Kookaburra Egg",
+	x: 7.5d,
+	y: -2.5d,
+	description: "Laughing Guardians",
+	text: [
+		"Kookaburras spawn naturally in the overworld in groups of two to three.",
+		"",
+		"If two adult kookaburras are fed fed raw cod, raw salmon or raw tropical fish, a baby kookaburra will spawn."
+	],
+	dependencies: [
+		"58031225"
+	],
+	tasks: [{
+		uid: "67070a9f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:kookaburra_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0fec9659",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

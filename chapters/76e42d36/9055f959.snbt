@@ -1,0 +1,41 @@
+{
+	title: "Roadrunner Egg",
+	x: 9.0d,
+	y: 0.5d,
+	description: "Arid Speedsters",
+	text: [
+		"Roadrunners spawn naturally in the overworld in groups of two to three. They can be found in dry, arid biomes such as deserts and savannahs.",
+		"",
+		"Roadrunners are very fast birds and will sprint away from the player.",
+		"The only way to attract a roadrunner is to stand very still and not make any sudden movements, just like taming an ocelot.",
+		"",
+		"Roadrunners can only breed with each other if they are the same variant.",
+		"They must be adults, and if fed wheat seeds, melon seeds, pumpkin seeds, beetroot seeds, a baby roadrunner will spawn.",
+		"The variant of the baby will match that of its parents."
+	],
+	dependencies: [
+		"58031225"
+	],
+	tasks: [{
+		uid: "e79c0aff",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:roadrunner_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "01ddb523",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

@@ -1,5 +1,17 @@
 {
 	title: "Agriculture",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minefantasyreforged:standard_hoe",
+		tag: {
+			mf_custom_materials: {
+				main_material: "iron",
+				haft_material: "oak_wood"
+			}
+		}
+	},
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

@@ -1,0 +1,35 @@
+{
+	title: "Cassowary Egg",
+	x: 3.0d,
+	y: 1.5d,
+	description: "Guardians of the Wild",
+	text: [
+		"In the wilds of Gramdamus, you'll encounter the formidable Cassowaries, large and enigmatic birds known for their striking presence.",
+		"These guardians of the wilderness can be found in various terrains across the overworld."
+	],
+	dependencies: [
+		"58031225"
+	],
+	tasks: [{
+		uid: "748c5b4d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:cassowary_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "207dcc07",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

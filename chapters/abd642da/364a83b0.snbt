@@ -6,7 +6,7 @@
 		},
 		id: "minecraft:crafting_table"
 	},
-	x: -7.0d,
+	x: -6.5d,
 	y: -2.0d,
 	description: "Setting Up Your Workshop",
 	text: [

@@ -7,7 +7,7 @@
 		id: "growthcraft_grapes:grape",
 		Damage: 14s
 	},
-	x: -11.0d,
+	x: -11.5d,
 	y: -3.0d,
 	description: "Cultivating the Vineyards",
 	text: [

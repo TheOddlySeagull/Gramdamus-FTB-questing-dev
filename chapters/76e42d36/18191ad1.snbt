@@ -1,0 +1,40 @@
+{
+	title: "Penguin Egg",
+	x: 9.0d,
+	y: -0.5d,
+	description: "Antarctic Denizens",
+	text: [
+		"Amid the icy and remote landscapes of Gramdamus, the Penguins, iconic for their tuxedo-like appearance and waddling gait, find their place.",
+		"These charismatic and hardy birds often gather in colonies, adding a touch of charm to their chilly abodes.",
+		"",
+		"Delve into the world of Penguins and discover their unique characteristics.",
+		"Penguins are known for their distinct black-and-white attire and their adorable waddle.",
+		"To perpetuate their lineage, they must breed within their own colonies.",
+		"Breeding requires two adult Penguins, present within their colony's bounds, and supplied with a diet of fish, which includes raw salmon, raw cod, or raw tropical fish. From this union, a baby Penguin will emerge, inheriting the distinctive look of its parents."
+	],
+	dependencies: [
+		"58031225"
+	],
+	tasks: [{
+		uid: "e25a689c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:emperorpenguin_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "17ec91dc",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

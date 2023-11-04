@@ -1,0 +1,38 @@
+{
+	title: "Heron Egg",
+	x: 6.0d,
+	y: -1.5d,
+	description: "Waterside Watchers",
+	text: [
+		"Herons spawn naturally in the overworld in groups of two to three. They can be found in rivers, swamps and beaches.",
+		"",
+		"Herons can only breed with each other if they are the same variant.",
+		"They must be adults, and if fed raw cod, raw salmon or raw tropical fish, a baby heron will spawn.",
+		"The variant of the baby will match that of its parents. "
+	],
+	dependencies: [
+		"58031225"
+	],
+	tasks: [{
+		uid: "df79e3b3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:heron_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f9ddeb43",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

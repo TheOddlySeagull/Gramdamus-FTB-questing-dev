@@ -1,0 +1,38 @@
+{
+	title: "Gouldian Finches Egg",
+	x: 4.5d,
+	y: 1.5d,
+	description: "Colors of the Tropics",
+	text: [
+		"Gouldian finches spawn naturally in the overworld in groups of two to three.",
+		"They can be found in warm, tropical biomes, such as jungles, savannahs and mesas.",
+		"",
+		"If two adult Gouldian finches are fed wheat seeds, melon seeds, pumpkin seeds or beetroot seeds, a baby finch will spawn.",
+		"The colour of the baby will depend on the parent; it has a 50% of being the same colour as its father, and a 50% chance of being the same as its mother. "
+	],
+	dependencies: [
+		"58031225"
+	],
+	tasks: [{
+		uid: "06cf5e62",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:gouldianfinch_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5fbfe9bc",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

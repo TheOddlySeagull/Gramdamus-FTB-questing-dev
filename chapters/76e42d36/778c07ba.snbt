@@ -1,0 +1,37 @@
+{
+	title: "Peafowl Egg",
+	x: 9.0d,
+	y: -2.5d,
+	description: "Vibrant Displays",
+	text: [
+		"Peafowl are loud annoying, but make good pets for show.",
+		"",
+		"Peafowl will breed if both a male and a female are present.",
+		"To enter breeding mode, they must be fed wheat seeds, melon seeds, pumpkin seeds or beetroot seeds. A baby peafowl will spawn with a 50% chance of being male or female."
+	],
+	dependencies: [
+		"58031225"
+	],
+	tasks: [{
+		uid: "0e392c13",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:peafowl_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c179f754",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

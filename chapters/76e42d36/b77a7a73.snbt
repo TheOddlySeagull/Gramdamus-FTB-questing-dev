@@ -1,0 +1,38 @@
+{
+	title: "Crane Egg",
+	x: 4.5d,
+	y: -2.5d,
+	description: "Grace by the Waterside",
+	text: [
+		"Cranes spawn naturally in the overworld in groups of two to three. They can be found in rivers, swamps and beaches.",
+		"",
+		"Cranes can only breed with each other if they are the same variant.",
+		"They must be adults, and if fed raw cod, raw salmon or raw tropical fish, a baby crane will spawn.",
+		"The variant of the baby will match that of its parents. "
+	],
+	dependencies: [
+		"58031225"
+	],
+	tasks: [{
+		uid: "9f096099",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:crane_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "83d043f2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}
