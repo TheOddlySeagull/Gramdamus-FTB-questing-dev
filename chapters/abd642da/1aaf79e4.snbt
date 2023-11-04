@@ -1,0 +1,31 @@
+{
+	title: "Explore the Food and Tastes of This World",
+	x: -11.0d,
+	y: -1.0d,
+	description: "A Gastronomic Adventure",
+	text: [
+		" Welcome to the diverse and bountiful world of Gramdamus! Here, the \"Spice of Life: Carrot Edition\" mod awaits to tantalize your taste buds.",
+		"",
+		"As you explore this world, you'll encounter an assortment of crops and fruits, each more delectable than the last.",
+		"What's more, the health benefits of these foods increase the more you discover.",
+		"",
+		"Your quest is to savor the flavors of this beautiful land by seeking out and tasting all the crops and fruits it has to offer."
+	],
+	dependencies: [
+		"53c9ae17"
+	],
+	tasks: [{
+		uid: "491986df",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "0a15be02",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "solcarrot:food_book"
+		}
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: -8.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "01370ceb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarenpc:npc_spawner",
+			tag: {
+				npcSubtype: "",
+				npcType: "worker"
+			}
+		}]
+	}]
+}

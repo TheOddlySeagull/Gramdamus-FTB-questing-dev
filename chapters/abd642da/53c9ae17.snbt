@@ -1,0 +1,97 @@
+{
+	title: "The Gifts Of Nature",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "biomesoplenty:berries"
+	},
+	x: -9.0d,
+	y: -2.0d,
+	description: "Embracing Nature's Bounty",
+	text: [
+		"As you set foot into the untamed world of Gramdamus, one of your initial challenges is securing sustenance.",
+		"Fortunately, the land is abundant with edible treasures. In this quest, explore the wilderness and gather one of each common, generic berry type:",
+		"",
+		"-    Biomes O Plenty Berry Bush",
+		"-    Rustic Wildberry Bush",
+		"-    MFR Berry Bush",
+		"",
+		"These berries will serve as your first foray into a food source, helping you stay nourished during your adventures.",
+		"",
+		"The MFR berry bush, in particular, holds the potential to replenish your stamina. Start your journey by collecting these gifts of nature."
+	],
+	tasks: [{
+		uid: "93f7266d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:berries"
+		}]
+	},
+	{
+		uid: "7ffb81d5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:wildberries"
+		}]
+	},
+	{
+		uid: "a265dad3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:berries_juicy"
+		}]
+	},
+	{
+		uid: "c90c1ea4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:berries"
+		}]
+	},
+	{
+		uid: "687b1ab9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:wildberry_bush"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "8beb649e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:wildberry_bush"
+		},
+		count: 5
+	},
+	{
+		uid: "11ba0f4d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:berry_bush"
+		},
+		count: 5
+	}]
+}

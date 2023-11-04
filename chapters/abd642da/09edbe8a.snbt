@@ -1,7 +1,7 @@
 {
 	title: "Researcher",
-	x: -10.0d,
-	y: -4.0d,
+	x: -8.0d,
+	y: -2.0d,
 	text: [
 		"Welcome to the Legends of Gramdatis! As you embark on your journey, it's crucial to master the art of research to unlock the full potential of the Ancient Warfare and Minefantasy Reforged mods.",
 		"Your first task is to craft research books and research tables to dive into these unique research systems."

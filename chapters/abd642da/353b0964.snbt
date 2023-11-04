@@ -1,0 +1,70 @@
+{
+	title: "The Gift of Nature: In the Mines",
+	x: -11.5d,
+	y: -2.0d,
+	description: "Unearthed Treasures",
+	text: [
+		"As you delve deeper into the underground mines of Gramdamus, nature's bounty continues to reveal itself.",
+		"",
+		"In the dimly lit caves and tunnels, you'll encounter a different kind of sustenance - the Quark mod roots and sprouts.",
+		"",
+		"These peculiar underground plants offer unique and colorful secondary effects when consumed.",
+		"While you may not perish from hunger in the depths of the earth, these roots and sprouts are valuable sources of sustenance and surprises."
+	],
+	dependencies: [
+		"53c9ae17"
+	],
+	tasks: [{
+		uid: "bb2e51b3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "quark:root"
+		}]
+	},
+	{
+		uid: "c7d3ec50",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "quark:root_flower"
+		}]
+	},
+	{
+		uid: "31328082",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "quark:root_flower",
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "b30be791",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "quark:root_flower",
+			Damage: 2s
+		}]
+	}],
+	rewards: [{
+		uid: "54168d61",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "quark:root"
+		},
+		count: 5
+	}]
+}
