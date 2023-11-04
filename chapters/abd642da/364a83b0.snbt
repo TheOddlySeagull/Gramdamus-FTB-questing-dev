@@ -1,0 +1,66 @@
+{
+	title: "Crafting Basics",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:crafting_table"
+	},
+	x: -10.0d,
+	y: -2.0d,
+	description: "Setting Up Your Workshop",
+	text: [
+		"As you begin your journey, it's essential to establish your crafting capabilities.",
+		"",
+		"Craft a simple Crafting Table for generic creations, and an Ancient Warfare 2 Engineering Bench to unlock its advanced crafting possibilities.",
+		"",
+		"The AW2 Engineering Bench is your gateway to more complex recipes and flexible output options, with added storage linked to your creations."
+	],
+	tasks: [{
+		uid: "88267ea4",
+		type: "item",
+		title: "Craft a Crafting Table",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:crafting_table"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "5c5919ed",
+		type: "item",
+		title: "Craft an Ancient Warfare Engineering Bench",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfare:engineering_station"
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "258fd626",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:crafting_table"
+		}
+	},
+	{
+		uid: "d39d6dd9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		},
+		count: 2
+	}]
+}

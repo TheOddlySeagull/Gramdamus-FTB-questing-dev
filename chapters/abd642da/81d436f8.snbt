@@ -1,0 +1,40 @@
+{
+	title: "Architectural Wonders",
+	x: -6.0d,
+	y: -2.0d,
+	description: "Building Your Kingdom",
+	text: [
+		"Get ready to embark on grand construction projects! Craft an Ancient Warfare 2 Drafting Table,",
+		"a marvel that empowers you to design and build entire structures of all scales.",
+		"",
+		"With over 4000 available structures to choose from, this table allows you to bring your architectural visions to life.",
+		"",
+		"Select your desired structure and provide the necessary resources to make it a reality.",
+		"It's time to create the kingdom of your dreams with this versatile drafting table."
+	],
+	dependencies: [
+		"c44d69eb"
+	],
+	tasks: [{
+		uid: "d7cfe731",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarestructure:drafting_station"
+		}]
+	}],
+	rewards: [{
+		uid: "9b004550",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 1s
+		},
+		count: 2
+	}]
+}

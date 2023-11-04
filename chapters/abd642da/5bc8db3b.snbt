@@ -1,0 +1,29 @@
+{
+	title: "Ruling",
+	x: -10.0d,
+	y: 0.0d,
+	description: "Discovering the World of Gramdamus",
+	text: [
+		"The world of Gramdamus is rich and teeming with life, and the Ancient Warfare 2 mod brings a wealth of unique features and structures to explore.",
+		"",
+		" Your journey begins with knowledge, and to that end, seek the \"Treatise on the Principles of Ruling.\"",
+		"",
+		"This manual is your key to understanding the world around you and comprehending the intricacies of the AW2 mod.",
+		"Dive into its pages to uncover the secrets of this land and grasp the mod's features."
+	],
+	tasks: [{
+		uid: "ec72ae3f",
+		type: "checkmark",
+		title: "Ruling"
+	}],
+	rewards: [{
+		uid: "baf0847c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfare:manual"
+		}
+	}]
+}

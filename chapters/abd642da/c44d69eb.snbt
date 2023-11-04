@@ -1,0 +1,57 @@
+{
+	title: "Carpentry Mastery",
+	x: -8.0d,
+	y: -2.0d,
+	description: "Building with Precision",
+	text: [
+		"Dive deeper into the crafting world with the Minefantasy Reforged Carpenter Bench.",
+		"",
+		"This powerful bench allows you to craft a wide variety of MFR items using an expanded 4x4 crafting grid.",
+		"",
+		"It's not just about tools; this bench unlocks the potential for crafting excellence. Master the art of carpentry for more intricate and precise creations."
+	],
+	dependencies: [
+		"364a83b0"
+	],
+	tasks: [{
+		uid: "5d04b088",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:carpenter_bench"
+		}]
+	}],
+	rewards: [{
+		uid: "fbb9d074",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stone"
+		}
+	},
+	{
+		uid: "01574c84",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:crafting_table"
+		}
+	},
+	{
+		uid: "8467b9ce",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 1s
+		}
+	}]
+}

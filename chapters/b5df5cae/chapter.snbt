@@ -1,0 +1,12 @@
+{
+	title: "Exploration",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:leather_boots"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

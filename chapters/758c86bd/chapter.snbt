@@ -1,0 +1,12 @@
+{
+	title: "Storage",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:chest"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}
