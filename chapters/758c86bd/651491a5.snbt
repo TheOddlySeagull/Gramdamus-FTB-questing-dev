@@ -1,0 +1,43 @@
+{
+	title: "Chest Cart - Tier 1",
+	x: 2.5d,
+	y: -0.5d,
+	description: "Enhanced Storage on Wheels",
+	text: [
+		"As you continue your exploration of mobile storage, it's time to upgrade to the Chest Cart - Tier 1.",
+		"This cart brings an enhancement in storage capacity, giving you even more room for your resources.",
+		"",
+		"With 24 rows and 9 columns, the Chest Cart - Tier 1 is your ticket to efficient item transportation.",
+		"Craft this upgrade to experience the benefits of expanded mobile storage."
+	],
+	dependencies: [
+		"3c7b0f64"
+	],
+	tasks: [{
+		uid: "6b164445",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarevehicle:spawner",
+			tag: {
+				spawnData: {
+					level: 1
+				}
+			},
+			Damage: 17s
+		}]
+	}],
+	rewards: [{
+		uid: "1d314b5c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarevehicle:ironshod_wood"
+		},
+		count: 2
+	}]
+}

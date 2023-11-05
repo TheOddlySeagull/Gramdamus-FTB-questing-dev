@@ -1,0 +1,42 @@
+{
+	title: "Chest Cart - Tier 3",
+	x: 4.5d,
+	y: -0.5d,
+	description: "Elite Storage on the Move",
+	text: [
+		"As your empire expands, so do your storage needs. The Chest Cart - Tier 3 offers elite storage capacity, making it a valuable asset for any adventurer.",
+		"",
+		"With 24 rows and 9 columns, this cart provides ample room for your items.",
+		"Craft the Chest Cart - Tier 3 and enjoy the benefits of elite mobile storage."
+	],
+	dependencies: [
+		"1db846b1"
+	],
+	tasks: [{
+		uid: "320d7f72",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarevehicle:spawner",
+			tag: {
+				spawnData: {
+					level: 3
+				}
+			},
+			Damage: 17s
+		}]
+	}],
+	rewards: [{
+		uid: "8f10824e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarevehicle:rough_iron"
+		},
+		count: 2
+	}]
+}

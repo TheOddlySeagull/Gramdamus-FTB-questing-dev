@@ -1,0 +1,44 @@
+{
+	title: "Inventory at a Glance: Stock Viewer",
+	x: -2.5d,
+	y: 4.5d,
+	description: "Displaying Warehouse Contents",
+	text: [
+		"To enhance your proficiency in managing your vast array of resources, it's time to learn about the Stock Viewer block.",
+		"This specialized device acts like a digital sign, providing real-time information about the quantities of specific items stored within your Warehouse.",
+		"",
+		"To put the Stock Viewer to use, you must place it either inside the Warehouse or on one of the Warehouse's sides.",
+		"This ensures that it's within the Warehouse bounds and can access its inventory.",
+		"",
+		"Configuring the Stock Viewer is straightforward.",
+		"You can specify a list of items you want it to display, much like setting up filters in the warehouse interface.",
+		"This feature allows you to choose which items you wish to monitor and receive constant updates on their quantities.",
+		"",
+		"The Stock Viewer block serves as a valuable tool for keeping an eye on your Warehouse's contents without the need to access it directly.",
+		"Use it wisely to streamline your resource management and make informed decisions about your stock levels."
+	],
+	dependencies: [
+		"e4ac0d32"
+	],
+	tasks: [{
+		uid: "ed812211",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_stock_viewer"
+		}]
+	}],
+	rewards: [{
+		uid: "45ae1a83",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_stock_viewer"
+		},
+		count: 3
+	}]
+}

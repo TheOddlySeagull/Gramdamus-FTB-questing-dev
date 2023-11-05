@@ -21,7 +21,8 @@
 				"customnpcs:itemscripteddata": {}
 			},
 			id: "exoticbirds:egg_sorter"
-		}]
+		}],
+		consume_items: false
 	}],
 	rewards: [{
 		uid: "92ca6398",

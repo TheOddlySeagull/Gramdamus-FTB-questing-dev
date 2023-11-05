@@ -1,0 +1,42 @@
+{
+	title: "Boat Transport - Tier 0",
+	x: 1.5d,
+	y: 0.5d,
+	description: "Setting Sail on Storage",
+	text: [
+		"Your journey into water-based item transport begins with the Boat Transport - Tier 0.",
+		"This basic watercraft provides a foundation for your aquatic storage needs.",
+		"It functions similarly to the Chest Cart, offering storage and upgrade capabilities.",
+		"This tier marks the start of your exploration into water-based item transport in Gramdamus."
+	],
+	dependencies: [
+		"0b355ee4"
+	],
+	tasks: [{
+		uid: "9d01beab",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarevehicle:spawner",
+			tag: {
+				spawnData: {
+					level: 0
+				}
+			},
+			Damage: 20s
+		}]
+	}],
+	rewards: [{
+		uid: "cc9daa6a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarevehicle:treated_wood"
+		},
+		count: 3
+	}]
+}

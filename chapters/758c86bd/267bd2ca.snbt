@@ -1,0 +1,35 @@
+{
+	title: "Small Pack",
+	x: -2.0d,
+	y: 1.5d,
+	description: "A Modest Beginning",
+	text: [
+		"In your quest to master storage and organization, you'll start with a modest companion – the Small Pack from the Ancient Warfare mod.",
+		"With its nine item slots, it's perfect for those who want to keep a few essentials within reach.",
+		"Crafting this small but handy backpack will help you on your journey to a more organized and efficient empire."
+	],
+	dependencies: [
+		"0b355ee4"
+	],
+	tasks: [{
+		uid: "c6cfcaa0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfare:backpack"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d9efca01",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfare:backpack"
+		}
+	}]
+}

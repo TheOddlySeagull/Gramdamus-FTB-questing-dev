@@ -1,0 +1,98 @@
+{
+	title: "Ultimate Warehouse Challenge: Monumental Storage",
+	x: 0.0d,
+	y: 12.0d,
+	description: "Crafting the Warehouse of Legends",
+	text: [
+		"You've come a long way in your journey to master the art of warehousing.",
+		"Your previous achievements in managing items were just the beginning.",
+		"Now, it's time to undertake the most ambitious challenge: building the ultimate Warehouse, a true monument to your organizational prowess.",
+		"",
+		"To complete this formidable challenge, assemble the following components into your Warehouse:",
+		"",
+		"-    Warehouse Control Block: The heart of your Warehouse, responsible for managing its operations.",
+		"-    Warehouse Crafting Table: Your crafting hub, designed to work seamlessly with your Warehouse's resources.",
+		"-    16x16 Warehouse Upgrade: Expand your Warehouse boundaries to a colossal 16x16x4, unlocking vast storage potential.",
+		"-    1024 Large Warehouse Storage Blocks: The backbone of your storage capacity, these massive blocks can house a staggering number of items.",
+		"-    8 Stock Viewers: These specialized devices will help you keep a watchful eye on your inventory.",
+		"",
+		"With these components in place, you will have created a Warehouse of monumental proportions,",
+		"capable of storing an incredible array of resources and items.",
+		"It's time to tackle the ultimate challenge in the art of warehousing and cement your legacy as a master of organization and storage.",
+		"Do you have what it takes to build the most massive Warehouse in Gramdamus?"
+	],
+	dependencies: [
+		"9e12a2e0",
+		"47fd19e7",
+		"87804875",
+		"23ce3589",
+		"7738588f"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "b2782767",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_storage",
+			Damage: 2s
+		}],
+		count: 1024L
+	},
+	{
+		uid: "acfdd927",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_crafting"
+		}]
+	},
+	{
+		uid: "9202fb14",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:worksite_upgrade",
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "10e98e01",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_stock_viewer"
+		}],
+		count: 8L
+	},
+	{
+		uid: "da4f0743",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_control"
+		}]
+	}],
+	rewards: [{
+		uid: "961bb5c1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 3s
+		},
+		count: 10
+	}]
+}

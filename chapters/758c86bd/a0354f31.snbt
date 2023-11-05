@@ -1,0 +1,37 @@
+{
+	title: "Medium Pack",
+	x: -2.0d,
+	y: 2.5d,
+	description: "A Balanced Choice",
+	text: [
+		"The Medium Pack is your next storage goal. With 27 item slots, it strikes a balance between portability and capacity.",
+		"Perfect for adventurers who need a bit more storage without sacrificing mobility.",
+		"As you craft the Medium Pack, you'll find that staying organized in Gramdamus has never been easier."
+	],
+	dependencies: [
+		"1cb3f07b"
+	],
+	tasks: [{
+		uid: "739dc499",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfare:backpack",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e2509879",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfare:backpack",
+			Damage: 2s
+		}
+	}]
+}

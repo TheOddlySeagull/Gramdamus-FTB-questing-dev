@@ -1,0 +1,149 @@
+{
+	title: "Chests of the World",
+	x: 1.0d,
+	y: -3.0d,
+	description: "Embrace Diversity",
+	text: [
+		"As you delve into the art of storing, you'll soon discover that the Quark mod has bestowed upon you a valuable gift - a range of chests,",
+		"each unique to the type of wood from which it is crafted.",
+		"These chests, while reminiscent of their vanilla counterparts in functionality, possess a unique trait that sets them apart.",
+		"",
+		"Quark's wooden chests can be placed side by side, allowing you to create stunning storage solutions that match your empire's aesthetic.",
+		"The diversity of wood types presents an opportunity for customization and organization in your growing realm.",
+		"",
+		"Your task is simple: craft one chest of each wood type offered by the Quark mod.",
+		"As you assemble this colorful array of chests, you'll begin to explore the beauty of diversity and efficient storage solutions,",
+		"a skill that will serve you well on your journey through Gramdamus."
+	],
+	dependencies: [
+		"0b355ee4"
+	],
+	tasks: [{
+		uid: "a4fa78ef",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:chest"
+		}]
+	},
+	{
+		uid: "1efcdb86",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "quark:custom_chest"
+		}]
+	},
+	{
+		uid: "e2d37aed",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "quark:custom_chest",
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "dd0412ee",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "quark:custom_chest",
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "b7434201",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "quark:custom_chest",
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "36a2cfa3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "quark:custom_chest",
+			Damage: 4s
+		}]
+	}],
+	rewards: [{
+		uid: "640888b5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:chest"
+		}
+	},
+	{
+		uid: "7daa5de7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "quark:custom_chest"
+		}
+	},
+	{
+		uid: "5cd237f7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "quark:custom_chest",
+			Damage: 1s
+		}
+	},
+	{
+		uid: "28d5bc74",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "quark:custom_chest",
+			Damage: 2s
+		}
+	},
+	{
+		uid: "59737e3a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "quark:custom_chest",
+			Damage: 3s
+		}
+	},
+	{
+		uid: "f3e65ef6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "quark:custom_chest",
+			Damage: 4s
+		}
+	}]
+}

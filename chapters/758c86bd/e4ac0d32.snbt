@@ -1,0 +1,60 @@
+{
+	title: "Ancient Warfare Warehouse Control Block",
+	x: 0.0d,
+	y: 4.5d,
+	description: "Initiating Warehouse Storage",
+	text: [
+		"Your journey into advanced storage solutions begins with the acquisition of the Ancient Warfare Warehouse Control Block.",
+		"This vital component is the heart of the Ancient Warfare Warehouse multiblock structure. With this block,",
+		"you can start assembling your warehouse for vast item storage.",
+		"",
+		"The default warehouse bounds are 5x5x4, providing you with ample storage space.",
+		"Craft the Ancient Warfare Warehouse Control Block and embark on your path to organized and efficient item management."
+	],
+	dependencies: [
+		"0b355ee4"
+	],
+	tasks: [{
+		uid: "232d73ef",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_control"
+		}]
+	}],
+	rewards: [{
+		uid: "c0d6fa8b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfare:component"
+		},
+		count: 4
+	},
+	{
+		uid: "31daca56",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:nail"
+		},
+		count: 4
+	},
+	{
+		uid: "29912e0d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:leather"
+		},
+		count: 4
+	}]
+}

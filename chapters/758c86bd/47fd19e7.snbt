@@ -1,0 +1,44 @@
+{
+	title: "Mastering Warehouse Crafting: Warehouse Crafting Table",
+	x: 2.5d,
+	y: 4.5d,
+	description: "Crafting at Your Fingertips",
+	text: [
+		"As you delve deeper into the art of managing your Warehouse, it's time to explore the incredible capabilities of the Warehouse Crafting Table.",
+		"This specialized crafting table empowers you to efficiently work with the resources stored in your Warehouse.",
+		"",
+		"To begin using the Warehouse Crafting Table, place it atop a Warehouse Control block (outside of the Warehouse bounds).",
+		"This configuration allows the table to access materials from a single Warehouse, streamlining your crafting process.",
+		"",
+		"Much like other crafting tables, you can lay out your crafting recipes in the recipe grid and retrieve the results from the result slot.",
+		"Here's the remarkable part: any resources required for crafting are automatically drawn from the Storage blocks within your Warehouse.",
+		"",
+		"This means you can craft items directly from your Warehouse's resources, eliminating the need to manually gather materials from different storage units.",
+		"Master the art of Warehouse Crafting to boost your productivity and become a true resource management expert."
+	],
+	dependencies: [
+		"e4ac0d32"
+	],
+	tasks: [{
+		uid: "687925ce",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_crafting"
+		}]
+	}],
+	rewards: [{
+		uid: "f8275844",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 1s
+		},
+		count: 2
+	}]
+}

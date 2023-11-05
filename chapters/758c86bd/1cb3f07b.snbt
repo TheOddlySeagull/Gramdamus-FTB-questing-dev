@@ -1,0 +1,38 @@
+{
+	title: "Travel Pack",
+	x: -1.0d,
+	y: 2.0d,
+	description: "A Step Up in Storage",
+	text: [
+		"As you continue your storage journey, it's time to upgrade to the Travel Pack.",
+		"This portable storage solution offers 18 item slots, providing more space for your adventures.",
+		"Keep your valuable resources close at hand as you explore the world of Gramdamus.",
+		"Craft the Travel Pack and experience a step up in storage convenience."
+	],
+	dependencies: [
+		"267bd2ca"
+	],
+	tasks: [{
+		uid: "4782aba1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfare:backpack",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2cdaf67d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfare:backpack",
+			Damage: 1s
+		}
+	}]
+}

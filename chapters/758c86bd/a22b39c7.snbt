@@ -1,0 +1,44 @@
+{
+	title: "Boat Transport - Tier 3",
+	x: 4.5d,
+	y: 0.5d,
+	description: "Elite Aquatic Storage",
+	text: [
+		"As your aquatic adventures grow in scope, you'll need elite storage for your watercraft.",
+		"The Boat Transport - Tier 3 offers elite storage capacity, making it a valuable asset for any sailor.",
+		"",
+		"With 24 rows and 9 columns, this boat ensures you have plenty of space for your resources.",
+		"Craft the Boat Transport - Tier 3 and enjoy the benefits of elite aquatic storage."
+	],
+	dependencies: [
+		"f56af4ce",
+		"1db846b1"
+	],
+	tasks: [{
+		uid: "48ad49b2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarevehicle:spawner",
+			tag: {
+				spawnData: {
+					level: 3
+				}
+			},
+			Damage: 20s
+		}]
+	}],
+	rewards: [{
+		uid: "d9846a7d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarevehicle:rough_iron"
+		},
+		count: 3
+	}]
+}

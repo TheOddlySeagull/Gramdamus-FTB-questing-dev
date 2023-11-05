@@ -1,0 +1,54 @@
+{
+	title: "Unlocking Warehouse Automation",
+	x: 1.0d,
+	y: 5.5d,
+	description: "Exploring Warehouse Interfaces",
+	text: [
+		"As you delve deeper into the realm of warehouse management, it's time to unlock the secrets of Warehouse Interface blocks.",
+		"These essential components provide external access to your warehouse's inventory, allowing you to automate item transfer processes.",
+		"",
+		"To fully grasp their potential, understand that Warehouse Interface blocks must be placed within your warehouse boundaries.",
+		"Additionally, the Warehouse Control Block must be powered to facilitate item transfers between the Interfaces and the Storage Blocks.",
+		"These Interfaces serve as both input and output for your warehouse, offering a versatile solution for item management.",
+		"",
+		"Interact with a Warehouse Interface to access its GUI and explore the filter list.",
+		"This list plays a crucial role in determining which items will be automatically placed into the interface and which items should be removed.",
+		"Configure the filter list to optimize your warehouse automation, allowing for smoother item handling within the Warehouse system.",
+		"",
+		"Unlock the power of Warehouse Interfaces and take the first step toward efficient warehouse automation."
+	],
+	dependencies: [
+		"e4ac0d32"
+	],
+	tasks: [{
+		uid: "3d643c23",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_interface"
+		}]
+	}],
+	rewards: [{
+		uid: "340496fa",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_interface"
+		}
+	},
+	{
+		uid: "1f5ca91e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:hopper"
+		},
+		count: 2
+	}]
+}

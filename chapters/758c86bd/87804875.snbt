@@ -1,0 +1,49 @@
+{
+	title: "Expanding Warehouse Boundaries - Part 2",
+	x: -2.5d,
+	y: 7.0d,
+	description: "A Vast Storage Domain",
+	text: [
+		"As your need for item storage continues to rise, it's time for the second part of expanding your warehouse's boundaries.",
+		"Upgrade your warehouse from 9x9x4 to 16x16x4 using the Ancient Warfare Warehouse Control Block.",
+		"",
+		"With this second expansion, your warehouse becomes a vast storage domain, capable of handling a multitude of items",
+		"Craft the expansion and unleash the full potential of your warehouse storage."
+	],
+	dependencies: [
+		"f03302e6"
+	],
+	tasks: [{
+		uid: "bc10ab06",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:worksite_upgrade",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "f8924be7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:worksite_upgrade",
+			Damage: 1s
+		}
+	},
+	{
+		uid: "a9d538ab",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 1s
+		}
+	}]
+}

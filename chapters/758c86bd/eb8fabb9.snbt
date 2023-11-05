@@ -1,0 +1,44 @@
+{
+	title: "Boat Transport - Tier 1",
+	x: 2.5d,
+	y: 0.5d,
+	description: "Upgraded Waterside Storage",
+	text: [
+		"As you become more accustomed to water-based item transport, it's time to upgrade to the Boat Transport - Tier 1.",
+		"This boat offers enhanced storage capacity and is an improvement over the basic tier.",
+		"",
+		"With 24 rows and 9 columns, the Boat Transport - Tier 1 lets you carry more resources on the water.",
+		"Craft this upgrade to experience the benefits of advanced aquatic storage."
+	],
+	dependencies: [
+		"0ab38766",
+		"3c7b0f64"
+	],
+	tasks: [{
+		uid: "d16fccbe",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarevehicle:spawner",
+			tag: {
+				spawnData: {
+					level: 1
+				}
+			},
+			Damage: 20s
+		}]
+	}],
+	rewards: [{
+		uid: "67f185ec",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarevehicle:ironshod_wood"
+		},
+		count: 3
+	}]
+}

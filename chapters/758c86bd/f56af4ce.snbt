@@ -1,0 +1,45 @@
+{
+	title: "Boat Transport - Tier 2",
+	x: 3.5d,
+	y: 0.5d,
+	description: "Navigating with Expanded Storage",
+	text: [
+		"The Boat Transport - Tier 2 represents an advancement in water-based item transport.",
+		"With an increased storage capacity, it ensures you have even more room for your resources on aquatic journeys.",
+		"",
+		"This tier offers 24 rows and 9 columns, providing ample space for your items.",
+		"Craft the Boat Transport - Tier 2 and embrace the world of advanced waterside storage."
+	],
+	dependencies: [
+		"651491a5",
+		"eb8fabb9"
+	],
+	tasks: [{
+		uid: "e7427911",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarevehicle:spawner",
+			tag: {
+				spawnData: {
+					level: 2
+				}
+			},
+			Damage: 20s
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "267eed48",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarevehicle:iron_core_wood"
+		},
+		count: 3
+	}]
+}

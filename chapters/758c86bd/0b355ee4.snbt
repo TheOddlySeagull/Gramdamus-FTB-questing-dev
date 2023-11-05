@@ -1,0 +1,49 @@
+{
+	title: "Unlock the Art of Storing",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Introduction to Storage Mastery",
+	text: [
+		"Before you delve deeper into the world of storage and organization, it's essential to understand the fundamentals.",
+		"Welcome to the \"Unlock the Art of Storing\" quest, the introductory checkpoint for the \"Art of Storing\" chapter.",
+		"",
+		"In this chapter, you'll embark on a journey of storage mastery, exploring various storage solutions, from simple chests to intricate automated warehouses.",
+		"These tools will enhance your ability to manage and organize resources effectively as your empire grows."
+	],
+	tasks: [{
+		uid: "b9665f1e",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "2c39c97f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:chest"
+		}
+	},
+	{
+		uid: "cab69095",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:thread"
+		},
+		count: 2
+	},
+	{
+		uid: "a1d2f750",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:leather_strip"
+		},
+		count: 2
+	}]
+}

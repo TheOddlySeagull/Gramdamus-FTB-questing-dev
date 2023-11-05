@@ -1,0 +1,43 @@
+{
+	title: "Chest Cart - Tier 4",
+	x: 5.5d,
+	y: -0.5d,
+	description: "The Pinnacle of Mobile Storage",
+	text: [
+		"Your quest for mobile storage mastery reaches its pinnacle with the Chest Cart - Tier 4.",
+		"This ultimate storage solution offers the highest capacity, ensuring you can carry a vast array of resources wherever your adventures take you.",
+		"",
+		"With 24 rows and 9 columns, the Chest Cart - Tier 4 allows you to transport an astonishing 13,824 items.",
+		"Craft this top-tier cart and become a master of mobile storage in Gramdamus."
+	],
+	dependencies: [
+		"e342ea14"
+	],
+	tasks: [{
+		uid: "1d0a8e7d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarevehicle:spawner",
+			tag: {
+				spawnData: {
+					level: 4
+				}
+			},
+			Damage: 17s
+		}]
+	}],
+	rewards: [{
+		uid: "8db5cb6f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 2s
+		}
+	}]
+}

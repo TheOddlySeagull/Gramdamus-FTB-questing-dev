@@ -1,0 +1,44 @@
+{
+	title: "Machine Coordination: The Stock Linker",
+	x: 2.5d,
+	y: 7.0d,
+	description: "Linking Warehouses and Machines",
+	text: [
+		"In your quest to master warehouse management, you've reached a crucial point where you need to learn about Stock Linkers.",
+		"These specialized devices play a vital role in coordinating your Warehouse with machines deployed in the field.",
+		"",
+		"To set up a Stock Linker, you must first link it to a Warehouse.",
+		"Hold the Stock Linker in your hand and then sneak-right click on the Warehouse you want it to link to. Once linked, you'll receive a confirmation",
+		"message along with the Warehouse's coordinates. This ensures the Stock Linker knows which Warehouse to monitor.",
+		"",
+		"Now that the Stock Linker is configured to your Warehouse, it's ready to be placed next to a Machine.",
+		"Sneak-place the Stock Linker on any side of the Machine to link them together effectively.",
+		"",
+		"Interact with the Stock Linker by right-clicking to access its GUI, which closely resembles the Warehouse Interfaces you've encountered.",
+		"Here, you'll set up filters to track specific items and define conditions that trigger machine actions.",
+		"Each filter allows you to specify the item to track, set the equality sign, and determine the comparison value.",
+		"",
+		"The Stock Linker operates by continually checking the specified item's quantity in the linked Warehouse.",
+		"It compares this quantity to the value you've set in the comparison value via the chosen equality sign.",
+		"Once the equality condition is met, the Stock Linker will emit a Redstone signal, causing the attached Machine to stop functioning.",
+		"If the equality condition is no longer met, the Stock Linker will cease emitting its signal, allowing the Machine to resume its operation.",
+		"",
+		"You can add up to four filters to a single Stock Linker, with the top filter having the highest priority and the bottom filter the lowest.",
+		"",
+		"Mastering the Stock Linker is essential for efficient coordination between your Warehouse and Machines.",
+		"Use its capabilities wisely to streamline your operations and optimize your resource management."
+	],
+	dependencies: [
+		"31d3c876"
+	],
+	tasks: [{
+		uid: "52ebfe33",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_stock_linker"
+		}]
+	}]
+}

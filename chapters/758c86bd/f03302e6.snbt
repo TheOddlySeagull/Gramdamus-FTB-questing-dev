@@ -1,0 +1,48 @@
+{
+	title: "Expanding Warehouse Boundaries - Part 1",
+	x: -1.0d,
+	y: 5.5d,
+	description: "Expanding Your Warehouse",
+	text: [
+		"Your warehouse is growing, and to accommodate the increasing need for storage, you must expand its boundaries.",
+		"Use the Ancient Warfare Warehouse Control Block to upgrade your warehouse from 5x5x4 to 9x9x4,",
+		"providing you with even more space for your stored items.",
+		"",
+		"Craft this first expansion and witness your warehouse's storage capacity increase."
+	],
+	dependencies: [
+		"e4ac0d32"
+	],
+	tasks: [{
+		uid: "d6c0cfa7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:worksite_upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "b1346eb0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:worksite_upgrade"
+		}
+	},
+	{
+		uid: "0de6be0a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfare:component",
+			Damage: 1s
+		},
+		count: 2
+	}]
+}

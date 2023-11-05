@@ -1,0 +1,45 @@
+{
+	title: "Boat Transport - Tier 4",
+	x: 5.5d,
+	y: 0.5d,
+	description: "The Pinnacle of Water-Based Storage",
+	text: [
+		"Your quest for mastery in water-based item transport reaches its pinnacle with the Boat Transport - Tier 4.",
+		"This ultimate watercraft provides the highest storage capacity, allowing you to transport a vast array of resources on the water.",
+		"",
+		"With 24 rows and 9 columns, the Boat Transport - Tier 4 enables you to carry a remarkable 13,824 items.",
+		"Craft this top-tier boat and become a master of water-based storage in Gramdamus."
+	],
+	dependencies: [
+		"a22b39c7",
+		"e342ea14"
+	],
+	tasks: [{
+		uid: "bf0e947d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarevehicle:spawner",
+			tag: {
+				spawnData: {
+					level: 4
+				}
+			},
+			Damage: 20s
+		}]
+	}],
+	rewards: [{
+		uid: "d8418ee7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 2s
+		},
+		count: 2
+	}]
+}

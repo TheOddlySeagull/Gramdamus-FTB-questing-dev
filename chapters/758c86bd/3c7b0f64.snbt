@@ -1,0 +1,43 @@
+{
+	title: "Chest Cart - Tier 0",
+	x: 1.5d,
+	y: -0.5d,
+	description: "The Foundation of Mobility",
+	text: [
+		"Your journey into mobile storage begins with the Chest Cart - Tier 0.",
+		"This versatile cart offers a considerable storage capacity and is the foundation of your mobile storage needs.",
+		"The first tier provides 24 rows and 9 columns, allowing you to carry 216 stacks of items or 13,824 items.",
+		"",
+		"Craft the Chest Cart - Tier 0 and start exploring the world of mobile storage in Gramdamus."
+	],
+	dependencies: [
+		"0b355ee4"
+	],
+	tasks: [{
+		uid: "06dfff03",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarevehicle:spawner",
+			tag: {
+				spawnData: {
+					level: 0
+				}
+			},
+			Damage: 17s
+		}]
+	}],
+	rewards: [{
+		uid: "729f96ba",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarevehicle:treated_wood"
+		},
+		count: 2
+	}]
+}

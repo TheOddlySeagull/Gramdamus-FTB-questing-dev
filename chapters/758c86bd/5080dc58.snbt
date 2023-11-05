@@ -1,0 +1,37 @@
+{
+	title: "Large Pack",
+	x: -1.0d,
+	y: 3.0d,
+	description: "Maximum Storage Potential",
+	text: [
+		"It's time to embrace maximum storage potential with the Large Pack.",
+		"Boasting an impressive 36 item slots, this backpack will ensure you're ready for any adventure.",
+		"With your crafting skills, you'll create the ultimate portable storage solution to keep your empire's resources well-organized and readily available."
+	],
+	dependencies: [
+		"a0354f31"
+	],
+	tasks: [{
+		uid: "2dcd41ed",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfare:backpack",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "88dc7d28",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfare:backpack",
+			Damage: 3s
+		}
+	}]
+}

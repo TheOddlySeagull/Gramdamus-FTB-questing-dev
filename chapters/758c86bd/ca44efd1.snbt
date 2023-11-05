@@ -1,0 +1,43 @@
+{
+	title: "Rustic Cabinets",
+	x: 0.0d,
+	y: -3.5d,
+	description: "Elegance in Storage",
+	text: [
+		"In your journey to master the art of storing, you'll now turn your attention to a unique storage solution offered by the Rustic mod.",
+		"Rustic cabinets are more than just containers; they are elegant pieces of furniture that blend seamlessly with the ambiance of your empire.",
+		"",
+		"These cabinets are unlike any other storage solution you've encountered.",
+		"Crafted from various wood types, they offer the same storage capacity as generic chests but with an added touch of sophistication.",
+		"The beauty of Rustic cabinets lies in their stackable nature, allowing you to create storage structures that fit your personal style and expand your empire's storage capacity.",
+		"",
+		"Your task is to craft and arrange Rustic cabinets made from different wood types available in this world, be it vanilla, Rustic, Biomes O' Plenty, or more.",
+		"Let the warmth of wood and the elegance of Rustic cabinets make your home cozier while providing ample space for your treasures."
+	],
+	dependencies: [
+		"0b355ee4"
+	],
+	tasks: [{
+		uid: "42f4acfe",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:cabinet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "96ba030e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:chest"
+		},
+		count: 10
+	}]
+}

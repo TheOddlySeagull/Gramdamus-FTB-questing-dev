@@ -1,0 +1,36 @@
+{
+	title: "Dimensional Storage",
+	x: -1.5d,
+	y: 0.0d,
+	description: "The Portable Nexus",
+	text: [
+		" In your quest to master dimensional storage, you'll first dive into the world of Ender Chests.",
+		"These mystical containers provide a unique and versatile storage solution that transcends the limitations of traditional storage methods.",
+		"",
+		"Ender Chests allow you to access your items from anywhere in Gramdamus, making them a valuable asset for any adventurer.",
+		"By crafting your very own Ender Chest, you'll harness the power of dimensional storage and gain access to your items regardless of your location."
+	],
+	dependencies: [
+		"0b355ee4"
+	],
+	tasks: [{
+		uid: "8e530cf5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:ender_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "a3d86bb3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:ender_chest"
+		}
+	}]
+}

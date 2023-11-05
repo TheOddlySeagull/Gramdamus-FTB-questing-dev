@@ -1,0 +1,36 @@
+{
+	title: "Warehouse Storage Blocks - Small Tier",
+	x: 0.0d,
+	y: 6.5d,
+	description: "Small-Scale Storage Blocks",
+	text: [
+		"To enhance your warehouse's storage capacity, you'll need to incorporate Warehouse Storage Blocks.",
+		"Start with the Small Tier Warehouse Storage Blocks, which provide an efficient solution for organizing and storing items.",
+		"",
+		"These blocks are an essential component of your warehouse multiblock structure, allowing you to categorize and manage your resources effectively."
+	],
+	dependencies: [
+		"e4ac0d32"
+	],
+	tasks: [{
+		uid: "9a51df8a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_storage"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "9dedfe95",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_storage"
+		}
+	}]
+}

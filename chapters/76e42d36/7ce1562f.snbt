@@ -4,7 +4,7 @@
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
 		},
-		id: "exoticbirds:phoenix_egg"
+		id: "exoticbirds:phoenix_dust"
 	},
 	x: -2.5d,
 	y: -1.5d,

@@ -1,0 +1,46 @@
+{
+	title: "Gateway to Storage",
+	x: -9.0d,
+	y: -1.0d,
+	description: "A Gateway to Abundant Space",
+	text: [
+		"Welcome, aspiring Gramdamus adventurer, to the \"Gateway to Storage.\"",
+		"The mysteries of efficient storage and organization in this realm await your exploration.",
+		"To embark on this journey, we're starting with the basics – simple chests.",
+		"",
+		"Your quest is simple: provide two vanilla chests.",
+		"These humble containers, often overlooked, are the first step to understanding the importance of storage in your growing empire.",
+		"They may appear ordinary, but in their wooden frames lies the potential to unlock the secrets of better organization and management of resources.",
+		"",
+		"Upon completing this quest, you'll unlock the \"Storage\" chapter, where you'll dive deeper into the world of storage solutions,",
+		"from cabinets and crates to advanced automation and giant warehouses.",
+		"These treasures will enhance your empire and help you navigate the challenges of Gramdamus more efficiently.",
+		"",
+		"Are you ready to open the door to a world of storage solutions and organization?",
+		"Start by presenting those two simple chests, and the secrets of storage will be unveiled before you."
+	],
+	tasks: [{
+		uid: "fecdb958",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:chest"
+		}],
+		count: 2L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bfcb4971",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:chest"
+		},
+		count: 10
+	}]
+}
