@@ -15,10 +15,7 @@
 		uid: "b5134523",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "exoticbirds:bluejay_egg"
+			item: "exoticbirds:bluejay_egg"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -26,11 +23,6 @@
 	rewards: [{
 		uid: "6456ef0d",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "gramdamuscontent:coin"
-		}
+		item: "gramdamuscontent:coin"
 	}]
 }

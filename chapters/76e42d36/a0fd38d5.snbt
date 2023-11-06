@@ -17,10 +17,7 @@
 		uid: "df79e3b3",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "exoticbirds:heron_egg"
+			item: "exoticbirds:heron_egg"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -28,11 +25,6 @@
 	rewards: [{
 		uid: "f9ddeb43",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "gramdamuscontent:coin"
-		}
+		item: "gramdamuscontent:coin"
 	}]
 }

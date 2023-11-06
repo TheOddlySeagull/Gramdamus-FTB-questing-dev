@@ -15,10 +15,7 @@
 		uid: "67070a9f",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "exoticbirds:kookaburra_egg"
+			item: "exoticbirds:kookaburra_egg"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -26,11 +23,6 @@
 	rewards: [{
 		uid: "0fec9659",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "gramdamuscontent:coin"
-		}
+		item: "gramdamuscontent:coin"
 	}]
 }

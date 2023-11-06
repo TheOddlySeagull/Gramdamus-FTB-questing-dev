@@ -17,10 +17,7 @@
 		uid: "5fbfa1b8",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "exoticbirds:kiwi_egg"
+			item: "exoticbirds:kiwi_egg"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -28,21 +25,11 @@
 	rewards: [{
 		uid: "511a192e",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "gramdamuscontent:coin"
-		}
+		item: "gramdamuscontent:coin"
 	},
 	{
 		uid: "e347fd58",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "harvestcraft:kiwiitem"
-		}
+		item: "harvestcraft:kiwiitem"
 	}]
 }

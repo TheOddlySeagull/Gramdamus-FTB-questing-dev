@@ -16,23 +16,13 @@
 		uid: "9bffd60c",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfareautomation:warehouse_storage",
-			Damage: 2s
+			item: "ancientwarfareautomation:warehouse_storage 1 2"
 		}],
 		count: 2L
 	}],
 	rewards: [{
 		uid: "471d9adb",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfareautomation:warehouse_storage",
-			Damage: 2s
-		}
+		item: "ancientwarfareautomation:warehouse_storage 1 2"
 	}]
 }

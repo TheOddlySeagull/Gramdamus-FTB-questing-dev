@@ -1,11 +1,6 @@
 {
 	title: "The Gifts Of Nature",
-	icon: {
-		ForgeCaps: {
-			"customnpcs:itemscripteddata": {}
-		},
-		id: "biomesoplenty:berries"
-	},
+	icon: "biomesoplenty:berries",
 	x: -9.5d,
 	y: -2.0d,
 	description: "Embracing Nature's Bounty",
@@ -25,73 +20,48 @@
 		uid: "93f7266d",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "biomesoplenty:berries"
+			item: "biomesoplenty:berries"
 		}]
 	},
 	{
 		uid: "7ffb81d5",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "rustic:wildberries"
+			item: "rustic:wildberries"
 		}]
 	},
 	{
 		uid: "a265dad3",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minefantasyreforged:berries_juicy"
+			item: "minefantasyreforged:berries_juicy"
 		}]
 	},
 	{
 		uid: "c90c1ea4",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minefantasyreforged:berries"
+			item: "minefantasyreforged:berries"
 		}]
 	},
 	{
 		uid: "687b1ab9",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "rustic:wildberry_bush"
+			item: "rustic:wildberry_bush"
 		}],
 		count: 4L
 	}],
 	rewards: [{
 		uid: "8beb649e",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "rustic:wildberry_bush"
-		},
+		item: "rustic:wildberry_bush",
 		count: 5
 	},
 	{
 		uid: "11ba0f4d",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minefantasyreforged:berry_bush"
-		},
+		item: "minefantasyreforged:berry_bush",
 		count: 5
 	}]
 }

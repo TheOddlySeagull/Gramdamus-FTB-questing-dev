@@ -18,53 +18,34 @@
 		uid: "bb2e51b3",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "quark:root"
+			item: "quark:root"
 		}]
 	},
 	{
 		uid: "c7d3ec50",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "quark:root_flower"
+			item: "quark:root_flower"
 		}]
 	},
 	{
 		uid: "31328082",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "quark:root_flower",
-			Damage: 1s
+			item: "quark:root_flower 1 1"
 		}]
 	},
 	{
 		uid: "b30be791",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "quark:root_flower",
-			Damage: 2s
+			item: "quark:root_flower 1 2"
 		}]
 	}],
 	rewards: [{
 		uid: "54168d61",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "quark:root"
-		},
+		item: "quark:root",
 		count: 5
 	}]
 }

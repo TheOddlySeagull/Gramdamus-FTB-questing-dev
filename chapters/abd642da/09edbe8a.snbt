@@ -11,10 +11,7 @@
 		type: "item",
 		title: "Craft Minefantasy Reforged Research Book",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minefantasyreforged:research_book"
+			item: "minefantasyreforged:research_book"
 		}],
 		consume_items: false,
 		ignore_damage: true,
@@ -25,10 +22,7 @@
 		type: "item",
 		title: "Craft Ancient Warfare Research Book",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfare:research_book"
+			item: "ancientwarfare:research_book"
 		}],
 		consume_items: false,
 		ignore_damage: true,
@@ -39,72 +33,41 @@
 		type: "item",
 		title: "Prepare Research Tables",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minefantasyreforged:research_bench"
+			item: "minefantasyreforged:research_bench"
 		},
 		{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minefantasyreforged:research_bench"
+			item: "minefantasyreforged:research_bench"
 		}],
 		consume_items: false
 	}],
 	rewards: [{
 		uid: "675a4811",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:stick"
-		},
+		item: "minecraft:stick",
 		count: 10
 	},
 	{
 		uid: "38a3fde6",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:string"
-		},
+		item: "minecraft:string",
 		count: 10
 	},
 	{
 		uid: "2383b2aa",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minefantasyreforged:sharp_rock"
-		},
+		item: "minefantasyreforged:sharp_rock",
 		count: 10
 	},
 	{
 		uid: "0e94bfa2",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:torch"
-		},
+		item: "minecraft:torch",
 		count: 10
 	},
 	{
 		uid: "87af0c7c",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:paper"
-		},
+		item: "minecraft:paper",
 		count: 10
 	}]
 }

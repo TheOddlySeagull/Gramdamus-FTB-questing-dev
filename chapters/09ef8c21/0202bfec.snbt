@@ -1,18 +1,37 @@
 {
+	title: "Player Owned NPCs",
 	x: -8.5d,
 	y: 0.0d,
+	description: "Understanding and Managing Your Workforce",
+	text: [
+		"Congratulations on obtaining your Town Hall! Now it's time to populate your growing empire with the help of Player Owned NPCs.",
+		"These NPCs are essential for various tasks and functions, and it's crucial to understand how they work.",
+		"",
+		" Worker, Combat, and Utility NPCs: NPCs come in three major categories - Workers, Combatants, and Utilities.",
+		"Workers excel in tasks like farming, lumberjacking, mining, crafting, and research. Combat NPCs are your defenders and can take on roles like Soldier,",
+		"Archer, Commander, Medic, Siege Engineer, and Engineer. Utility NPCs serve a variety of purposes, including Couriers, Traders, Priests, and Bards.",
+		"",
+		"Spawn Items: All NPCs are created from specific spawning items that can be crafted in an Engineering Table once you've acquired the required",
+		"Research. Refer to JEI/NEI for the crafting recipes.",
+		"",
+		"Customization: NPCs can be customized in various ways. In their Interaction GUI (accessible by right-clicking), you can manage their main hand,",
+		"off-hand, armor, and order slots. You can also personalize their name and skin. Plus, there are additional options for utility and logistical tasks.",
+		"",
+		"Interaction: The GUI includes buttons for various interactions, such as \"Toggle Follow\" to make the NPC follow you,",
+		"\"Set Home\" to assign their home location, \"Clear Home\" to remove their home point, and \"Repack\" to return them to their spawning item",
+		"while preserving customizations. If you're in creative mode, the \"Creative GUI\" offers advanced options.",
+		"",
+		"Learn how to efficiently utilize your NPCs to build a thriving empire. Your success as a ruler depends on the capable hands of your workforce!"
+	],
 	tasks: [{
-		uid: "01370ceb",
+		uid: "a382f2cd",
+		type: "checkmark",
+		title: "Understand Player Owned NPCs"
+	}],
+	rewards: [{
+		uid: "7c184bbf",
 		type: "item",
-		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfarenpc:npc_spawner",
-			tag: {
-				npcSubtype: "",
-				npcType: "worker"
-			}
-		}]
+		item: "ancientwarfarenpc:food_bundle",
+		count: 4
 	}]
 }

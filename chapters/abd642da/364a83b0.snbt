@@ -1,11 +1,6 @@
 {
 	title: "Crafting Basics",
-	icon: {
-		ForgeCaps: {
-			"customnpcs:itemscripteddata": {}
-		},
-		id: "minecraft:crafting_table"
-	},
+	icon: "minecraft:crafting_table",
 	x: -6.5d,
 	y: -2.0d,
 	description: "Setting Up Your Workshop",
@@ -21,10 +16,7 @@
 		type: "item",
 		title: "Craft a Crafting Table",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:crafting_table"
+			item: "minecraft:crafting_table"
 		}],
 		consume_items: false
 	},
@@ -33,10 +25,7 @@
 		type: "item",
 		title: "Craft an Ancient Warfare Engineering Bench",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfare:engineering_station"
+			item: "ancientwarfare:engineering_station"
 		}],
 		consume_items: false,
 		ignore_damage: true,
@@ -45,22 +34,12 @@
 	rewards: [{
 		uid: "258fd626",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:crafting_table"
-		}
+		item: "minecraft:crafting_table"
 	},
 	{
 		uid: "d39d6dd9",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "gramdamuscontent:coin"
-		},
+		item: "gramdamuscontent:coin",
 		count: 2
 	}]
 }

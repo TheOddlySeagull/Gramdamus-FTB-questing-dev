@@ -16,32 +16,19 @@
 		uid: "c252b7fc",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "exoticbirds:mystery_egg"
+			item: "exoticbirds:mystery_egg"
 		}],
 		count: 10L
 	}],
 	rewards: [{
 		uid: "fafc6787",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "exoticbirds:nest"
-		}
+		item: "exoticbirds:nest"
 	},
 	{
 		uid: "622f949e",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "exoticbirds:eggshell"
-		},
+		item: "exoticbirds:eggshell",
 		count: 10
 	}]
 }

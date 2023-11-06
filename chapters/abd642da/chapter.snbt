@@ -1,11 +1,6 @@
 {
 	title: "Getting Started",
-	icon: {
-		ForgeCaps: {
-			"customnpcs:itemscripteddata": {}
-		},
-		id: "minecraft:crafting_table"
-	},
+	icon: "minecraft:crafting_table",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

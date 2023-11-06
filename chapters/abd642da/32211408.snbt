@@ -23,10 +23,7 @@
 		uid: "fecdb958",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:chest"
+			item: "minecraft:chest"
 		}],
 		count: 2L,
 		ignore_damage: true,
@@ -35,12 +32,7 @@
 	rewards: [{
 		uid: "bfcb4971",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:chest"
-		},
+		item: "minecraft:chest",
 		count: 10
 	}]
 }

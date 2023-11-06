@@ -23,22 +23,13 @@
 		uid: "687925ce",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfareautomation:warehouse_crafting"
+			item: "ancientwarfareautomation:warehouse_crafting"
 		}]
 	}],
 	rewards: [{
 		uid: "f8275844",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "gramdamuscontent:coin",
-			Damage: 1s
-		},
+		item: "gramdamuscontent:coin 1 1",
 		count: 2
 	}]
 }

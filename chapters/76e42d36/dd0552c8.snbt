@@ -15,10 +15,7 @@
 		uid: "6465dc66",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "exoticbirds:birdcage_oak"
+			item: "exoticbirds:birdcage_oak"
 		}],
 		consume_items: true,
 		ignore_damage: true,
@@ -27,11 +24,6 @@
 	rewards: [{
 		uid: "697b7f50",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "exoticbirds:birdcage_gold"
-		}
+		item: "exoticbirds:birdcage_gold"
 	}]
 }

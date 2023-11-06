@@ -24,31 +24,18 @@
 		uid: "3d643c23",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfareautomation:warehouse_interface"
+			item: "ancientwarfareautomation:warehouse_interface"
 		}]
 	}],
 	rewards: [{
 		uid: "340496fa",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfareautomation:warehouse_interface"
-		}
+		item: "ancientwarfareautomation:warehouse_interface"
 	},
 	{
 		uid: "1f5ca91e",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:hopper"
-		},
+		item: "minecraft:hopper",
 		count: 2
 	}]
 }

@@ -20,10 +20,7 @@
 		uid: "21c24ed5",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "exoticbirds:hummingbird_egg"
+			item: "exoticbirds:hummingbird_egg"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -31,22 +28,12 @@
 	rewards: [{
 		uid: "f05a4b8d",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "gramdamuscontent:coin"
-		}
+		item: "gramdamuscontent:coin"
 	},
 	{
 		uid: "703451f6",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:sugar"
-		},
+		item: "minecraft:sugar",
 		count: 4
 	}]
 }

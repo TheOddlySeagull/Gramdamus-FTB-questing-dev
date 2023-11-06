@@ -19,11 +19,6 @@
 	rewards: [{
 		uid: "baf0847c",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfare:manual"
-		}
+		item: "ancientwarfare:manual"
 	}]
 }

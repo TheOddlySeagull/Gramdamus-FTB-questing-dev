@@ -22,128 +22,72 @@
 		uid: "a4fa78ef",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:chest"
+			item: "minecraft:chest"
 		}]
 	},
 	{
 		uid: "1efcdb86",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "quark:custom_chest"
+			item: "quark:custom_chest"
 		}]
 	},
 	{
 		uid: "e2d37aed",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "quark:custom_chest",
-			Damage: 1s
+			item: "quark:custom_chest 1 1"
 		}]
 	},
 	{
 		uid: "dd0412ee",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "quark:custom_chest",
-			Damage: 2s
+			item: "quark:custom_chest 1 2"
 		}]
 	},
 	{
 		uid: "b7434201",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "quark:custom_chest",
-			Damage: 3s
+			item: "quark:custom_chest 1 3"
 		}]
 	},
 	{
 		uid: "36a2cfa3",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "quark:custom_chest",
-			Damage: 4s
+			item: "quark:custom_chest 1 4"
 		}]
 	}],
 	rewards: [{
 		uid: "640888b5",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:chest"
-		}
+		item: "minecraft:chest"
 	},
 	{
 		uid: "7daa5de7",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "quark:custom_chest"
-		}
+		item: "quark:custom_chest"
 	},
 	{
 		uid: "5cd237f7",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "quark:custom_chest",
-			Damage: 1s
-		}
+		item: "quark:custom_chest 1 1"
 	},
 	{
 		uid: "28d5bc74",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "quark:custom_chest",
-			Damage: 2s
-		}
+		item: "quark:custom_chest 1 2"
 	},
 	{
 		uid: "59737e3a",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "quark:custom_chest",
-			Damage: 3s
-		}
+		item: "quark:custom_chest 1 3"
 	},
 	{
 		uid: "f3e65ef6",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "quark:custom_chest",
-			Damage: 4s
-		}
+		item: "quark:custom_chest 1 4"
 	}]
 }

@@ -17,10 +17,7 @@
 		uid: "57a4f180",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:purple_shulker_box"
+			item: "minecraft:purple_shulker_box"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -28,12 +25,7 @@
 	rewards: [{
 		uid: "7b2391ef",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:shulker_shell"
-		},
+		item: "minecraft:shulker_shell",
 		count: 2
 	}]
 }

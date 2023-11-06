@@ -35,10 +35,7 @@
 		uid: "52ebfe33",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfareautomation:warehouse_stock_linker"
+			item: "ancientwarfareautomation:warehouse_stock_linker"
 		}]
 	}]
 }

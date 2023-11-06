@@ -18,9 +18,6 @@
 		uid: "bf0e947d",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "ancientwarfarevehicle:spawner",
 			tag: {
 				spawnData: {
@@ -33,13 +30,7 @@
 	rewards: [{
 		uid: "d8418ee7",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "gramdamuscontent:coin",
-			Damage: 2s
-		},
+		item: "gramdamuscontent:coin 1 2",
 		count: 2
 	}]
 }

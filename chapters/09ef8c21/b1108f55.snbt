@@ -1,0 +1,44 @@
+{
+	title: "Upkeep Essentials",
+	x: -7.0d,
+	y: 0.0d,
+	description: "Ensuring Your NPC Workforce Stays Fueled",
+	text: [
+		"To maintain a productive empire, it's vital to understand the concept of NPC upkeep.",
+		"All Player-Owned NPCs require sustenance in the form of food to continue performing their assigned tasks.",
+		"If they go hungry, they'll stop working, and Combat NPCs will only defend themselves.",
+		"Additionally, they won't naturally heal until they've been properly fed.",
+		"",
+		"Upkeep Points: NPCs can have assigned upkeep points where they'll wait until fed. This helps ensure they're in the right place when it's time to eat.",
+		"",
+		"Upkeep Orders: The amount of food withdrawn from an NPC's inventory at each upkeep period can be configured using Upkeep Orders items.",
+		"These items dictate how much sustenance the NPC requires and how often.",
+		"",
+		"Automatic Food Withdrawal: If an NPC isn't equipped with Upkeep Orders, they'll try to withdraw enough food to last for about five real-time minutes.",
+		"The specifics of food values and the types of items considered food are fully customizable through the \"AncientiarfareNpcFood.cfg\" configuration file.",
+		"",
+		"Town Hall Upkeep: NPCs without assigned Upkeep Orders will attempt to draw their sustenance from the nearest Town Hall block if available.",
+		"This is a handy fallback method for food supply.",
+		"",
+		"Manual Upkeep Point: Using the Command Baton, you can manually specify an upkeep point for an NPC. However, this method doesn't",
+		"allow you to specify the precise amount of food withdrawn at each upkeep cycle.",
+		"",
+		"Ensure your NPCs are well-fed and ready to serve your empire efficiently.",
+		"Upkeep is the key to a thriving and productive workforce!"
+	],
+	dependencies: [
+		"0202bfec"
+	],
+	tasks: [{
+		uid: "ae939497",
+		type: "item",
+		items: [{
+			item: "minecraft:paper"
+		}]
+	}],
+	rewards: [{
+		uid: "80c3d23e",
+		type: "item",
+		item: "biomesoplenty:black_dye"
+	}]
+}

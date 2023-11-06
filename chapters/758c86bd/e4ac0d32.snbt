@@ -18,43 +18,25 @@
 		uid: "232d73ef",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfareautomation:warehouse_control"
+			item: "ancientwarfareautomation:warehouse_control"
 		}]
 	}],
 	rewards: [{
 		uid: "c0d6fa8b",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfare:component"
-		},
+		item: "ancientwarfare:component",
 		count: 4
 	},
 	{
 		uid: "31daca56",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minefantasyreforged:nail"
-		},
+		item: "minefantasyreforged:nail",
 		count: 4
 	},
 	{
 		uid: "29912e0d",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:leather"
-		},
+		item: "minecraft:leather",
 		count: 4
 	}]
 }
