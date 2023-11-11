@@ -1,0 +1,51 @@
+{
+	title: "Enhanced Storage Integration",
+	x: -5.0d,
+	y: -3.0d,
+	description: "Controller Slaves Unleashed",
+	text: [
+		"Boost the versatility of your storage network with Controller Slaves.",
+		"These specialized blocks extend the reach of Drawer Controllers, providing additional faces for seamless attachment of machines, pipes, or crafting frames.",
+		"Learn the art of binding slaves to a controller to unlock shared inventories and extended network range.",
+		"",
+		"Explore the advanced capabilities of Controller Slaves in expanding the functionality of Drawer Controllers.",
+		"These blocks serve as extensions, offering more attachment points for various devices within your storage network.",
+		"Witness the efficiency of binding slaves to a controller, ensuring shared inventories and extended network coverage.",
+		"Master the strategic placement of slaves to optimize performance and elevate your storage infrastructure to new heights."
+	],
+	dependencies: [
+		"6e0ce7cf"
+	],
+	tasks: [{
+		uid: "fb4294ff",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:controllerslave"
+		}]
+	}],
+	rewards: [{
+		uid: "12495ed6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:compdrawers"
+		},
+		count: 2
+	},
+	{
+		uid: "19eab66e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 1s
+		}
+	}]
+}

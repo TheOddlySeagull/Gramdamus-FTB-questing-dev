@@ -1,0 +1,64 @@
+{
+	title: "Drawers Unleashed",
+	x: -5.0d,
+	y: 0.0d,
+	description: "Crafting the Foundation",
+	text: [
+		"Begin your journey with storage efficiency by crafting a basic oak drawer.",
+		"These drawers provide a simple yet effective way to store large quantities of a single item.",
+		"",
+		"- Craft a Basic Oak Drawer: Create a basic drawer using oak wood to set the foundation for your efficient storage system."
+	],
+	dependencies: [
+		"0b355ee4"
+	],
+	tasks: [{
+		uid: "cb1636db",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "b953599e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		},
+		count: 10
+	},
+	{
+		uid: "d546c677",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stick"
+		},
+		count: 16
+	},
+	{
+		uid: "d164390d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:piston"
+		},
+		count: 2
+	}]
+}

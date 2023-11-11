@@ -17,20 +17,33 @@
 		uid: "fe751233",
 		type: "item",
 		items: [{
-			item: "exoticbirds:egg_sorter"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:egg_sorter"
 		}],
 		consume_items: false
 	}],
 	rewards: [{
 		uid: "92ca6398",
 		type: "item",
-		item: "minecraft:redstone",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:redstone"
+		},
 		count: 10
 	},
 	{
 		uid: "f0043a25",
 		type: "item",
-		item: "exoticbirds:mystery_egg",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:mystery_egg"
+		},
 		count: 5
 	}]
 }

@@ -1,0 +1,78 @@
+{
+	title: "Redstone Logic Mastery",
+	x: -9.5d,
+	y: 1.5d,
+	description: "Precision Signaling for Efficient Automation",
+	text: [
+		"Unleash the power of redstone with these upgrades, allowing your drawers to communicate their storage status.",
+		"Choose the upgrade that fits your automation needs and witness the harmony of redstone integration.",
+		"",
+		"- Craft a Redstone Upgrade",
+		"- Craft a Redstone Max Upgrade",
+		"- Craft a Redstone Min Upgrade",
+		"",
+		"Master the art of redstone signaling with these upgrades. Whether you seek a total storage signal, the fullest slot, or the least filled slot, these",
+		"upgrades empower your drawers to communicate with the precision of redstone logic.",
+		"Elevate your automation game with the Redstone Logic Mastery quest."
+	],
+	dependencies: [
+		"0a6cd4e5"
+	],
+	tasks: [{
+		uid: "c4a23807",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_redstone"
+		}]
+	},
+	{
+		uid: "4caf0a9d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_redstone",
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "207b8851",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_redstone",
+			Damage: 2s
+		}]
+	}],
+	rewards: [{
+		uid: "9f488893",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 2s
+		}
+	},
+	{
+		uid: "8b234ec1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		},
+		count: 5
+	}]
+}

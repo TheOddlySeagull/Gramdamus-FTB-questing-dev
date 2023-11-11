@@ -1,7 +1,7 @@
 {
 	title: "Warehouse Storage Blocks - Large Tier",
 	x: 0.0d,
-	y: 9.5d,
+	y: 11.0d,
 	description: "Maximizing Storage Efficiency",
 	text: [
 		"The pinnacle of warehouse storage solutions, the Large Tier Warehouse Storage Blocks offer the most extensive item storage capacity.",
@@ -16,13 +16,23 @@
 		uid: "9bffd60c",
 		type: "item",
 		items: [{
-			item: "ancientwarfareautomation:warehouse_storage 1 2"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_storage",
+			Damage: 2s
 		}],
 		count: 2L
 	}],
 	rewards: [{
 		uid: "471d9adb",
 		type: "item",
-		item: "ancientwarfareautomation:warehouse_storage 1 2"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_storage",
+			Damage: 2s
+		}
 	}]
 }

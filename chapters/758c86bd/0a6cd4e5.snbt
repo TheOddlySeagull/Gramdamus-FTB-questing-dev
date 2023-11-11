@@ -1,0 +1,58 @@
+{
+	title: "Void Upgrade Mastery",
+	x: -9.5d,
+	y: 3.0d,
+	description: "Effortless Elimination for Overflowing Abundance",
+	text: [
+		"Embrace the Void Upgrade to effortlessly dispose of excess items when your drawer reaches full capacity.",
+		"Bid farewell to item overflow and welcome a streamlined storage experience.",
+		"",
+		"Elevate your storage efficiency with the Void Upgrade, ensuring that overflowing abundance becomes a thing of the past.",
+		"Say goodbye to clutter and welcome the void to maintain order in your storage realm."
+	],
+	dependencies: [
+		"c247db82"
+	],
+	tasks: [{
+		uid: "e571f36e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_void"
+		}]
+	}],
+	rewards: [{
+		uid: "a22f54cf",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:redstone"
+		},
+		count: 10
+	},
+	{
+		uid: "7be9c19a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:obsidian"
+		},
+		count: 4
+	},
+	{
+		uid: "b6f1ae2d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_one_stack"
+		}
+	}]
+}

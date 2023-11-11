@@ -1,6 +1,11 @@
 {
 	title: "Cooking",
-	icon: "harvestcraft:saucepanitem",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "harvestcraft:saucepanitem"
+	},
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

@@ -1,0 +1,50 @@
+{
+	title: "Networked Storage Mastery",
+	x: -3.5d,
+	y: -3.0d,
+	description: "Efficient Drawer Control",
+	text: [
+		"Elevate your storage infrastructure with Drawer Controllers.",
+		"These special blocks enhance your storage capabilities by combining the inventories of connected drawers within a 12-block radius.",
+		"Simplify item interaction with a single access point for your entire storage network.",
+		"",
+		"Explore the power of Drawer Controllers in optimizing your storage system.",
+		"These specialized blocks transform the connected drawers within a 12-block range into a unified inventory, streamlining your item management.",
+		"Gain the ability to deposit items effortlessly by right-clicking on the front face, and further expedite the process with a double-right click to",
+		"dump matching items into the network. Upgrade your storage experience with Drawer Controllers for unmatched convenience."
+	],
+	dependencies: [
+		"d33bdeb6"
+	],
+	tasks: [{
+		uid: "08485d7e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "1e1001fd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:comparator"
+		},
+		count: 2
+	},
+	{
+		uid: "8c8e4fe7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:gold_ingot"
+		}
+	}]
+}

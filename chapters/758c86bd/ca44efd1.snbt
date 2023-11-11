@@ -1,7 +1,7 @@
 {
 	title: "Rustic Cabinets",
-	x: 0.0d,
-	y: -3.5d,
+	x: 1.5d,
+	y: -2.0d,
 	description: "Elegance in Storage",
 	text: [
 		"In your journey to master the art of storing, you'll now turn your attention to a unique storage solution offered by the Rustic mod.",
@@ -21,7 +21,10 @@
 		uid: "42f4acfe",
 		type: "item",
 		items: [{
-			item: "rustic:cabinet"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:cabinet"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -29,7 +32,12 @@
 	rewards: [{
 		uid: "96ba030e",
 		type: "item",
-		item: "minecraft:chest",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:chest"
+		},
 		count: 10
 	}]
 }

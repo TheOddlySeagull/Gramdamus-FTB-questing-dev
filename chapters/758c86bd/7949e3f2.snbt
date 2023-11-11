@@ -1,0 +1,118 @@
+{
+	title: "Wood Variety: Basic Drawers",
+	x: -6.5d,
+	y: 0.0d,
+	description: "Explore Different Wood Types",
+	text: [
+		"Extend your storage options by crafting basic drawers in various wood types. Each wood variant brings its unique aesthetic to your storage setup.",
+		"",
+		"- Craft a Basic Birch Drawer",
+		"- Craft a Basic Spruce Drawer",
+		"- Craft a Basic Jungle Drawer",
+		"- Craft a Basic Acacia Drawer",
+		"- Craft a Basic Dark Oak Drawer"
+	],
+	dependencies: [
+		"f72bae40"
+	],
+	tasks: [{
+		uid: "e4b48ac5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		}]
+	},
+	{
+		uid: "86ff93e0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "spruce"
+			}
+		}]
+	},
+	{
+		uid: "691302d2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "birch"
+			}
+		}]
+	},
+	{
+		uid: "4a26b13c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "jungle"
+			}
+		}]
+	},
+	{
+		uid: "c7cdf529",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "acacia"
+			}
+		}]
+	},
+	{
+		uid: "e8dae453",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "dark_oak"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f1cd84b8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:chest"
+		},
+		count: 3
+	},
+	{
+		uid: "81e6db42",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		},
+		count: 5
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Conversion Upgrade Mastery",
+	x: -8.0d,
+	y: 3.0d,
+	description: "Streamlined Compatibility for Seamless Storage",
+	text: [
+		"Harness the efficiency of the Conversion Upgrade to automatically convert compatible items, easing the storage process.",
+		"Ensure seamless integration with ore dictionaries, transforming your storage system into a well-coordinated haven for diverse items.",
+		"",
+		"Enhance your storage system's versatility with the Conversion Upgrade, effortlessly managing and converting compatible items according to ore dictionaries. Embrace the future of storage, where compatibility meets convenience."
+	],
+	dependencies: [
+		"10cfd445"
+	],
+	tasks: [{
+		uid: "d02e1df1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_conversion"
+		}]
+	}],
+	rewards: [{
+		uid: "d61ca014",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:obsidian"
+		},
+		count: 4
+	}]
+}

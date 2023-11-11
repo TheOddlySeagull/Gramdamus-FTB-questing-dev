@@ -1,7 +1,7 @@
 {
 	title: "Ultimate Warehouse Challenge: Monumental Storage",
 	x: 0.0d,
-	y: 12.0d,
+	y: 13.0d,
 	description: "Crafting the Warehouse of Legends",
 	text: [
 		"You've come a long way in your journey to master the art of warehousing.",
@@ -33,7 +33,11 @@
 		uid: "b2782767",
 		type: "item",
 		items: [{
-			item: "ancientwarfareautomation:warehouse_storage 1 2"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_storage",
+			Damage: 2s
 		}],
 		count: 1024L
 	},
@@ -41,21 +45,31 @@
 		uid: "acfdd927",
 		type: "item",
 		items: [{
-			item: "ancientwarfareautomation:warehouse_crafting"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_crafting"
 		}]
 	},
 	{
 		uid: "9202fb14",
 		type: "item",
 		items: [{
-			item: "ancientwarfareautomation:worksite_upgrade 1 1"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:worksite_upgrade",
+			Damage: 1s
 		}]
 	},
 	{
 		uid: "10e98e01",
 		type: "item",
 		items: [{
-			item: "ancientwarfareautomation:warehouse_stock_viewer"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_stock_viewer"
 		}],
 		count: 8L
 	},
@@ -63,13 +77,22 @@
 		uid: "da4f0743",
 		type: "item",
 		items: [{
-			item: "ancientwarfareautomation:warehouse_control"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_control"
 		}]
 	}],
 	rewards: [{
 		uid: "961bb5c1",
 		type: "item",
-		item: "gramdamuscontent:coin 1 3",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 3s
+		},
 		count: 10
 	}]
 }

@@ -1,7 +1,7 @@
 {
 	title: "Medium Pack",
 	x: -2.0d,
-	y: 2.5d,
+	y: 4.0d,
 	description: "A Balanced Choice",
 	text: [
 		"The Medium Pack is your next storage goal. With 27 item slots, it strikes a balance between portability and capacity.",
@@ -15,13 +15,23 @@
 		uid: "739dc499",
 		type: "item",
 		items: [{
-			item: "ancientwarfare:backpack 1 2"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfare:backpack",
+			Damage: 2s
 		}],
 		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "e2509879",
 		type: "item",
-		item: "ancientwarfare:backpack 1 2"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfare:backpack",
+			Damage: 2s
+		}
 	}]
 }

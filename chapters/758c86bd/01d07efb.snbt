@@ -1,0 +1,115 @@
+{
+	title: "Wood Variety: Slab Drawers",
+	x: -8.0d,
+	y: 0.0d,
+	description: "Compact Elegance in Different Woods",
+	text: [
+		"Continue your exploration of wood types with slab variant drawers. Choose the wood that complements your style.",
+		"",
+		"- Craft a Slab Birch Drawer",
+		"- Craft a Slab Spruce Drawer",
+		"- Craft a Slab Jungle Drawer",
+		"- Craft a Slab Acacia Drawer",
+		"- Craft a Slab Dark Oak Drawer"
+	],
+	dependencies: [
+		"e4eadc2b",
+		"7949e3f2"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "980d5339",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			},
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "8b6fe747",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "spruce"
+			},
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "d18d21fb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "birch"
+			},
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "dc8c3cd4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "jungle"
+			},
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "7918c297",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "acacia"
+			},
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "b45dd3c5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "dark_oak"
+			},
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "0c10c24a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stick"
+		},
+		count: 20
+	}]
+}

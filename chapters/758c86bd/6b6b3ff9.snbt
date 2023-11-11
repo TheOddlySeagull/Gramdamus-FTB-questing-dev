@@ -1,0 +1,41 @@
+{
+	title: "Fluid Elegance: Rustic Barrels",
+	x: -1.5d,
+	y: -2.0d,
+	description: "Crafting Liquid Barrels for Stylish Fluid Storage",
+	text: [
+		"Upgrade your storage repertoire with the charm of Rustic liquid barrels.",
+		"These barrels not only provide a functional solution for fluid storage but also bring an elegant touch to your workspace.",
+		"",
+		"- Crafting Liquid Barrels: Create 8 Liquid Barrels using the crafting recipe from the Rustic mod.",
+		"These barrels are designed to store up to 16 buckets of a single fluid, making them a practical and visually pleasing addition to your storage setup.",
+		"",
+		"Once crafted, place the Liquid Barrels strategically to organize and store fluids efficiently.",
+		"Enhance the aesthetic appeal of your workspace while enjoying the convenience of fluid storage in these stylish Rustic barrels."
+	],
+	dependencies: [
+		"0b355ee4"
+	],
+	tasks: [{
+		uid: "49994fb1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:liquid_barrel"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "04f5c857",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:liquid_barrel"
+		},
+		count: 2
+	}]
+}

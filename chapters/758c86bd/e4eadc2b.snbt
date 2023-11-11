@@ -1,0 +1,54 @@
+{
+	title: "Space-Saving Slabs",
+	x: -8.0d,
+	y: 1.5d,
+	description: "Compact Storage Solutions",
+	text: [
+		"Learn the art of efficient space usage with slab variant drawers. These slabs bring style and functionality to your storage area.",
+		"",
+		"- Craft a 1x2 Slab Oak Drawer",
+		"- Craft a 2x2 Slab Oak Drawer"
+	],
+	dependencies: [
+		"2324ead3"
+	],
+	tasks: [{
+		uid: "35a18b12",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			},
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "0c2b4e75",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			},
+			Damage: 4s
+		}]
+	}],
+	rewards: [{
+		uid: "085e661c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 1s
+		}
+	}]
+}

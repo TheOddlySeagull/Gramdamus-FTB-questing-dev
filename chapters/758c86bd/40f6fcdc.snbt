@@ -1,7 +1,7 @@
 {
 	title: "Dimensional Storage",
-	x: -1.5d,
-	y: 0.0d,
+	x: 0.0d,
+	y: -3.5d,
 	description: "The Portable Nexus",
 	text: [
 		" In your quest to master dimensional storage, you'll first dive into the world of Ender Chests.",
@@ -17,12 +17,20 @@
 		uid: "8e530cf5",
 		type: "item",
 		items: [{
-			item: "minecraft:ender_chest"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:ender_chest"
 		}]
 	}],
 	rewards: [{
 		uid: "a3d86bb3",
 		type: "item",
-		item: "minecraft:ender_chest"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:ender_chest"
+		}
 	}]
 }

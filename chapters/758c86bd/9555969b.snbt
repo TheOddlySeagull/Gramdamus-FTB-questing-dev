@@ -1,7 +1,7 @@
 {
 	title: "Warehouse Storage Blocks - Small Tier",
 	x: 0.0d,
-	y: 6.5d,
+	y: 8.0d,
 	description: "Small-Scale Storage Blocks",
 	text: [
 		"To enhance your warehouse's storage capacity, you'll need to incorporate Warehouse Storage Blocks.",
@@ -16,13 +16,21 @@
 		uid: "9a51df8a",
 		type: "item",
 		items: [{
-			item: "ancientwarfareautomation:warehouse_storage"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_storage"
 		}],
 		count: 2L
 	}],
 	rewards: [{
 		uid: "9dedfe95",
 		type: "item",
-		item: "ancientwarfareautomation:warehouse_storage"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_storage"
+		}
 	}]
 }

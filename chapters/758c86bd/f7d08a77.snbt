@@ -1,7 +1,7 @@
 {
 	title: "Shulker Boxes - The Mobile Storage Marve",
-	x: -3.0d,
-	y: 0.0d,
+	x: 0.0d,
+	y: -5.5d,
 	description: "Unleashing the Shulker's Power",
 	text: [
 		"Shulker Boxes, the marvel of mobile storage, await your mastery.",
@@ -17,7 +17,10 @@
 		uid: "57a4f180",
 		type: "item",
 		items: [{
-			item: "minecraft:purple_shulker_box"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:purple_shulker_box"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -25,7 +28,12 @@
 	rewards: [{
 		uid: "7b2391ef",
 		type: "item",
-		item: "minecraft:shulker_shell",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:shulker_shell"
+		},
 		count: 2
 	}]
 }

@@ -1,0 +1,66 @@
+{
+	title: "Artful Storage: Rustic Elegance",
+	x: -1.0d,
+	y: -3.0d,
+	description: "Crafting Pots and Barrels for Aesthetic Storage",
+	text: [
+		"Embrace the rustic charm of your storage solutions by crafting elegant pots and barrels from the Rustic mod.",
+		"These decorative storage options not only add visual appeal but also serve as functional containers.",
+		"",
+		"- Crafting Pots: Create 8 Pots using the crafting recipe provided by the Rustic mod.",
+		"Pots are not only decorative but also serve as compact storage solutions.",
+		"",
+		"- Crafting Barrels: Craft 8 Barrels using the Rustic mod's crafting recipe.",
+		"Barrels are not just functional; they bring a touch of traditional craftsmanship to your storage.",
+		"",
+		"Once you've crafted these exquisite storage containers, place them in your home or workshop for a storage solution that marries aesthetics with utility.",
+		"Show off your craftsmanship and make storage an art!"
+	],
+	dependencies: [
+		"0b355ee4"
+	],
+	tasks: [{
+		uid: "8bd4a360",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:barrel"
+		}],
+		count: 8L
+	},
+	{
+		uid: "a3e3dadc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:vase"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "1573cdee",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:barrel"
+		},
+		count: 2
+	},
+	{
+		uid: "c3c5206b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:vase"
+		},
+		count: 2
+	}]
+}

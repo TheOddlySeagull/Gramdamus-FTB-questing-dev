@@ -31,7 +31,12 @@
 	rewards: [{
 		uid: "7c184bbf",
 		type: "item",
-		item: "ancientwarfarenpc:food_bundle",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarenpc:food_bundle"
+		},
 		count: 4
 	}]
 }

@@ -1,7 +1,7 @@
 {
 	title: "Ancient Warfare Warehouse Control Block",
 	x: 0.0d,
-	y: 4.5d,
+	y: 6.0d,
 	description: "Initiating Warehouse Storage",
 	text: [
 		"Your journey into advanced storage solutions begins with the acquisition of the Ancient Warfare Warehouse Control Block.",
@@ -18,25 +18,43 @@
 		uid: "232d73ef",
 		type: "item",
 		items: [{
-			item: "ancientwarfareautomation:warehouse_control"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_control"
 		}]
 	}],
 	rewards: [{
 		uid: "c0d6fa8b",
 		type: "item",
-		item: "ancientwarfare:component",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfare:component"
+		},
 		count: 4
 	},
 	{
 		uid: "31daca56",
 		type: "item",
-		item: "minefantasyreforged:nail",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:nail"
+		},
 		count: 4
 	},
 	{
 		uid: "29912e0d",
 		type: "item",
-		item: "minecraft:leather",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:leather"
+		},
 		count: 4
 	}]
 }

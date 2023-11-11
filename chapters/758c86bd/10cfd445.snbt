@@ -1,0 +1,62 @@
+{
+	title: "Drawer Management Tools",
+	x: -6.5d,
+	y: 3.0d,
+	description: "Control and Visibility",
+	text: [
+		"Fine-tune your drawer settings with the Drawer Key and Quantify Key.",
+		"Keep items secure by locking drawers and choose when to display stored quantity labels for optimal organization.",
+		"",
+		"- Craft a Drawer Key",
+		"- Craft a Quantify Key",
+		"",
+		"Embrace the power of the Drawer Key, allowing you to lock drawers to preserve item associations.",
+		"Prevent unwanted refilling from transport systems with this ingenious tool.",
+		"Additionally, employ the Quantify Key to effortlessly reveal or hide quantity labels, providing you with unparalleled visibility and control over your storage."
+	],
+	dependencies: [
+		"daa90782"
+	],
+	tasks: [{
+		uid: "fae2ace8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:drawer_key"
+		}]
+	},
+	{
+		uid: "93c190ad",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:quantify_key"
+		}]
+	}],
+	rewards: [{
+		uid: "6cee0066",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dye",
+			Damage: 4s
+		},
+		count: 2
+	},
+	{
+		uid: "57c1bdbe",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:shroud_key"
+		}
+	}]
+}

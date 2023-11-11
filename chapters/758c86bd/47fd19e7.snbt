@@ -1,7 +1,7 @@
 {
 	title: "Mastering Warehouse Crafting: Warehouse Crafting Table",
 	x: 2.5d,
-	y: 4.5d,
+	y: 6.0d,
 	description: "Crafting at Your Fingertips",
 	text: [
 		"As you delve deeper into the art of managing your Warehouse, it's time to explore the incredible capabilities of the Warehouse Crafting Table.",
@@ -23,13 +23,22 @@
 		uid: "687925ce",
 		type: "item",
 		items: [{
-			item: "ancientwarfareautomation:warehouse_crafting"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_crafting"
 		}]
 	}],
 	rewards: [{
 		uid: "f8275844",
 		type: "item",
-		item: "gramdamuscontent:coin 1 1",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 1s
+		},
 		count: 2
 	}]
 }

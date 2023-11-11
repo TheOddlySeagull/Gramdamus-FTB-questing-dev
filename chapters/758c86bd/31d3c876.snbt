@@ -1,7 +1,7 @@
 {
 	title: "Unlocking Warehouse Automation",
 	x: 1.0d,
-	y: 5.5d,
+	y: 7.0d,
 	description: "Exploring Warehouse Interfaces",
 	text: [
 		"As you delve deeper into the realm of warehouse management, it's time to unlock the secrets of Warehouse Interface blocks.",
@@ -24,18 +24,31 @@
 		uid: "3d643c23",
 		type: "item",
 		items: [{
-			item: "ancientwarfareautomation:warehouse_interface"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_interface"
 		}]
 	}],
 	rewards: [{
 		uid: "340496fa",
 		type: "item",
-		item: "ancientwarfareautomation:warehouse_interface"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_interface"
+		}
 	},
 	{
 		uid: "1f5ca91e",
 		type: "item",
-		item: "minecraft:hopper",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:hopper"
+		},
 		count: 2
 	}]
 }

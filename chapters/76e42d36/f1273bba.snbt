@@ -15,7 +15,10 @@
 		uid: "b506d0e3",
 		type: "item",
 		items: [{
-			item: "exoticbirds:lyrebird_egg"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:lyrebird_egg"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -23,6 +26,11 @@
 	rewards: [{
 		uid: "d16fd009",
 		type: "item",
-		item: "gramdamuscontent:coin"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
 	}]
 }

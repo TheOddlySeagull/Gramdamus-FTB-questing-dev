@@ -16,7 +16,10 @@
 		uid: "caa4770c",
 		type: "item",
 		items: [{
-			item: "exoticbirds:kingfisher_egg"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:kingfisher_egg"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -24,6 +27,11 @@
 	rewards: [{
 		uid: "17768200",
 		type: "item",
-		item: "gramdamuscontent:coin"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
 	}]
 }

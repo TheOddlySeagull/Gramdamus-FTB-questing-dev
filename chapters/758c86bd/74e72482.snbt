@@ -1,0 +1,96 @@
+{
+	title: "Drawer Trim: Wood Variety Connectivity",
+	x: -6.5d,
+	y: -1.5d,
+	description: "Universal Drawer Networking",
+	text: [
+		"Extend the utility of drawer trim to various wood types. Achieve universal connectivity and enable streamlined item transfer across different wood-themed storage units.",
+		"",
+		"- Craft Birch Drawer Trim",
+		"- Craft Spruce Drawer Trim",
+		"- Craft Jungle Drawer Trim",
+		"- Craft Acacia Drawer Trim",
+		"- Craft Dark Oak Drawer Trim"
+	],
+	dependencies: [
+		"48a87275",
+		"7949e3f2",
+		"01d07efb"
+	],
+	tasks: [{
+		uid: "ebc9128d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:trim"
+		}]
+	},
+	{
+		uid: "41ef392e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:trim",
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "6c9bbd77",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:trim",
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "ea8e0f00",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:trim",
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "a9282ef7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:trim",
+			Damage: 4s
+		}]
+	},
+	{
+		uid: "b7cda0ca",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:trim",
+			Damage: 5s
+		}]
+	}],
+	rewards: [{
+		uid: "da049285",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stick"
+		},
+		count: 20
+	}]
+}

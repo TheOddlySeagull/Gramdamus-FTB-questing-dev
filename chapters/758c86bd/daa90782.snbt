@@ -1,0 +1,63 @@
+{
+	title: "Drawer Fill Indicators",
+	x: -5.0d,
+	y: 3.0d,
+	description: "Illuminate Your Storage",
+	text: [
+		"Keep an eye on your drawer's status with these handy fill indicator upgrades.",
+		"Whether you prefer a straightforward full notification or a proportional fill bar, these upgrades offer a visual cue to streamline your",
+		"storage management.",
+		"",
+		"- Craft a Fill Indicator Upgrade I",
+		"- Craft a Fill Indicator Upgrade II",
+		"",
+		"Enhance your storage awareness with the Drawer Fill Indicators.",
+		"Level 1 provides a clear signal when your drawer is full, while Level 2 offers a dynamic fill bar, visually representing your drawer's occupancy.",
+		"Choose the indicator level that aligns with your organizational style and simplify your storage tracking."
+	],
+	dependencies: [
+		"c3556a73"
+	],
+	tasks: [{
+		uid: "2cc93de8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_status"
+		}]
+	},
+	{
+		uid: "8f244b07",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_status",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "48beead1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:writable_book"
+		}
+	},
+	{
+		uid: "11e33d2e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:gold_ingot"
+		},
+		count: 3
+	}]
+}

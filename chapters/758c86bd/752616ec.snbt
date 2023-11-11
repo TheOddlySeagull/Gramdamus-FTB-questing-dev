@@ -1,7 +1,7 @@
 {
 	title: "Warehouse Storage Blocks - Medium Tier",
 	x: 0.0d,
-	y: 8.0d,
+	y: 9.5d,
 	description: "Expanding Storage Capability",
 	text: [
 		"As you strive for greater storage capacity in your warehouse, it's time to upgrade to the Medium Tier Warehouse Storage Blocks.",
@@ -16,13 +16,23 @@
 		uid: "a0bac593",
 		type: "item",
 		items: [{
-			item: "ancientwarfareautomation:warehouse_storage 1 1"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_storage",
+			Damage: 1s
 		}],
 		count: 2L
 	}],
 	rewards: [{
 		uid: "7a15f76c",
 		type: "item",
-		item: "ancientwarfareautomation:warehouse_storage 1 1"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_storage",
+			Damage: 1s
+		}
 	}]
 }

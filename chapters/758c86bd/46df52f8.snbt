@@ -1,0 +1,89 @@
+{
+	title: "Drawer Upgrade Mastery",
+	x: -3.5d,
+	y: 1.5d,
+	description: "Elevate Your Storage Solutions",
+	text: [
+		" Unleash the full potential of your drawers by mastering the art of upgrades.",
+		"Craft and apply a variety of enhancements to optimize storage, sorting, and retrieval.",
+		"From key upgrades like the Compacting Drawer to the handy Void Upgrade, explore the possibilities of customizing your storage system.",
+		"",
+		"Embark on a journey to enhance your storage capabilities with a diverse array of Drawer Upgrades.",
+		"Each upgrade serves a unique purpose, allowing you to tailor your storage system to specific needs.",
+		"From advanced sorting mechanisms to space optimization, discover the power of customization with these essential upgrades."
+	],
+	dependencies: [
+		"f72bae40"
+	],
+	tasks: [{
+		uid: "802b5aaa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_template"
+		}]
+	}],
+	rewards: [{
+		uid: "918e7972",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_template"
+		},
+		count: 4
+	},
+	{
+		uid: "28e6ce8c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:obsidian"
+		}
+	},
+	{
+		uid: "77f81572",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_ingot"
+		}
+	},
+	{
+		uid: "fb87b05d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:gold_ingot"
+		}
+	},
+	{
+		uid: "71d77bb0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond"
+		}
+	},
+	{
+		uid: "665dad56",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:emerald"
+		}
+	}]
+}

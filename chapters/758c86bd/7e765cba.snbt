@@ -1,0 +1,101 @@
+{
+	title: "Ultimate Drawer Masterpiece",
+	x: -9.5d,
+	y: -3.0d,
+	description: "Crafting the Apex of Storage",
+	text: [
+		"Description: Transform ordinary storage into the extraordinary with this ultimate drawer challenge.",
+		"Craft a masterpiece that can hold an astounding 14,336 stacks, ensuring your empire's resources are stored with unparalleled elegance and efficiency.",
+		"",
+		"- Craft a Framed Drawer",
+		"- Craft 7 Storage Upgrades (V) (Emerald)",
+		"- Craft the 3 Fancy Blocks",
+		"- Assemble the Ultimate Drawer with the specified upgrades in the Framing Table",
+		"",
+		"Embark on the Ultimate Drawer Masterpiece quest to showcase your mastery of storage engineering.",
+		"Craft a drawer that stands as a testament to your empire's grandeur and organizational prowess.",
+		"Elegance meets efficiency in this challenge of unparalleled storage capacity."
+	],
+	dependencies: [
+		"69d4b71c",
+		"bf4f8722",
+		"e37c76cf"
+	],
+	tasks: [{
+		uid: "71b32efc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_storage",
+			Damage: 4s
+		}],
+		count: 7L
+	},
+	{
+		uid: "6fedb313",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:customdrawers"
+		}]
+	},
+	{
+		uid: "63085b9a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:gilded_wood",
+			Damage: 5s
+		}]
+	},
+	{
+		uid: "048fcfa0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:gold_engraved_block"
+		}]
+	},
+	{
+		uid: "dae73a57",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "quark:quilted_wool",
+			Damage: 14s
+		}]
+	}],
+	rewards: [{
+		uid: "4e5889c9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 3s
+		}
+	},
+	{
+		uid: "805d4437",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_storage",
+			Damage: 4s
+		},
+		count: 3
+	}]
+}

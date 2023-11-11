@@ -1,7 +1,7 @@
 {
 	title: "Machine Coordination: The Stock Linker",
 	x: 2.5d,
-	y: 7.0d,
+	y: 8.5d,
 	description: "Linking Warehouses and Machines",
 	text: [
 		"In your quest to master warehouse management, you've reached a crucial point where you need to learn about Stock Linkers.",
@@ -35,7 +35,21 @@
 		uid: "52ebfe33",
 		type: "item",
 		items: [{
-			item: "ancientwarfareautomation:warehouse_stock_linker"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_stock_linker"
 		}]
+	}],
+	rewards: [{
+		uid: "655648d2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:warehouse_stock_linker"
+		},
+		count: 3
 	}]
 }

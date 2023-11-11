@@ -17,18 +17,33 @@
 	rewards: [{
 		uid: "2c39c97f",
 		type: "item",
-		item: "minecraft:chest"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:chest"
+		}
 	},
 	{
 		uid: "cab69095",
 		type: "item",
-		item: "minefantasyreforged:thread",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:thread"
+		},
 		count: 2
 	},
 	{
 		uid: "a1d2f750",
 		type: "item",
-		item: "minefantasyreforged:leather_strip",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:leather_strip"
+		},
 		count: 2
 	}]
 }

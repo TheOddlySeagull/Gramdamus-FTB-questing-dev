@@ -33,12 +33,20 @@
 		uid: "ae939497",
 		type: "item",
 		items: [{
-			item: "minecraft:paper"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:paper"
 		}]
 	}],
 	rewards: [{
 		uid: "80c3d23e",
 		type: "item",
-		item: "biomesoplenty:black_dye"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:black_dye"
+		}
 	}]
 }

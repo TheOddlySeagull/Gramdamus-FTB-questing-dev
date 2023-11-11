@@ -1,6 +1,9 @@
 {
 	title: "In the mines",
 	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
 		id: "minefantasyreforged:standard_pick",
 		tag: {
 			mf_custom_materials: {

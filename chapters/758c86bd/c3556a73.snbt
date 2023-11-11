@@ -1,0 +1,111 @@
+{
+	title: "Drawer Storage Expansion",
+	x: -3.5d,
+	y: 3.0d,
+	description: "Unleash the Power of Volume",
+	text: [
+		"Amplify your storage capabilities with these tiered storage upgrades.",
+		"Whether you're a novice collector or an empire builder, these upgrades will give your drawers the capacity they need to",
+		"accommodate your growing inventory. From Storage Upgrade I to V, embark on a journey to expand your storage volume."
+	],
+	dependencies: [
+		"46df52f8"
+	],
+	tasks: [{
+		uid: "d6e1d48b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_storage"
+		}]
+	},
+	{
+		uid: "9f955316",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_storage",
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "68fa3a2f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_storage",
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "7398e198",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_storage",
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "4cd79498",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_storage",
+			Damage: 4s
+		}]
+	}],
+	rewards: [{
+		uid: "95a5e0d1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_template"
+		},
+		count: 10
+	},
+	{
+		uid: "8fc88b38",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:redstone_torch"
+		},
+		count: 4
+	},
+	{
+		uid: "84439208",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:redstone"
+		},
+		count: 4
+	},
+	{
+		uid: "e33b844f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_one_stack"
+		}
+	}]
+}

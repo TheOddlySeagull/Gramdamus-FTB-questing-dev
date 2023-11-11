@@ -1,0 +1,79 @@
+{
+	title: "Size Matters: Expanding Drawers",
+	x: -5.0d,
+	y: 1.5d,
+	description: "Crafting Various Sizes",
+	text: [
+		"Explore the versatility of drawers by crafting different sizes. From 1x1 to 2x2, these drawers will cater to your varied storage needs.",
+		"",
+		"- Craft a 1x1 Basic Oak Drawer",
+		"- Craft a 1x2 Basic Oak Drawer",
+		"- Craft a 2x2 Basic Oak Drawer"
+	],
+	dependencies: [
+		"f72bae40"
+	],
+	tasks: [{
+		uid: "f4877664",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			},
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "206f2571",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		}]
+	},
+	{
+		uid: "e570ef2e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			},
+			Damage: 2s
+		}]
+	}],
+	rewards: [{
+		uid: "53dcdec6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:wooden_slab"
+		},
+		count: 10
+	},
+	{
+		uid: "f33215a7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:chest"
+		},
+		count: 10
+	}]
+}

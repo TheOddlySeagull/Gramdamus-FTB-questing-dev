@@ -1,0 +1,48 @@
+{
+	title: "Automated Material Compression",
+	x: -3.5d,
+	y: -1.5d,
+	description: "Efficient Compaction for Resources",
+	text: [
+		"Upgrade your storage efficiency with Compacting Drawers.",
+		"These stone-colored drawers offer automated conversion for compressible items like metals, redstone, and more.",
+		"Save time and effort by seamlessly storing and accessing materials in various forms.",
+		"",
+		"Enhance your storage setup with Compacting Drawers, streamlining the compression and decompression of materials",
+		" These stone-colored drawers effortlessly manage compressible items, such as metals, redstone, and other resources,",
+		"saving you valuable time and effort in your resource management journey."
+	],
+	dependencies: [
+		"f72bae40"
+	],
+	tasks: [{
+		uid: "b1529e4d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:compdrawers"
+		}]
+	}],
+	rewards: [{
+		uid: "14258527",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:comparator"
+		}
+	},
+	{
+		uid: "31932d4e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond"
+		}
+	}]
+}
