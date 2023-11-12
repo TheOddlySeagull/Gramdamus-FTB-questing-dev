@@ -1,0 +1,59 @@
+{
+	title: "Apiary Assistance",
+	x: 4.5d,
+	y: 0.0d,
+	description: "Harnessing Nature's Helpers",
+	text: [
+		"Utilize the assistance of bees to enhance the growth of your crops.",
+		"Craft an Apiary from Rustic and introduce a bee to experience the benefits of pollination."
+	],
+	dependencies: [
+		"68fed4e4"
+	],
+	tasks: [{
+		uid: "d3c20f0b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:apiary"
+		}]
+	},
+	{
+		uid: "25ebb20c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:bee"
+		}]
+	}],
+	rewards: [{
+		uid: "b05228de",
+		type: "xp",
+		xp: 20
+	},
+	{
+		uid: "e5a2dc33",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:bee"
+		},
+		count: 5
+	},
+	{
+		uid: "ef0f7a86",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:apiary"
+		}
+	}]
+}

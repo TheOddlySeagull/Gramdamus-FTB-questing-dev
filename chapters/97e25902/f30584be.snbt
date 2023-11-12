@@ -1,0 +1,39 @@
+{
+	title: "Turtle Tidings",
+	x: -3.0d,
+	y: 13.0d,
+	description: "Shelled Marvels of the Sea",
+	text: [
+		"The Fish Trap has revealed the presence of a gentle turtle!",
+		"These ocean wanderers are known for their distinctive shells.",
+		"Gather your rewards and appreciate the beauty of these aquatic creatures."
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "c495afb4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:turtlerawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "85cf0c22",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "b5d99f86",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

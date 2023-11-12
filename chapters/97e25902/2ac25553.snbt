@@ -1,0 +1,35 @@
+{
+	title: "The Harvesting Horizon",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Sowing the Seeds of Progress",
+	text: [
+		"Welcome to the heart of Gramdamus, where the fertile soil beckons and the seeds of your prosperity take root.",
+		"In this chapter, you'll delve into the agricultural wonders of Gramdamus, featuring prominent mods like Rustic, Pam's Harvestcraft, and Growthcraft.",
+		"As you till the earth and plant the seeds, envision a future where automation reigns supreme, making your agricultural endeavors more efficient over time."
+	],
+	dependencies: [
+		"f7f07273"
+	],
+	tasks: [{
+		uid: "40770a67",
+		type: "checkmark",
+		title: "The Harvesting Horizon"
+	}],
+	rewards: [{
+		uid: "ce0c271a",
+		type: "xp",
+		xp: 15
+	},
+	{
+		uid: "da717867",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:wheat_seeds"
+		},
+		count: 10
+	}]
+}

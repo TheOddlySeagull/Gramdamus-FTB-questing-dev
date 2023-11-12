@@ -1,0 +1,38 @@
+{
+	title: "Catching Dinner",
+	x: -3.5d,
+	y: 4.0d,
+	description: "A fishy surprise awaits!",
+	text: [
+		"You've cast your Fish Trap, hoping for a nice catch. It's time to check what's lurking beneath the surface.",
+		"See if you can reel in some fresh Vanilla Raw Fish!"
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "3eb321e1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:fish"
+		}]
+	}],
+	rewards: [{
+		uid: "6fc87b8c",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "c82c6272",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

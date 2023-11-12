@@ -1,0 +1,39 @@
+{
+	title: "Hunting the Elusive Snapper",
+	x: -4.5d,
+	y: 10.0d,
+	description: "A Vibrant Catch from Beneath the Waves",
+	text: [
+		"Dive into the depths and secure the elusive Snapper using the Fish Trap.",
+		"This vibrant and tasty fish is waiting to be savored.",
+		"Grab your gear and embark on this aquatic adventure to reel in the Snapper."
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "2064513f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:snapperrawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "d5984c25",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "1cd5343c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	title: "Embark on the Exploration Journey",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:grass"
+	},
+	x: -8.0d,
+	y: -3.5d,
+	description: "Unveiling the Riches of Gramdamus",
+	text: [
+		"Venture forth into the vast and diverse world of Gramdamus.",
+		"Begin your exploration by standing at the server's spawn, nestled in the lush and vibrant Meadows biome.",
+		"Discover the wonders that await as you step beyond the familiar and dive into the uncharted territories.",
+		"",
+		"This quest marks the gateway to the Exploration category, urging you to stand at the server's point of origin in the Meadows biome.",
+		"Prepare to unravel the mysteries and treasures scattered across the expansive landscapes of Gramdamus. The world is yours to discover!"
+	],
+	tasks: [{
+		uid: "5bc6be85",
+		type: "biome",
+		biome: "biomesoplenty:meadow"
+	},
+	{
+		uid: "457de288",
+		type: "checkmark",
+		title: "Explore!"
+	}],
+	rewards: [{
+		uid: "8ad28d14",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:berries"
+		},
+		count: 10
+	}]
+}

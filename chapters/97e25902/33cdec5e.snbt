@@ -1,0 +1,83 @@
+{
+	title: "Garden Collection",
+	x: 1.5d,
+	y: 0.0d,
+	description: "Harvesting Nature's Diversity",
+	text: [
+		"Explore the varied climates of Gramdamus to collect unique Gardens, each yielding a distinctive array of crops.",
+		"Gather one of each type to enrich your agricultural endeavors."
+	],
+	dependencies: [
+		"2ac25553"
+	],
+	tasks: [{
+		uid: "47fa7fd3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:aridgarden"
+		}]
+	},
+	{
+		uid: "dd82b857",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:soggygarden"
+		}]
+	},
+	{
+		uid: "c9684b27",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:tropicalgarden"
+		}]
+	},
+	{
+		uid: "58fbb77f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:windygarden"
+		}]
+	},
+	{
+		uid: "afc48325",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:shadedgarden"
+		}]
+	},
+	{
+		uid: "f44b0c45",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:frostgarden"
+		}]
+	}],
+	rewards: [{
+		uid: "65936060",
+		type: "xp",
+		xp: 30
+	},
+	{
+		uid: "8cbfb1ca",
+		type: "random",
+		table: 0
+	}]
+}

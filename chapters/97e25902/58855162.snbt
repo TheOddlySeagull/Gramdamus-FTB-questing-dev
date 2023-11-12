@@ -1,0 +1,39 @@
+{
+	title: "Fertile Soil Advancement",
+	x: 6.0d,
+	y: 0.0d,
+	description: "Unleashing the Power of Enriched Ground",
+	text: [
+		"Upgrade your farmland to a more efficient version. Create Fertil Soil, a special soil that promotes faster crop growth without the need for adjacent water."
+	],
+	dependencies: [
+		"8afa5a34"
+	],
+	tasks: [{
+		uid: "5450539d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:fertile_soil"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "d31578d4",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "fdbe524e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:fertile_soil"
+		},
+		count: 8
+	}]
+}

@@ -1,0 +1,68 @@
+{
+	title: "Bait Mastery",
+	x: -3.5d,
+	y: -2.5d,
+	description: "Tempting Treats for Traps",
+	text: [
+		"Learn the art of baiting and discover the variety of animal products you can harvest without causing harm.",
+		"Experiment with different baits and see what nature has to offer.",
+		"",
+		"    Grain Bait:",
+		"        91% Chance: Bone, Leather, Egg, Raw Steak",
+		"        82% Chance: Feather, Raw Turkey",
+		"        73% Chance: Chicken",
+		"",
+		"    Fruit Bait:",
+		"        91% Chance: Bone, Leather, Egg",
+		"        82% Chance: Feather",
+		"        73% Chance: Chicken, Rabbit",
+		"",
+		"    Veggie Bait:",
+		"        91% Chance: Bone, Leather, Egg, Raw Porkchop, Raw Mutton, Raw Venison",
+		"        82% Chance: Feather",
+		"        73% Chance: Chicken"
+	],
+	dependencies: [
+		"57c6f85b"
+	],
+	tasks: [{
+		uid: "a57d4ebf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:fruitbaititem"
+		}]
+	},
+	{
+		uid: "49665b98",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:grainbaititem"
+		}]
+	},
+	{
+		uid: "18dafb8c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:veggiebaititem"
+		}]
+	}],
+	rewards: [{
+		uid: "e0c91d16",
+		type: "xp",
+		xp: 30
+	},
+	{
+		uid: "95d53758",
+		type: "random",
+		table: 2
+	}]
+}

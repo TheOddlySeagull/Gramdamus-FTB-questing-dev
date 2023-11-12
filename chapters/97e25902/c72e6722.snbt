@@ -1,0 +1,39 @@
+{
+	title: "Savoring the Snail",
+	x: -5.5d,
+	y: 10.0d,
+	description: "A Unique Delicacy from the Depths",
+	text: [
+		"The Fish Trap has brought forth an unusual yet delectable catch - Snails!",
+		"These creatures from the underwater world can be transformed into a gourmet dish.",
+		"Gather your rewards and embark on the culinary journey of preparing snails."
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "0855eec9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:snailrawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "4be910d8",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "3f7cda46",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "Grouper Gathering",
+	x: -1.5d,
+	y: 8.0d,
+	description: "A Grouper in the Net",
+	text: [
+		"The Fish Trap has managed to lure in a sizable Grouper!",
+		"These ocean-dwelling fish are known for their delicious taste and impressive size.",
+		"Celebrate your catch by claiming your rewards and appreciating the wonders of the deep."
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "26e65ce2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:grouperrawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "468d2e7f",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "80350c68",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

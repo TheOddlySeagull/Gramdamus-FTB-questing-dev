@@ -1,0 +1,55 @@
+{
+	title: "My First Field",
+	x: 3.0d,
+	y: 0.0d,
+	description: "Preparing the Ground",
+	text: [
+		"It's time to establish your first agricultural field. Gather a variety of 80 seeds to sow the beginnings of your farm.",
+		"Explore the surrounding areas, and collect seeds from the diverse flora."
+	],
+	dependencies: [
+		"33cdec5e"
+	],
+	tasks: [{
+		uid: "4223dfa2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "listAllseed",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any listAllseed"
+				}
+			}
+		}],
+		count: 80L
+	}],
+	rewards: [{
+		uid: "8cf7e7c1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dye",
+			Damage: 15s
+		},
+		count: 16
+	},
+	{
+		uid: "55e86007",
+		type: "xp",
+		xp: 15
+	},
+	{
+		uid: "fb6fd84b",
+		type: "random",
+		table: 1
+	}]
+}

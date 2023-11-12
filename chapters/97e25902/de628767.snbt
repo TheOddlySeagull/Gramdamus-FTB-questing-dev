@@ -1,0 +1,73 @@
+{
+	title: "Bait Mastery",
+	x: -3.5d,
+	y: 2.5d,
+	description: "A Seafood Symphony",
+	text: [
+		"Become a master bait-maker by concocting Fish Bait with an assortment of seafood.",
+		"Diversify your bait for a successful aquatic harvest."
+	],
+	dependencies: [
+		"e55e7d49"
+	],
+	tasks: [{
+		uid: "f4976f44",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:fishtrapbaititem"
+		}]
+	}],
+	rewards: [{
+		uid: "58163ef5",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "b78821ea",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:clamrawitem"
+		}
+	},
+	{
+		uid: "3b43012b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:oysterrawitem"
+		}
+	},
+	{
+		uid: "bbd73547",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:calamarirawitem"
+		}
+	},
+	{
+		uid: "a72f6071",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:fish"
+		}
+	},
+	{
+		uid: "f7c42a7a",
+		type: "xp",
+		xp: 20
+	}]
+}

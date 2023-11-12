@@ -1,0 +1,92 @@
+{
+	title: "Establishing the Basics",
+	x: 0.0d,
+	y: -1.5d,
+	description: "Tools of the Trade",
+	text: [
+		"Before you embark on the grand agricultural journey in Gramdamus, you need to equip yourself with the essential tools.",
+		"Begin by crafting a Stone Hoe and acquiring a Knife from the Minefantasy Mod.",
+		"These rudimentary implements will be your companions as you cultivate the fields and harvest the fruits of your labor."
+	],
+	dependencies: [
+		"2ac25553"
+	],
+	tasks: [{
+		uid: "d5af3442",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:stone_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "569f0218",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:stone_knife"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4c004fbe",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "7b10d672",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:wheat_seeds"
+		},
+		count: 10
+	},
+	{
+		uid: "ba12fd6a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:tomato_seeds"
+		},
+		count: 10
+	},
+	{
+		uid: "f325c6a8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:chili_pepper_seeds"
+		},
+		count: 10
+	},
+	{
+		uid: "43831257",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "growthcraft_rice:rice"
+		},
+		count: 10
+	},
+	{
+		uid: "c31cfe78",
+		type: "random",
+		table: 1
+	}]
+}

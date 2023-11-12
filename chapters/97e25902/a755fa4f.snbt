@@ -1,0 +1,39 @@
+{
+	title: "Emerald Enigma of the Deep",
+	x: -5.0d,
+	y: 11.0d,
+	description: "Unveiling the Green Heartfish Secret",
+	text: [
+		"Explore the ocean depths in search of the mystical Green Heartfish.",
+		"Deploy the Fish Trap with the right bait to reveal this vibrant aquatic treasure.",
+		"Delve into the secrets of the sea!"
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "8ba8a45c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:greenheartfishitem"
+		}]
+	}],
+	rewards: [{
+		uid: "5119167a",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "364d068c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

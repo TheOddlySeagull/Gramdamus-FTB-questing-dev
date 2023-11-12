@@ -1,0 +1,39 @@
+{
+	title: "Salmon Run",
+	x: -4.5d,
+	y: 6.0d,
+	description: "Securing a Salmon",
+	text: [
+		"The Fish Trap has successfully netted a delicious and nutritious Salmon!",
+		"These fish are known for their rich taste and omega-3 fatty acids. Claim your reward and savor the flavor of the ocean."
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "66e78812",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:fish",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "d6f8ac9a",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "3b27af30",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

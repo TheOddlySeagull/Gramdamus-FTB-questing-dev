@@ -21,6 +21,7 @@
 		"bf4f8722",
 		"e37c76cf"
 	],
+	hide: true,
 	tasks: [{
 		uid: "71b32efc",
 		type: "item",

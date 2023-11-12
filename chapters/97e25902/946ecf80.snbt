@@ -1,0 +1,38 @@
+{
+	title: "Anchovy Adventure",
+	x: -2.5d,
+	y: 6.0d,
+	description: "Netting a Nutritious Anchovy",
+	text: [
+		"Your Fish Trap has successfully caught a school of Anchovies! These small, silvery fish are known for their rich nutritional value.",
+		"Collect your reward and savor the health benefits of the Anchovy."
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "6784d2e3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:anchovyrawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "9389fb71",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "d3bd0a75",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

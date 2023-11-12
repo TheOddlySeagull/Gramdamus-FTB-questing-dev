@@ -1,0 +1,38 @@
+{
+	title: "Bass Bounty",
+	x: -3.5d,
+	y: 6.0d,
+	description: "Hooking a Harvestcraft Bass",
+	text: [
+		"Your Fish Trap has captured a robust Harvestcraft Bass! This variety of fish is prized for its versatility in culinary creations.",
+		"Reel in your reward and enjoy the succulent taste of the freshwater Bass."
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "06e08814",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:bassrawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "f38717a2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	},
+	{
+		uid: "221d591c",
+		type: "xp",
+		xp: 10
+	}]
+}

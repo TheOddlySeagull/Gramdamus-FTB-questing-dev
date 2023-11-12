@@ -1,0 +1,39 @@
+{
+	title: "Jellyfish Jamboree",
+	x: -5.0d,
+	y: 9.0d,
+	description: "A Stinging Surprise",
+	text: [
+		"The Fish Trap has managed to ensnare a delicate Jellyfish!",
+		"Known for their graceful movements in the water, these creatures can be both beautiful and dangerous.",
+		"Collect your rewards and marvel at the wonders of the deep."
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "f415e76c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:jellyfishrawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "9f6f1246",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "777438f3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "A Splash of Color",
+	x: -3.0d,
+	y: 5.0d,
+	description: "Catching the Clownfish!",
+	text: [
+		"Your Fish Trap has managed to lure in a vibrant Clownfish! These little swimmers are known for their distinctive appearance.",
+		"Claim your reward and enjoy the colorful addition."
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "9e729ed4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:fish",
+			Damage: 2s
+		}]
+	}],
+	rewards: [{
+		uid: "12ab56bd",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "2257c333",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

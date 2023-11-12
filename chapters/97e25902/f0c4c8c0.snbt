@@ -1,0 +1,38 @@
+{
+	title: "A Prickly Catch",
+	x: -4.0d,
+	y: 5.0d,
+	description: "Handle with Care!",
+	text: [
+		"Your Fish Trap seems to have attracted a rather prickly customer – the elusive Pufferfish! Be cautious while handling it, and claim your reward."
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "fa5f9fd1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:fish",
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "f4cbd272",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "677e9426",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

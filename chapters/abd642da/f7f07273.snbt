@@ -1,0 +1,88 @@
+{
+	title: "Embark on the Agricultural Path",
+	x: -7.0d,
+	y: -3.0d,
+	description: "Cultivating the Seeds of Gramdamus",
+	text: [
+		"To thrive in Gramdamus, one must cultivate the bounties of the land. Seek out the seeds that will become the backbone of your agricultural empire.",
+		"Hunt through the grassy landscapes to gather Vanilla Seeds, Rustic Tomato Seeds, and Rustic Chili Pepper Seeds.",
+		"",
+		"- Harvest Vanilla Seeds",
+		"- Collect Rustic Tomato Seeds",
+		"- Gather Rustic Chili Pepper Seeds",
+		"",
+		"This quest propels you into the Agriculture chapter, encouraging you to pluck the potential of the land.",
+		"Venture into the green expanses and let the seeds you collect be the beginning of your agrarian legacy in Gramdamus. The fields await your touch!"
+	],
+	tasks: [{
+		uid: "a33571d2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:wheat_seeds"
+		}]
+	},
+	{
+		uid: "1497bc82",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:tomato_seeds"
+		}]
+	},
+	{
+		uid: "5658b2c3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:chili_pepper_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "bfefccd6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:sharp_rock"
+		}
+	},
+	{
+		uid: "cad5317d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:vine"
+		}
+	},
+	{
+		uid: "574ff9e6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stick"
+		},
+		count: 2
+	},
+	{
+		uid: "22e6221c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:water_bucket"
+		}
+	}]
+}

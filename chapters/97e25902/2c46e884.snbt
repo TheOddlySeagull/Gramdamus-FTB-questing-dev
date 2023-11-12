@@ -1,0 +1,38 @@
+{
+	title: "Catching the Elusive Catfish",
+	x: -4.0d,
+	y: 7.0d,
+	description: "Mastering the Art of Catfish Fishing",
+	text: [
+		"The waters have yielded a splendid Catfish, known for its unique taste and texture. Cast your nets wide and bring in this elusive catch.",
+		"Your reward awaits, and so does the savory delight of a freshly caught Catfish."
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "97093619",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:catfishrawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "08bab4ff",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "eda58c95",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

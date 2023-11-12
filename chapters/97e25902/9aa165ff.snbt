@@ -1,0 +1,39 @@
+{
+	title: "Tilapia Trawling",
+	x: -3.5d,
+	y: 10.0d,
+	description: "A Taste of Tropical Waters",
+	text: [
+		"Set up the Fish Trap in tropical waters to catch the delectable Tilapia.",
+		"These freshwater gems are known for their mild flavor and firm texture.",
+		"Take on the challenge of luring in the Tilapia and enjoy the taste of the tropics."
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "67015021",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:tilapiarawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "8a9339ac",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "797b8640",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

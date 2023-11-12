@@ -1,0 +1,38 @@
+{
+	title: "Sardine Sleuth",
+	x: -4.0d,
+	y: 11.0d,
+	description: "Chasing the Sardine Scurry",
+	text: [
+		"Embark on a quest to capture the elusive Sardine. Set up the Fish Trap with the right bait and patiently await the school's arrival.",
+		"Uncover the ocean's secret and secure a Sardine for your collection!"
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "6448184a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:sardinerawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "f43e14f3",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "f6e548f5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

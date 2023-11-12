@@ -1,0 +1,39 @@
+{
+	title: "Shrimp Sensation",
+	x: -3.5d,
+	y: 12.0d,
+	description: "Tiny Treasures of the Sea",
+	text: [
+		"The Fish Trap has yielded a catch of succulent Shrimp!",
+		"These little sea creatures are versatile and can be used in various dishes.",
+		"Collect your rewards and explore the culinary possibilities of shrimp."
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "1dabef37",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:shrimprawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "6cd07a47",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "8629d81f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

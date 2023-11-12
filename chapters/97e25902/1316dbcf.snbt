@@ -1,0 +1,39 @@
+{
+	title: "Scalloping Success",
+	x: -4.0d,
+	y: 13.0d,
+	description: "Bivalve Bounty",
+	text: [
+		"Your Fish Trap has successfully captured a delightful Scallop!",
+		"These bivalves are a delicacy, and your culinary skills can make the most of this underwater treasure.",
+		"Claim your rewards and enjoy the taste of the sea."
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "e2f94b4d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:scalloprawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "e9f0655b",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "f5940749",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

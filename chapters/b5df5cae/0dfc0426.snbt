@@ -1,0 +1,24 @@
+{
+	title: "Explore Spawn",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"7528f6d1"
+	],
+	tasks: [{
+		uid: "7150654b",
+		type: "location",
+		location: [I;
+			0,
+			0,
+			65,
+			0,
+			1,
+			1,
+			1
+		]
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "Herring Harvest",
+	x: -3.5d,
+	y: 14.0d,
+	description: "A Silver-Scaled Prize",
+	text: [
+		"The Fish Trap has successfully captured a swift and silvery Herring!",
+		"Known for their abundance in various waters, Herring is a versatile and tasty fish.",
+		"Claim your rewards and savor the flavor of this ocean delight."
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "ffd7cfbf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:herringrawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "68025111",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "67c301df",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

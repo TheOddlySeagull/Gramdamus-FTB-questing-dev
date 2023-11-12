@@ -1,0 +1,39 @@
+{
+	title: "Calamari Quest",
+	x: -3.0d,
+	y: 11.0d,
+	description: "Taming the Squid's Delight",
+	text: [
+		"Dive into the depths to seek out the elusive Squid and harvest the delectable Calamari.",
+		"Craft a Fish Trap, use the appropriate bait, and reel in this underwater treat.",
+		"Make a splash in Gramdamus with the delightful taste of Calamari!"
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "37743b20",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:calamarirawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "cfb639d0",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "a2c3067b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

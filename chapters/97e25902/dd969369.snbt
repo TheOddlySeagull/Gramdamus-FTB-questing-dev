@@ -1,0 +1,40 @@
+{
+	title: "Oyster Odyssey",
+	x: -2.5d,
+	y: 12.0d,
+	description: "Exploring Ocean Delicacies",
+	text: [
+		"Dive into the depths of the ocean to uncover the secrets of Oysters.",
+		"Utilize a Fish Trap with the appropriate bait, and let the treasures of the sea reveal themselves.",
+		"Oysters hold a world of flavors within their shells, waiting for you to savor.",
+		"Collect Oysters and enjoy the taste of the maritime harvest!"
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "0fb9c873",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:oysterrawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "1136125f",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "66a391fa",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "Trap Mastery",
+	x: -2.0d,
+	y: -1.0d,
+	description: "Ethical Harvesting",
+	text: [
+		"Explore the ethical side of animal product generation using the Ground Trap.",
+		"Learn to set up and use this device efficiently to gather a variety of products without harming any animals."
+	],
+	dependencies: [
+		"2ac25553"
+	],
+	tasks: [{
+		uid: "76b9d871",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:groundtrap"
+		}]
+	}],
+	rewards: [{
+		uid: "8b49f64f",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "7cc85f1f",
+		type: "xp",
+		xp: 25
+	}]
+}

@@ -1,0 +1,111 @@
+{
+	title: "Oceanic Mastery",
+	x: -3.5d,
+	y: 15.5d,
+	description: "Conqueror of the Deep",
+	text: [
+		"Embark on the ultimate challenge of Oceanic Mastery!",
+		"To prove your dominance over the sea, gather a staggering 16 stacks of various fishes and seafood.",
+		"This feat requires expertise in capturing the diverse marine life using different traps.",
+		"Showcasing your knowledge and tenacity in acquiring these oceanic treasures will mark you as a true Conqueror of the Deep.",
+		"Brace yourself for a challenging and memorizing journey into the vastness of aquatic wonders!"
+	],
+	dependencies: [
+		"81df201f",
+		"2c46e884",
+		"2b2015e2",
+		"ed513ed2",
+		"e8db1c18",
+		"f0c4c8c0",
+		"8e44a4c1",
+		"9713a855",
+		"5b5aa55c",
+		"bc13ee9b",
+		"c72e6722",
+		"cc96f3c6",
+		"674aa9da",
+		"e4b31a22",
+		"efc1b592",
+		"c97a31a3",
+		"1316dbcf",
+		"a755fa4f",
+		"30a0e07a",
+		"9aa165ff",
+		"1f22b702",
+		"acd75d75",
+		"f83d7298",
+		"e1adae44",
+		"946ecf80",
+		"0db02609",
+		"5ca6c19f",
+		"bae00159",
+		"f30584be",
+		"dd843af9",
+		"e226295b",
+		"69a61fd9",
+		"5634eccb",
+		"dd969369"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5605ead8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "listAllfishfresh",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any listAllfishfresh"
+				}
+			}
+		}],
+		count: 1024L
+	},
+	{
+		uid: "de713bfd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:watertrap"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "c10d6cd3",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "48d8f3c4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 3s
+		}
+	},
+	{
+		uid: "cfd5d49a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tombstone:fishing_rod_of_misadventure",
+			tag: {
+				enchant: 1b,
+				ancient: 1b
+			}
+		}
+	}]
+}

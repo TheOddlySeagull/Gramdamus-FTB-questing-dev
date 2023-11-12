@@ -1,0 +1,39 @@
+{
+	title: "Tantalizing Tuna",
+	x: -1.5d,
+	y: 10.0d,
+	description: "Oceanic Bounty",
+	text: [
+		"Dive into the depths of flavor with the Fish Trap's latest prize – the Tuna.",
+		"These powerful swimmers bring a hearty and robust taste to your table.",
+		"Complete the quest and enjoy the rewards!"
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "a26acd52",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:tunarawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "bf954e30",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "0cd5d249",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

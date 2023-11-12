@@ -1,0 +1,38 @@
+{
+	title: "Crayfish Commotion",
+	x: -4.5d,
+	y: 8.0d,
+	description: "Small but Savory",
+	text: [
+		"Your Fish Trap has proven its mettle once again, presenting a delightful Crayfish! These little freshwater wonders are culinary gems.",
+		"Savor the moment and collect your reward to add a touch of riverine flair to your dining experience!"
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "5cbd4465",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:crayfishrawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "3503b7c2",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "d6392082",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

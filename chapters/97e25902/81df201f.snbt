@@ -1,0 +1,38 @@
+{
+	title: "Capturing Clamorous Clams",
+	x: -2.0d,
+	y: 7.0d,
+	description: "Unearthing the Wonders of the Sea",
+	text: [
+		"Your Fish Trap has delivered a bounty from the sea – a Clam! These versatile shellfish can be a culinary delight.",
+		"Open it up and uncover the treasures within. Claim your reward and savor the ocean's bounty!"
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "2d6a61e4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:clamrawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "fc07cec3",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "757c389a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

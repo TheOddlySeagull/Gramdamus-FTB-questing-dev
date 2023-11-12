@@ -1,0 +1,39 @@
+{
+	title: "Octopus Odyssey",
+	x: -3.0d,
+	y: 9.0d,
+	description: "Eight Tentacles of Intrigue",
+	text: [
+		"The Fish Trap has ensnared an elusive Octopus!",
+		"Celebrated for its unique taste and culinary possibilities, the Octopus is a seafood sensation.",
+		"Collect your rewards and embrace the culinary journey with this mysterious sea creature."
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "eaae0f3b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:octopusrawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "d12108fb",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "336dda27",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

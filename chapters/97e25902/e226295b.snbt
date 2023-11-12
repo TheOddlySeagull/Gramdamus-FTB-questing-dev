@@ -1,0 +1,38 @@
+{
+	title: "Whiskered Walleye",
+	x: -4.5d,
+	y: 12.0d,
+	description: "Seeking the Walleye in Waters Deep",
+	text: [
+		"Dive into the depths to find the elusive Walleye. Use the Fish Trap with the appropriate bait and gather this finned friend.",
+		"Show off your aquatic prowess!"
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "36fc506a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:walleyerawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "8429d96d",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "2f8ffc6d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

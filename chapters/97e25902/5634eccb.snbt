@@ -1,0 +1,39 @@
+{
+	title: "Mussel Muncher",
+	x: -2.0d,
+	y: 11.0d,
+	description: "Harvesting the Ocean's Gems",
+	text: [
+		"Embark on a coastal adventure to gather Mussels, the hidden gems of the ocean floor.",
+		"Set up a Fish Trap, use the right bait, and bring home a bounty of these flavorful morsels.",
+		"Discover the savory taste of Mussels and become a connoisseur of the sea!"
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "5543c9ad",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:musselrawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "d80743e9",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "8a23c1ea",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "Perch Pursuit",
+	x: -2.0d,
+	y: 9.0d,
+	description: "Swift and Slippery",
+	text: [
+		"The Fish Trap has managed to catch a swift Perch!",
+		"Known for its agility in the water, the Perch is a delightful addition to your aquatic collection.",
+		"Claim your rewards and savor the flavors of this agile fish."
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "726dbc4a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:perchrawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "c3743051",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "8dc2b5b2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

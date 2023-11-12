@@ -1,0 +1,39 @@
+{
+	title: "Mudfish Mystery",
+	x: -4.0d,
+	y: 9.0d,
+	description: "From the Murky Depths",
+	text: [
+		"Unearth the elusive Mudfish from the depths of the waters.",
+		"This peculiar fish dwells in muddy environments, making it a unique addition to your aquatic collection.",
+		"Gather your rewards and explore the mysteries of the underwater world."
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "4ca08518",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:mudfishrawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "17c2bc49",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "ba825128",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

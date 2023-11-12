@@ -1,0 +1,38 @@
+{
+	title: "Chasing the Charr",
+	x: -3.0d,
+	y: 7.0d,
+	description: "Diving into the Depths for Charr Fishing",
+	text: [
+		"Venture into the waters to seek out the elusive Charr. This unique fish is known for its bold flavors and culinary versatility.",
+		"Equip your fishing gear, cast your line, and bring back the prized Charr. Your efforts will be rewarded handsomely!"
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "284cc0d6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:charrrawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "cb0551cf",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "40eca2e7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

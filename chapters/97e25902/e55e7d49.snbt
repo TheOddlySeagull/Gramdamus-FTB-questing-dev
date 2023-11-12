@@ -1,0 +1,40 @@
+{
+	title: "Aquatic Harvest",
+	x: -2.0d,
+	y: 1.0d,
+	description: "A Fisherman's Secret",
+	text: [
+		"Uncover the ancient technique of harvesting fish without the hassle of fishing rods.",
+		"Construct a Water Trap and witness the wonders of underwater bounty.",
+		"",
+		"Instructions:",
+		"",
+		"- Craft the Water Trap.",
+		"- Locate a suitable pool of water (at least 1 block deep) with the specified conditions.",
+		"- Right-click on the trap and insert Fish Bait.",
+		"- Observe the trap for fish accumulation."
+	],
+	dependencies: [
+		"2ac25553"
+	],
+	tasks: [{
+		uid: "85a5f84e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:watertrap"
+		}]
+	}],
+	rewards: [{
+		uid: "8bfed674",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "73be69b2",
+		type: "xp",
+		xp: 25
+	}]
+}

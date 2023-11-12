@@ -1,0 +1,39 @@
+{
+	title: "Trout Triumph",
+	x: -2.5d,
+	y: 10.0d,
+	description: "Freshwater Delight",
+	text: [
+		"The Fish Trap has captured the delicate taste of freshwater with a bountiful catch of Trout.",
+		"These fish are known for their tender flesh and rich flavor.",
+		"Claim your rewards and savor the goodness of trout."
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "465140e6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:troutrawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "32ac6aed",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "30857d1d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

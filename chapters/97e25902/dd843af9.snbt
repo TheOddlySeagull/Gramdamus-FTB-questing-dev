@@ -1,0 +1,38 @@
+{
+	title: "Crab Catcher's Triumph",
+	x: -5.5d,
+	y: 8.0d,
+	description: "Pincer Pursuit",
+	text: [
+		"Your Fish Trap has worked its aquatic magic, bringing forth a spirited Crab! This crustacean treasure holds delectable delights within its shell.",
+		"Seize the opportunity to unveil the ocean's hidden flavors. Claim your reward and let the feast begin!"
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "5a482ebe",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:crabrawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "ead1a549",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "1f5ad46f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "Carp Catcher's Triumph",
+	x: -5.0d,
+	y: 7.0d,
+	description: "Reeling in a Robust Carp",
+	text: [
+		"Your Fish Trap has successfully captured a hearty Carp! Known for its robust taste, Carp can be a delightful addition to your culinary repertoire.",
+		"Claim your reward and relish the flavors of a freshly caught Carp."
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "399c05db",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:carprawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "714980e4",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "7a6c348d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

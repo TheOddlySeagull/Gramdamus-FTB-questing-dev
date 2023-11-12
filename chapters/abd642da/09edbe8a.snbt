@@ -43,14 +43,18 @@
 				"customnpcs:itemscripteddata": {}
 			},
 			id: "minefantasyreforged:research_bench"
-		},
-		{
+		}],
+		consume_items: false
+	},
+	{
+		uid: "58ecabda",
+		type: "item",
+		items: [{
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "minefantasyreforged:research_bench"
-		}],
-		consume_items: false
+			id: "ancientwarfare:research_station"
+		}]
 	}],
 	rewards: [{
 		uid: "675a4811",

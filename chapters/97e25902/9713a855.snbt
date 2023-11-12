@@ -1,0 +1,39 @@
+{
+	title: "Frogs in the Trap",
+	x: -2.5d,
+	y: 8.0d,
+	description: "Hop Into the Harvest",
+	text: [
+		"Your Fish Trap has surprised you with a unique visitor – a Frog!",
+		"Known for their distinctive croaking and amphibious charm, Frogs are an interesting addition to your aquatic collection.",
+		"Claim your reward and dive into the enchanting world of aquatic fauna!"
+	],
+	dependencies: [
+		"de628767"
+	],
+	tasks: [{
+		uid: "9e4593da",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:frograwitem"
+		}]
+	}],
+	rewards: [{
+		uid: "071edfe3",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "66987bfa",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}
