@@ -1,0 +1,40 @@
+{
+	title: "Rustic Harvest: Fruits of the Forest",
+	x: 8.5d,
+	y: 0.0d,
+	description: "Discovering Unique Fruits",
+	text: [
+		"Venture into the rustic beauty of the world and uncover the distinctive fruits bestowed by the trees.",
+		"Seek out the flavorful olives hanging from the branches of olive trees, and pluck the intriguing ironberries that adorn the ironwood."
+	],
+	dependencies: [
+		"749aacdf"
+	],
+	tasks: [{
+		uid: "89e1d102",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:ironberries"
+		}],
+		count: 3L
+	},
+	{
+		uid: "c7bc66d2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:olives"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "9f5d18ac",
+		type: "xp",
+		xp: 100
+	}]
+}

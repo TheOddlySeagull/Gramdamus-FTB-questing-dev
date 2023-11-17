@@ -1,0 +1,58 @@
+{
+	title: "The Livestock Haven",
+	x: 0.0d,
+	y: 8.0d,
+	description: "Mastering the Art of Automated Animal Husbandry",
+	text: [
+		"Embark on a journey into the realm of automated animal husbandry with the Animal Farm. This ingenious block facilitates the automated feeding and harvesting of livestock, ensuring a thriving and well-managed farm:",
+		"",
+		"- Population Control: Tailor your livestock numbers with ease by configuring the maximum allowed adult animals per type through the \"Other\" button in the main GUI. Achieve optimal efficiency in your animal husbandry.",
+		"",
+		"- Inventory Organization: Experience the seamless collection of harvested items in the top inventory area. Ensure your animals are well-fed by placing feed items in the middle inventory area. Keep buckets for milking cows and shears for shearing sheep in the lower inventory.",
+		"",
+		"- Feeding Criteria: Ensure efficient feeding by allowing animals to be fed only when there are two adult and breed-ready animals available. This strategic approach maximizes the productivity of your livestock.",
+		"",
+		"- Optimization Tools: Explore the potential of enchanted tools, quality tool upgrades, and bounds adjustments to enhance the efficiency of your Animal Farm. Elevate your animal husbandry to new heights.",
+		"",
+		"To make your livestock haven truly thrive, make use of enchanted tools, quality tool upgrades, and strategic bounds adjustments."
+	],
+	dependencies: [
+		"17c519ec"
+	],
+	tasks: [{
+		uid: "44bdc7aa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:animal_farm"
+		}]
+	}],
+	rewards: [{
+		uid: "f7c7105c",
+		type: "xp",
+		xp: 350
+	},
+	{
+		uid: "89853f7a",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "6b402f93",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 1s
+		}
+	},
+	{
+		uid: "36fa6c6e",
+		type: "loot",
+		table: 5
+	}]
+}

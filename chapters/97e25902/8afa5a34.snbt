@@ -1,7 +1,7 @@
 {
 	title: "Apiary Assistance",
-	x: 4.5d,
-	y: 0.0d,
+	x: 3.5d,
+	y: -3.5d,
 	description: "Harnessing Nature's Helpers",
 	text: [
 		"Utilize the assistance of bees to enhance the growth of your crops.",

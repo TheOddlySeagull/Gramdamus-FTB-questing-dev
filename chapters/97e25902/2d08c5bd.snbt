@@ -1,0 +1,47 @@
+{
+	title: "The Crop Farm",
+	x: 0.0d,
+	y: 2.0d,
+	description: "Embrace Agricultural Automation",
+	text: [
+		"Welcome, farmer! To truly embrace the bounties of nature, you'll need to master the art of automated crop farming.",
+		"The Crop Farm is a versatile block that handles planting and harvesting of various crops. Let's delve into its functionalities:",
+		"",
+		"- Planting and Harvesting: The Crop Farm efficiently manages all vanilla crops, sugarcane, mushrooms, and cactus. Adjust the bounds in the GUI to ensure the proper setup for specific crops.",
+		"",
+		"- Inventory Management: Harvested resources are stored in the upper inventory area. Seeds for planting should be carefully placed in the middle inventory area. The lower section is exclusively reserved for Bonemeal, enhancing crop growth after tilling and planting.",
+		"",
+		"- Enhancements: Utilize enchanted tools, quality tools upgrades, and bounds adjustments for optimal efficiency. Experiment with the potential of enchanted tools to enhance your farming experience.",
+		"",
+		"Remember, a farmer NPC or torque energy is essential for the farm to function seamlessly.",
+		"Make sure you have the necessary components in place."
+	],
+	dependencies: [
+		"2ac25553"
+	],
+	tasks: [{
+		uid: "6a89e204",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:crop_farm"
+		}]
+	}],
+	rewards: [{
+		uid: "0a6462d2",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "18839c56",
+		type: "loot",
+		table: 5
+	},
+	{
+		uid: "fe2e4428",
+		type: "random",
+		table: 4
+	}]
+}

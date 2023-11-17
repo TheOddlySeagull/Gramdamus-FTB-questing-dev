@@ -1,7 +1,7 @@
 {
 	title: "My First Field",
-	x: 3.0d,
-	y: 0.0d,
+	x: 2.5d,
+	y: -2.5d,
 	description: "Preparing the Ground",
 	text: [
 		"It's time to establish your first agricultural field. Gather a variety of 80 seeds to sow the beginnings of your farm.",
