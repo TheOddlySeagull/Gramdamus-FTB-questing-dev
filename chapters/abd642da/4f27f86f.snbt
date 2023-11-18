@@ -1,0 +1,52 @@
+{
+	title: "Bounty Hunter Initiation",
+	x: -7.0d,
+	y: -1.0d,
+	description: "Unleash the Power of Bountiful Riches",
+	text: [
+		"Welcome to Gramdamus, where wealth flows through the art of trade and valor. In your quest to amass Gramdamus coins, you'll discover the thrilling world of bounties. These elusive opportunities are bestowed upon you through the mystical County Board blocks found in the realm.",
+		"",
+		"- Bounty Board Revelation: At spawn, the heart of Gramdamus, two County Board blocks await your attention. These enigmatic blocks, acquired from the Bountiful Minecraft mod, hold the key to your fortune. Right-click on them to unveil a GUI resembling a chest, revealing randomly generated bounties on paper-like items.",
+		"",
+		"- Bounty Diversity: Bounties come in various forms, ranging from gathering specific items to vanquishing mobs that threaten the peace of Gramdamus. The bounty board regenerates over time, presenting a dynamic array of challenges and rewards.",
+		"",
+		"- Rarity and Generosity: Embrace the thrill of the hunt as you explore different rarities of bounties. The rarest bounties may not demand rarer items but offer a more substantial payment when fulfilled. The choice is yours – select bounties that align with your strengths and goals.",
+		"",
+		"- Bounty Board Acquisition: Your initiation into the Bounty Hunter guild begins by completing this quest. Gather three bounties, ignoring NBT, and claim your well-deserved reward, including your very own Bounty Board block.",
+		"",
+		"Additional Information: Two Bounty Boards can be found at spawn, waiting for eager adventurers to embark on the path of bounty hunting."
+	],
+	tasks: [{
+		uid: "0fd5543e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bountiful:bounty"
+		}],
+		count: 3L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "50f27317",
+		type: "xp",
+		xp: 150
+	},
+	{
+		uid: "2094ba98",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bountiful:bountyboarditem"
+		}
+	},
+	{
+		uid: "03224cef",
+		type: "loot",
+		table: 6
+	}]
+}
