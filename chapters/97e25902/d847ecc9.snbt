@@ -1,0 +1,51 @@
+{
+	title: "Apples Abound: Orchard Expansion",
+	x: 8.0d,
+	y: -1.5d,
+	description: "Branching Out for Flavor",
+	text: [
+		"Embrace the diversity of apple varieties as you embark on an orchard expansion journey.",
+		"Acquire saplings from the Growthcraft and Pam's Harvestcraft mods to diversify your apple collection."
+	],
+	dependencies: [
+		"749aacdf"
+	],
+	tasks: [{
+		uid: "735d2657",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:apple_sapling"
+		}],
+		count: 3L
+	},
+	{
+		uid: "7b849d61",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "growthcraft_apples:apple_sapling"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "5bed7839",
+		type: "xp",
+		xp: 150
+	},
+	{
+		uid: "04ef9bdb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:apple"
+		},
+		count: 16
+	}]
+}

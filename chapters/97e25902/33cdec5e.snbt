@@ -1,7 +1,7 @@
 {
 	title: "Garden Collection",
 	x: 1.5d,
-	y: 0.0d,
+	y: -1.5d,
 	description: "Harvesting Nature's Diversity",
 	text: [
 		"Explore the varied climates of Gramdamus to collect unique Gardens, each yielding a distinctive array of crops.",

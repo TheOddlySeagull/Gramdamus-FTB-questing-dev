@@ -1,0 +1,69 @@
+{
+	title: "Orchard Exploration",
+	x: 6.5d,
+	y: 0.0d,
+	description: "Discover the Fruits of Nature",
+	text: [
+		"Embark on a journey to explore the rich variety of fruit trees scattered across the land.",
+		"Gather different fruit ore dictionary items and familiarize yourself with the diverse world of orchards.",
+		"Don't forget to pluck a crisp vanilla apple from the branches of a tree."
+	],
+	dependencies: [
+		"2ac25553"
+	],
+	tasks: [{
+		uid: "aae1142d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "treeSapling",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any treeSapling"
+				}
+			}
+		}],
+		count: 8L
+	},
+	{
+		uid: "479ec381",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "listAllfruit",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any listAllfruit"
+				}
+			}
+		}],
+		count: 8L
+	},
+	{
+		uid: "c982f9f7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:apple"
+		}]
+	}],
+	rewards: [{
+		uid: "81708a99",
+		type: "xp",
+		xp: 200
+	}]
+}

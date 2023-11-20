@@ -1,0 +1,47 @@
+{
+	title: "The Aquatic Harvest",
+	x: 0.0d,
+	y: 10.0d,
+	description: "Navigating the Waters of Automated Fishing",
+	text: [
+		"Dive into the world of aquatic abundance with the Fish Farm, a revolutionary block that provides an automated means for catching fish of all vanilla types, including the elusive ink. Explore the depths of this automated fishing marvel:",
+		"",
+		"- Versatile Fishing: The Fish Farm excels at catching all vanilla types of fish and ink. Customize your fishing experience through the \"Other\" GUI, where you can enable or disable the catching of fish and/or ink. Tailor the farm to your specific aquatic needs.",
+		"",
+		"- Hydrodynamic Efficiency: Experience faster production by ensuring more water in and below the bounds of the Fish Farm. The aquatic environment directly impacts the speed and efficiency of your fish and ink production.",
+		"",
+		"- Customizable Options: Navigate the waters of automation by toggling the catching of fish and ink through the \"Other\" GUI. This flexibility allows you to adapt the Fish Farm to your specific requirements.",
+		"",
+		"- Optimization Mastery: Utilize enchanted tools, quality tool upgrades, and bounds adjustments to maximize the efficiency of your Fish Farm. Enhance your fishing prowess with these advanced tools.",
+		"",
+		"To create an aquatic haven, harness the power of enchanted tools, quality tool upgrades, and strategic bounds adjustments."
+	],
+	dependencies: [
+		"5dcf8876"
+	],
+	tasks: [{
+		uid: "a33fb81c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:fish_farm"
+		}]
+	}],
+	rewards: [{
+		uid: "672f8eea",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "35bdc7cc",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "e31e649b",
+		type: "loot",
+		table: 5
+	}]
+}

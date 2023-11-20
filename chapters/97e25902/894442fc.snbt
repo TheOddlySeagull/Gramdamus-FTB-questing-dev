@@ -1,0 +1,45 @@
+{
+	title: "Fungal Exploration - Part I",
+	x: 2.0d,
+	y: 2.0d,
+	description: "Vanilla Mushrooms",
+	text: [
+		"Begin your exploration of Gramdamus' fungal diversity by collecting the foundational mushrooms.",
+		"Seek out the iconic red and brown mushrooms native to the Overworld."
+	],
+	dependencies: [
+		"2ac25553"
+	],
+	tasks: [{
+		uid: "0827cdcf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:brown_mushroom"
+		}],
+		count: 16L
+	},
+	{
+		uid: "4d38085c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:red_mushroom"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "33bef08b",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "72536d10",
+		type: "random",
+		table: 3
+	}]
+}

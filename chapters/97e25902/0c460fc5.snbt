@@ -1,0 +1,82 @@
+{
+	title: "Mycelial Bounty",
+	x: 2.5d,
+	y: 5.0d,
+	description: "Mushroom Cultivation Unleashed",
+	text: [
+		"Unearth the secrets of successful mushroom farming by obtaining the versatile Mycelium and Podzol blocks.",
+		"These unique soils create the ideal conditions for mushroom growth,",
+		"enabling you to cultivate a wide variety without the need for specific environmental conditions."
+	],
+	dependencies: [
+		"f55b89ad"
+	],
+	tasks: [{
+		uid: "b1ed597c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:mycelium"
+		}],
+		count: 16L
+	},
+	{
+		uid: "3c26ccaa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dirt",
+			Damage: 2s
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "dc66c900",
+		type: "xp",
+		xp: 150
+	},
+	{
+		uid: "68b7b525",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dye",
+			Damage: 15s
+		},
+		count: 32
+	},
+	{
+		uid: "ab1a93d6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 1s
+		}
+	},
+	{
+		uid: "4cf6de6b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:grass",
+			Damage: 8s
+		},
+		count: 16
+	},
+	{
+		uid: "5dc373f8",
+		type: "loot",
+		table: 3
+	}]
+}

@@ -1,0 +1,82 @@
+{
+	title: "Fungal Exploration - Part II",
+	x: 2.5d,
+	y: 3.0d,
+	description: "Biomes O Plenty Fungi",
+	text: [
+		"Delve deeper into Gramdamus' biomes and unearth the diversity of mushrooms that Biomes O Plenty has to offer.",
+		"Hunt for mushrooms unique to specific biomes."
+	],
+	dependencies: [
+		"894442fc"
+	],
+	tasks: [{
+		uid: "c7d67b61",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:mushroom",
+			Damage: 4s
+		}],
+		count: 8L
+	},
+	{
+		uid: "45c3260a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:mushroom"
+		}],
+		count: 8L
+	},
+	{
+		uid: "08e7df2f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:mushroom",
+			Damage: 1s
+		}],
+		count: 8L
+	},
+	{
+		uid: "2a51c10b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:mushroom",
+			Damage: 2s
+		}],
+		count: 8L
+	},
+	{
+		uid: "efb7722a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:mushroom",
+			Damage: 3s
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "00ea5c9f",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "a83e5ed8",
+		type: "random",
+		table: 3
+	}]
+}

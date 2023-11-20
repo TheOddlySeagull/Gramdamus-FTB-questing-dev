@@ -1,0 +1,46 @@
+{
+	title: "The Fruitful Harvest",
+	x: 0.0d,
+	y: 4.0d,
+	description: "Orchestrating Diversity in Agriculture",
+	text: [
+		"Dive into the vibrant world of fruits with the Fruit Farm, a block that brings forth a bountiful harvest of cocoa beans,",
+		"Harvestcraft's fruits, and Rustic's tomatoes & chili. Delve into the intricacies of this automated wonder:",
+		"",
+		"- Versatile Harvesting: The Fruit Farm excels at planting and harvesting cocoa beans from vanilla and a variety of modded fruits. Customize the harvesting area by adjusting the bounds in the 'Bounds' adjustment GUI.",
+		"",
+		"- Inventory Management: Witness the magic as harvested resources find their place in the upper inventory area. Ensure a continuous cycle of growth by placing seeds in the middle inventory area. The lower section, dedicated to Bonemeal, accelerates the growth of your diverse crops.",
+		"",
+		"- Optimization Techniques: Explore the possibilities with enchanted tools, quality tool upgrades, and bounds adjustments. Unleash the full potential of your farm with these enhancements.",
+		"",
+		"To make this orchard flourish, make use of enchanted tools, quality tool upgrades, and finely tuned bounds."
+	],
+	dependencies: [
+		"2d08c5bd"
+	],
+	tasks: [{
+		uid: "5b7f2fa7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:fruit_farm"
+		}]
+	}],
+	rewards: [{
+		uid: "61bc377d",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "ac56abea",
+		type: "loot",
+		table: 5
+	},
+	{
+		uid: "80cafdaa",
+		type: "random",
+		table: 4
+	}]
+}

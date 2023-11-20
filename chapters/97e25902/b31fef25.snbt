@@ -1,0 +1,51 @@
+{
+	title: "Bountiful Orchard: Biomes O' Plenty Edition",
+	x: 10.0d,
+	y: 1.5d,
+	description: "Harvesting Nature's Bounty",
+	text: [
+		"Delve into the diverse landscapes of the Biomes O' Plenty world and discover the unique fruits that adorn its trees.",
+		"Seek out pears hanging from the branches of willows and mangroves, pluck persimmons from the autumn-kissed trees, and gather the succulent peaches that grace the jacaranda."
+	],
+	dependencies: [
+		"c4b8f8da"
+	],
+	tasks: [{
+		uid: "bd5e2ebb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:pear"
+		}],
+		count: 3L
+	},
+	{
+		uid: "f3240e5c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:persimmon"
+		}],
+		count: 3L
+	},
+	{
+		uid: "20b9ad69",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:peach"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "7e969397",
+		type: "xp",
+		xp: 150
+	}]
+}

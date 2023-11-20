@@ -1,0 +1,56 @@
+{
+	title: "Bamboo Bounty",
+	x: 6.5d,
+	y: -2.0d,
+	description: "Discover the Green Gold",
+	text: [
+		"Venture into the lush wilderness and seek out the Bamboo biome.",
+		"In this verdant paradise, you'll find the valuable Bamboo sapling from Biomes O' Plenty.",
+		"Harvest this fast-growing plant to unlock a world of crafting possibilities.",
+		"",
+		"Locate a Biomes O' Plenty Bamboo Sapling, and bring it back to your farm.",
+		"Plant it in a suitable location, and witness the growth of this green gold."
+	],
+	dependencies: [
+		"749aacdf"
+	],
+	tasks: [{
+		uid: "67306700",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:sapling_0",
+			Damage: 2s
+		}],
+		count: 8L
+	},
+	{
+		uid: "9451b267",
+		type: "biome",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "growthcraft_bamboo:bamboo_stick"
+		},
+		biome: "biomesoplenty:bamboo_forest"
+	}],
+	rewards: [{
+		uid: "95dd1c90",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "growthcraft_bamboo:bamboo_shoot"
+		},
+		count: 16
+	},
+	{
+		uid: "be50628f",
+		type: "xp",
+		xp: 300
+	}]
+}

@@ -1,0 +1,48 @@
+{
+	title: "Fungal Exploration - Part III",
+	x: 2.0d,
+	y: 4.0d,
+	description: "Medicinal Mushroom Hunt",
+	text: [
+		"Embark on a quest to uncover the healing wonders of Gramdamus' mushrooms.",
+		"The Rustic mod introduces unique medicinal fungi with distinct properties.",
+		"Seek out the elusive Deathstalk Mushroom and the ethereal Mooncap Mushroom to unlock the secrets of their medicinal potential.",
+		"These medicinal mushrooms can be cultivated by planting their respective mushrooms on suitable soil.",
+		"Once collected, explore the potential alchemical wonders they offer through the distillation process."
+	],
+	dependencies: [
+		"70bef74b"
+	],
+	tasks: [{
+		uid: "0e9fa44d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:deathstalk_mushroom"
+		}],
+		count: 16L
+	},
+	{
+		uid: "31aa9aa6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:mooncap_mushroom"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "78058689",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "be5f70f8",
+		type: "random",
+		table: 3
+	}]
+}

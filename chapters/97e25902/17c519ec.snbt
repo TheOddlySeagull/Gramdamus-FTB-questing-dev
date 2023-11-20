@@ -1,0 +1,47 @@
+{
+	title: "The Sylvan Symphony",
+	x: 0.0d,
+	y: 6.0d,
+	description: "Mastering Automated Arboreal Alchemy",
+	text: [
+		"Embark on a journey to master the art of automated tree farming with the Tree Farm. This marvel of technology plants saplings and harvests logs from fully grown trees. Unravel the secrets of this arboreal automation:",
+		"",
+		"- Versatile Planting and Harvesting: The Tree Farm handles the planting and harvesting of saplings and logs, allowing you to customize the blocks through the 'Bounds' adjustment GUI. Tailor the harvesting area to your liking for efficient resource gathering.",
+		"",
+		"- Inventory Harmony: Witness the seamless transfer of harvested logs to the upper inventory area. Ensure the perpetuity of your arboreal domain by placing saplings in the middle inventory area. The lower section, dedicated to Bonemeal, expedites the growth of saplings after planting.",
+		"",
+		"- Player Customization: Take control of where your Tree Farm plants saplings by utilizing the Bounds GUI. Click the Red squares to turn them Black, preventing the Tree Farm from planting in those designated areas.",
+		"",
+		"- Optimization Mastery: Experiment with enchanted tools, quality tool upgrades, and bounds adjustments to elevate your tree farming experience.",
+		"",
+		"To customize your tree farm according to your vision, use the Bounds GUI strategically."
+	],
+	dependencies: [
+		"3e3a2c7b"
+	],
+	tasks: [{
+		uid: "3986766f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:tree_farm"
+		}]
+	}],
+	rewards: [{
+		uid: "65202ca6",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "24a19410",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "005fd42d",
+		type: "loot",
+		table: 5
+	}]
+}

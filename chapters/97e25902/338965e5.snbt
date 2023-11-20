@@ -1,0 +1,68 @@
+{
+	title: "A Squeeze of Essence: Rustic Apples",
+	x: 10.0d,
+	y: -1.5d,
+	description: "Seeds from the Press",
+	text: [
+		"Delve into the art of extraction as you aim to cultivate apple saplings from the Rustic mod.",
+		"Employ the ancient technique of using a Crushing Tub to turn apples into juice, extracting seeds in the process.",
+		"Plant these apple seeds to witness the growth of unique apple saplings."
+	],
+	dependencies: [
+		"d847ecc9",
+		"c4b8f8da"
+	],
+	tasks: [{
+		uid: "c62aa9a2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:apple_seeds"
+		}],
+		count: 8L
+	},
+	{
+		uid: "9c877cb6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:crushing_tub"
+		}]
+	}],
+	rewards: [{
+		uid: "7d79651e",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "4bbabb71",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:fluid_bottle",
+			tag: {
+				Fluid: {
+					FluidName: "applejuice",
+					Amount: 1000
+				}
+			}
+		}
+	},
+	{
+		uid: "7be09671",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		},
+		count: 5
+	}]
+}
