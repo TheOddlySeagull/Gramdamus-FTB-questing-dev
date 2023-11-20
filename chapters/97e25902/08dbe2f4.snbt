@@ -7,8 +7,8 @@
 		id: "growthcraft_grapes:grape",
 		Damage: 14s
 	},
-	x: -11.5d,
-	y: -3.0d,
+	x: 6.5d,
+	y: 2.5d,
 	description: "Cultivating the Vineyards",
 	text: [
 		" Gramdamus is a land of vineyards, where the Growthcraft mod reigns supreme.",

@@ -1,0 +1,30 @@
+{
+	title: "Marketplace of Everchanging Wares",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "ancientwarfarevehicle:spawner",
+		tag: {
+			spawnData: {
+				level: 0
+			}
+		},
+		Damage: 17s
+	},
+	x: -6.0d,
+	y: 0.0d,
+	description: "Where the winds of trade bring a new tide",
+	text: [
+		"Welcome to the heart of Gramdamus, where the Marketplace of Everchanging Wares stands as a testament to the ebb and flow of commerce.",
+		"This dynamic market transforms its appearance regularly, mirroring the diverse needs and desires of our thriving community.",
+		"From bustling stalls to anchored ships, the marketplace showcases the creativity and trade acumen of our players.",
+		"The trades within are suggested by you, the denizens of Gramdamus, ensuring that each visit unveils new treasures and opportunities.",
+		"Embark on a journey through the ever-shifting aisles and discover the richness that our medieval world has to offer."
+	],
+	tasks: [{
+		uid: "f52cd64b",
+		type: "checkmark",
+		title: "Marketplace of Everchanging Wares"
+	}]
+}
