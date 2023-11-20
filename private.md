@@ -36,7 +36,7 @@ Mod List:
 
 
 
-I'm looking for assistance with the following:
-For each quest, please provide a title, subtitle, and description. Suggestions for rewards are also appreciated.
+For each quest, please provide a title, subtitle, and description. Suggestions for rewards are also appreciated. Rewards can varry from Reward Table, to items, XP, and coins.
 
 Note: In challenge quests, players can earn currency (coins). The conversion rate is 10 copper = 1 bronze, 10 bronze = 1 silver, 10 silver = 1 gold, and 64 gold = 1 legendary.
+The coins are valuabmle, a vanilla diamond would be worth a silver coin. Except challenges or hard quests, avoid going above 3 to 4 bronze coin reward.
