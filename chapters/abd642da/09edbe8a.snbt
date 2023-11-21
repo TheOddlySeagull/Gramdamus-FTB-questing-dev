@@ -7,46 +7,6 @@
 		"Your first task is to craft research books and research tables to dive into these unique research systems."
 	],
 	tasks: [{
-		uid: "2bcffa74",
-		type: "item",
-		title: "Craft Minefantasy Reforged Research Book",
-		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minefantasyreforged:research_book"
-		}],
-		consume_items: false,
-		ignore_damage: true,
-		ignore_nbt: 1b
-	},
-	{
-		uid: "3739bb28",
-		type: "item",
-		title: "Craft Ancient Warfare Research Book",
-		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfare:research_book"
-		}],
-		consume_items: false,
-		ignore_damage: true,
-		ignore_nbt: 1b
-	},
-	{
-		uid: "6fa4f570",
-		type: "item",
-		title: "Prepare Research Tables",
-		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minefantasyreforged:research_bench"
-		}],
-		consume_items: false
-	},
-	{
 		uid: "58ecabda",
 		type: "item",
 		items: [{
@@ -54,6 +14,16 @@
 				"customnpcs:itemscripteddata": {}
 			},
 			id: "ancientwarfare:research_station"
+		}]
+	},
+	{
+		uid: "109693b8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:research_bench"
 		}]
 	}],
 	rewards: [{
@@ -110,5 +80,25 @@
 			id: "minecraft:paper"
 		},
 		count: 10
+	},
+	{
+		uid: "442e1eda",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfare:research_book"
+		}
+	},
+	{
+		uid: "97b7fe82",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:research_book"
+		}
 	}]
 }
