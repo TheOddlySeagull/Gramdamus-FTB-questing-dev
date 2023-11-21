@@ -14,7 +14,10 @@
 		uid: "5cbd4465",
 		type: "item",
 		items: [{
-			item: "harvestcraft:crayfishrawitem"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:crayfishrawitem"
 		}]
 	}],
 	rewards: [{
@@ -25,6 +28,11 @@
 	{
 		uid: "d6392082",
 		type: "item",
-		item: "gramdamuscontent:coin"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
 	}]
 }

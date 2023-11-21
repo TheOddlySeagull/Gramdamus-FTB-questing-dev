@@ -15,7 +15,10 @@
 		uid: "26e65ce2",
 		type: "item",
 		items: [{
-			item: "harvestcraft:grouperrawitem"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:grouperrawitem"
 		}]
 	}],
 	rewards: [{
@@ -26,6 +29,11 @@
 	{
 		uid: "80350c68",
 		type: "item",
-		item: "gramdamuscontent:coin"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
 	}]
 }

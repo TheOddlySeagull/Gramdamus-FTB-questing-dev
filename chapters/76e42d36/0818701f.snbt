@@ -14,7 +14,10 @@
 		uid: "748c5b4d",
 		type: "item",
 		items: [{
-			item: "exoticbirds:cassowary_egg"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:cassowary_egg"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -22,6 +25,11 @@
 	rewards: [{
 		uid: "207dcc07",
 		type: "item",
-		item: "gramdamuscontent:coin"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
 	}]
 }

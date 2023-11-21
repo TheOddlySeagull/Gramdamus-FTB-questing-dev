@@ -33,13 +33,22 @@
 		uid: "bdeac395",
 		type: "item",
 		items: [{
-			item: "exoticbirds:phoenix_egg"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:phoenix_egg"
 		}]
 	}],
 	rewards: [{
 		uid: "e1fd2645",
 		type: "item",
-		item: "gramdamuscontent:coin 1 2",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 2s
+		},
 		count: 3
 	}]
 }

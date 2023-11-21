@@ -1,7 +1,7 @@
 {
 	title: "Work Orders and Shifts",
 	x: -4.0d,
-	y: -1.0d,
+	y: -0.5d,
 	description: "Empowering Your Workforce for Optimal Productivity",
 	text: [
 		"In the realm of empire-building, efficiency is key. This quest introduces you to the powerful tools of Work Orders and Shifts, enabling you to optimize your NPC workforce like never before:",
@@ -19,7 +19,10 @@
 		uid: "b4e4cdff",
 		type: "item",
 		items: [{
-			item: "ancientwarfarenpc:work_order"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarenpc:work_order"
 		}]
 	}],
 	rewards: [{

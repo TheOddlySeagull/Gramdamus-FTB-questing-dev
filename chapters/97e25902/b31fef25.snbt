@@ -14,7 +14,10 @@
 		uid: "bd5e2ebb",
 		type: "item",
 		items: [{
-			item: "biomesoplenty:pear"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:pear"
 		}],
 		count: 3L
 	},
@@ -22,7 +25,10 @@
 		uid: "f3240e5c",
 		type: "item",
 		items: [{
-			item: "biomesoplenty:persimmon"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:persimmon"
 		}],
 		count: 3L
 	},
@@ -30,7 +36,10 @@
 		uid: "20b9ad69",
 		type: "item",
 		items: [{
-			item: "biomesoplenty:peach"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:peach"
 		}],
 		count: 3L
 	}],

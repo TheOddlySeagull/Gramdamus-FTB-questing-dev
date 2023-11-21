@@ -17,7 +17,10 @@
 		uid: "7896cab1",
 		type: "item",
 		items: [{
-			item: "exoticbirds:toucan_egg"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:toucan_egg"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -25,6 +28,11 @@
 	rewards: [{
 		uid: "ead4993e",
 		type: "item",
-		item: "gramdamuscontent:coin"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
 	}]
 }

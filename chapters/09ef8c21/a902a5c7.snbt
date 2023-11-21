@@ -1,7 +1,7 @@
 {
 	title: "Trade Mastery: Unleashing the Trader NPC",
 	x: -2.0d,
-	y: 2.0d,
+	y: -0.5d,
 	description: "Crafting Lucrative Routes and Prosperous Trades",
 	text: [
 		"Embark on the path of trade mastery as you delve into the intricacies of Trade Orders, an essential tool in the hands of the esteemed Trader NPCs. This quest unfolds the secrets of configuring Trade Orders for optimal route planning, trades, and restocking:",
@@ -24,7 +24,10 @@
 		uid: "1199d112",
 		type: "item",
 		items: [{
-			item: "ancientwarfarenpc:trade_order"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarenpc:trade_order"
 		}]
 	}],
 	rewards: [{

@@ -14,7 +14,10 @@
 		uid: "f4976f44",
 		type: "item",
 		items: [{
-			item: "harvestcraft:fishtrapbaititem"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:fishtrapbaititem"
 		}]
 	}],
 	rewards: [{
@@ -25,22 +28,42 @@
 	{
 		uid: "b78821ea",
 		type: "item",
-		item: "harvestcraft:clamrawitem"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:clamrawitem"
+		}
 	},
 	{
 		uid: "3b43012b",
 		type: "item",
-		item: "harvestcraft:oysterrawitem"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:oysterrawitem"
+		}
 	},
 	{
 		uid: "bbd73547",
 		type: "item",
-		item: "harvestcraft:calamarirawitem"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:calamarirawitem"
+		}
 	},
 	{
 		uid: "a72f6071",
 		type: "item",
-		item: "minecraft:fish"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:fish"
+		}
 	},
 	{
 		uid: "f7c42a7a",

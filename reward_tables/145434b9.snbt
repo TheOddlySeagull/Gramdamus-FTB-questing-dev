@@ -2,34 +2,78 @@
 	title: "NPC order ressources",
 	loot_size: 5,
 	rewards: [{
-		item: "minecraft:paper",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:paper"
+		},
 		weight: 30
 	},
 	{
-		item: "quark:root_dye 1 1",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "quark:root_dye",
+			Damage: 1s
+		},
 		weight: 20
 	},
 	{
-		item: "minecraft:dye 1 7",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dye",
+			Damage: 7s
+		},
 		weight: 20
 	},
 	{
-		item: "minecraft:dye 1 8",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dye",
+			Damage: 8s
+		},
 		weight: 20
 	},
 	{
-		item: "biomesoplenty:green_dye",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:green_dye"
+		},
 		weight: 20
 	},
 	{
-		item: "minecraft:dye 1 1",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dye",
+			Damage: 1s
+		},
 		weight: 20
 	},
 	{
-		item: "minecraft:gold_nugget",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:gold_nugget"
+		},
 		weight: 5
 	},
 	{
-		item: "minecraft:gold_ingot"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:gold_ingot"
+		}
 	}]
 }

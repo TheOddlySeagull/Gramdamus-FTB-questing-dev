@@ -1,6 +1,6 @@
 {
 	title: "Understanding Your Workforce",
-	x: -8.5d,
+	x: -10.0d,
 	y: 0.5d,
 	description: "Unveiling the Potential of Player Owned NPCs",
 	text: [
@@ -30,7 +30,12 @@
 	rewards: [{
 		uid: "7c184bbf",
 		type: "item",
-		item: "ancientwarfarenpc:food_bundle",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarenpc:food_bundle"
+		},
 		count: 4
 	},
 	{
@@ -41,7 +46,12 @@
 	{
 		uid: "c2daffb4",
 		type: "item",
-		item: "gramdamuscontent:coin",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		},
 		count: 3
 	}]
 }

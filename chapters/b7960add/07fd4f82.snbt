@@ -5,6 +5,9 @@
 		uid: "53730263",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
 			id: "minefantasyreforged:standard_pick",
 			tag: {
 				mf_custom_materials: {

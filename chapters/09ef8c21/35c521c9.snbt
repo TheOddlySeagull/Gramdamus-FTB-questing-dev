@@ -1,0 +1,36 @@
+{
+	title: "Commerce in Motion: Trader Specialization",
+	x: -1.0d,
+	y: -2.0d,
+	description: "Configuring Mobile Bartering for Prosperity",
+	text: [
+		"Embark on a quest to become a master of mobile bartering with Traders, player-configurable merchants equipped with Backpacks and Trade Orders for dynamic and lucrative trade routes in Gramdamus:",
+		"",
+		"- Trader Overview: Learn the fundamentals of Traders, mobile bartering NPCs that facilitate trade and commerce in the realm. Understand the key components required for effective trading operations.",
+		"",
+		"- Backpack Mastery: Equip the Trader with a Backpack in the main hand for convenient item storage. Explore the different types of Backpacks available and understand how their variations impact item storage for traded goods and proceeds.",
+		"",
+		"- Trade Orders Setup: Equip the Trader with a Trade Orders item in the Orders slot. Delve into the details of Trade Orders, assigning withdrawal and deposit points for traded goods, specifying available trades, defining the trade route, and setting the duration for each stop. Comprehend the significance of well-configured Trade Orders for a successful and dynamic trading experience.",
+		"",
+		"- Shelter Seeker: Understand the Trader's behavior during adverse weather conditions or at night. Learn how Traders seek shelter at the nearest waypoint specified in their Trade Orders item, ensuring their safety and well-being.",
+		"",
+		"- Advanced Options: As an owner of the NPC, right-click the Trader to open its usual GUI. Explore the \"Adv. Options\" button to view the trades of a Trader as another player would see it, gaining insights into the available goods and opportunities."
+	],
+	dependencies: [
+		"a902a5c7"
+	],
+	tasks: [{
+		uid: "a5c5ac3e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarenpc:npc_spawner",
+			tag: {
+				npcSubtype: "",
+				npcType: "trader"
+			}
+		}]
+	}]
+}

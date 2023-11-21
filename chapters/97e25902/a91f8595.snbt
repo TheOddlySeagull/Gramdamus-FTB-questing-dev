@@ -13,6 +13,9 @@
 		uid: "9f4def81",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
 			id: "minefantasyreforged:standard_hoe",
 			tag: {
 				mf_custom_materials: {
@@ -28,7 +31,10 @@
 		uid: "45b79e3f",
 		type: "item",
 		items: [{
-			item: "growthcraft_rice:cultivator"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "growthcraft_rice:cultivator"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -36,7 +42,12 @@
 	rewards: [{
 		uid: "74ebbb8b",
 		type: "item",
-		item: "minecraft:dirt",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dirt"
+		},
 		count: 80
 	},
 	{

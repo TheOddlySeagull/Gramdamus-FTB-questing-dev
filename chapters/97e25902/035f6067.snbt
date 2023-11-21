@@ -23,7 +23,10 @@
 		uid: "a33fb81c",
 		type: "item",
 		items: [{
-			item: "ancientwarfareautomation:fish_farm"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:fish_farm"
 		}]
 	}],
 	rewards: [{

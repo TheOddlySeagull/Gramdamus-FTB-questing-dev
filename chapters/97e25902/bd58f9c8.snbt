@@ -15,7 +15,10 @@
 		uid: "d5af3442",
 		type: "item",
 		items: [{
-			item: "minefantasyreforged:stone_hoe"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:stone_hoe"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -24,7 +27,10 @@
 		uid: "569f0218",
 		type: "item",
 		items: [{
-			item: "minefantasyreforged:stone_knife"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:stone_knife"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -37,25 +43,45 @@
 	{
 		uid: "7b10d672",
 		type: "item",
-		item: "minecraft:wheat_seeds",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:wheat_seeds"
+		},
 		count: 10
 	},
 	{
 		uid: "ba12fd6a",
 		type: "item",
-		item: "rustic:tomato_seeds",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:tomato_seeds"
+		},
 		count: 10
 	},
 	{
 		uid: "f325c6a8",
 		type: "item",
-		item: "rustic:chili_pepper_seeds",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:chili_pepper_seeds"
+		},
 		count: 10
 	},
 	{
 		uid: "43831257",
 		type: "item",
-		item: "growthcraft_rice:rice",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "growthcraft_rice:rice"
+		},
 		count: 10
 	},
 	{

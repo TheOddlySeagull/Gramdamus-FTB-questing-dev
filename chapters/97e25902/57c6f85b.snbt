@@ -14,7 +14,10 @@
 		uid: "76b9d871",
 		type: "item",
 		items: [{
-			item: "harvestcraft:groundtrap"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:groundtrap"
 		}]
 	}],
 	rewards: [{

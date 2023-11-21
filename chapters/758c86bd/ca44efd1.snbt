@@ -21,7 +21,10 @@
 		uid: "42f4acfe",
 		type: "item",
 		items: [{
-			item: "rustic:cabinet"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:cabinet"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -29,7 +32,12 @@
 	rewards: [{
 		uid: "96ba030e",
 		type: "item",
-		item: "minecraft:chest",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:chest"
+		},
 		count: 10
 	}]
 }

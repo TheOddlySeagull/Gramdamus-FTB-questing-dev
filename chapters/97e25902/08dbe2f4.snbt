@@ -26,33 +26,55 @@
 		uid: "e0e6fff7",
 		type: "item",
 		items: [{
-			item: "growthcraft_grapes:grape_seed 1 10"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "growthcraft_grapes:grape_seed",
+			Damage: 10s
 		}]
 	},
 	{
 		uid: "0ca528d5",
 		type: "item",
 		items: [{
-			item: "growthcraft_grapes:grape_seed 1 13"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "growthcraft_grapes:grape_seed",
+			Damage: 13s
 		}]
 	},
 	{
 		uid: "e431ae05",
 		type: "item",
 		items: [{
-			item: "growthcraft_grapes:grape_seed 1 14"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "growthcraft_grapes:grape_seed",
+			Damage: 14s
 		}]
 	}],
 	rewards: [{
 		uid: "9474dd05",
 		type: "item",
-		item: "minecraft:fence",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:fence"
+		},
 		count: 4
 	},
 	{
 		uid: "7267d0bc",
 		type: "item",
-		item: "growthcraft:rope",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "growthcraft:rope"
+		},
 		count: 7
 	}]
 }

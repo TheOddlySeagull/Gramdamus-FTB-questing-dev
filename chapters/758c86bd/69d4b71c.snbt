@@ -20,18 +20,32 @@
 		uid: "fb4294ff",
 		type: "item",
 		items: [{
-			item: "storagedrawers:controllerslave"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:controllerslave"
 		}]
 	}],
 	rewards: [{
 		uid: "12495ed6",
 		type: "item",
-		item: "storagedrawers:compdrawers",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:compdrawers"
+		},
 		count: 2
 	},
 	{
 		uid: "19eab66e",
 		type: "item",
-		item: "gramdamuscontent:coin 1 1"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 1s
+		}
 	}]
 }

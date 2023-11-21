@@ -20,12 +20,21 @@
 		uid: "849621a5",
 		type: "item",
 		items: [{
-			item: "minefantasyreforged:dragon_heart"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:dragon_heart"
 		}]
 	}],
 	rewards: [{
 		uid: "17242976",
 		type: "item",
-		item: "gramdamuscontent:coin 1 3"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 3s
+		}
 	}]
 }

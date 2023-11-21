@@ -17,6 +17,9 @@
 		uid: "058951b1",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
 			id: "ancientwarfarenpc:npc_spawner",
 			tag: {
 				npcSubtype: "miner",
@@ -24,5 +27,20 @@
 			}
 		}],
 		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "57029f41",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "ceef2e31",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:quarry"
+		}
 	}]
 }

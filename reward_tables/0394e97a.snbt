@@ -2,19 +2,40 @@
 	title: "Basic Farming Kit",
 	loot_size: 1,
 	rewards: [{
-		item: "minefantasyreforged:stone_hoe",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:stone_hoe"
+		},
 		weight: 2
 	},
 	{
-		item: "minecraft:bucket"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bucket"
+		}
 	},
 	{
-		item: "minecraft:dye 1 15",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dye",
+			Damage: 15s
+		},
 		count: 5,
 		weight: 5
 	},
 	{
-		item: "rustic:fertile_soil",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:fertile_soil"
+		},
 		count: 3,
 		weight: 5
 	}]

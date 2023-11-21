@@ -17,6 +17,9 @@
 		uid: "23b5a30a",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
 			id: "ancientwarfarenpc:npc_spawner",
 			tag: {
 				npcSubtype: "lumberjack",
@@ -24,5 +27,20 @@
 			}
 		}],
 		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "53155977",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "24f71a3f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:tree_farm"
+		}
 	}]
 }

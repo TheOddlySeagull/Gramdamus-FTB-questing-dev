@@ -16,6 +16,9 @@
 		uid: "320d7f72",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
 			id: "ancientwarfarevehicle:spawner",
 			tag: {
 				spawnData: {
@@ -28,7 +31,12 @@
 	rewards: [{
 		uid: "8f10824e",
 		type: "item",
-		item: "ancientwarfarevehicle:rough_iron",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarevehicle:rough_iron"
+		},
 		count: 2
 	}]
 }

@@ -18,6 +18,11 @@
 	rewards: [{
 		uid: "0a15be02",
 		type: "item",
-		item: "solcarrot:food_book"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "solcarrot:food_book"
+		}
 	}]
 }

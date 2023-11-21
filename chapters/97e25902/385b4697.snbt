@@ -29,21 +29,30 @@
 		uid: "a57d4ebf",
 		type: "item",
 		items: [{
-			item: "harvestcraft:fruitbaititem"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:fruitbaititem"
 		}]
 	},
 	{
 		uid: "49665b98",
 		type: "item",
 		items: [{
-			item: "harvestcraft:grainbaititem"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:grainbaititem"
 		}]
 	},
 	{
 		uid: "18dafb8c",
 		type: "item",
 		items: [{
-			item: "harvestcraft:veggiebaititem"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:veggiebaititem"
 		}]
 	}],
 	rewards: [{

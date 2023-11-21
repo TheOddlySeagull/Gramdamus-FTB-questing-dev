@@ -17,6 +17,9 @@
 		uid: "8edc3e32",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
 			id: "ancientwarfarenpc:npc_spawner",
 			tag: {
 				npcSubtype: "craftsman",
@@ -24,5 +27,20 @@
 			}
 		}],
 		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "f633f7ff",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "c764a5dd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:auto_crafting"
+		}
 	}]
 }

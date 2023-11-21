@@ -24,7 +24,10 @@
 		uid: "ac0d4e29",
 		type: "item",
 		items: [{
-			item: "exoticbirds:pelican_egg"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:pelican_egg"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -32,12 +35,22 @@
 	rewards: [{
 		uid: "f9b3328b",
 		type: "item",
-		item: "gramdamuscontent:coin"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
 	},
 	{
 		uid: "5a436f71",
 		type: "item",
-		item: "minecraft:cooked_fish",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:cooked_fish"
+		},
 		count: 5
 	}]
 }

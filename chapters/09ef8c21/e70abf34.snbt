@@ -1,0 +1,55 @@
+{
+	title: "Master of Tactics: Commander Specialization",
+	x: -4.0d,
+	y: 3.5d,
+	description: "Leading with Authority to Secure Gramdamus",
+	text: [
+		"Embark on a quest to transform your Combat NPCs into influential Commanders, leading with authority and providing strategic advantages to your forces. Learn how to equip them with Command Batons for enhanced damage and armor boosts:",
+		"",
+		"- Command Baton Empowerment: Equip a Combat NPC with a Command Baton of any material level to transform them into a Commander.",
+		"",
+		"- Tactical Mastery: A Commander's effectiveness is linked to the Command Baton they wield. Learn how to select and equip Command Batons to enhance the damage output of your Commander and provide boosts in damage and armor to nearby same-team NPCs.",
+		"",
+		"- Team Boosts: Explore the strategic advantage provided by the Commander. Understand how they boost the damage and armor of nearby same-team NPCs, creating a formidable force under their command.",
+		"",
+		"- Dual Wielding Tactics: Discover the advanced technique of dual wielding by placing another Command Baton in the Commander's offhand. Understand that the offhand baton will deal half as much damage as the baton in the main hand. Explore the strategic advantages of dual wielding in combat situations."
+	],
+	dependencies: [
+		"a15483c5"
+	],
+	tasks: [{
+		uid: "58782cea",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarenpc:npc_spawner",
+			tag: {
+				npcSubtype: "commander",
+				npcType: "combat"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "f06b654a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarenpc:iron_command_baton",
+			tag: {
+				mode: {
+					mode: "clear"
+				}
+			}
+		}
+	},
+	{
+		uid: "fcf9faca",
+		type: "xp",
+		xp: 100
+	}]
+}

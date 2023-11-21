@@ -17,7 +17,10 @@
 		uid: "0e9fa44d",
 		type: "item",
 		items: [{
-			item: "rustic:deathstalk_mushroom"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:deathstalk_mushroom"
 		}],
 		count: 16L
 	},
@@ -25,7 +28,10 @@
 		uid: "31aa9aa6",
 		type: "item",
 		items: [{
-			item: "rustic:mooncap_mushroom"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:mooncap_mushroom"
 		}],
 		count: 16L
 	}],

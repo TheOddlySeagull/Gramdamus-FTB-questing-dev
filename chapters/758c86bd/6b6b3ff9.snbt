@@ -20,14 +20,22 @@
 		uid: "49994fb1",
 		type: "item",
 		items: [{
-			item: "rustic:liquid_barrel"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:liquid_barrel"
 		}],
 		count: 8L
 	}],
 	rewards: [{
 		uid: "04f5c857",
 		type: "item",
-		item: "rustic:liquid_barrel",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:liquid_barrel"
+		},
 		count: 2
 	}]
 }

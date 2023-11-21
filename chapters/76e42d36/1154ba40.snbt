@@ -20,7 +20,10 @@
 		uid: "52ed66b0",
 		type: "item",
 		items: [{
-			item: "exoticbirds:woodpecker_egg"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:woodpecker_egg"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -28,6 +31,11 @@
 	rewards: [{
 		uid: "778b71d5",
 		type: "item",
-		item: "gramdamuscontent:coin"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
 	}]
 }

@@ -16,12 +16,21 @@
 		uid: "818ef16c",
 		type: "item",
 		items: [{
-			item: "exoticbirds:peacock_feather"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:peacock_feather"
 		}]
 	}],
 	rewards: [{
 		uid: "f7f2dcd9",
 		type: "item",
-		item: "gramdamuscontent:coin 1 2"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 2s
+		}
 	}]
 }

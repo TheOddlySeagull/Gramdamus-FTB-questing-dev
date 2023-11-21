@@ -24,11 +24,35 @@
 		uid: "265c621e",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
 			id: "ancientwarfarenpc:npc_spawner",
 			tag: {
 				npcSubtype: "",
 				npcType: "combat"
 			}
-		}]
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "78f5204c",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "7d1cd035",
+		type: "loot",
+		table: 10
+	},
+	{
+		uid: "7ef5ca6c",
+		type: "loot",
+		table: 6
+	},
+	{
+		uid: "4da0513a",
+		type: "xp",
+		xp: 100
 	}]
 }

@@ -1,7 +1,7 @@
 {
 	title: "Mastering Defense: Combat Orders",
 	x: -4.0d,
-	y: 2.0d,
+	y: 1.5d,
 	description: "Forging a Tactical Frontier for Your Empire",
 	text: [
 		"In the pursuit of empire-building, safeguarding your territories is of utmost importance. This quest introduces you to the art of Combat Orders, enabling you to strategically deploy your Combat NPCs for effective defense:",
@@ -20,7 +20,10 @@
 		uid: "bd02d2a9",
 		type: "item",
 		items: [{
-			item: "ancientwarfarenpc:combat_order"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarenpc:combat_order"
 		}]
 	}],
 	rewards: [{

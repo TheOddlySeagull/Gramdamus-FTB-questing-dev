@@ -11,7 +11,10 @@
 		type: "item",
 		title: "Craft Minefantasy Reforged Research Book",
 		items: [{
-			item: "minefantasyreforged:research_book"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:research_book"
 		}],
 		consume_items: false,
 		ignore_damage: true,
@@ -22,7 +25,10 @@
 		type: "item",
 		title: "Craft Ancient Warfare Research Book",
 		items: [{
-			item: "ancientwarfare:research_book"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfare:research_book"
 		}],
 		consume_items: false,
 		ignore_damage: true,
@@ -33,7 +39,10 @@
 		type: "item",
 		title: "Prepare Research Tables",
 		items: [{
-			item: "minefantasyreforged:research_bench"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:research_bench"
 		}],
 		consume_items: false
 	},
@@ -41,37 +50,65 @@
 		uid: "58ecabda",
 		type: "item",
 		items: [{
-			item: "ancientwarfare:research_station"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfare:research_station"
 		}]
 	}],
 	rewards: [{
 		uid: "675a4811",
 		type: "item",
-		item: "minecraft:stick",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stick"
+		},
 		count: 10
 	},
 	{
 		uid: "38a3fde6",
 		type: "item",
-		item: "minecraft:string",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:string"
+		},
 		count: 10
 	},
 	{
 		uid: "2383b2aa",
 		type: "item",
-		item: "minefantasyreforged:sharp_rock",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:sharp_rock"
+		},
 		count: 10
 	},
 	{
 		uid: "0e94bfa2",
 		type: "item",
-		item: "minecraft:torch",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:torch"
+		},
 		count: 10
 	},
 	{
 		uid: "87af0c7c",
 		type: "item",
-		item: "minecraft:paper",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:paper"
+		},
 		count: 10
 	}]
 }

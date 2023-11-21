@@ -17,6 +17,9 @@
 		uid: "7bfcab5f",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
 			id: "ancientwarfarenpc:npc_spawner",
 			tag: {
 				npcSubtype: "researcher",
@@ -24,5 +27,20 @@
 			}
 		}],
 		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "7d8fb8ff",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "77a9a176",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfare:iron_quill"
+		}
 	}]
 }

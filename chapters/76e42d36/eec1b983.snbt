@@ -19,12 +19,20 @@
 		uid: "5568d135",
 		type: "item",
 		items: [{
-			item: "exoticbirds:phoenix_feather"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:phoenix_feather"
 		}]
 	}],
 	rewards: [{
 		uid: "45954517",
 		type: "item",
-		item: "xreliquary:phoenix_down"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "xreliquary:phoenix_down"
+		}
 	}]
 }

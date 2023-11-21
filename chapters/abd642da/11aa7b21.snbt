@@ -18,13 +18,19 @@
 		uid: "44a54b4d",
 		type: "item",
 		items: [{
-			item: "ancientwarfarenpc:town_hall"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarenpc:town_hall"
 		}]
 	}],
 	rewards: [{
 		uid: "37279c22",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
 			id: "ancientwarfarenpc:wooden_command_baton",
 			tag: {
 				mode: {
@@ -36,13 +42,21 @@
 	{
 		uid: "6248c93e",
 		type: "item",
-		item: "ancientwarfarenpc:food_bundle",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarenpc:food_bundle"
+		},
 		count: 4
 	},
 	{
 		uid: "4907fcfb",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
 			id: "ancientwarfarenpc:coin",
 			tag: {
 				metal: "copper"
@@ -53,7 +67,12 @@
 	{
 		uid: "65627d94",
 		type: "item",
-		item: "gramdamuscontent:coin",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		},
 		count: 10
 	}]
 }
