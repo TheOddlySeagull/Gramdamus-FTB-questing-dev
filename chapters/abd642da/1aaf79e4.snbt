@@ -1,7 +1,7 @@
 {
 	title: "Explore the Food and Tastes of This World",
-	x: -11.5d,
-	y: -1.0d,
+	x: -9.5d,
+	y: -2.0d,
 	description: "A Gastronomic Adventure",
 	text: [
 		" Welcome to the diverse and bountiful world of Gramdamus! Here, the \"Spice of Life: Carrot Edition\" mod awaits to tantalize your taste buds.",
@@ -10,9 +10,6 @@
 		"What's more, the health benefits of these foods increase the more you discover.",
 		"",
 		"Your quest is to savor the flavors of this beautiful land by seeking out and tasting all the crops and fruits it has to offer."
-	],
-	dependencies: [
-		"53c9ae17"
 	],
 	tasks: [{
 		uid: "491986df",

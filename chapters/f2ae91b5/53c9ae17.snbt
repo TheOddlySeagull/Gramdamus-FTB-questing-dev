@@ -1,8 +1,13 @@
 {
 	title: "The Gifts Of Nature",
-	icon: "biomesoplenty:berries",
-	x: -9.5d,
-	y: -2.0d,
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "biomesoplenty:berries"
+	},
+	x: -2.5d,
+	y: -1.0d,
 	description: "Embracing Nature's Bounty",
 	text: [
 		"As you set foot into the untamed world of Gramdamus, one of your initial challenges is securing sustenance.",
