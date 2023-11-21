@@ -14,20 +14,14 @@
 		uid: "d3c20f0b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "rustic:apiary"
+			item: "rustic:apiary"
 		}]
 	},
 	{
 		uid: "25ebb20c",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "rustic:bee"
+			item: "rustic:bee"
 		}]
 	}],
 	rewards: [{
@@ -38,22 +32,12 @@
 	{
 		uid: "e5a2dc33",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "rustic:bee"
-		},
+		item: "rustic:bee",
 		count: 5
 	},
 	{
 		uid: "ef0f7a86",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "rustic:apiary"
-		}
+		item: "rustic:apiary"
 	}]
 }

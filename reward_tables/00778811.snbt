@@ -2,50 +2,23 @@
 	title: "Machine Crafting Essentials",
 	loot_size: 1,
 	rewards: [{
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfare:component"
-		},
+		item: "ancientwarfare:component",
 		weight: 35
 	},
 	{
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfare:component",
-			Damage: 1s
-		},
+		item: "ancientwarfare:component 1 1",
 		weight: 25
 	},
 	{
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfare:component",
-			Damage: 2s
-		},
+		item: "ancientwarfare:component 1 2",
 		weight: 15
 	},
 	{
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:bucket"
-		},
+		item: "minecraft:bucket",
 		weight: 20
 	},
 	{
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfareautomation:worksite_upgrade"
-		},
+		item: "ancientwarfareautomation:worksite_upgrade",
 		weight: 5
 	}]
 }

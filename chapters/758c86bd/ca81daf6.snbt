@@ -23,10 +23,7 @@
 		uid: "8bd4a360",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "rustic:barrel"
+			item: "rustic:barrel"
 		}],
 		count: 8L
 	},
@@ -34,33 +31,20 @@
 		uid: "a3e3dadc",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "rustic:vase"
+			item: "rustic:vase"
 		}],
 		count: 8L
 	}],
 	rewards: [{
 		uid: "1573cdee",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "rustic:barrel"
-		},
+		item: "rustic:barrel",
 		count: 2
 	},
 	{
 		uid: "c3c5206b",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "rustic:vase"
-		},
+		item: "rustic:vase",
 		count: 2
 	}]
 }

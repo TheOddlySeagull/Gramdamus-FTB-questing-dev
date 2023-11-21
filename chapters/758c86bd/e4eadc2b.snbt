@@ -16,9 +16,6 @@
 		uid: "35a18b12",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "storagedrawers:basicdrawers",
 			tag: {
 				material: "oak"
@@ -30,9 +27,6 @@
 		uid: "0c2b4e75",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "storagedrawers:basicdrawers",
 			tag: {
 				material: "oak"
@@ -43,12 +37,6 @@
 	rewards: [{
 		uid: "085e661c",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "gramdamuscontent:coin",
-			Damage: 1s
-		}
+		item: "gramdamuscontent:coin 1 1"
 	}]
 }

@@ -1,9 +1,6 @@
 {
 	title: "Cultivating the Fields",
 	icon: {
-		ForgeCaps: {
-			"customnpcs:itemscripteddata": {}
-		},
 		id: "minefantasyreforged:standard_hoe",
 		tag: {
 			mf_custom_materials: {

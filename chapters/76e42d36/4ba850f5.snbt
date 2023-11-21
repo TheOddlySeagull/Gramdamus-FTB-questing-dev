@@ -21,10 +21,7 @@
 		uid: "34784a13",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "exoticbirds:magpie_egg"
+			item: "exoticbirds:magpie_egg"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -32,20 +29,12 @@
 	rewards: [{
 		uid: "a00f295b",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "gramdamuscontent:coin"
-		}
+		item: "gramdamuscontent:coin"
 	},
 	{
 		uid: "8edf0ad5",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "minefantasyreforged:metal_hunk",
 			tag: {
 				mf_custom_materials: {

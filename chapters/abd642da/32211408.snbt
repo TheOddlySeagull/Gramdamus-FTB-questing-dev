@@ -24,9 +24,17 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				Parent: {
+					data: "chest",
+					id: "ore"
+				}
 			},
-			id: "minecraft:chest"
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any chest"
+				}
+			}
 		}],
 		count: 2L,
 		ignore_damage: true,
@@ -35,12 +43,7 @@
 	rewards: [{
 		uid: "bfcb4971",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:chest"
-		},
+		item: "minecraft:chest",
 		count: 10
 	}]
 }

@@ -23,10 +23,7 @@
 		uid: "44bdc7aa",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfareautomation:animal_farm"
+			item: "ancientwarfareautomation:animal_farm"
 		}]
 	}],
 	rewards: [{
@@ -42,13 +39,7 @@
 	{
 		uid: "6b402f93",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "gramdamuscontent:coin",
-			Damage: 1s
-		}
+		item: "gramdamuscontent:coin 1 1"
 	},
 	{
 		uid: "36fa6c6e",

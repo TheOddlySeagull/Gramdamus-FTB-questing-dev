@@ -5,10 +5,7 @@
 		uid: "49fbfe21",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "harvestcraft:saucepanitem"
+			item: "harvestcraft:saucepanitem"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

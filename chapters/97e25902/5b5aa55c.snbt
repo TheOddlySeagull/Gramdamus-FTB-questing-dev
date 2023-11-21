@@ -15,10 +15,7 @@
 		uid: "a26acd52",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "harvestcraft:tunarawitem"
+			item: "harvestcraft:tunarawitem"
 		}]
 	}],
 	rewards: [{
@@ -29,11 +26,6 @@
 	{
 		uid: "0cd5d249",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "gramdamuscontent:coin"
-		}
+		item: "gramdamuscontent:coin"
 	}]
 }

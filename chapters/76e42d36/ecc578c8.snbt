@@ -1,11 +1,6 @@
 {
 	title: "Egg Collector's Triumph",
-	icon: {
-		ForgeCaps: {
-			"customnpcs:itemscripteddata": {}
-		},
-		id: "betteranimalsplus:golden_goose_egg"
-	},
+	icon: "betteranimalsplus:golden_goose_egg",
 	x: 13.5d,
 	y: -0.5d,
 	description: "A Nest of Diversity",
@@ -62,10 +57,7 @@
 		uid: "fde91ed9",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "betteranimalsplus:goose_egg"
+			item: "betteranimalsplus:goose_egg"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -73,22 +65,11 @@
 	rewards: [{
 		uid: "6b037cdd",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "betteranimalsplus:golden_goose_egg"
-		}
+		item: "betteranimalsplus:golden_goose_egg"
 	},
 	{
 		uid: "beae3f70",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "gramdamuscontent:coin",
-			Damage: 3s
-		}
+		item: "gramdamuscontent:coin 1 3"
 	}]
 }

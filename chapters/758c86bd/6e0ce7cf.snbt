@@ -20,31 +20,18 @@
 		uid: "08485d7e",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "storagedrawers:controller"
+			item: "storagedrawers:controller"
 		}]
 	}],
 	rewards: [{
 		uid: "1e1001fd",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:comparator"
-		},
+		item: "minecraft:comparator",
 		count: 2
 	},
 	{
 		uid: "8c8e4fe7",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:gold_ingot"
-		}
+		item: "minecraft:gold_ingot"
 	}]
 }

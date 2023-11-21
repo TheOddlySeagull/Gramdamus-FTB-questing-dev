@@ -2,39 +2,18 @@
 	title: "Farming Essentials",
 	loot_size: 16,
 	rewards: [{
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:dye",
-			Damage: 15s
-		},
+		item: "minecraft:dye 1 15",
 		weight: 4
 	},
 	{
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "exoticbirds:eggshell"
-		},
+		item: "exoticbirds:eggshell",
 		weight: 3
 	},
 	{
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "growthcraft:rope"
-		}
+		item: "growthcraft:rope"
 	},
 	{
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "rustic:crop_stake"
-		},
+		item: "rustic:crop_stake",
 		weight: 2
 	}]
 }

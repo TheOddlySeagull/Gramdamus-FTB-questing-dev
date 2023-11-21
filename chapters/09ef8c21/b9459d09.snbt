@@ -1,0 +1,33 @@
+{
+	title: "Unleashing the Worker NPC",
+	x: -5.5d,
+	y: -2.5d,
+	description: "Empowering Your Foundation with Skilled Labor",
+	text: [
+		"Welcome to the heart of your burgeoning empire — the Worker NPC. In this quest, you will discover the crucial role these industrious individuals play in the foundation of your realm:",
+		"",
+		"- Initialization of the Worker: The Worker NPC, a survival-spawned entity, stands as the foundation of your workforce. Equip them with a tool to assign them a job and grant them the ability to work at various Machines. Without a designated role, the Worker will do nothing more than consume your food.",
+		"",
+		"- Tool Empowerment: The key to unlocking the full potential of your Worker lies in the tool you provide. Equip them with appropriate tools to match their job and enhance their effectiveness. The material quality of the equipment directly contributes to the worker's efficiency and work output.",
+		"",
+		"- Nighttime and Rain Protocol: Workers, loyal to their tasks, automatically return to their home point at night or during rain. This ensures their safety and maintains the productivity of your empire.",
+		"",
+		"- Hostile Entity Alert: Should a Worker spot a hostile entity, they will broadcast an alert and move towards the nearest Town Hall or home point, attempting to evade the threat. If no Town Hall is present, or home point set, they will continue working like normal. Nearby NPCs may respond in various ways — Workers and Utility NPCs may flee, while Combat NPCs may move to attack the enemy."
+	],
+	dependencies: [
+		"b1108f55",
+		"3684804f"
+	],
+	tasks: [{
+		uid: "d0639736",
+		type: "item",
+		items: [{
+			id: "ancientwarfarenpc:npc_spawner",
+			tag: {
+				npcSubtype: "",
+				npcType: "worker"
+			}
+		}],
+		ignore_nbt: 2b
+	}]
+}

@@ -14,60 +14,42 @@
 		uid: "47fa7fd3",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "harvestcraft:aridgarden"
+			item: "harvestcraft:aridgarden"
 		}]
 	},
 	{
 		uid: "dd82b857",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "harvestcraft:soggygarden"
+			item: "harvestcraft:soggygarden"
 		}]
 	},
 	{
 		uid: "c9684b27",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "harvestcraft:tropicalgarden"
+			item: "harvestcraft:tropicalgarden"
 		}]
 	},
 	{
 		uid: "58fbb77f",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "harvestcraft:windygarden"
+			item: "harvestcraft:windygarden"
 		}]
 	},
 	{
 		uid: "afc48325",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "harvestcraft:shadedgarden"
+			item: "harvestcraft:shadedgarden"
 		}]
 	},
 	{
 		uid: "f44b0c45",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "harvestcraft:frostgarden"
+			item: "harvestcraft:frostgarden"
 		}]
 	}],
 	rewards: [{

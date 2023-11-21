@@ -19,8 +19,7 @@
 				Parent: {
 					data: "treeSapling",
 					id: "ore"
-				},
-				"customnpcs:itemscripteddata": {}
+				}
 			},
 			id: "itemfilters:filter",
 			tag: {
@@ -39,8 +38,7 @@
 				Parent: {
 					data: "listAllfruit",
 					id: "ore"
-				},
-				"customnpcs:itemscripteddata": {}
+				}
 			},
 			id: "itemfilters:filter",
 			tag: {
@@ -55,10 +53,7 @@
 		uid: "c982f9f7",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:apple"
+			item: "minecraft:apple"
 		}]
 	}],
 	rewards: [{

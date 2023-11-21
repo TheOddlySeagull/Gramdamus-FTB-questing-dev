@@ -24,12 +24,7 @@
 	{
 		uid: "da717867",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:wheat_seeds"
-		},
+		item: "minecraft:wheat_seeds",
 		count: 10
 	}]
 }

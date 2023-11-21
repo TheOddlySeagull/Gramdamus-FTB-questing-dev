@@ -18,71 +18,42 @@
 		uid: "a33571d2",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:wheat_seeds"
+			item: "minecraft:wheat_seeds"
 		}]
 	},
 	{
 		uid: "1497bc82",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "rustic:tomato_seeds"
+			item: "rustic:tomato_seeds"
 		}]
 	},
 	{
 		uid: "5658b2c3",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "rustic:chili_pepper_seeds"
+			item: "rustic:chili_pepper_seeds"
 		}]
 	}],
 	rewards: [{
 		uid: "bfefccd6",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minefantasyreforged:sharp_rock"
-		}
+		item: "minefantasyreforged:sharp_rock"
 	},
 	{
 		uid: "cad5317d",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minefantasyreforged:vine"
-		}
+		item: "minefantasyreforged:vine"
 	},
 	{
 		uid: "574ff9e6",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:stick"
-		},
+		item: "minecraft:stick",
 		count: 2
 	},
 	{
 		uid: "22e6221c",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:water_bucket"
-		}
+		item: "minecraft:water_bucket"
 	}]
 }

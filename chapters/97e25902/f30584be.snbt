@@ -15,10 +15,7 @@
 		uid: "c495afb4",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "harvestcraft:turtlerawitem"
+			item: "harvestcraft:turtlerawitem"
 		}]
 	}],
 	rewards: [{
@@ -29,11 +26,6 @@
 	{
 		uid: "b5d99f86",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "gramdamuscontent:coin"
-		}
+		item: "gramdamuscontent:coin"
 	}]
 }

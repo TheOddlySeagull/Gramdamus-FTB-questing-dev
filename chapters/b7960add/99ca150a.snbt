@@ -9,10 +9,7 @@
 		uid: "d46994fc",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minefantasyreforged:stone_pick"
+			item: "minefantasyreforged:stone_pick"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -19,71 +19,38 @@
 		uid: "802b5aaa",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "storagedrawers:upgrade_template"
+			item: "storagedrawers:upgrade_template"
 		}]
 	}],
 	rewards: [{
 		uid: "918e7972",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "storagedrawers:upgrade_template"
-		},
+		item: "storagedrawers:upgrade_template",
 		count: 4
 	},
 	{
 		uid: "28e6ce8c",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:obsidian"
-		}
+		item: "minecraft:obsidian"
 	},
 	{
 		uid: "77f81572",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:iron_ingot"
-		}
+		item: "minecraft:iron_ingot"
 	},
 	{
 		uid: "fb87b05d",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:gold_ingot"
-		}
+		item: "minecraft:gold_ingot"
 	},
 	{
 		uid: "71d77bb0",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:diamond"
-		}
+		item: "minecraft:diamond"
 	},
 	{
 		uid: "665dad56",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:emerald"
-		}
+		item: "minecraft:emerald"
 	}]
 }

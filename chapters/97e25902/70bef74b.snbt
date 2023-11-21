@@ -14,11 +14,7 @@
 		uid: "c7d67b61",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "biomesoplenty:mushroom",
-			Damage: 4s
+			item: "biomesoplenty:mushroom 1 4"
 		}],
 		count: 8L
 	},
@@ -26,10 +22,7 @@
 		uid: "45c3260a",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "biomesoplenty:mushroom"
+			item: "biomesoplenty:mushroom"
 		}],
 		count: 8L
 	},
@@ -37,11 +30,7 @@
 		uid: "08e7df2f",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "biomesoplenty:mushroom",
-			Damage: 1s
+			item: "biomesoplenty:mushroom 1 1"
 		}],
 		count: 8L
 	},
@@ -49,11 +38,7 @@
 		uid: "2a51c10b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "biomesoplenty:mushroom",
-			Damage: 2s
+			item: "biomesoplenty:mushroom 1 2"
 		}],
 		count: 8L
 	},
@@ -61,11 +46,7 @@
 		uid: "efb7722a",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "biomesoplenty:mushroom",
-			Damage: 3s
+			item: "biomesoplenty:mushroom 1 3"
 		}],
 		count: 8L
 	}],

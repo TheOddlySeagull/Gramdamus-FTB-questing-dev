@@ -1,0 +1,28 @@
+{
+	title: "Harvesting the Timber: Lumberjack Specialization",
+	x: -6.5d,
+	y: -3.5d,
+	description: "Cultivating the Woodlands for Resourceful Gains",
+	text: [
+		"Embark on a quest to harness the timber resources of your empire by transforming your Worker into a specialized Lumberjack. Follow these steps to cultivate the woodlands and enhance the resource output of your medieval realm:",
+		"",
+		"- Axe Empowerment: To specialize a Worker into a Lumberjack, equip them with an axe of any material level placed in the main hand.",
+		"",
+		"- Tree Farm Expertise: A Lumberjack's primary domain is the Tree Farm Machine. Armed with an axe, they excel at planting saplings and harvesting logs from grown trees. This specialization ensures a steady supply of timber for your empire's construction and crafting needs."
+	],
+	dependencies: [
+		"b9459d09"
+	],
+	tasks: [{
+		uid: "23b5a30a",
+		type: "item",
+		items: [{
+			id: "ancientwarfarenpc:npc_spawner",
+			tag: {
+				npcSubtype: "lumberjack",
+				npcType: "worker"
+			}
+		}],
+		ignore_nbt: 2b
+	}]
+}

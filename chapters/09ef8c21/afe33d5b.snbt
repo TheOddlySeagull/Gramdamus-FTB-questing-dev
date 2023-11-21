@@ -1,0 +1,28 @@
+{
+	title: "Unveiling Knowledge: Researcher Specialization",
+	x: -4.0d,
+	y: -2.5d,
+	description: "Nurturing Wisdom at the Research Bench",
+	text: [
+		"Embark on a quest to unlock the potential of wisdom within your empire by transforming your Worker into a specialized Researcher. Follow these steps to enable continuous research progress without player interaction:",
+		"",
+		"- Quill Empowerment: To specialize a Worker into a Researcher, equip them with a quill of any material level in the main-hand slot.",
+		"",
+		"- Dedicated Research Bench: A Researcher's domain is the Research Bench. Armed with a quill, they excel at facilitating continual research progress without requiring direct player interaction. This specialization becomes particularly valuable when configured to handle researches with greater power consumption."
+	],
+	dependencies: [
+		"b9459d09"
+	],
+	tasks: [{
+		uid: "7bfcab5f",
+		type: "item",
+		items: [{
+			id: "ancientwarfarenpc:npc_spawner",
+			tag: {
+				npcSubtype: "researcher",
+				npcType: "worker"
+			}
+		}],
+		ignore_nbt: 2b
+	}]
+}

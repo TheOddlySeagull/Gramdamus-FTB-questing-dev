@@ -22,10 +22,7 @@
 		uid: "5b7f2fa7",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfareautomation:fruit_farm"
+			item: "ancientwarfareautomation:fruit_farm"
 		}]
 	}],
 	rewards: [{

@@ -14,10 +14,7 @@
 		uid: "6784d2e3",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "harvestcraft:anchovyrawitem"
+			item: "harvestcraft:anchovyrawitem"
 		}]
 	}],
 	rewards: [{
@@ -28,11 +25,6 @@
 	{
 		uid: "d3bd0a75",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "gramdamuscontent:coin"
-		}
+		item: "gramdamuscontent:coin"
 	}]
 }

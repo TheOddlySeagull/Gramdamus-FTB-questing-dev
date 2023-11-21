@@ -20,11 +20,6 @@
 	rewards: [{
 		uid: "313b48ef",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "exoticbirds:bird_book"
-		}
+		item: "exoticbirds:bird_book"
 	}]
 }

@@ -16,9 +16,6 @@
 		uid: "9d01beab",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "ancientwarfarevehicle:spawner",
 			tag: {
 				spawnData: {
@@ -31,12 +28,7 @@
 	rewards: [{
 		uid: "cc9daa6a",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfarevehicle:treated_wood"
-		},
+		item: "ancientwarfarevehicle:treated_wood",
 		count: 3
 	}]
 }

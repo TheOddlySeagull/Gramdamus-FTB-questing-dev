@@ -1,11 +1,6 @@
 {
 	title: "Wings of Fantasy",
-	icon: {
-		ForgeCaps: {
-			"customnpcs:itemscripteddata": {}
-		},
-		id: "minecraft:egg"
-	},
+	icon: "minecraft:egg",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

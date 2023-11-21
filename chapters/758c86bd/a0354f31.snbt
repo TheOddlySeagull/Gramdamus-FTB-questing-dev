@@ -15,23 +15,13 @@
 		uid: "739dc499",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfare:backpack",
-			Damage: 2s
+			item: "ancientwarfare:backpack 1 2"
 		}],
 		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "e2509879",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfare:backpack",
-			Damage: 2s
-		}
+		item: "ancientwarfare:backpack 1 2"
 	}]
 }

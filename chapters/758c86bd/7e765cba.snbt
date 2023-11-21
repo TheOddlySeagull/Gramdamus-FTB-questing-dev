@@ -26,11 +26,7 @@
 		uid: "71b32efc",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "storagedrawers:upgrade_storage",
-			Damage: 4s
+			item: "storagedrawers:upgrade_storage 1 4"
 		}],
 		count: 7L
 	},
@@ -38,65 +34,39 @@
 		uid: "6fedb313",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "storagedrawers:customdrawers"
+			item: "storagedrawers:customdrawers"
 		}]
 	},
 	{
 		uid: "63085b9a",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ebwizardry:gilded_wood",
-			Damage: 5s
+			item: "ebwizardry:gilded_wood 1 5"
 		}]
 	},
 	{
 		uid: "048fcfa0",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "metallurgy:gold_engraved_block"
+			item: "metallurgy:gold_engraved_block"
 		}]
 	},
 	{
 		uid: "dae73a57",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "quark:quilted_wool",
-			Damage: 14s
+			item: "quark:quilted_wool 1 14"
 		}]
 	}],
 	rewards: [{
 		uid: "4e5889c9",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "gramdamuscontent:coin",
-			Damage: 3s
-		}
+		item: "gramdamuscontent:coin 1 3"
 	},
 	{
 		uid: "805d4437",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "storagedrawers:upgrade_storage",
-			Damage: 4s
-		},
+		item: "storagedrawers:upgrade_storage 1 4",
 		count: 3
 	}]
 }

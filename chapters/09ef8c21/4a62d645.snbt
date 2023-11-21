@@ -1,0 +1,44 @@
+{
+	title: "Mastering Logistics: Routing Orders",
+	x: -2.0d,
+	y: -1.0d,
+	description: "Crafting Efficient Trade Routes with Courier NPCs",
+	text: [
+		"In the intricate tapestry of empire logistics, Routing Orders play a pivotal role, especially in the hands of Courier NPCs. This quest unfolds the secrets of Routing Orders, allowing you to forge efficient trade routes and item transfers:",
+		"",
+		"- Routing Order Activation: Equip the Routing Order and add points to the route by holding the order in your hand and pressing the configured key while looking at the inventory you want to access. Pay careful attention to the side specificity of machine inventories.",
+		"",
+		"- Configuration Interface: Right-click the Routing Order to open a GUI where you can adjust the inventory side, specify items for transfer at each stop, and arrange the route-point ordering. Ensure you are looking at the correct side of the inventory when adding points to the order.",
+		"",
+		"- Inventory Side Adjustment: In the Routing Orders GUI, click the button labeled with the current side to change the target side. The selected side will cycle through the available options (North, South, East, West, Up, or Down).",
+		"",
+		"- Item Transfer Specification: Each point on the route allows a single type of item transfer. Add items to the filter bar by placing them as if it were a slot in a chest. You can specify quantities larger than a stack, and to decrease amounts, left-click with the item in your hand.",
+		"",
+		"- Route-Type Adjustment: Press the button labeled with the current transfer type to change the route-type. Available transfer types include various efficient item transfer options."
+	],
+	dependencies: [
+		"7ac84bc5"
+	],
+	tasks: [{
+		uid: "1be9c2fc",
+		type: "item",
+		items: [{
+			item: "ancientwarfarenpc:routing_order"
+		}]
+	}],
+	rewards: [{
+		uid: "27b5d26d",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "826ff29e",
+		type: "loot",
+		table: 7
+	},
+	{
+		uid: "25373402",
+		type: "loot",
+		table: 8
+	}]
+}

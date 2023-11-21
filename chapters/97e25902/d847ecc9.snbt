@@ -14,10 +14,7 @@
 		uid: "735d2657",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "harvestcraft:apple_sapling"
+			item: "harvestcraft:apple_sapling"
 		}],
 		count: 3L
 	},
@@ -25,10 +22,7 @@
 		uid: "7b849d61",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "growthcraft_apples:apple_sapling"
+			item: "growthcraft_apples:apple_sapling"
 		}],
 		count: 3L
 	}],
@@ -40,12 +34,7 @@
 	{
 		uid: "04ef9bdb",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:apple"
-		},
+		item: "minecraft:apple",
 		count: 16
 	}]
 }

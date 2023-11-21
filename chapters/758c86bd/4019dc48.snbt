@@ -34,11 +34,7 @@
 		uid: "b2782767",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfareautomation:warehouse_storage",
-			Damage: 2s
+			item: "ancientwarfareautomation:warehouse_storage 1 2"
 		}],
 		count: 1024L
 	},
@@ -46,31 +42,21 @@
 		uid: "acfdd927",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfareautomation:warehouse_crafting"
+			item: "ancientwarfareautomation:warehouse_crafting"
 		}]
 	},
 	{
 		uid: "9202fb14",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfareautomation:worksite_upgrade",
-			Damage: 1s
+			item: "ancientwarfareautomation:worksite_upgrade 1 1"
 		}]
 	},
 	{
 		uid: "10e98e01",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfareautomation:warehouse_stock_viewer"
+			item: "ancientwarfareautomation:warehouse_stock_viewer"
 		}],
 		count: 8L
 	},
@@ -78,22 +64,13 @@
 		uid: "da4f0743",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfareautomation:warehouse_control"
+			item: "ancientwarfareautomation:warehouse_control"
 		}]
 	}],
 	rewards: [{
 		uid: "961bb5c1",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "gramdamuscontent:coin",
-			Damage: 3s
-		},
+		item: "gramdamuscontent:coin 1 3",
 		count: 10
 	}]
 }

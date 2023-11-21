@@ -1,11 +1,6 @@
 {
 	title: "The Art of Storing",
-	icon: {
-		ForgeCaps: {
-			"customnpcs:itemscripteddata": {}
-		},
-		id: "minecraft:chest"
-	},
+	icon: "minecraft:chest",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

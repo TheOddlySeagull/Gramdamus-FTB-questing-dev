@@ -1,0 +1,28 @@
+{
+	title: "Delving into the Depths: Miner Specialization",
+	x: -4.5d,
+	y: -3.5d,
+	description: "Unearthing Riches from the Quarry Machine",
+	text: [
+		"Embark on a quest to tap into the depths of your empire's potential by transforming your Worker into a specialized Miner. Follow these steps to unearth valuable resources and enhance the wealth of your medieval realm:",
+		"",
+		"- Pickaxe Empowerment: To specialize a Worker into a Miner, equip them with a pickaxe of any material level placed in the main hand.",
+		"",
+		"- Quarry Mastery: A Miner's expertise lies in the Quarry Machine. Armed with a pickaxe, they excel at extracting valuable resources from the depths of the quarry. This specialization ensures a steady supply of ores and minerals for your empire's crafting and industrial needs."
+	],
+	dependencies: [
+		"b9459d09"
+	],
+	tasks: [{
+		uid: "058951b1",
+		type: "item",
+		items: [{
+			id: "ancientwarfarenpc:npc_spawner",
+			tag: {
+				npcSubtype: "miner",
+				npcType: "worker"
+			}
+		}],
+		ignore_nbt: 2b
+	}]
+}

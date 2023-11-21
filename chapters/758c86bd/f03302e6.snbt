@@ -17,32 +17,18 @@
 		uid: "d6c0cfa7",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfareautomation:worksite_upgrade"
+			item: "ancientwarfareautomation:worksite_upgrade"
 		}]
 	}],
 	rewards: [{
 		uid: "b1346eb0",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfareautomation:worksite_upgrade"
-		}
+		item: "ancientwarfareautomation:worksite_upgrade"
 	},
 	{
 		uid: "0de6be0a",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfare:component",
-			Damage: 1s
-		},
+		item: "ancientwarfare:component 1 1",
 		count: 2
 	}]
 }

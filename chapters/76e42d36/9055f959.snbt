@@ -20,10 +20,7 @@
 		uid: "e79c0aff",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "exoticbirds:roadrunner_egg"
+			item: "exoticbirds:roadrunner_egg"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -31,11 +28,6 @@
 	rewards: [{
 		uid: "01ddb523",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "gramdamuscontent:coin"
-		}
+		item: "gramdamuscontent:coin"
 	}]
 }

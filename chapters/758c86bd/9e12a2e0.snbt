@@ -24,21 +24,13 @@
 		uid: "ed812211",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfareautomation:warehouse_stock_viewer"
+			item: "ancientwarfareautomation:warehouse_stock_viewer"
 		}]
 	}],
 	rewards: [{
 		uid: "45ae1a83",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfareautomation:warehouse_stock_viewer"
-		},
+		item: "ancientwarfareautomation:warehouse_stock_viewer",
 		count: 3
 	}]
 }

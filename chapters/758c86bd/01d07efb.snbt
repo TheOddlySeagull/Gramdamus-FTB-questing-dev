@@ -21,9 +21,6 @@
 		uid: "980d5339",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "storagedrawers:basicdrawers",
 			tag: {
 				material: "oak"
@@ -35,9 +32,6 @@
 		uid: "8b6fe747",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "storagedrawers:basicdrawers",
 			tag: {
 				material: "spruce"
@@ -49,9 +43,6 @@
 		uid: "d18d21fb",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "storagedrawers:basicdrawers",
 			tag: {
 				material: "birch"
@@ -63,9 +54,6 @@
 		uid: "dc8c3cd4",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "storagedrawers:basicdrawers",
 			tag: {
 				material: "jungle"
@@ -77,9 +65,6 @@
 		uid: "7918c297",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "storagedrawers:basicdrawers",
 			tag: {
 				material: "acacia"
@@ -91,9 +76,6 @@
 		uid: "b45dd3c5",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "storagedrawers:basicdrawers",
 			tag: {
 				material: "dark_oak"
@@ -104,12 +86,7 @@
 	rewards: [{
 		uid: "0c10c24a",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:stick"
-		},
+		item: "minecraft:stick",
 		count: 20
 	}]
 }

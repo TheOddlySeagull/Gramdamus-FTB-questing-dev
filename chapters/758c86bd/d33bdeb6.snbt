@@ -19,30 +19,17 @@
 		uid: "b1529e4d",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "storagedrawers:compdrawers"
+			item: "storagedrawers:compdrawers"
 		}]
 	}],
 	rewards: [{
 		uid: "14258527",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:comparator"
-		}
+		item: "minecraft:comparator"
 	},
 	{
 		uid: "31932d4e",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:diamond"
-		}
+		item: "minecraft:diamond"
 	}]
 }

@@ -1,11 +1,6 @@
 {
 	title: "Rise to Power: From Vagrant to Emperor",
-	icon: {
-		ForgeCaps: {
-			"customnpcs:itemscripteddata": {}
-		},
-		id: "ancientwarfarenpc:town_hall"
-	},
+	icon: "ancientwarfarenpc:town_hall",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

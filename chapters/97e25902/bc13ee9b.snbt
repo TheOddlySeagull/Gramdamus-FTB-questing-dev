@@ -14,10 +14,7 @@
 		uid: "6448184a",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "harvestcraft:sardinerawitem"
+			item: "harvestcraft:sardinerawitem"
 		}]
 	}],
 	rewards: [{
@@ -28,11 +25,6 @@
 	{
 		uid: "f6e548f5",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "gramdamuscontent:coin"
-		}
+		item: "gramdamuscontent:coin"
 	}]
 }

@@ -1,0 +1,40 @@
+{
+	title: "Work Orders and Shifts",
+	x: -4.0d,
+	y: -1.0d,
+	description: "Empowering Your Workforce for Optimal Productivity",
+	text: [
+		"In the realm of empire-building, efficiency is key. This quest introduces you to the powerful tools of Work Orders and Shifts, enabling you to optimize your NPC workforce like never before:",
+		"",
+		"- Automatic Worksites: NPC Workers possess the innate ability to seek the nearest active worksite with tasks to perform. However, in the absence of such opportunities, they may wander aimlessly.",
+		"",
+		"- Manual Intervention with Work Orders: Take command of your NPC's tasks by utilizing Work Orders. To activate a Work Order, hold the configured key with the item in your hand while observing the machine you want the NPC to work on. This process can be repeated for multiple machines. Right-click to open the order and unveil a GUI with a comprehensive list of work points, their locations, and customizable work durations in seconds.",
+		"",
+		"- Work Order Configuration: Customize the work order list by adjusting the position of points with plus and minus signs. Set the minimum time for the worker to spend at each point, ensuring optimal productivity. The GUI also features options for NPC actions at each point and the ability to designate the NPC as part of the day or night shift."
+	],
+	dependencies: [
+		"7ac84bc5"
+	],
+	tasks: [{
+		uid: "b4e4cdff",
+		type: "item",
+		items: [{
+			item: "ancientwarfarenpc:work_order"
+		}]
+	}],
+	rewards: [{
+		uid: "c24abce5",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "7cdfc067",
+		type: "loot",
+		table: 7
+	},
+	{
+		uid: "f169c6c8",
+		type: "loot",
+		table: 8
+	}]
+}

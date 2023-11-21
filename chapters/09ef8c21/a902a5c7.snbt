@@ -1,0 +1,45 @@
+{
+	title: "Trade Mastery: Unleashing the Trader NPC",
+	x: -2.0d,
+	y: 2.0d,
+	description: "Crafting Lucrative Routes and Prosperous Trades",
+	text: [
+		"Embark on the path of trade mastery as you delve into the intricacies of Trade Orders, an essential tool in the hands of the esteemed Trader NPCs. This quest unfolds the secrets of configuring Trade Orders for optimal route planning, trades, and restocking:",
+		"",
+		"- Order Activation: Activate the Trade Order by holding it in your hand and clicking the configured key to add points to the route. For Deposit/Withdraw list adjustments in Restock, use the \"x\" key and the \"c\" key, respectively.",
+		"",
+		"- Configuration Interface: Right-click to open the Trade Order GUI, where you'll find three tabs along the top: Trade, Route, and Restock. These tabs unveil the diverse options for shaping the Trader NPC's behavior.",
+		"",
+		"- Trade Tab: In this tab, click \"Add New Trade\" to open two 3x3 grids. Place the items you want to sell in the right grid and their corresponding trade items in the left grid. Manipulate the order of trades with up, delete, and down buttons.",
+		"",
+		"- Route Tab: View and manipulate route points added by the \"z\" key. Adjust the order with up, delete, and down buttons. Utilize the upkeep checkbox for Trader actions after finishing at a point and set a delay time for the Trader to spend at each route point.",
+		"",
+		"- Restock Tab: Configure withdrawal and deposit points for trade-related items. Add items using the \"Add Deposit/Withdraw Entry\" button and place items in the filter slot. Customize the transfer type and use the delete button to remove item filters."
+	],
+	dependencies: [
+		"7ac84bc5",
+		"4a62d645"
+	],
+	tasks: [{
+		uid: "1199d112",
+		type: "item",
+		items: [{
+			item: "ancientwarfarenpc:trade_order"
+		}]
+	}],
+	rewards: [{
+		uid: "327fb889",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "52f8cc9f",
+		type: "loot",
+		table: 7
+	},
+	{
+		uid: "b31cffda",
+		type: "random",
+		table: 8
+	}]
+}

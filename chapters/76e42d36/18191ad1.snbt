@@ -19,10 +19,7 @@
 		uid: "e25a689c",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "exoticbirds:emperorpenguin_egg"
+			item: "exoticbirds:emperorpenguin_egg"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -30,11 +27,6 @@
 	rewards: [{
 		uid: "17ec91dc",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "gramdamuscontent:coin"
-		}
+		item: "gramdamuscontent:coin"
 	}]
 }

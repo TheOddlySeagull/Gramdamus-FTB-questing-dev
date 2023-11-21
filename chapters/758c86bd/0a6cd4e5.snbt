@@ -17,42 +17,24 @@
 		uid: "e571f36e",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "storagedrawers:upgrade_void"
+			item: "storagedrawers:upgrade_void"
 		}]
 	}],
 	rewards: [{
 		uid: "a22f54cf",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:redstone"
-		},
+		item: "minecraft:redstone",
 		count: 10
 	},
 	{
 		uid: "7be9c19a",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:obsidian"
-		},
+		item: "minecraft:obsidian",
 		count: 4
 	},
 	{
 		uid: "b6f1ae2d",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "storagedrawers:upgrade_one_stack"
-		}
+		item: "storagedrawers:upgrade_one_stack"
 	}]
 }

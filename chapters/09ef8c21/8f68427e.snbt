@@ -1,0 +1,41 @@
+{
+	title: "Mastering Defense: Combat Orders",
+	x: -4.0d,
+	y: 2.0d,
+	description: "Forging a Tactical Frontier for Your Empire",
+	text: [
+		"In the pursuit of empire-building, safeguarding your territories is of utmost importance. This quest introduces you to the art of Combat Orders, enabling you to strategically deploy your Combat NPCs for effective defense:",
+		"",
+		"- Activation of Combat Orders: Much like Work Orders, Combat Orders are activated by holding the order in your hand and pressing the configured key. This initiates the process of selecting points for your Combat NPCs to patrol.",
+		"",
+		"- Order Configuration Interface: Right-clicking with the Combat Order in hand opens a GUI akin to the Work Order. Here, you'll find the coordinates of selected points, with options to move them up or down in priority and remove points as needed.",
+		"",
+		"- NPC Deployment: Place the configured Combat Order in the Orders slot of a Combat NPC, and watch as it diligently patrols the specified points. A single point order can be employed to have the NPC guard that specific location."
+	],
+	dependencies: [
+		"7ac84bc5",
+		"3684804f"
+	],
+	tasks: [{
+		uid: "bd02d2a9",
+		type: "item",
+		items: [{
+			item: "ancientwarfarenpc:combat_order"
+		}]
+	}],
+	rewards: [{
+		uid: "c2b324a8",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "54bf54a5",
+		type: "loot",
+		table: 7
+	},
+	{
+		uid: "83104bc2",
+		type: "loot",
+		table: 8
+	}]
+}

@@ -1,12 +1,6 @@
 {
 	title: "Vintner's Aspiration",
-	icon: {
-		ForgeCaps: {
-			"customnpcs:itemscripteddata": {}
-		},
-		id: "growthcraft_grapes:grape",
-		Damage: 14s
-	},
+	icon: "growthcraft_grapes:grape 1 14",
 	x: -11.5d,
 	y: -3.0d,
 	description: "Cultivating the Vineyards",
@@ -26,55 +20,33 @@
 		uid: "e0e6fff7",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "growthcraft_grapes:grape_seed",
-			Damage: 10s
+			item: "growthcraft_grapes:grape_seed 1 10"
 		}]
 	},
 	{
 		uid: "0ca528d5",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "growthcraft_grapes:grape_seed",
-			Damage: 13s
+			item: "growthcraft_grapes:grape_seed 1 13"
 		}]
 	},
 	{
 		uid: "e431ae05",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "growthcraft_grapes:grape_seed",
-			Damage: 14s
+			item: "growthcraft_grapes:grape_seed 1 14"
 		}]
 	}],
 	rewards: [{
 		uid: "9474dd05",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:fence"
-		},
+		item: "minecraft:fence",
 		count: 4
 	},
 	{
 		uid: "7267d0bc",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "growthcraft:rope"
-		},
+		item: "growthcraft:rope",
 		count: 7
 	}]
 }

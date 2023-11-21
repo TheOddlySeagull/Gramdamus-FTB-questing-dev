@@ -16,21 +16,13 @@
 		uid: "d02e1df1",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "storagedrawers:upgrade_conversion"
+			item: "storagedrawers:upgrade_conversion"
 		}]
 	}],
 	rewards: [{
 		uid: "d61ca014",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:obsidian"
-		},
+		item: "minecraft:obsidian",
 		count: 4
 	}]
 }

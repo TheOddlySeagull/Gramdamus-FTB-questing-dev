@@ -14,21 +14,13 @@
 		uid: "06e08814",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "harvestcraft:bassrawitem"
+			item: "harvestcraft:bassrawitem"
 		}]
 	}],
 	rewards: [{
 		uid: "f38717a2",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "gramdamuscontent:coin"
-		}
+		item: "gramdamuscontent:coin"
 	},
 	{
 		uid: "221d591c",

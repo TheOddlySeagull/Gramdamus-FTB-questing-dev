@@ -14,10 +14,7 @@
 		uid: "89e1d102",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "rustic:ironberries"
+			item: "rustic:ironberries"
 		}],
 		count: 3L
 	},
@@ -25,10 +22,7 @@
 		uid: "c7bc66d2",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "rustic:olives"
+			item: "rustic:olives"
 		}],
 		count: 3L
 	}],

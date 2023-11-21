@@ -21,10 +21,7 @@
 		uid: "a5aae879",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "exoticbirds:ostrich_egg"
+			item: "exoticbirds:ostrich_egg"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -32,21 +29,11 @@
 	rewards: [{
 		uid: "9cc2c861",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "gramdamuscontent:coin"
-		}
+		item: "gramdamuscontent:coin"
 	},
 	{
 		uid: "6524af2f",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:saddle"
-		}
+		item: "minecraft:saddle"
 	}]
 }

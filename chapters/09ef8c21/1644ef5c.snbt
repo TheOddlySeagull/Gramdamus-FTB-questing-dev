@@ -1,0 +1,30 @@
+{
+	title: "Cultivating the Fields: Farmer Specialization",
+	x: -5.5d,
+	y: -4.0d,
+	description: "Nurturing the Growth of Agricultural Prowess",
+	text: [
+		"Embark on a journey to unlock the agricultural potential of your Worker NPCs by transforming them into skilled Farmers. Follow these steps to cultivate the fields of your burgeoning empire:",
+		"",
+		"- Hoe Empowerment: To specialize a Worker into a Farmer, equip them with a hoe of any material level placed in the main hand. Witness the magical transformation as the Worker's skin changes to the distinctive attire of a Farmer. If this visual change doesn't occur, reassess the equipment to ensure proper specialization.",
+		"",
+		"- Versatile Farming Roles: A Farmer's expertise spans across various farms, including Crop Farm, Fruit Farm, Animal Farm, and Fish Farm Machines. Their primary tool is the hoe, unlocking the ability to tend to crops, harvest fruits, care for animals, and manage fish farms.",
+		"",
+		"- Customization Freedom: While the main hand is reserved for the hoe, feel free to set up offhand, armor slots, and order slots in a manner that suits your preferences. This allows for personalized customization to enhance the Farmer's overall efficiency."
+	],
+	dependencies: [
+		"b9459d09"
+	],
+	tasks: [{
+		uid: "61f14cfb",
+		type: "item",
+		items: [{
+			id: "ancientwarfarenpc:npc_spawner",
+			tag: {
+				npcSubtype: "farmer",
+				npcType: "worker"
+			}
+		}],
+		ignore_nbt: 2b
+	}]
+}

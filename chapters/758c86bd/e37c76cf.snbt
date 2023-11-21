@@ -22,52 +22,32 @@
 		uid: "c4a23807",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "storagedrawers:upgrade_redstone"
+			item: "storagedrawers:upgrade_redstone"
 		}]
 	},
 	{
 		uid: "4caf0a9d",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "storagedrawers:upgrade_redstone",
-			Damage: 1s
+			item: "storagedrawers:upgrade_redstone 1 1"
 		}]
 	},
 	{
 		uid: "207b8851",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "storagedrawers:upgrade_redstone",
-			Damage: 2s
+			item: "storagedrawers:upgrade_redstone 1 2"
 		}]
 	}],
 	rewards: [{
 		uid: "9f488893",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "gramdamuscontent:coin",
-			Damage: 2s
-		}
+		item: "gramdamuscontent:coin 1 2"
 	},
 	{
 		uid: "8b234ec1",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "storagedrawers:basicdrawers",
 			tag: {
 				material: "oak"

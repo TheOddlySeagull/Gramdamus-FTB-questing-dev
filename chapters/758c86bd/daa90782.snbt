@@ -22,42 +22,25 @@
 		uid: "2cc93de8",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "storagedrawers:upgrade_status"
+			item: "storagedrawers:upgrade_status"
 		}]
 	},
 	{
 		uid: "8f244b07",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "storagedrawers:upgrade_status",
-			Damage: 1s
+			item: "storagedrawers:upgrade_status 1 1"
 		}]
 	}],
 	rewards: [{
 		uid: "48beead1",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:writable_book"
-		}
+		item: "minecraft:writable_book"
 	},
 	{
 		uid: "11e33d2e",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:gold_ingot"
-		},
+		item: "minecraft:gold_ingot",
 		count: 3
 	}]
 }

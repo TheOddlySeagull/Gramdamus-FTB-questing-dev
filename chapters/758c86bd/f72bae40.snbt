@@ -16,9 +16,6 @@
 		uid: "cb1636db",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "storagedrawers:basicdrawers",
 			tag: {
 				material: "oak"
@@ -29,9 +26,6 @@
 		uid: "b953599e",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "storagedrawers:basicdrawers",
 			tag: {
 				material: "oak"
@@ -42,23 +36,13 @@
 	{
 		uid: "d546c677",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:stick"
-		},
+		item: "minecraft:stick",
 		count: 16
 	},
 	{
 		uid: "d164390d",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:piston"
-		},
+		item: "minecraft:piston",
 		count: 2
 	}]
 }

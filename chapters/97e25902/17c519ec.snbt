@@ -23,10 +23,7 @@
 		uid: "3986766f",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfareautomation:tree_farm"
+			item: "ancientwarfareautomation:tree_farm"
 		}]
 	}],
 	rewards: [{

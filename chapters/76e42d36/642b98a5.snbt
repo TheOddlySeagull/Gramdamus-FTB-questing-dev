@@ -16,10 +16,7 @@
 		uid: "4a227345",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "exoticbirds:nest"
+			item: "exoticbirds:nest"
 		}],
 		count: 16L,
 		consume_items: false
@@ -27,12 +24,7 @@
 	rewards: [{
 		uid: "bce2f80e",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "exoticbirds:mystery_egg"
-		},
+		item: "exoticbirds:mystery_egg",
 		count: 10
 	}]
 }

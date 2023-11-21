@@ -1,0 +1,35 @@
+{
+	title: "NPC order ressources",
+	loot_size: 5,
+	rewards: [{
+		item: "minecraft:paper",
+		weight: 30
+	},
+	{
+		item: "quark:root_dye 1 1",
+		weight: 20
+	},
+	{
+		item: "minecraft:dye 1 7",
+		weight: 20
+	},
+	{
+		item: "minecraft:dye 1 8",
+		weight: 20
+	},
+	{
+		item: "biomesoplenty:green_dye",
+		weight: 20
+	},
+	{
+		item: "minecraft:dye 1 1",
+		weight: 20
+	},
+	{
+		item: "minecraft:gold_nugget",
+		weight: 5
+	},
+	{
+		item: "minecraft:gold_ingot"
+	}]
+}

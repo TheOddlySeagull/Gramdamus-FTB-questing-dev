@@ -14,10 +14,7 @@
 		uid: "36fc506a",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "harvestcraft:walleyerawitem"
+			item: "harvestcraft:walleyerawitem"
 		}]
 	}],
 	rewards: [{
@@ -28,11 +25,6 @@
 	{
 		uid: "2f8ffc6d",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "gramdamuscontent:coin"
-		}
+		item: "gramdamuscontent:coin"
 	}]
 }

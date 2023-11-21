@@ -17,20 +17,12 @@
 		uid: "8e530cf5",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:ender_chest"
+			item: "minecraft:ender_chest"
 		}]
 	}],
 	rewards: [{
 		uid: "a3d86bb3",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:ender_chest"
-		}
+		item: "minecraft:ender_chest"
 	}]
 }

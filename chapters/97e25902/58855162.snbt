@@ -13,10 +13,7 @@
 		uid: "5450539d",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "rustic:fertile_soil"
+			item: "rustic:fertile_soil"
 		}],
 		count: 8L
 	}],
@@ -28,12 +25,7 @@
 	{
 		uid: "fdbe524e",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "rustic:fertile_soil"
-		},
+		item: "rustic:fertile_soil",
 		count: 8
 	}]
 }

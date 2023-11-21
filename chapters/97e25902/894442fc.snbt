@@ -14,10 +14,7 @@
 		uid: "0827cdcf",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:brown_mushroom"
+			item: "minecraft:brown_mushroom"
 		}],
 		count: 16L
 	},
@@ -25,10 +22,7 @@
 		uid: "4d38085c",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:red_mushroom"
+			item: "minecraft:red_mushroom"
 		}],
 		count: 16L
 	}],

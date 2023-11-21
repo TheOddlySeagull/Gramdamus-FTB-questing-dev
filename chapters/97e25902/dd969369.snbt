@@ -16,10 +16,7 @@
 		uid: "0fb9c873",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "harvestcraft:oysterrawitem"
+			item: "harvestcraft:oysterrawitem"
 		}]
 	}],
 	rewards: [{
@@ -30,11 +27,6 @@
 	{
 		uid: "66a391fa",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "gramdamuscontent:coin"
-		}
+		item: "gramdamuscontent:coin"
 	}]
 }

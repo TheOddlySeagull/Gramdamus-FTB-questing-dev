@@ -21,42 +21,25 @@
 		uid: "fae2ace8",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "storagedrawers:drawer_key"
+			item: "storagedrawers:drawer_key"
 		}]
 	},
 	{
 		uid: "93c190ad",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "storagedrawers:quantify_key"
+			item: "storagedrawers:quantify_key"
 		}]
 	}],
 	rewards: [{
 		uid: "6cee0066",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:dye",
-			Damage: 4s
-		},
+		item: "minecraft:dye 1 4",
 		count: 2
 	},
 	{
 		uid: "57c1bdbe",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "storagedrawers:shroud_key"
-		}
+		item: "storagedrawers:shroud_key"
 	}]
 }

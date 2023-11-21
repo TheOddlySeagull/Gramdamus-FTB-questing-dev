@@ -1,25 +1,16 @@
 {
-	title: "Ordering Upkeep: A Step-by-Step Guide",
+	title: "Managing the Essentials: Upkeep Orders",
 	x: -5.5d,
-	y: 0.0d,
-	description: "Configuring Upkeep Orders for Efficient NPC Work",
+	y: 0.5d,
+	description: "Mastering Resource Management for Your Empire",
 	text: [
-		"Now that you understand the importance of NPC upkeep, it's time to dive into the details of configuring Upkeep Orders.",
-		"These orders allow you to specify which inventory an NPC should draw food from and set the frequency of food pickups.",
+		"As your empire expands, efficient resource management becomes paramount. In this quest, you will delve into the intricacies of Upkeep Orders, a key element in ensuring the well-being and functionality of your NPC workforce:",
 		"",
-		"Selecting an Inventory: To assign an Upkeep Order to an NPC, press the configured key while holding the Upkeep Order in your hand.",
-		"Look at the inventory block you want the NPC to draw food from and press the key. You can only select one inventory per Upkeep Order.",
+		"- Upkeep Order Activation: To unleash the power of Upkeep Orders, hold the configured key with the Upkeep Order in your hand while gazing upon the inventory block you wish your NPC to draw resources from. One Upkeep Order can be associated with only one inventory.",
 		"",
-		"Opening the Order: Once you've chosen the inventory, right-click to open the Upkeep Order.",
-		"The GUI will provide details about the selected point, including its location and type.",
-		"There's also an option for specifying a side-specific inventory, which is essential for certain inventory blocks like chests.",
+		"- Configuration Interface: Once the target inventory is selected, right-click to open the Upkeep Order configuration GUI. Here, you'll find details about the selected point, its location, and an option for side-specific inventory (irrelevant for chests). Customize the minimum time between food pickups in minutes to fine-tune your NPC's resource management.",
 		"",
-		"Setting Pickup Frequency: In the GUI, you'll find an entry for the minimum amount of time between food pickups in minutes.",
-		"Adjust this value to control how often the NPC should retrieve food from the chosen inventory.",
-		"",
-		"Assigning the Upkeep Order: Finally, place the configured Upkeep Order in the Upkeep Order slot of an NPC to put it into action.",
-		"",
-		"By mastering Upkeep Orders, you'll fine-tune your empire's workforce, ensuring your NPCs always have the sustenance they need to work efficiently."
+		"- Implementation: Seal the deal by placing the configured Upkeep Order in the designated slot on an NPC. Watch as your NPC dutifully follows the order, ensuring a steady supply of resources for their tasks."
 	],
 	dependencies: [
 		"b1108f55"
@@ -28,10 +19,22 @@
 		uid: "6e52bdcc",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfarenpc:upkeep_order"
+			item: "ancientwarfarenpc:upkeep_order"
 		}]
+	}],
+	rewards: [{
+		uid: "ae27bcdb",
+		type: "loot",
+		table: 7
+	},
+	{
+		uid: "d390f72e",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "7d98d4ce",
+		type: "loot",
+		table: 8
 	}]
 }

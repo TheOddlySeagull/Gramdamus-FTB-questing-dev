@@ -1,0 +1,34 @@
+{
+	title: "Martial Prowess: Combat NPC Introduction",
+	x: -5.5d,
+	y: 3.5d,
+	description: "Equipping Warriors for the Defense of Gramdamus",
+	text: [
+		"Embark on a quest to harness the combat potential of your empire by introducing Combat NPCs and guiding players on how to equip them for their intended roles:",
+		"",
+		"- Introduction to Combat NPCs: Combat NPCs, akin to Workers, start without a specific job and must be equipped for their intended role. In this quest, learn the basics of unleashing the martial prowess of your empire through these skilled warriors.",
+		"",
+		"- Equipping for Battle: Damage output for Combat NPCs is determined by their level and the material level of the items equipped. Learn how to properly equip Combat NPCs to enhance their effectiveness in the defense of Gramdamus.",
+		"",
+		"- Alert System: Discover the alert system that triggers when a Combat NPC spots a hostile entity. Witness how Combat NPCs broadcast an alert and move towards the attack distance from the enemy. Learn about the various responses of other nearby NPCs to this broadcast, including Workers and Utility NPCs fleeing, while other Combat NPCs may move to attack the enemy.",
+		"",
+		"- Home Point Strategy: Understand the importance of setting a home point for Combat NPCs. If a home point is set, the Combat NPC will attempt to stay within a set distance of this point even when pursuing enemies. Learn the strategy of ensuring they don't stray too far, abandoning their current task/target to return within the set distance.",
+		"",
+		"- Patrol Routes: Explore the advanced capability of assigning patrol routes to Combat NPCs by equipping them with properly set up Combat Orders items in their Orders slot. Discover how these orders enhance the strategic movement and defense capabilities of your Combat NPCs."
+	],
+	dependencies: [
+		"b1108f55",
+		"8f68427e"
+	],
+	tasks: [{
+		uid: "265c621e",
+		type: "item",
+		items: [{
+			id: "ancientwarfarenpc:npc_spawner",
+			tag: {
+				npcSubtype: "",
+				npcType: "combat"
+			}
+		}]
+	}]
+}

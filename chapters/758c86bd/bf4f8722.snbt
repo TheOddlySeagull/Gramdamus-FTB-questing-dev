@@ -19,74 +19,44 @@
 		uid: "80de607f",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "storagedrawers:customtrim"
+			item: "storagedrawers:customtrim"
 		}]
 	},
 	{
 		uid: "20163318",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "storagedrawers:customdrawers"
+			item: "storagedrawers:customdrawers"
 		}]
 	},
 	{
 		uid: "f4ae9a94",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "storagedrawers:customdrawers",
-			Damage: 1s
+			item: "storagedrawers:customdrawers 1 1"
 		}]
 	},
 	{
 		uid: "51ec6011",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "storagedrawers:customdrawers",
-			Damage: 2s
+			item: "storagedrawers:customdrawers 1 2"
 		}]
 	}],
 	rewards: [{
 		uid: "b1b8d1cd",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "storagedrawers:framingtable"
-		}
+		item: "storagedrawers:framingtable"
 	},
 	{
 		uid: "5ca77389",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "storagedrawers:customdrawers"
-		},
+		item: "storagedrawers:customdrawers",
 		count: 5
 	},
 	{
 		uid: "9bd00c44",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "gramdamuscontent:coin",
-			Damage: 1s
-		}
+		item: "gramdamuscontent:coin 1 1"
 	}]
 }

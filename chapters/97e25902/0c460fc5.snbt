@@ -15,10 +15,7 @@
 		uid: "b1ed597c",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:mycelium"
+			item: "minecraft:mycelium"
 		}],
 		count: 16L
 	},
@@ -26,11 +23,7 @@
 		uid: "3c26ccaa",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:dirt",
-			Damage: 2s
+			item: "minecraft:dirt 1 2"
 		}],
 		count: 16L
 	}],
@@ -42,36 +35,18 @@
 	{
 		uid: "68b7b525",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:dye",
-			Damage: 15s
-		},
+		item: "minecraft:dye 1 15",
 		count: 32
 	},
 	{
 		uid: "ab1a93d6",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "gramdamuscontent:coin",
-			Damage: 1s
-		}
+		item: "gramdamuscontent:coin 1 1"
 	},
 	{
 		uid: "4cf6de6b",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "biomesoplenty:grass",
-			Damage: 8s
-		},
+		item: "biomesoplenty:grass 1 8",
 		count: 16
 	},
 	{

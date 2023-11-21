@@ -1,27 +1,26 @@
 {
-	title: "Player Owned NPCs",
+	title: "Understanding Your Workforce",
 	x: -8.5d,
-	y: 0.0d,
-	description: "Understanding and Managing Your Workforce",
+	y: 0.5d,
+	description: "Unveiling the Potential of Player Owned NPCs",
 	text: [
-		"Congratulations on obtaining your Town Hall! Now it's time to populate your growing empire with the help of Player Owned NPCs.",
-		"These NPCs are essential for various tasks and functions, and it's crucial to understand how they work.",
+		"In the journey from a humble vagrant to a powerful emperor, the foundation of your empire lies in the hands of your loyal subjects—Player Owned NPCs.",
+		"This quest marks the beginning of your ascent, as you unravel the intricacies of these indispensable entities:",
 		"",
-		" Worker, Combat, and Utility NPCs: NPCs come in three major categories - Workers, Combatants, and Utilities.",
-		"Workers excel in tasks like farming, lumberjacking, mining, crafting, and research. Combat NPCs are your defenders and can take on roles like Soldier,",
-		"Archer, Commander, Medic, Siege Engineer, and Engineer. Utility NPCs serve a variety of purposes, including Couriers, Traders, Priests, and Bards.",
+		"- NPC Origins: NPCs come to life through spawning items, craftable in Survival at the Engineering Table with the proper Research.",
+		"JEI/NEI holds the key to these recipes. Each NPC's home position defaults to the block it was spawned on, acting as a beacon of safety during the night or attacks.",
 		"",
-		"Spawn Items: All NPCs are created from specific spawning items that can be crafted in an Engineering Table once you've acquired the required",
-		"Research. Refer to JEI/NEI for the crafting recipes.",
+		"- Categories of Service: NPCs are classified into three pivotal categories: Worker, Combat, and Utility.",
+		"Workers engage in various roles such as Farmer, Lumberjack, Miner, Craftsman, and Researcher. Combat NPCs specialize in defense and offense, with roles like Soldier, Archer, Commander, Medic, Siege Engineer, and Engineer. Utility NPCs excel in various roles like Courier, Trader, Priest, and Bard.",
 		"",
-		"Customization: NPCs can be customized in various ways. In their Interaction GUI (accessible by right-clicking), you can manage their main hand,",
-		"off-hand, armor, and order slots. You can also personalize their name and skin. Plus, there are additional options for utility and logistical tasks.",
+		"- Customization Mastery: Engage with the Interaction GUI by right-clicking on an NPC.",
+		"Customize the main hand, off-hand, armor, and order slots to tailor your NPC for specific tasks. Personalize the NPC further by assigning a unique name and skin.",
 		"",
-		"Interaction: The GUI includes buttons for various interactions, such as \"Toggle Follow\" to make the NPC follow you,",
-		"\"Set Home\" to assign their home location, \"Clear Home\" to remove their home point, and \"Repack\" to return them to their spawning item",
-		"while preserving customizations. If you're in creative mode, the \"Creative GUI\" offers advanced options.",
+		"- Functional Buttons: Explore the utility and logistical buttons within the GUI.",
+		"Master the \"Toggle Follow\" feature for NPC companionship, \"Set Home\" to redefine the NPC's home point, and \"Clear Home\" to remove it completely.",
+		"\"Repack\" allows you to store and redeploy your customized NPC, while the \"Creative GUI\" provides advanced options, accessible only in creative mode.",
 		"",
-		"Learn how to efficiently utilize your NPCs to build a thriving empire. Your success as a ruler depends on the capable hands of your workforce!"
+		"This quest serves as the cornerstone of your empire-building journey, understanding the fundamentals of your loyal workforce."
 	],
 	tasks: [{
 		uid: "a382f2cd",
@@ -31,12 +30,18 @@
 	rewards: [{
 		uid: "7c184bbf",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "ancientwarfarenpc:food_bundle"
-		},
+		item: "ancientwarfarenpc:food_bundle",
 		count: 4
+	},
+	{
+		uid: "9a2085be",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "c2daffb4",
+		type: "item",
+		item: "gramdamuscontent:coin",
+		count: 3
 	}]
 }

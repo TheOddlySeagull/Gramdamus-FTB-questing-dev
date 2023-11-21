@@ -1,7 +1,7 @@
 {
 	title: "Upkeep Essentials",
 	x: -7.0d,
-	y: 0.0d,
+	y: 0.5d,
 	description: "Ensuring Your NPC Workforce Stays Fueled",
 	text: [
 		"To maintain a productive empire, it's vital to understand the concept of NPC upkeep.",
@@ -34,19 +34,23 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				Parent: {
+					data: "paper",
+					id: "ore"
+				}
 			},
-			id: "minecraft:paper"
-		}]
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any paper"
+				}
+			}
+		}],
+		count: 5L
 	}],
 	rewards: [{
-		uid: "80c3d23e",
-		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "biomesoplenty:black_dye"
-		}
+		uid: "f362778e",
+		type: "loot",
+		table: 7
 	}]
 }

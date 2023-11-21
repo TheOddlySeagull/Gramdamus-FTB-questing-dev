@@ -19,32 +19,19 @@
 		uid: "53581c04",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "exoticbirds:egg_incubator"
+			item: "exoticbirds:egg_incubator"
 		}]
 	}],
 	rewards: [{
 		uid: "c8ccab86",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:blaze_powder"
-		},
+		item: "minecraft:blaze_powder",
 		count: 10
 	},
 	{
 		uid: "9f95dd8d",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "exoticbirds:mystery_egg"
-		},
+		item: "exoticbirds:mystery_egg",
 		count: 10
 	}]
 }

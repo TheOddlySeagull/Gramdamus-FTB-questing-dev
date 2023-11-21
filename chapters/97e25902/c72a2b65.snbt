@@ -56,8 +56,7 @@
 				Parent: {
 					data: "listAllfishfresh",
 					id: "ore"
-				},
-				"customnpcs:itemscripteddata": {}
+				}
 			},
 			id: "itemfilters:filter",
 			tag: {
@@ -72,10 +71,7 @@
 		uid: "de713bfd",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "harvestcraft:watertrap"
+			item: "harvestcraft:watertrap"
 		}],
 		count: 16L
 	}],
@@ -87,21 +83,12 @@
 	{
 		uid: "48d8f3c4",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "gramdamuscontent:coin",
-			Damage: 3s
-		}
+		item: "gramdamuscontent:coin 1 3"
 	},
 	{
 		uid: "cfd5d49a",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "tombstone:fishing_rod_of_misadventure",
 			tag: {
 				enchant: 1b,
