@@ -4,7 +4,7 @@
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
 		},
-		id: "minecraft:grass"
+		id: "minecraft:sapling"
 	},
 	x: -8.0d,
 	y: -3.5d,
@@ -21,11 +21,6 @@
 		uid: "5bc6be85",
 		type: "biome",
 		biome: "biomesoplenty:meadow"
-	},
-	{
-		uid: "457de288",
-		type: "checkmark",
-		title: "Explore!"
 	}],
 	rewards: [{
 		uid: "8ad28d14",

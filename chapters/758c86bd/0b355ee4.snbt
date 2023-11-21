@@ -10,6 +10,9 @@
 		"In this chapter, you'll embark on a journey of storage mastery, exploring various storage solutions, from simple chests to intricate automated warehouses.",
 		"These tools will enhance your ability to manage and organize resources effectively as your empire grows."
 	],
+	dependencies: [
+		"32211408"
+	],
 	tasks: [{
 		uid: "b9665f1e",
 		type: "checkmark"

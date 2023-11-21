@@ -1,0 +1,54 @@
+{
+	title: "Frosty Reservoir",
+	x: 0.5d,
+	y: -8.0d,
+	description: "Crafting the Frostbound Fridge",
+	text: [
+		"Complete the symphony of your culinary haven by adding the Frostbound Fridge to your kitchen's repertoire. Craft this enchanted appliance to provide a sanctuary for your freshest ingredients, preserving their vitality until they're called upon by your culinary endeavors.",
+		"",
+		"Embark on a quest through Gramdamus to gather the materials needed to forge the Frostbound Fridge. Shape the fridge with care, placing it within the harmonious embrace of your kitchen multiblock, linking it seamlessly to the ensemble.",
+		"",
+		"Watch as the Frostbound Fridge becomes a keeper of freshness, its icy touch preserving the lifeblood of your ingredients. The Cooking Table, with its newfound connection to the fridge, shall draw upon its cool bounty, allowing you to weave freshness into every dish.",
+		"",
+		"May your Frostbound Fridge be a testament to the timeless quality of your ingredients and the richness they bring to your culinary kingdom."
+	],
+	dependencies: [
+		"6cd30c0b",
+		"104beb01"
+	],
+	tasks: [{
+		uid: "b09a0626",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cookingforblockheads:fridge"
+		}]
+	}],
+	rewards: [{
+		uid: "fe99f0f1",
+		type: "loot",
+		table: 11
+	},
+	{
+		uid: "90581a60",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "cfcc4f89",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cookingforblockheads:fridge"
+		}
+	},
+	{
+		uid: "845f312d",
+		type: "xp",
+		xp: 100
+	}]
+}

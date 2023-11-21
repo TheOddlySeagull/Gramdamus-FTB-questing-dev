@@ -1,0 +1,45 @@
+{
+	title: "Glacial Augmentation",
+	x: 1.0d,
+	y: -7.0d,
+	description: "Forging the Eternal Ice Unit",
+	text: [
+		"Elevate your Frostbound Fridge to new heights by forging the Eternal Ice Unit—an augmentation that bestows upon your kitchen an endless wellspring of snow and ice. Craft this mystical apparatus and infuse your culinary realm with the chilling touch of eternal frost.",
+		"",
+		"Embark on a quest through the wintry landscapes of Gramdamus, collecting the materials needed to craft the Eternal Ice Unit. Shape this frozen marvel with precision, integrating it seamlessly with your Frostbound Fridge to enhance its capabilities.",
+		"",
+		"Witness the transformation as the Eternal Ice Unit empowers your kitchen with an unending source of snow and ice. The Cooking Table, in harmony with this glacial marvel, shall draw upon its chilling bounty, adding a frosty touch to your culinary creations.",
+		"",
+		"May your Eternal Ice Unit be a testament to the eternal winter within your kitchen, preserving the essence of freshness in every corner."
+	],
+	dependencies: [
+		"fa9ac37d"
+	],
+	tasks: [{
+		uid: "aa165846",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cookingforblockheads:ice_unit"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5da22e61",
+		type: "loot",
+		table: 11
+	},
+	{
+		uid: "f26ae9c7",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "61613db0",
+		type: "xp",
+		xp: 100
+	}]
+}

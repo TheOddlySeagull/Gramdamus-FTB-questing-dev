@@ -1,0 +1,53 @@
+{
+	title: "Aquatic Wellspring",
+	x: -2.0d,
+	y: -5.0d,
+	description: "Crafting the Everflow Sink",
+	text: [
+		"Quench the thirst of your culinary ambitions by harnessing the power of an ever-flowing source. Craft the esteemed Everflow Sink, a marvel that bestows an endless bounty of water and salt upon your kitchen multiblock.",
+		"",
+		"Embark on a quest to gather the materials needed to forge this aquatic wonder in the workshops of Gramdamus. Assemble the sink with precision, placing it within the sacred bounds of your kitchen, connecting it to the multiblock to channel its boundless aqua vitae.",
+		"",
+		"Once complete, witness the Everflow Sink becoming the watery heart of your culinary domain. Imbued with the power to summon water and salt at will, it shall serve as a wellspring for your creative endeavors, ensuring that no culinary journey is left parched.",
+		"",
+		"May the waters of inspiration flow freely, and may your Everflow Sink be a testament to the inexhaustible potential of your kitchen."
+	],
+	dependencies: [
+		"2b34ff0b"
+	],
+	tasks: [{
+		uid: "1719be01",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cookingforblockheads:sink"
+		}]
+	}],
+	rewards: [{
+		uid: "b1367e3b",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "7003222c",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "e5e3b08a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bucket"
+		}
+	},
+	{
+		uid: "37889e7a",
+		type: "loot",
+		table: 11
+	}]
+}

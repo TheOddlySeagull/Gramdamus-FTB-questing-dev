@@ -1,0 +1,44 @@
+{
+	title: "Udderly Enchanted Confinement",
+	x: 0.5d,
+	y: -6.0d,
+	description: "Crafting the Bovine Reliquary",
+	text: [
+		"Embark on a whimsical journey to create the Bovine Reliquary—an enchanted jar that hosts a trapped cow within its mystical confines. This peculiar creation, also known as the Cow in a Jar, liberates you from the manual chore of gathering milk, as the cow graciously provides an endless supply.",
+		"",
+		"Reclaim your Milk Maestro Jar and gather the necessary materials to craft the Bovine Reliquary. Position the jar with care and drop an anvil upon the noble cow standing atop it, invoking an enchantment that binds the bovine essence within the jar.",
+		"",
+		"Witness the magical transformation as the Cooking Table extends its influence to the Cow in a Jar, drawing upon the unlimited milk provided by the enchanted cow. Your kitchen shall forever be blessed with a continuous stream of dairy richness.",
+		"",
+		"May your Bovine Reliquary be a testament to the enchanted whimsy within your kitchen, where the essence of milk flows effortlessly from the mystical confines of the Cow in a Jar."
+	],
+	dependencies: [
+		"efd736a6",
+		"4f8af183"
+	],
+	tasks: [{
+		uid: "18aa6f9e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cookingforblockheads:cow_jar"
+		}]
+	}],
+	rewards: [{
+		uid: "f0655dca",
+		type: "loot",
+		table: 11
+	},
+	{
+		uid: "a5870bec",
+		type: "loot",
+		table: 6
+	},
+	{
+		uid: "8aa083a9",
+		type: "xp",
+		xp: 100
+	}]
+}

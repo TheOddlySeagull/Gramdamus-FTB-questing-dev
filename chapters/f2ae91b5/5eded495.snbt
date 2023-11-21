@@ -1,0 +1,38 @@
+{
+	title: "Culinary Arsenal",
+	x: 2.0d,
+	y: -4.0d,
+	description: "Crafting the Toolsmith's Rack",
+	text: [
+		"Arm your kitchen with the Toolsmith's Rack, a bastion for your culinary instruments—knives, saucepans, pots, and bakeware. Craft this essential addition, allowing the Cooking Table to wield the tools needed for the creation of the most intricate and flavorful dishes.",
+		"",
+		"Embark on a quest through the crafting halls of Gramdamus, gathering the materials required to shape the Toolsmith's Rack. With meticulous precision, assemble this culinary armory, placing it strategically within the embrace of your kitchen multiblock.",
+		"",
+		"Witness the transformation as the Cooking Table extends its influence to the Toolsmith's Rack, drawing upon the power of the culinary arsenal. Each tool, hanging with purpose, becomes an extension of your culinary creativity, enabling the crafting of dishes that demand the finesse of specialized instruments.",
+		"",
+		"May your Toolsmith's Rack be a testament to the artistry of your kitchen, where every tool has its place in the dance of gastronomic creation."
+	],
+	dependencies: [
+		"0e4ac93e"
+	],
+	tasks: [{
+		uid: "17079a80",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cookingforblockheads:tool_rack"
+		}]
+	}],
+	rewards: [{
+		uid: "c68dd94c",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "588ab85f",
+		type: "loot",
+		table: 11
+	}]
+}

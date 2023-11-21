@@ -1,16 +1,46 @@
 {
-	x: -0.5d,
+	title: "A Feast Awaits",
+	x: 0.5d,
 	y: -0.5d,
+	description: "Delve into the World of Culinary Delights",
+	text: [
+		"Welcome, adventurer, to the realm of delectable delights and culinary wonders! In this gateway quest, you will embark on a journey to discover the vast array of foods that await you in the Gramdamus realm.",
+		"",
+		"Your quest begins with the introduction of the Cooking for Blockheads mod, a marvel that allows you to construct a multiblock kitchen, simplifying the art of cooking. Learn how this kitchen can be the heart of your culinary empire, providing efficiency and convenience.",
+		"",
+		"Venture further into the culinary landscape as you explore the wonders of Pam's HarvestCraft mod, boasting hundreds of food items to tantalize your taste buds. Uncover the secrets of cultivating and preparing these diverse ingredients to create mouthwatering dishes.",
+		"",
+		"But the feast doesn't end there! Delve into the unique world of Minefantasy Reforged mod's special foods, each with effects on your stamina. Understand how these culinary creations can bolster your strength and resilience, essential for the challenges that lie ahead.",
+		"",
+		"As you savor the flavors of this quest, remember the importance of food production for the prosperity of your empire. The Gramdamus server relies on your culinary expertise to feed the inhabitants and fuel the growth of your domain."
+	],
+	dependencies: [
+		"1aaf79e4"
+	],
 	tasks: [{
-		uid: "49fbfe21",
+		uid: "562c5447",
+		type: "checkmark",
+		title: "Explore the culinary chronicles"
+	}],
+	rewards: [{
+		uid: "5abad45d",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "ff0e84d6",
 		type: "item",
-		items: [{
+		item: {
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "harvestcraft:saucepanitem"
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+			id: "gramdamuscontent:coin"
+		},
+		count: 2
+	},
+	{
+		uid: "4dcd9a35",
+		type: "loot",
+		table: 11
 	}]
 }

@@ -7,8 +7,8 @@
 		id: "growthcraft_grapes:grape",
 		Damage: 14s
 	},
-	x: 6.5d,
-	y: 2.5d,
+	x: -4.5d,
+	y: 0.0d,
 	description: "Cultivating the Vineyards",
 	text: [
 		" Gramdamus is a land of vineyards, where the Growthcraft mod reigns supreme.",
@@ -20,7 +20,7 @@
 		"These grape seeds can be found hidden in dungeons and can be obtained by breaking vines."
 	],
 	dependencies: [
-		"53c9ae17"
+		"2ac25553"
 	],
 	tasks: [{
 		uid: "e0e6fff7",
