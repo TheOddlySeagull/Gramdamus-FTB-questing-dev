@@ -14,7 +14,10 @@
 		uid: "399c05db",
 		type: "item",
 		items: [{
-			item: "harvestcraft:carprawitem"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:carprawitem"
 		}]
 	}],
 	rewards: [{
@@ -25,6 +28,11 @@
 	{
 		uid: "7a6c348d",
 		type: "item",
-		item: "gramdamuscontent:coin"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
 	}]
 }

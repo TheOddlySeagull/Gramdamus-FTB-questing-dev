@@ -16,7 +16,10 @@
 		uid: "c62aa9a2",
 		type: "item",
 		items: [{
-			item: "rustic:apple_seeds"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:apple_seeds"
 		}],
 		count: 8L
 	},
@@ -24,7 +27,10 @@
 		uid: "9c877cb6",
 		type: "item",
 		items: [{
-			item: "rustic:crushing_tub"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:crushing_tub"
 		}]
 	}],
 	rewards: [{
@@ -36,6 +42,9 @@
 		uid: "4bbabb71",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
 			id: "rustic:fluid_bottle",
 			tag: {
 				Fluid: {
@@ -48,7 +57,12 @@
 	{
 		uid: "7be09671",
 		type: "item",
-		item: "gramdamuscontent:coin",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		},
 		count: 5
 	}]
 }

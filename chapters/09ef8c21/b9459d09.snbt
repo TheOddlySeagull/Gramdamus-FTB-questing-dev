@@ -22,6 +22,9 @@
 		uid: "d0639736",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
 			id: "ancientwarfarenpc:npc_spawner",
 			tag: {
 				npcSubtype: "",
@@ -29,5 +32,37 @@
 			}
 		}],
 		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "f8018a84",
+		type: "loot",
+		table: 6
+	},
+	{
+		uid: "c5467216",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:gold_ingot"
+		},
+		count: 4
+	},
+	{
+		uid: "d9ce45ae",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:stone_pick"
+		},
+		count: 2
+	},
+	{
+		uid: "7a378a0a",
+		type: "xp",
+		xp: 100
 	}]
 }

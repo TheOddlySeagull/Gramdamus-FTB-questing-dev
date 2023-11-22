@@ -15,7 +15,10 @@
 		uid: "465140e6",
 		type: "item",
 		items: [{
-			item: "harvestcraft:troutrawitem"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:troutrawitem"
 		}]
 	}],
 	rewards: [{
@@ -26,6 +29,11 @@
 	{
 		uid: "30857d1d",
 		type: "item",
-		item: "gramdamuscontent:coin"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
 	}]
 }

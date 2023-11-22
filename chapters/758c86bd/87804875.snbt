@@ -17,17 +17,33 @@
 		uid: "bc10ab06",
 		type: "item",
 		items: [{
-			item: "ancientwarfareautomation:worksite_upgrade 1 1"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:worksite_upgrade",
+			Damage: 1s
 		}]
 	}],
 	rewards: [{
 		uid: "f8924be7",
 		type: "item",
-		item: "ancientwarfareautomation:worksite_upgrade 1 1"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:worksite_upgrade",
+			Damage: 1s
+		}
 	},
 	{
 		uid: "a9d538ab",
 		type: "item",
-		item: "gramdamuscontent:coin 1 1"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 1s
+		}
 	}]
 }

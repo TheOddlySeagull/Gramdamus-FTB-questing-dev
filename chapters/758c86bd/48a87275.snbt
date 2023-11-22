@@ -17,13 +17,21 @@
 		uid: "b31f22e6",
 		type: "item",
 		items: [{
-			item: "storagedrawers:trim"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:trim"
 		}]
 	}],
 	rewards: [{
 		uid: "f25ed050",
 		type: "item",
-		item: "storagedrawers:trim",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:trim"
+		},
 		count: 10
 	}]
 }

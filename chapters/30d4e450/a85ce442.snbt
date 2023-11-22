@@ -1,0 +1,61 @@
+{
+	title: "Barrels of Libation",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Growthcraft and Rustic Unveiled",
+	text: [
+		"Embark on a quest to gather the tools of a master brewer—barrels. Seek out a barrel from Growthcraft and another from Rustic. These vessels shall become the crucibles of your brewing endeavors, unlocking the potent elixirs hidden within the realms of Growthcraft and Rustic.",
+		"",
+		"Journey through the lands of Gramdamus, exploring the wilderness and trading with fellow denizens to obtain these barrels. As you collect them, feel the anticipation of the diverse brews and elixirs that will soon grace your tavern and satisfy the thirst of your empire.",
+		"",
+		"May these barrels be the keys to unlocking the rich traditions of brewing within the Brewer's Haven chapter."
+	],
+	dependencies: [
+		"4d95084a"
+	],
+	tasks: [{
+		uid: "8bf26ef5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:brewing_barrel"
+		}]
+	},
+	{
+		uid: "47867ae9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "growthcraft_cellar:ferment_barrel"
+		}]
+	}],
+	rewards: [{
+		uid: "1c3ed898",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "growthcraft_cellar:ferment_barrel"
+		}
+	},
+	{
+		uid: "5f872720",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:brewing_barrel"
+		}
+	},
+	{
+		uid: "5348cfac",
+		type: "xp",
+		xp: 15
+	}]
+}

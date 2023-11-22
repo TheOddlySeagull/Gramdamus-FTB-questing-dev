@@ -1,0 +1,45 @@
+{
+	title: "Groundbreaking Beginnings",
+	x: -10.0d,
+	y: 0.0d,
+	description: "Embrace the Earth Below",
+	text: [
+		"As you lay the foundations of your Gramdamus journey, it's time to acknowledge the profound connection with the earth beneath your feet. Your gateway task is simple yet significant—stand upon the soil of Gramdamus and feel the resonance of the land beneath.",
+		"",
+		"This quest serves as a checkmark, a moment to recognize the ground upon which your empire will rise. Let the groundbreaking beginnings symbolize your connection to the earth as you prepare to delve into the Miner's Lore chapter."
+	],
+	tasks: [{
+		uid: "030cf7c9",
+		type: "observation",
+		title: "Embrace the Earth Below",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:grass"
+		},
+		match_type: "block_id",
+		match: "minecraft:grass",
+		timer: 200L
+	}],
+	rewards: [{
+		uid: "50fbde08",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:sharp_rock"
+		}
+	},
+	{
+		uid: "b154e28b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dirt"
+		}
+	}]
+}

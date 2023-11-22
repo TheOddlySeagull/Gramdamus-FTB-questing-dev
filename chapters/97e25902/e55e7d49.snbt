@@ -21,7 +21,10 @@
 		uid: "85a5f84e",
 		type: "item",
 		items: [{
-			item: "harvestcraft:watertrap"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:watertrap"
 		}]
 	}],
 	rewards: [{

@@ -1,9 +1,14 @@
 {
-	title: "Explore Spawn",
+	title: "Embarkation Echoes",
 	x: 0.0d,
 	y: 0.0d,
+	description: "Standing at the Nexus",
 	text: [
-		""
+		"Begin your journey into the vast unknown with the \"Embarkation Echoes\" quest. Your first task is simple yet symbolic—stand at the nexus of Gramdamus, the spawn point where the threads of exploration intertwine.",
+		"",
+		"Navigate to the heart of Gramdamus, the place where every adventurer's odyssey commences. Stand resolute at the spawn point and let the echoes of this moment mark the commencement of your exploration chapter. From this central point, the world unfolds, beckoning you to discover its hidden wonders.",
+		"",
+		"May the winds of exploration carry you far and wide as you embark on your odyssey across the diverse landscapes of Gramdamus."
 	],
 	dependencies: [
 		"7528f6d1"
@@ -20,5 +25,21 @@
 			1,
 			1
 		]
+	}],
+	rewards: [{
+		uid: "cb41734d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "waystones:waystone"
+		}
+	},
+	{
+		uid: "c1345d89",
+		type: "xp",
+		title: "A token of recognition for taking your first step into the uncharted realms.",
+		xp: 5
 	}]
 }

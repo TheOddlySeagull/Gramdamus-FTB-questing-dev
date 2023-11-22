@@ -1,0 +1,54 @@
+{
+	title: "Ember's Embrace",
+	x: -2.0d,
+	y: -6.5d,
+	description: "Crafting the Culinary Forge - The Oven",
+	text: [
+		"Step into the realm of gastronomic enchantment as you forge the Culinary Forge, the revered Oven that breathes life into your raw ingredients. Craft this beacon of culinary alchemy and infuse your kitchen multiblock with the power to cook meats, cakes, and more.",
+		"",
+		"Venture into the wilds of Gramdamus to collect the materials required for the creation of the Culinary Forge. Shape the oven with skill and precision, placing it within the sacred confines of your kitchen, ensuring its harmonious connection to the multiblock.",
+		"",
+		"Witness the transformative magic as the Cooking Table extends its influence to the Oven, allowing you to send ingredients for a fiery metamorphosis. Stoke the flames with the essence of seed oil, and let the Oven dance with the warmth of culinary creation.",
+		"",
+		"May the Ember's Embrace within your kitchen's heart illuminate a path to delectable feasts and savory delights."
+	],
+	dependencies: [
+		"2cb820c3"
+	],
+	tasks: [{
+		uid: "29b35483",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cookingforblockheads:oven"
+		}]
+	}],
+	rewards: [{
+		uid: "f2289113",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:oliveoilitem"
+		},
+		count: 64
+	},
+	{
+		uid: "1b20594e",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "ccc109d1",
+		type: "random",
+		table: 11
+	},
+	{
+		uid: "9978d2d5",
+		type: "xp",
+		xp: 100
+	}]
+}

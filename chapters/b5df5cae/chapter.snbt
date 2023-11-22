@@ -1,6 +1,11 @@
 {
-	title: "Exploration",
-	icon: "minecraft:leather_boots",
+	title: "Explorers' Odyssey",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:leather_boots"
+	},
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

@@ -1,0 +1,51 @@
+{
+	title: "Healing Hands: Medic Specialization",
+	x: -6.5d,
+	y: 4.5d,
+	description: "Tending to Wounds for the Defense of Gramdamus",
+	text: [
+		"Embark on a quest to transform your Combat NPCs into vital Medics, equipped with healing capabilities to tend to wounds and support the defense of Gramdamus. Learn how to equip them with axes and provide essential healing to players and nearby same-team NPCs:",
+		"",
+		"- Axe Empowerment: Equip a Combat NPC with an axe of any material level to transform them into a Medic.",
+		"",
+		"- Healing Mastery: A Medic's effectiveness is linked to the axe they wield. Learn how to select and equip axes to enhance the damage output of your Medic and unleash their healing abilities. The Medic attempts to heal players and nearby same-team NPCs, providing crucial support in the heat of battle.",
+		"",
+		"- Healing in Action: Witness the Medic in action as they attempt to heal players and nearby same-team NPCs during battles. Understand the importance of having Medics on the front lines, providing essential support to ensure the survival of your forces."
+	],
+	dependencies: [
+		"a15483c5"
+	],
+	tasks: [{
+		uid: "02fdda75",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarenpc:npc_spawner",
+			tag: {
+				npcSubtype: "medic",
+				npcType: "combat"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "794b7ef9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:strong_healing"
+			}
+		}
+	},
+	{
+		uid: "18e71387",
+		type: "xp",
+		xp: 100
+	}]
+}

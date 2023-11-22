@@ -15,7 +15,10 @@
 		uid: "f415e76c",
 		type: "item",
 		items: [{
-			item: "harvestcraft:jellyfishrawitem"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:jellyfishrawitem"
 		}]
 	}],
 	rewards: [{
@@ -26,6 +29,11 @@
 	{
 		uid: "777438f3",
 		type: "item",
-		item: "gramdamuscontent:coin"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
 	}]
 }

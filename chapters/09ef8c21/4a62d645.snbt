@@ -1,7 +1,7 @@
 {
 	title: "Mastering Logistics: Routing Orders",
 	x: -2.0d,
-	y: -1.0d,
+	y: 1.5d,
 	description: "Crafting Efficient Trade Routes with Courier NPCs",
 	text: [
 		"In the intricate tapestry of empire logistics, Routing Orders play a pivotal role, especially in the hands of Courier NPCs. This quest unfolds the secrets of Routing Orders, allowing you to forge efficient trade routes and item transfers:",
@@ -23,7 +23,10 @@
 		uid: "1be9c2fc",
 		type: "item",
 		items: [{
-			item: "ancientwarfarenpc:routing_order"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarenpc:routing_order"
 		}]
 	}],
 	rewards: [{

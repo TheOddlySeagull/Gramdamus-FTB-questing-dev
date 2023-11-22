@@ -2,18 +2,41 @@
 	title: "Gramdamus Coin",
 	loot_size: 1,
 	rewards: [{
-		item: "gramdamuscontent:coin",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		},
 		weight: 500
 	},
 	{
-		item: "gramdamuscontent:coin 1 1",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 1s
+		},
 		weight: 100
 	},
 	{
-		item: "gramdamuscontent:coin 1 2",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 2s
+		},
 		weight: 10
 	},
 	{
-		item: "gramdamuscontent:coin 1 3"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 3s
+		}
 	}]
 }

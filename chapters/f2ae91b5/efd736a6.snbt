@@ -1,0 +1,43 @@
+{
+	title: "Dairy Elegance",
+	x: -0.5d,
+	y: -5.0d,
+	description: "Crafting the Milk Maestro Jar",
+	text: [
+		"Celebrate the richness of nature's elixir by crafting the Milk Maestro Jar—a grand vessel for the delectable milk harvested from your noble cows. This culinary marvel, also known as the Milk Jar, preserves the essence of creamy delight within the heart of your kitchen.",
+		"",
+		"Embark on a quest through the pastures of Gramdamus, gathering the materials needed to shape the Milk Maestro Jar. Craft this dairy haven with care, placing it within the harmonious embrace of your kitchen multiblock.",
+		"",
+		"Witness the transformation as the Cooking Table extends its influence to the Milk Maestro Jar, drawing upon the creamy goodness stored within. Each jar, brimming with the essence of wholesome milk, becomes a source of richness for crafting indulgent and creamy dishes.",
+		"",
+		"May your Milk Maestro Jar be a testament to the dairy elegance within your kitchen, where the essence of milk adds a touch of velvety luxury to every culinary creation."
+	],
+	dependencies: [
+		"0e4ac93e"
+	],
+	tasks: [{
+		uid: "b9b5c74f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cookingforblockheads:milk_jar"
+		}]
+	}],
+	rewards: [{
+		uid: "73187824",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:milk_bucket"
+		}
+	},
+	{
+		uid: "b5b0669a",
+		type: "loot",
+		table: 11
+	}]
+}

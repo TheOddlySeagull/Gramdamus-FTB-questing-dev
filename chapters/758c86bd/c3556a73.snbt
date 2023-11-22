@@ -15,58 +15,97 @@
 		uid: "d6e1d48b",
 		type: "item",
 		items: [{
-			item: "storagedrawers:upgrade_storage"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_storage"
 		}]
 	},
 	{
 		uid: "9f955316",
 		type: "item",
 		items: [{
-			item: "storagedrawers:upgrade_storage 1 1"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_storage",
+			Damage: 1s
 		}]
 	},
 	{
 		uid: "68fa3a2f",
 		type: "item",
 		items: [{
-			item: "storagedrawers:upgrade_storage 1 2"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_storage",
+			Damage: 2s
 		}]
 	},
 	{
 		uid: "7398e198",
 		type: "item",
 		items: [{
-			item: "storagedrawers:upgrade_storage 1 3"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_storage",
+			Damage: 3s
 		}]
 	},
 	{
 		uid: "4cd79498",
 		type: "item",
 		items: [{
-			item: "storagedrawers:upgrade_storage 1 4"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_storage",
+			Damage: 4s
 		}]
 	}],
 	rewards: [{
 		uid: "95a5e0d1",
 		type: "item",
-		item: "storagedrawers:upgrade_template",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_template"
+		},
 		count: 10
 	},
 	{
 		uid: "8fc88b38",
 		type: "item",
-		item: "minecraft:redstone_torch",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:redstone_torch"
+		},
 		count: 4
 	},
 	{
 		uid: "84439208",
 		type: "item",
-		item: "minecraft:redstone",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:redstone"
+		},
 		count: 4
 	},
 	{
 		uid: "e33b844f",
 		type: "item",
-		item: "storagedrawers:upgrade_one_stack"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_one_stack"
+		}
 	}]
 }

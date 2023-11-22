@@ -1,0 +1,48 @@
+{
+	title: "Precision Marksmanship: Archer Specialization",
+	x: -5.5d,
+	y: 5.0d,
+	description: "Unleashing Deadly Accuracy to Safeguard Gramdamus",
+	text: [
+		"Embark on a quest to unleash the deadly accuracy of your Combat NPCs by transforming them into skilled Archers. Learn the art of equipping them with bows for precise marksmanship and enhanced defense:",
+		"",
+		"- Bow Empowerment: Equip a Combat NPC with a bow to transform them into an Archer.",
+		"",
+		"- Mastery of the Bow: An Archer's effectiveness is hinged on the bow they wield. Learn how to select and equip bows to enhance the precision and accuracy of your Archers in the defense of Gramdamus.",
+		"",
+		"- Stand Ground Strategy: Explore the Archer NPC's menu, featuring a checkbox marked \"Stand Ground.\" Learn how to use this option to prevent the Archer from moving closer to their target when engaging. Understand the strategic advantages of employing this feature in various combat situations."
+	],
+	dependencies: [
+		"a15483c5"
+	],
+	tasks: [{
+		uid: "9a67dc39",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarenpc:npc_spawner",
+			tag: {
+				npcSubtype: "archer",
+				npcType: "combat"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "daae9e75",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarenpc:combat_order"
+		}
+	},
+	{
+		uid: "69a92339",
+		type: "xp",
+		xp: 100
+	}]
+}

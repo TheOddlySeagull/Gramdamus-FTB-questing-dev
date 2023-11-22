@@ -1,0 +1,30 @@
+{
+	title: "Path to Mastery: NPC Leveling Unveiled",
+	x: 2.5d,
+	y: 0.5d,
+	description: "A Journey of Growth and Expertise",
+	text: [
+		"Embark on a quest to unravel the secrets of NPC experience and leveling, understanding how each action contributes to the growth and expertise of your loyal companions within Gramdamus:",
+		"",
+		"- Experience Essence: Delve into the essence of NPC experience and comprehend its role in shaping the prowess of different NPC types. Learn that each NPC type, including Player-Owned NPCs, maintains experience and level stats, influencing their damage output, work efficiency, and maximum health.",
+		"",
+		"- Role-Specific Experience: Discover that NPCs gain experience by engaging in actions appropriate to their roles. Witness workers accumulating experience through dedicated work, soldiers honing their skills through battles, and utility NPCs mastering their specific roles through performance.",
+		"",
+		"- Level and Efficiency: Uncover the correlation between NPC levels and efficiency. Higher levels result in increased damage output, improved work efficiency, and elevated maximum health. Recognize the significance of nurturing your NPCs to higher levels for a more formidable and efficient empire.",
+		"",
+		"- Changing Roles: Understand the dynamics of changing NPC roles and its impact on efficiency calculations. Realize that when an NPC changes its role, it utilizes its level for the new role, and any experience gained contributes solely to the level of that specific role.",
+		"",
+		"- Leveling Threshold: Grasp the leveling mechanism as NPCs strive for mastery. After accumulating a set amount of experience (configurable and increasing per level), NPCs ascend to the next level in their current role, unlocking new heights of proficiency. Acknowledge that NPCs can achieve a maximum of ten levels, a configurable limit that defines the pinnacle of their expertise.",
+		"",
+		"- Healing Mechanism: Learn about the innate self-healing ability of NPCs, slowly recovering over time. Explore the customizable time delay between heals, ensuring the sustained health and vitality of your loyal companions."
+	],
+	dependencies: [
+		"b9459d09",
+		"a15483c5"
+	],
+	tasks: [{
+		uid: "44aeeb01",
+		type: "checkmark",
+		title: "Path to Mastery: NPC Leveling Unveiled"
+	}]
+}

@@ -20,7 +20,10 @@
 		uid: "0fd5543e",
 		type: "item",
 		items: [{
-			item: "bountiful:bounty"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bountiful:bounty"
 		}],
 		count: 3L,
 		ignore_damage: true,
@@ -34,7 +37,12 @@
 	{
 		uid: "2094ba98",
 		type: "item",
-		item: "bountiful:bountyboarditem"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bountiful:bountyboarditem"
+		}
 	},
 	{
 		uid: "03224cef",

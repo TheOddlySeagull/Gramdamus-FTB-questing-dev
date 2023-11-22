@@ -19,13 +19,22 @@
 		uid: "d7cfe731",
 		type: "item",
 		items: [{
-			item: "ancientwarfarestructure:drafting_station"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarestructure:drafting_station"
 		}]
 	}],
 	rewards: [{
 		uid: "9b004550",
 		type: "item",
-		item: "gramdamuscontent:coin 1 1",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 1s
+		},
 		count: 2
 	}]
 }

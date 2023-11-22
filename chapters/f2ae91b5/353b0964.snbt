@@ -1,7 +1,7 @@
 {
 	title: "The Gift of Nature: In the Mines",
-	x: -2.5d,
-	y: 0.5d,
+	x: -3.5d,
+	y: -0.5d,
 	description: "Unearthed Treasures",
 	text: [
 		"As you delve deeper into the underground mines of Gramdamus, nature's bounty continues to reveal itself.",
@@ -18,34 +18,53 @@
 		uid: "bb2e51b3",
 		type: "item",
 		items: [{
-			item: "quark:root"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "quark:root"
 		}]
 	},
 	{
 		uid: "c7d3ec50",
 		type: "item",
 		items: [{
-			item: "quark:root_flower"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "quark:root_flower"
 		}]
 	},
 	{
 		uid: "31328082",
 		type: "item",
 		items: [{
-			item: "quark:root_flower 1 1"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "quark:root_flower",
+			Damage: 1s
 		}]
 	},
 	{
 		uid: "b30be791",
 		type: "item",
 		items: [{
-			item: "quark:root_flower 1 2"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "quark:root_flower",
+			Damage: 2s
 		}]
 	}],
 	rewards: [{
 		uid: "54168d61",
 		type: "item",
-		item: "quark:root",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "quark:root"
+		},
 		count: 5
 	}]
 }

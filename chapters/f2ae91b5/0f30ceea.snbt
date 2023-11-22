@@ -1,0 +1,45 @@
+{
+	title: "Preservation Elegance",
+	x: 0.0d,
+	y: -7.0d,
+	description: "Crafting the Everlasting Preservation Chamber",
+	text: [
+		"Take a stride towards culinary perfection by crafting the Everlasting Preservation Chamber—an augmentation that brings an exquisite touch to your kitchen's preservation prowess. This chamber ensures that a trace of each ingredient lingers, serving as a silent sentinel, notifying you of the dwindling presence of your culinary treasures.",
+		"",
+		"Embark on a quest through the landscapes of Gramdamus, gathering the materials required to craft the Everlasting Preservation Chamber. Shape this elegant marvel with care, integrating it seamlessly with your Frostbound Fridge to enhance its capabilities.",
+		"",
+		"Witness the chamber's enchanting effect as it leaves behind a single essence of each ingredient, serving as a delicate reminder of the treasures within. The Cooking Table, now attuned to the Preservation Chamber, shall weave this information into its culinary tapestry.",
+		"",
+		"May your Everlasting Preservation Chamber be the guardian of your kitchen's abundance, allowing you to savor the beauty of a well-stocked culinary kingdom."
+	],
+	dependencies: [
+		"fa9ac37d"
+	],
+	tasks: [{
+		uid: "2efa4ebf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cookingforblockheads:preservation_chamber"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1de7cf7d",
+		type: "loot",
+		table: 11
+	},
+	{
+		uid: "7a6a2135",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "20c55b04",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -14,7 +14,11 @@
 		uid: "66e78812",
 		type: "item",
 		items: [{
-			item: "minecraft:fish 1 1"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:fish",
+			Damage: 1s
 		}]
 	}],
 	rewards: [{
@@ -25,6 +29,11 @@
 	{
 		uid: "3b27af30",
 		type: "item",
-		item: "gramdamuscontent:coin"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
 	}]
 }

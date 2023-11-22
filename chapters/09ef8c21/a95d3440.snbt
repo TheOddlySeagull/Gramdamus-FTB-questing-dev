@@ -1,0 +1,48 @@
+{
+	title: "Blades of Valor: Soldier Specialization",
+	x: -7.0d,
+	y: 3.5d,
+	description: "Forging Fearless Warriors to Defend Gramdamus",
+	text: [
+		"Embark on a quest to mold your Combat NPCs into elite Soldiers, defenders of Gramdamus. Learn the art of equipping them with swords and witness the transformation into formidable warriors:",
+		"",
+		"- Sword Empowerment: Equip a Combat NPC with a sword of any material level in the main hand to transform them into a Soldier.",
+		"",
+		"- Mastery of the Sword: A Soldier's damage output is determined by the material level of the sword equipped. Learn how to select and equip swords to enhance the effectiveness of your Soldiers in the defense of Gramdamus.",
+		"",
+		"- Dual Wielding Mastery: Discover the advanced technique of dual wielding by placing another sword in the Soldier's offhand. Understand that the offhand sword will deal half as much damage as the sword in the main hand. Explore the strategic advantages of dual wielding in combat situations."
+	],
+	dependencies: [
+		"a15483c5"
+	],
+	tasks: [{
+		uid: "ab27b1e8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarenpc:npc_spawner",
+			tag: {
+				npcSubtype: "soldier",
+				npcType: "combat"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "63be1ac7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarenpc:combat_order"
+		}
+	},
+	{
+		uid: "c0af0f90",
+		type: "xp",
+		xp: 100
+	}]
+}

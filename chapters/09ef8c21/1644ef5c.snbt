@@ -19,6 +19,9 @@
 		uid: "61f14cfb",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
 			id: "ancientwarfarenpc:npc_spawner",
 			tag: {
 				npcSubtype: "farmer",
@@ -26,5 +29,20 @@
 			}
 		}],
 		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "56fee74d",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "7e1cffc3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:crop_farm"
+		}
 	}]
 }

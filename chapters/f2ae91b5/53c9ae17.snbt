@@ -6,8 +6,8 @@
 		},
 		id: "biomesoplenty:berries"
 	},
-	x: -2.5d,
-	y: -1.0d,
+	x: -1.5d,
+	y: -0.5d,
 	description: "Embracing Nature's Bounty",
 	text: [
 		"As you set foot into the untamed world of Gramdamus, one of your initial challenges is securing sustenance.",
@@ -21,52 +21,80 @@
 		"",
 		"The MFR berry bush, in particular, holds the potential to replenish your stamina. Start your journey by collecting these gifts of nature."
 	],
+	dependencies: [
+		"9f133f72"
+	],
 	tasks: [{
 		uid: "93f7266d",
 		type: "item",
 		items: [{
-			item: "biomesoplenty:berries"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:berries"
 		}]
 	},
 	{
 		uid: "7ffb81d5",
 		type: "item",
 		items: [{
-			item: "rustic:wildberries"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:wildberries"
 		}]
 	},
 	{
 		uid: "a265dad3",
 		type: "item",
 		items: [{
-			item: "minefantasyreforged:berries_juicy"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:berries_juicy"
 		}]
 	},
 	{
 		uid: "c90c1ea4",
 		type: "item",
 		items: [{
-			item: "minefantasyreforged:berries"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:berries"
 		}]
 	},
 	{
 		uid: "687b1ab9",
 		type: "item",
 		items: [{
-			item: "rustic:wildberry_bush"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:wildberry_bush"
 		}],
 		count: 4L
 	}],
 	rewards: [{
 		uid: "8beb649e",
 		type: "item",
-		item: "rustic:wildberry_bush",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:wildberry_bush"
+		},
 		count: 5
 	},
 	{
 		uid: "11ba0f4d",
 		type: "item",
-		item: "minefantasyreforged:berry_bush",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:berry_bush"
+		},
 		count: 5
 	}]
 }

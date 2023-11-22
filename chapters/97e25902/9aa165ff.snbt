@@ -15,7 +15,10 @@
 		uid: "67015021",
 		type: "item",
 		items: [{
-			item: "harvestcraft:tilapiarawitem"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:tilapiarawitem"
 		}]
 	}],
 	rewards: [{
@@ -26,6 +29,11 @@
 	{
 		uid: "797b8640",
 		type: "item",
-		item: "gramdamuscontent:coin"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
 	}]
 }

@@ -2,29 +2,59 @@
 	title: "Mushroom Medley",
 	loot_size: 1,
 	rewards: [{
-		item: "minecraft:brown_mushroom",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:brown_mushroom"
+		},
 		count: 8,
 		weight: 80
 	},
 	{
-		item: "minecraft:red_mushroom",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:red_mushroom"
+		},
 		count: 8,
 		weight: 80
 	},
 	{
-		item: "minecraft:mushroom_stew",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:mushroom_stew"
+		},
 		weight: 60
 	},
 	{
-		item: "harvestcraft:stuffedmushroomitem",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:stuffedmushroomitem"
+		},
 		weight: 40
 	},
 	{
-		item: "harvestcraft:grilledmushroomitem",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:grilledmushroomitem"
+		},
 		weight: 50
 	},
 	{
-		item: "harvestcraft:baconmushroomburgeritem",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:baconmushroomburgeritem"
+		},
 		weight: 30
 	}]
 }

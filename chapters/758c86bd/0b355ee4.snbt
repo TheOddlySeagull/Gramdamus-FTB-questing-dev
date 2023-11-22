@@ -10,6 +10,9 @@
 		"In this chapter, you'll embark on a journey of storage mastery, exploring various storage solutions, from simple chests to intricate automated warehouses.",
 		"These tools will enhance your ability to manage and organize resources effectively as your empire grows."
 	],
+	dependencies: [
+		"32211408"
+	],
 	tasks: [{
 		uid: "b9665f1e",
 		type: "checkmark"
@@ -17,18 +20,33 @@
 	rewards: [{
 		uid: "2c39c97f",
 		type: "item",
-		item: "minecraft:chest"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:chest"
+		}
 	},
 	{
 		uid: "cab69095",
 		type: "item",
-		item: "minefantasyreforged:thread",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:thread"
+		},
 		count: 2
 	},
 	{
 		uid: "a1d2f750",
 		type: "item",
-		item: "minefantasyreforged:leather_strip",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:leather_strip"
+		},
 		count: 2
 	}]
 }

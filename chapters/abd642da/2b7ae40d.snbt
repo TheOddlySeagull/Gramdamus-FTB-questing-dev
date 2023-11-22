@@ -26,5 +26,15 @@
 		uid: "f52cd64b",
 		type: "checkmark",
 		title: "Marketplace of Everchanging Wares"
+	}],
+	rewards: [{
+		uid: "07663018",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "7a4ddfe7",
+		type: "loot",
+		table: 6
 	}]
 }

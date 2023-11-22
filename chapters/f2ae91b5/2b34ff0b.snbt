@@ -1,0 +1,83 @@
+{
+	title: "Storage Symphony",
+	x: -1.0d,
+	y: -4.0d,
+	description: "Crafting Cabinets and Counters",
+	text: [
+		"To expand the reaches of your culinary kingdom, you must master the art of storage. Craft the noble Cabinets and majestic Counters that shall weave seamlessly into your kitchen multiblock, storing the treasures of your gastronomic conquests.",
+		"",
+		"In the crafting halls of Gramdamus, gather the materials to shape Cabinets and Counters, the silent sentinels that guard your ingredients and tools. Place them strategically within the confines of your kitchen, linking them to the multiblock with care.",
+		"",
+		"Witness as these storage marvels become extensions of your Cooking Table, allowing it to peer into their depths and extract the essence of every item stored. The Cabinets, loyal vaults of sustenance, and the Counters, expansive surfaces for culinary mastery, shall elevate your kitchen into a realm of boundless possibilities.",
+		"",
+		"With Cabinets and Counters adorning your culinary canvas, your Cooking Table shall orchestrate a symphony of ingredients, laying bare a feast of culinary creativity."
+	],
+	dependencies: [
+		"0e4ac93e"
+	],
+	tasks: [{
+		uid: "08e9ce0e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cookingforblockheads:cabinet"
+		}]
+	},
+	{
+		uid: "fa69e049",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cookingforblockheads:counter"
+		}]
+	}],
+	rewards: [{
+		uid: "e7e9fb4f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cookingforblockheads:cabinet"
+		}
+	},
+	{
+		uid: "b6fedcfb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cookingforblockheads:counter"
+		}
+	},
+	{
+		uid: "410d7daf",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cookingforblockheads:corner"
+		}
+	},
+	{
+		uid: "954f175f",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "f5d8e970",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "f937d700",
+		type: "loot",
+		table: 11
+	}]
+}

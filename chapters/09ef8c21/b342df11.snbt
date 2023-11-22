@@ -1,0 +1,38 @@
+{
+	title: "Harmonic Melodies: Unleashing the Bard's Songbook",
+	x: -1.0d,
+	y: 1.0d,
+	description: "A Symphony of Configurable Tunes",
+	text: [
+		"Embark on a quest to unlock the art of music with Bards, the 'flavor' NPCs that bring harmonious melodies to the realm of Gramdamus:",
+		"",
+		"- Bard's Essence: Understand the unique role of Bards as 'flavor' NPCs, providing a touch of musical ambiance to your empire. Discover that Bards have no real use aside from playing music and creating a delightful atmosphere.",
+		"",
+		"- Advanced Controls GUI: Explore the versatility of Bards through the Advanced Controls GUI. Learn how to access this GUI by pressing the 'Advanced Controls' button in the Bard's inventory/interaction GUI.",
+		"",
+		"- Adding a New Song: Dive into the world of musical customization by adding a new song to the Bard's playlist. Click on the 'Add Tune' button to create a blank entry, and input the length of the song in minutes (decimal format). Familiarize yourself with Minecraft's registered sound names and play-length for a personalized musical experience.",
+		"",
+		"- Play on Player Entry: Configure the Bard to play music only when a player first enters its range. Enable the 'Play on Player Entry' checkbox to activate this feature. Witness how the Bard welcomes the arrival of players with a single song, creating a unique and immersive experience.",
+		"",
+		"- Randomized Play-Order: Embrace the spontaneity of music by randomizing the play-order of songs. Check the 'Random' checkbox in the Advanced Controls GUI to add an element of surprise to the Bard's performance. Adjust the min and max delay settings to control the pause between each song.",
+		"",
+		"- Harmonic Symphony: Experience the Bard's musical prowess as they play songs continuously until there are no more players within range. Marvel at the harmonious atmosphere they create, enriching the environment of Gramdamus."
+	],
+	dependencies: [
+		"7ac84bc5"
+	],
+	tasks: [{
+		uid: "4ee2a0bd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarenpc:npc_spawner",
+			tag: {
+				npcSubtype: "",
+				npcType: "bard"
+			}
+		}]
+	}]
+}

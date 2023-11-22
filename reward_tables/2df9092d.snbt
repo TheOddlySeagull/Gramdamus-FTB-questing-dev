@@ -2,34 +2,69 @@
 	title: "Trap Master's Kit",
 	loot_size: 1,
 	rewards: [{
-		item: "harvestcraft:watertrap",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:watertrap"
+		},
 		weight: 7
 	},
 	{
-		item: "harvestcraft:groundtrap",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:groundtrap"
+		},
 		weight: 7
 	},
 	{
-		item: "harvestcraft:fruitbaititem",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:fruitbaititem"
+		},
 		count: 10,
 		weight: 5
 	},
 	{
-		item: "harvestcraft:grainbaititem",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:grainbaititem"
+		},
 		count: 10,
 		weight: 5
 	},
 	{
-		item: "harvestcraft:veggiebaititem",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:veggiebaititem"
+		},
 		count: 10,
 		weight: 5
 	},
 	{
-		item: "harvestcraft:fishtrapbaititem",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:fishtrapbaititem"
+		},
 		count: 10,
 		weight: 5
 	},
 	{
-		item: "minecraft:lead"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:lead"
+		}
 	}]
 }

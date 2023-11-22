@@ -1,0 +1,37 @@
+{
+	title: "Culinary Foundations",
+	x: 0.5d,
+	y: -2.5d,
+	description: "The Harmony of Blades and Pots",
+	text: [
+		"In the heart of Gramdamus, where blades meet pots, lies the art of culinary creation. A multiblock kitchen, a sacred haven for the aspiring chef, awaits your skilled hands. Gather knowledge from the ancients to construct the Cooking Table, the centerpiece of this gastronomic sanctuary.",
+		"",
+		"To weave the threads of this culinary tapestry, seek a humble book that reveals the secrets of the multiblock kitchen. Embrace the wisdom within its pages, for it shall unveil the alchemy of blending ingredients to craft an array of dishes. Let the kitchen's magic be your guide, turning raw materials into culinary delights that shall echo through the halls of your empire.",
+		"",
+		"Venture forth, noble chef, and forge the foundations of your culinary realm. The multiblock kitchen beckons, and the cooking table yearns to be born from the crucible of your craftsmanship. May your pots simmer with ambition and your blades dance with precision!"
+	],
+	dependencies: [
+		"9f133f72"
+	],
+	tasks: [{
+		uid: "c5741660",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:book"
+		}]
+	}],
+	rewards: [{
+		uid: "1d861128",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cookingforblockheads:recipe_book",
+			Damage: 1s
+		}
+	}]
+}

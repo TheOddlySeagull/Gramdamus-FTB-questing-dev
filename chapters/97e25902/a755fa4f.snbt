@@ -15,7 +15,10 @@
 		uid: "8ba8a45c",
 		type: "item",
 		items: [{
-			item: "harvestcraft:greenheartfishitem"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:greenheartfishitem"
 		}]
 	}],
 	rewards: [{
@@ -26,6 +29,11 @@
 	{
 		uid: "364d068c",
 		type: "item",
-		item: "gramdamuscontent:coin"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
 	}]
 }

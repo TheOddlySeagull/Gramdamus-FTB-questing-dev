@@ -1,6 +1,11 @@
 {
-	title: "Brewering",
-	icon: "rustic:brewing_barrel",
+	title: "Brewer's Haven",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "rustic:brewing_barrel"
+	},
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

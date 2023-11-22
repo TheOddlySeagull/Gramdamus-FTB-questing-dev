@@ -1,0 +1,38 @@
+{
+	title: "Orchard Keeper's Haven",
+	x: 3.0d,
+	y: -6.5d,
+	description: "Crafting the Juicery Basket",
+	text: [
+		"Embrace the succulence of nature's bounty by crafting the Juicery Basket—a sanctuary for your luscious fruits. This culinary marvel, also known as the Fruit Basket, provides a haven for the juiciest treasures of the land, enhancing your kitchen's fruity repertoire.",
+		"",
+		"Embark on a quest through the fertile landscapes of Gramdamus, gathering the materials needed to weave the Juicery Basket. Shape this fruitful haven with care, placing it within the harmonious embrace of your kitchen multiblock.",
+		"",
+		"Witness the transformation as the Cooking Table extends its influence to the Juicery Basket, drawing upon the juicy delights stored within. Each fruit, cradled in the basket's embrace, becomes a source of sweetness for the crafting of refreshing and vibrant dishes.",
+		"",
+		"May your Juicery Basket be a testament to the orchard's embrace within your kitchen, where the essence of juicy fruits adds a burst of vitality to every culinary creation."
+	],
+	dependencies: [
+		"d5e64856"
+	],
+	tasks: [{
+		uid: "bfae75c3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cookingforblockheads:fruit_basket"
+		}]
+	}],
+	rewards: [{
+		uid: "282b80c5",
+		type: "loot",
+		table: 11
+	},
+	{
+		uid: "b02bc033",
+		type: "loot",
+		table: 12
+	}]
+}

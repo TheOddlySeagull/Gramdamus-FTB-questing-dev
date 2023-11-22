@@ -7,8 +7,8 @@
 		id: "growthcraft_grapes:grape",
 		Damage: 14s
 	},
-	x: 6.5d,
-	y: 2.5d,
+	x: -4.5d,
+	y: 0.0d,
 	description: "Cultivating the Vineyards",
 	text: [
 		" Gramdamus is a land of vineyards, where the Growthcraft mod reigns supreme.",
@@ -20,39 +20,61 @@
 		"These grape seeds can be found hidden in dungeons and can be obtained by breaking vines."
 	],
 	dependencies: [
-		"53c9ae17"
+		"2ac25553"
 	],
 	tasks: [{
 		uid: "e0e6fff7",
 		type: "item",
 		items: [{
-			item: "growthcraft_grapes:grape_seed 1 10"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "growthcraft_grapes:grape_seed",
+			Damage: 10s
 		}]
 	},
 	{
 		uid: "0ca528d5",
 		type: "item",
 		items: [{
-			item: "growthcraft_grapes:grape_seed 1 13"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "growthcraft_grapes:grape_seed",
+			Damage: 13s
 		}]
 	},
 	{
 		uid: "e431ae05",
 		type: "item",
 		items: [{
-			item: "growthcraft_grapes:grape_seed 1 14"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "growthcraft_grapes:grape_seed",
+			Damage: 14s
 		}]
 	}],
 	rewards: [{
 		uid: "9474dd05",
 		type: "item",
-		item: "minecraft:fence",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:fence"
+		},
 		count: 4
 	},
 	{
 		uid: "7267d0bc",
 		type: "item",
-		item: "growthcraft:rope",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "growthcraft:rope"
+		},
 		count: 7
 	}]
 }

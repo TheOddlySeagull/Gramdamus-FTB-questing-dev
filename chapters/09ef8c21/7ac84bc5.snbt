@@ -19,7 +19,10 @@
 		uid: "6e52bdcc",
 		type: "item",
 		items: [{
-			item: "ancientwarfarenpc:upkeep_order"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarenpc:upkeep_order"
 		}]
 	}],
 	rewards: [{

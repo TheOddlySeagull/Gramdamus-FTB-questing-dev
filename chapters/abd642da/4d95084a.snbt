@@ -1,0 +1,43 @@
+{
+	title: "Spirit of Beginnings",
+	x: -11.0d,
+	y: -2.0d,
+	description: "A Sip of Commencement",
+	text: [
+		"In your quest to establish yourself in Gramdamus, it's time to take a small sip into the world of brewing. Your gateway task is simple—visit the local tavern and witness the artistry of the brewer. Stand among the patrons, absorb the ambience, and acknowledge the role that brewing plays in the social tapestry of Gramdamus.",
+		"",
+		"This quest serves as a checkmark, a moment to observe and appreciate the beginning of your journey into the realm of beverages. Let the taste of the basics linger on your palate as you prepare to delve deeper into the art of brewing."
+	],
+	dependencies: [
+		"1aaf79e4"
+	],
+	tasks: [{
+		uid: "1e005ed8",
+		type: "checkmark",
+		title: "Pioneering Prologue"
+	}],
+	rewards: [{
+		uid: "d741d29d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:fluid_bottle",
+			tag: {
+				Fluid: {
+					FluidName: "ale",
+					Amount: 1000,
+					Tag: {
+						Quality: 0.25f
+					}
+				}
+			}
+		}
+	},
+	{
+		uid: "d7b60606",
+		type: "xp",
+		xp: 5
+	}]
+}

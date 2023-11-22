@@ -1,0 +1,38 @@
+{
+	title: "Divine Resurgence: Priest Specialization",
+	x: -1.0d,
+	y: 0.0d,
+	description: "Restoring Life to Fallen Companions",
+	text: [
+		"Embark on a quest to become a master of divine resurgence with Priests, NPCs dedicated to the sacred task of resurrecting fallen comrades within the realm of Gramdamus:",
+		"",
+		"- Priest's Purpose: Understand the vital role of Priests in resurrecting other NPCs that have met their demise. Explore the significance of this sacred duty in maintaining the strength of your empire.",
+		"",
+		"- Resurrection Eligibility: Learn the conditions for an NPC to be eligible for resurrection. Discover that the slain NPC must have died within range of a Town Hall to be considered for revival by a Priest.",
+		"",
+		"- Town Hall Range: Understand the concept of Town Hall range and its influence on the eligibility of fallen NPCs for resurrection. Ensure that your Town Halls are strategically placed to cover a sufficient area for the timely intervention of Priests.",
+		"",
+		"- Equipment Retrieval: Comprehend that resurrected NPCs return unequipped, and their dropped equipment must be manually retrieved and/or replaced. Witness the importance of swift action in restoring the strength of your forces after resurrection.",
+		"",
+		"- Priest's Intervention: Witness the divine intervention of a Priest as they perform the sacred ritual of resurrection. Explore the mechanics of this process and the sense of urgency in bringing fallen comrades back to life.",
+		"",
+		"- Divine Responsibilities: Embrace the responsibility of ensuring that your Priests are strategically placed to cover key areas of your empire, providing timely resurrection services when needed."
+	],
+	dependencies: [
+		"7ac84bc5"
+	],
+	tasks: [{
+		uid: "e8b16973",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarenpc:npc_spawner",
+			tag: {
+				npcSubtype: "",
+				npcType: "priest"
+			}
+		}]
+	}]
+}

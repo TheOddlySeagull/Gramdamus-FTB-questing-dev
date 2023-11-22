@@ -37,7 +37,8 @@
 				Parent: {
 					data: "paper",
 					id: "ore"
-				}
+				},
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "itemfilters:filter",
 			tag: {

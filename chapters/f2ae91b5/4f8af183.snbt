@@ -1,0 +1,39 @@
+{
+	title: "Toasted Transmutation",
+	x: 1.5d,
+	y: -5.0d,
+	description: "Crafting the Enchantoaster",
+	text: [
+		"Embark on a quest to introduce a touch of magic to your morning ritual by crafting the Enchantoaster—a mystical appliance that transforms simple bread into the golden delight of toast. This culinary marvel, also known as the Toasting Tome, shall add a magical flair to your breakfast routine.",
+		"",
+		"Journey through the enchanting realms of Gramdamus, gathering the materials required to craft the Enchantoaster. Shape this magical contraption with care, placing it within the enchanting embrace of your kitchen multiblock.",
+		"",
+		"Witness the magical transmutation as the Cooking Table extends its influence to the Enchantoaster, drawing upon its mystical powers to turn mundane bread into the golden ecstasy of toast. Each slice, touched by the magic within the toaster, becomes a delightful start to your day.",
+		"",
+		"May your Enchantoaster be a testament to the enchanting magic within your kitchen, where the alchemy of bread to toast adds a touch of whimsy to every breakfast."
+	],
+	dependencies: [
+		"0e4ac93e"
+	],
+	tasks: [{
+		uid: "c99d0f25",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cookingforblockheads:toaster"
+		}]
+	}],
+	rewards: [{
+		uid: "0189798d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:toastitem"
+		},
+		count: 4
+	}]
+}

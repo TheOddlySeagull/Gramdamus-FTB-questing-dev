@@ -18,7 +18,8 @@
 				Parent: {
 					data: "listAllseed",
 					id: "ore"
-				}
+				},
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "itemfilters:filter",
 			tag: {
@@ -32,7 +33,13 @@
 	rewards: [{
 		uid: "8cf7e7c1",
 		type: "item",
-		item: "minecraft:dye 1 15",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dye",
+			Damage: 15s
+		},
 		count: 16
 	},
 	{

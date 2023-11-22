@@ -17,6 +17,9 @@
 		uid: "f4877664",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
 			id: "storagedrawers:basicdrawers",
 			tag: {
 				material: "oak"
@@ -28,6 +31,9 @@
 		uid: "206f2571",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
 			id: "storagedrawers:basicdrawers",
 			tag: {
 				material: "oak"
@@ -38,6 +44,9 @@
 		uid: "e570ef2e",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
 			id: "storagedrawers:basicdrawers",
 			tag: {
 				material: "oak"
@@ -48,13 +57,23 @@
 	rewards: [{
 		uid: "53dcdec6",
 		type: "item",
-		item: "minecraft:wooden_slab",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:wooden_slab"
+		},
 		count: 10
 	},
 	{
 		uid: "f33215a7",
 		type: "item",
-		item: "minecraft:chest",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:chest"
+		},
 		count: 10
 	}]
 }

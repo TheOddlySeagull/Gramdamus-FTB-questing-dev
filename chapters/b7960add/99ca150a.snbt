@@ -1,17 +1,43 @@
 {
-	title: "My first pickaxe",
+	title: "Stonebound Smithery",
 	x: 0.0d,
 	y: 0.0d,
+	description: "Forging the Miner's Pick",
 	text: [
-		""
+		"Forge the path into the Miner's Lore chapter by crafting your first tool of excavation—an exquisite stone pickaxe from the depths of Minefantasy Reforged. Venture into the subterranean realms of Gramdamus, gather the materials required, and shape this pickaxe with the essence of the earth itself.",
+		"",
+		"As the sparks fly from the forge, feel the resonance of the Miner's Pick in your hands. Let this pickaxe be your companion as you explore the stone types, delve into the depths for precious ores, uncover fossils, and unravel the secrets of the cavernous landscapes.",
+		"",
+		"May your Stonebound Smithery be the key to unlocking the treasures hidden within the Miner's Lore chapter."
+	],
+	dependencies: [
+		"7693baa4"
 	],
 	tasks: [{
 		uid: "d46994fc",
 		type: "item",
 		items: [{
-			item: "minefantasyreforged:stone_pick"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:stone_pick"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "38cc0cb0",
+		type: "xp",
+		xp: 15
+	},
+	{
+		uid: "d1335350",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:stone_spade"
+		}
 	}]
 }

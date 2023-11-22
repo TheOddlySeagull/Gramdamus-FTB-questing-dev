@@ -1,6 +1,11 @@
 {
 	title: "Pursuit of the Phoenix",
-	icon: "exoticbirds:phoenix_dust",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "exoticbirds:phoenix_dust"
+	},
 	x: -2.5d,
 	y: -1.5d,
 	description: "A Mythical Revelation",
@@ -24,7 +29,10 @@
 		uid: "4c72b331",
 		type: "item",
 		items: [{
-			item: "exoticbirds:phoenix_dust"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:phoenix_dust"
 		}],
 		count: 5L
 	},
@@ -32,13 +40,21 @@
 		uid: "06b2e51e",
 		type: "item",
 		items: [{
-			item: "minecraft:egg"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:egg"
 		}]
 	}],
 	rewards: [{
 		uid: "f0eca6f2",
 		type: "item",
-		item: "exoticbirds:phoenix_dust",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:phoenix_dust"
+		},
 		count: 3
 	}]
 }

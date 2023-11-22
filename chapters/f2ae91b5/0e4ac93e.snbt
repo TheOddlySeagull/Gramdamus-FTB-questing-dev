@@ -1,0 +1,54 @@
+{
+	title: "Hearth of Culinary Alchemy",
+	x: 0.5d,
+	y: -4.0d,
+	description: "Forging the Cooking Table",
+	text: [
+		"The time has come to give life to your culinary sanctum. Forge the heart of your kitchen multiblock—the illustrious Cooking Table. Assemble the sacred elements, from cabinets to counters, tool racks to spice racks, each contributing to the symphony of flavors that shall emanate from your domain.",
+		"",
+		"In the workshop of Gramdamus, gather the required materials to craft the Cooking Table, a vessel of knowledge that transcends the boundaries of mere cookery. This enchanted table shall commune with every corner of your kitchen, knowing the essence of ingredients stored in cabinets, the grace of tools on racks, and the aroma of herbs on spice racks.",
+		"",
+		"Once the table is complete, step into the dance of alchemy. Interact with the Cooking Table, and behold the revelation of culinary possibilities. Every ingredient within your kitchen multiblock shall be laid bare before you, offering a tapestry of potential recipes waiting to be woven into reality.",
+		"",
+		"May the fires beneath your cauldron burn bright, and the Cooking Table become the heartbeat of your culinary empire."
+	],
+	dependencies: [
+		"910b849d"
+	],
+	tasks: [{
+		uid: "bb6550d8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cookingforblockheads:cooking_table"
+		}]
+	}],
+	rewards: [{
+		uid: "0017a795",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "7cb2673a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:hardened_clay"
+		},
+		count: 16
+	},
+	{
+		uid: "de42c2e4",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "afc416a9",
+		type: "loot",
+		table: 11
+	}]
+}

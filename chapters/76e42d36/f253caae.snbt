@@ -15,7 +15,10 @@
 		uid: "c5272132",
 		type: "item",
 		items: [{
-			item: "exoticbirds:seagull_egg"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoticbirds:seagull_egg"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -23,6 +26,12 @@
 	rewards: [{
 		uid: "38951087",
 		type: "item",
-		item: "gramdamuscontent:coin 1 1"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 1s
+		}
 	}]
 }

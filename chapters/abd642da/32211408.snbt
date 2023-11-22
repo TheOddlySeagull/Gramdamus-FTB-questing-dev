@@ -27,7 +27,8 @@
 				Parent: {
 					data: "chest",
 					id: "ore"
-				}
+				},
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "itemfilters:filter",
 			tag: {
@@ -43,7 +44,12 @@
 	rewards: [{
 		uid: "bfcb4971",
 		type: "item",
-		item: "minecraft:chest",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:chest"
+		},
 		count: 10
 	}]
 }

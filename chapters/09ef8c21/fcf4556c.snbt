@@ -1,0 +1,34 @@
+{
+	title: "Swift Deliveries: Courier Specialization",
+	x: -1.0d,
+	y: 3.0d,
+	description: "Automating Item Transfers for Efficient Logistics",
+	text: [
+		"Embark on a quest to master the art of automated item transfers with Couriers, versatile agents equipped with Backpacks and Routing Orders to streamline logistics in Gramdamus:",
+		"",
+		"- Courier Essentials: Learn the basics of Couriers as they provide an automated means of transferring items between inventories. Understand the key components required for effective courier operations.",
+		"",
+		"- Backpack Mastery: Equip the Courier with a Backpack in the main hand for expanded inventory space. Explore the different types of Backpacks available and understand how their variations impact the amount of room the Courier has for storing items.",
+		"",
+		"- Routing Order Setup: Equip the Courier with a Routing Order in the orders slot. Delve into the details of Routing Orders, specifying the blocks the Courier will transfer items to and from, and detailing the items to be moved at each stop. Understand the significance of efficient Routing Order setup for streamlined logistics.",
+		"",
+		"- Item Storage in Backpack: Comprehend the mechanics of item storage in the Courier's Backpack. Learn how to remove the Backpack at any time to view or manipulate its contents. Witness the seamless storage and retrieval process that enhances the Courier's efficiency."
+	],
+	dependencies: [
+		"4a62d645"
+	],
+	tasks: [{
+		uid: "7b35df32",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarenpc:npc_spawner",
+			tag: {
+				npcSubtype: "",
+				npcType: "courier"
+			}
+		}]
+	}]
+}

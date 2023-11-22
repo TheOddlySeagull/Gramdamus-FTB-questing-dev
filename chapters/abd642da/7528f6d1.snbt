@@ -1,6 +1,11 @@
 {
 	title: "Embark on the Exploration Journey",
-	icon: "minecraft:grass",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:sapling"
+	},
 	x: -8.0d,
 	y: -3.5d,
 	description: "Unveiling the Riches of Gramdamus",
@@ -16,16 +21,16 @@
 		uid: "5bc6be85",
 		type: "biome",
 		biome: "biomesoplenty:meadow"
-	},
-	{
-		uid: "457de288",
-		type: "checkmark",
-		title: "Explore!"
 	}],
 	rewards: [{
 		uid: "8ad28d14",
 		type: "item",
-		item: "minefantasyreforged:berries",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:berries"
+		},
 		count: 10
 	}]
 }

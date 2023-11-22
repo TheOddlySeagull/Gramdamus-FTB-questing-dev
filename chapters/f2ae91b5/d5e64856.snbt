@@ -1,0 +1,38 @@
+{
+	title: "Aromatic Ambience",
+	x: 3.0d,
+	y: -5.0d,
+	description: "Crafting the Spice Alcove",
+	text: [
+		"Infuse your kitchen with the enchanting allure of spices by crafting the Spice Alcove—a haven for aromatic wonders. This essential addition, known as the Spice Rack, allows you to store a myriad of spices and ingredients, elevating your culinary creations to new heights.",
+		"",
+		"Embark on a quest through the fragrant markets of Gramdamus, collecting the materials needed to construct the Spice Alcove. Assemble this aromatic sanctuary with care, placing it strategically within the harmonious confines of your kitchen multiblock.",
+		"",
+		"Witness the transformation as the Cooking Table extends its influence to the Spice Alcove, drawing upon the diverse palette of spices stored within. Each vial, filled with the essence of culinary delights, becomes a source of inspiration for the creation of dishes that tantalize the senses.",
+		"",
+		"May your Spice Alcove be a testament to the aromatic symphony that unfolds within the heart of your kitchen, where every spice tells a story of culinary mastery."
+	],
+	dependencies: [
+		"5eded495"
+	],
+	tasks: [{
+		uid: "e53ad6d6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cookingforblockheads:spice_rack"
+		}]
+	}],
+	rewards: [{
+		uid: "5ae6ae49",
+		type: "loot",
+		table: 11
+	},
+	{
+		uid: "0bdd64a8",
+		type: "loot",
+		table: 12
+	}]
+}

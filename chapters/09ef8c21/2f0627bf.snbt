@@ -1,0 +1,55 @@
+{
+	title: "Engineering Onslaught: Siege Engineer Specialization",
+	x: -4.5d,
+	y: 4.5d,
+	description: "Mastering the Art of Siege Warfare in Gramdamus",
+	text: [
+		"Embark on a quest to unleash the power of Siege Engineers, master tacticians capable of piloting and optimizing the use of Siege Vehicles for strategic warfare in Gramdamus:",
+		"",
+		"- Siege Engineer Spawning: Craft the unique Siege Engineer spawner item at the Engineering Bench. Learn the recipe and acquire the necessary materials to create this essential item for siege warfare.",
+		"",
+		"- Tactical Deployment: Use the Siege Engineer spawner item to spawn a Siege Engineer in your realm.",
+		"",
+		"- Piloting Mastery: Understand that the Siege Engineer does not require anything in its main hand to perform its function. Explore the flexibility in setting up offhand, armor slots, and order slots according to your strategic preferences.",
+		"",
+		"- Siege Vehicle Collaboration: Witness the Siege Engineer in action as it automatically pilots nearby Siege Vehicles. Learn how this collaboration enhances the efficiency and firepower of your siege warfare, making it a formidable force on the battlefield."
+	],
+	dependencies: [
+		"a15483c5"
+	],
+	tasks: [{
+		uid: "e66b2f9d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarenpc:npc_spawner",
+			tag: {
+				npcSubtype: "",
+				npcType: "siege_engineer"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "d0489583",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarevehicle:spawner",
+			tag: {
+				spawnData: {
+					level: 0
+				}
+			}
+		}
+	},
+	{
+		uid: "1ec938e7",
+		type: "xp",
+		xp: 100
+	}]
+}
