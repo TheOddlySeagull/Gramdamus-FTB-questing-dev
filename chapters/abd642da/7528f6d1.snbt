@@ -6,8 +6,8 @@
 		},
 		id: "minecraft:sapling"
 	},
-	x: -8.0d,
-	y: -3.5d,
+	x: -9.0d,
+	y: -3.0d,
 	description: "Unveiling the Riches of Gramdamus",
 	text: [
 		"Venture forth into the vast and diverse world of Gramdamus.",

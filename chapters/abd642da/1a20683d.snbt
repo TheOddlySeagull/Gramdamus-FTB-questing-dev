@@ -1,0 +1,79 @@
+{
+	title: "Sweet Dreams: Embrace the Comforts of Rest",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "comforts:sleeping_bag"
+	},
+	x: -8.0d,
+	y: -3.5d,
+	description: "A Bed and a Bag for a Peaceful Night",
+	text: [
+		"In the heart of Gramdamus, where shadows dance with the moonlight, a traveler's respite is found in the embrace of comfort. As you embark on your journey through the vast realms, it's essential to master the art of peaceful slumber. Your first step into this realm of tranquility begins with crafting a Sleeping Bag and a Bed.",
+		"",
+		"The Sleeping Bag, a traveler's faithful companion, unfurls to offer a restful night without altering your respawn point. Craft this portable haven with a humble offering of 1 block of wool and 1 plank. It shall be your trusty companion during exploration, providing respite beneath the starry tapestry without binding your destiny to a fixed location.",
+		"",
+		"Yet, for those yearning for a more permanent sanctuary, the Bed beckons. Assembled from the same components, a block of wool and a plank, the Bed not only cradles you in the arms of dreams but also becomes a sanctuary where your journey begins anew should fate be unkind."
+	],
+	tasks: [{
+		uid: "e54d5fcf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "wool",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any wool"
+				}
+			}
+		}],
+		consume_items: true
+	},
+	{
+		uid: "e20f32ed",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "plankWood",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plankWood"
+				}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "07034ba2",
+		type: "random",
+		table: 13
+	},
+	{
+		uid: "a0128fc0",
+		type: "random",
+		table: 14
+	},
+	{
+		uid: "e9fa0d88",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

@@ -1,0 +1,147 @@
+{
+	title: "Bed",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bed"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bed",
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bed",
+			Damage: 2s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bed",
+			Damage: 3s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bed",
+			Damage: 4s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bed",
+			Damage: 5s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bed",
+			Damage: 6s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bed",
+			Damage: 7s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bed",
+			Damage: 8s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bed",
+			Damage: 9s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bed",
+			Damage: 10s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bed",
+			Damage: 11s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bed",
+			Damage: 12s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bed",
+			Damage: 13s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bed",
+			Damage: 14s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bed",
+			Damage: 15s
+		}
+	}]
+}

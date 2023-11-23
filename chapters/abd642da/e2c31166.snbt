@@ -1,0 +1,49 @@
+{
+	title: "Guiding Light",
+	x: -6.0d,
+	y: -4.0d,
+	description: "Crafting the Mega Torch",
+	text: [
+		"Illuminate the path to safety by crafting the illustrious Mega Torch—an invaluable creation from the TorchMaster mod that will banish the shadows and keep the darkness at bay. This task marks your initiation into harnessing the power of light to safeguard your burgeoning empire.",
+		"",
+		"Embark on a quest to gather the materials required for the Mega Torch. Assemble this radiant beacon with care, placing it strategically within the protective bounds of your nascent settlement. The Mega Torch, once activated, shall cast its luminous embrace over a wide radius, ensuring that the natural darkness remains uninhabited by hostile entities.",
+		"",
+		"May your Guiding Light be a testament to your commitment to safety and enlightenment as you embark on the journey of Gramdamus."
+	],
+	tasks: [{
+		uid: "47429053",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "torchmaster:mega_torch"
+		}]
+	}],
+	rewards: [{
+		uid: "b1e259a0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:torch"
+		},
+		count: 128
+	},
+	{
+		uid: "6e1d3df8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "torchmaster:terrain_lighter"
+		}
+	},
+	{
+		uid: "11d6461f",
+		type: "xp",
+		xp: 100
+	}]
+}

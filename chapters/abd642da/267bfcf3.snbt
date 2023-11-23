@@ -1,7 +1,7 @@
 {
 	title: "Avian Discovery",
-	x: -9.0d,
-	y: -3.0d,
+	x: -10.0d,
+	y: -4.0d,
 	description: "The Feathered World of Gramdamus",
 	text: [
 		"he skies of Gramdamus are alive with the vibrant beauty of exotic birds, thanks to the Exotic Birds mod.",

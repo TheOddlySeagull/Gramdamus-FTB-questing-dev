@@ -1,0 +1,46 @@
+{
+	title: "Hammock Harmony: Swaying in Serenity",
+	x: -8.0d,
+	y: -5.0d,
+	description: "Craft and Hang Your Haven",
+	text: [
+		"Now that you've savored the comfort of traditional rest, it's time to elevate your nocturnal repose with the grace of a hammock. Craft this suspended haven using materials that echo the essence of Gramdamus.",
+		"",
+		"Your quest begins with the creation of a Hammock. Gather the necessary resources and bring forth 2 Rope and Nails as offerings upon your return. Place these anchors of comfort 4 blocks apart, and between them, weave the Hammock of serene dreams.",
+		"",
+		"Stand back and witness the birth of a tranquil sanctuary between the two points. Right-click one of the Rope and Nails with your crafted Hammock, and behold as it gracefully suspends between them, inviting you to a gentle sway amidst nature's lullaby.",
+		"",
+		"Embrace the Hammock Harmony and let the peaceful rhythm of the night cradle you in serene slumber."
+	],
+	dependencies: [
+		"1a20683d"
+	],
+	tasks: [{
+		uid: "3fe38ae4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "comforts:hammock"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ee80f915",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "comforts:rope"
+		},
+		count: 2
+	},
+	{
+		uid: "7a2bd6ee",
+		type: "xp",
+		xp: 20
+	}]
+}

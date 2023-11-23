@@ -1,0 +1,147 @@
+{
+	title: "Sleeping Bag",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "comforts:sleeping_bag"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "comforts:sleeping_bag",
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "comforts:sleeping_bag",
+			Damage: 2s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "comforts:sleeping_bag",
+			Damage: 3s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "comforts:sleeping_bag",
+			Damage: 4s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "comforts:sleeping_bag",
+			Damage: 5s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "comforts:sleeping_bag",
+			Damage: 6s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "comforts:sleeping_bag",
+			Damage: 7s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "comforts:sleeping_bag",
+			Damage: 8s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "comforts:sleeping_bag",
+			Damage: 9s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "comforts:sleeping_bag",
+			Damage: 10s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "comforts:sleeping_bag",
+			Damage: 11s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "comforts:sleeping_bag",
+			Damage: 12s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "comforts:sleeping_bag",
+			Damage: 13s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "comforts:sleeping_bag",
+			Damage: 14s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "comforts:sleeping_bag",
+			Damage: 15s
+		}
+	}]
+}
