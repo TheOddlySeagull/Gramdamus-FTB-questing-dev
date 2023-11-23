@@ -26,7 +26,8 @@
 			},
 			id: "minecraft:crafting_table"
 		}],
-		consume_items: false
+		consume_items: false,
+		only_from_crafting: true
 	},
 	{
 		uid: "5c5919ed",
@@ -40,7 +41,8 @@
 		}],
 		consume_items: false,
 		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_nbt: 1b,
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "258fd626",
