@@ -27,61 +27,6 @@
 		}]
 	}],
 	rewards: [{
-		uid: "675a4811",
-		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:stick"
-		},
-		count: 10
-	},
-	{
-		uid: "38a3fde6",
-		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:string"
-		},
-		count: 10
-	},
-	{
-		uid: "2383b2aa",
-		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minefantasyreforged:sharp_rock"
-		},
-		count: 10
-	},
-	{
-		uid: "0e94bfa2",
-		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:torch"
-		},
-		count: 10
-	},
-	{
-		uid: "87af0c7c",
-		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:paper"
-		},
-		count: 10
-	},
-	{
 		uid: "442e1eda",
 		type: "item",
 		item: {

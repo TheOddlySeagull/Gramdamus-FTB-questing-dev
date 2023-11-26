@@ -1,0 +1,76 @@
+{
+	title: "Bark Harvest",
+	x: 11.0d,
+	y: 1.0d,
+	description: "Collecting Cinnamon and Maple Syrup",
+	text: [
+		"Embark on a quest to unravel the sweet secrets hidden within the barks of Pam's Harvestcraft trees. \"Bark Harvest\" challenges you to gather 8 fragrant cinnamon and 8 luscious maple syrup, unlocking the aromatic and sweet treasures that add depth to your culinary repertoire.",
+		"",
+		"Explore the orchards where the aromatic cinnamon trees thrive, and tap into the abundance of maple syrup from the majestic maple trees. Each bark, a source of distinct flavor, shall enhance your culinary creations with its unique essence.",
+		"",
+		"As you collect these treasures, savor the scents and flavors that waft from the cinnamon and maple syrup. Envision the delectable recipes that will benefit from these aromatic additions. May your Bark Harvest quest be a flavorful journey through the Orchard Exploration chapter."
+	],
+	dependencies: [
+		"f249e383"
+	],
+	tasks: [{
+		uid: "0f44e53b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:maplesyrupitem"
+		}],
+		count: 8L
+	},
+	{
+		uid: "b157584e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:cinnamonitem"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "0e4a0be7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:paperbark_sapling"
+		},
+		count: 4
+	},
+	{
+		uid: "aaf98458",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:cinnamon_sapling"
+		},
+		count: 4
+	},
+	{
+		uid: "a4764708",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:maple_sapling"
+		},
+		count: 4
+	},
+	{
+		uid: "463673c5",
+		type: "xp",
+		xp: 100
+	}]
+}

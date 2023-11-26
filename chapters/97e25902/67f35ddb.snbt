@@ -1,0 +1,59 @@
+{
+	title: "Citrus Mastery",
+	x: 8.0d,
+	y: 4.0d,
+	description: "Harvesting the Citrus Bounty",
+	text: [
+		"Embark on the final citrus challenge, \"Citrus Mastery,\" a grand undertaking that calls for the harvesting of a staggering 1728 citrus fruits—equivalent to 27 stacks. This monumental task represents the pinnacle of your citrus exploration within Pam's Harvestcraft.",
+		"",
+		"Roam the expansive orchards, where the branches hang heavy with the vibrant bounty of lemons, limes, oranges, and grapefruits. Channel your dedication and diligence as you collect this colossal citrus harvest, a testament to your mastery of the citrus families.",
+		"",
+		"As you gather these bountiful stacks of citrus, feel the weight of accomplishment and envision the multitude of culinary delights that can be crafted from such a vibrant and zesty harvest.",
+		"",
+		"May your Citrus Mastery quest be a crowning achievement within the Orchard Exploration chapter, marking your legacy as a true citrus virtuoso."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"486694f6",
+		"3e3a2c7b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ff75ccd6",
+		type: "item",
+		title: "A monumental bounty of citrus fruits.",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "listAllcitrus",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any listAllcitrus"
+				}
+			}
+		}],
+		count: 1728L
+	}],
+	rewards: [{
+		uid: "2f713e95",
+		type: "xp",
+		title: "A grand reward for achieving mastery in harvesting citrus within the Orchard Exploration chapter.",
+		xp: 1000
+	},
+	{
+		uid: "79f278dd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 3s
+		}
+	}]
+}

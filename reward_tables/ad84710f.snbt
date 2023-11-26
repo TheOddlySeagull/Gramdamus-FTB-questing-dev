@@ -1,0 +1,264 @@
+{
+	title: "Tier 1 wood",
+	loot_size: 8,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "cherry_wood"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "umbran_wood"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "fir_wood"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "mangrove_wood"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "palm_wood"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "redwood_wood"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "willow_wood"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "pine_wood"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "jacaranda_wood"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "mahogany_wood"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "eucalyptus_wood"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "thin_bamboo_wood"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "oak_wood"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "spruce_wood"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "birch_wood"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "jungle_wood"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "acacia_wood"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "dark_oak_wood"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "olive_wood"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "ironwood_wood"
+				}
+			}
+		}
+	}]
+}

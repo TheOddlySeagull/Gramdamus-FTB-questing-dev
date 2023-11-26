@@ -1,5 +1,11 @@
 {
 	title: "Oceanic Mastery",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:fish"
+	},
 	x: -3.5d,
 	y: 15.5d,
 	description: "Conqueror of the Deep",
@@ -10,6 +16,7 @@
 		"Showcasing your knowledge and tenacity in acquiring these oceanic treasures will mark you as a true Conqueror of the Deep.",
 		"Brace yourself for a challenging and memorizing journey into the vastness of aquatic wonders!"
 	],
+	hide_dependency_lines: true,
 	dependencies: [
 		"81df201f",
 		"2c46e884",
@@ -82,7 +89,7 @@
 	rewards: [{
 		uid: "c10d6cd3",
 		type: "xp",
-		xp: 5000
+		xp: 3000
 	},
 	{
 		uid: "48d8f3c4",

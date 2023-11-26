@@ -1,0 +1,60 @@
+{
+	title: "Ebony Elegance",
+	x: 4.0d,
+	y: 3.5d,
+	description: "Harvesting the Singular Tier 3 Wood",
+	text: [
+		"Embark on a quest to delve into the heart of Gramdamus' woodlands, where the majestic Ebony trees stand as sentinels of craftsmanship. \"Ebony Elegance\" calls you to harvest the singular tier 3 wood—Ebony, a wood of unparalleled elegance and strength, coveted for its exceptional properties in Minefantasy Reforged tool and weapon crafting.",
+		"",
+		"Navigate the enchanting woodlands, where the Ebony trees rise with regal grace. Wield your axe with reverence, extracting this prized wood that stands as a beacon of woodcraft excellence. Ebony, with its dark allure and formidable qualities, shall become the crown jewel in your crafting repertoire.",
+		"",
+		"As you collect the Ebony wood, feel the weight of its significance—a wood that marks the pinnacle of tiered woodcraft, offering unparalleled possibilities for crafting exquisite tools and weapons.",
+		"",
+		"May your Ebony Elegance be the zenith of your woodcraft journey, unlocking the true potential within the Cultivating the Fields chapter."
+	],
+	dependencies: [
+		"ad3204ac"
+	],
+	tasks: [{
+		uid: "1a663ac5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "ebony_wood"
+				}
+			}
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "dba672cb",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "a79365d8",
+		type: "loot",
+		table: 15
+	},
+	{
+		uid: "7494df48",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "ethereal_wood"
+				}
+			}
+		},
+		count: 8
+	}]
+}

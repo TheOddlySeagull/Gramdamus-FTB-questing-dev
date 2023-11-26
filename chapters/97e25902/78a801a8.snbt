@@ -1,0 +1,38 @@
+{
+	title: "Ground Trap Bounty - Lucky Leap",
+	x: -3.5d,
+	y: -6.0d,
+	description: "Rabbit's Fortune",
+	text: [
+		"The Ground Trap has snared a curious rabbit, and rumor has it, they bring good luck. Seek out the elusive rabbit's foot in the trap's collection."
+	],
+	dependencies: [
+		"385b4697"
+	],
+	hide: true,
+	tasks: [{
+		uid: "de1eec8f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:rabbit_foot"
+		}]
+	}],
+	rewards: [{
+		uid: "242312e1",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "2076e247",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

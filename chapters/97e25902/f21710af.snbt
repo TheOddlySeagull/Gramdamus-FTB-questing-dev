@@ -1,0 +1,92 @@
+{
+	title: "Rarefied Timber",
+	x: 5.5d,
+	y: 3.5d,
+	description: "Harvesting Exceptional Tier 2 Woods",
+	text: [
+		"Embark on a quest of rarity and resilience as you set forth to gather exceptional tier 2 woods—Sacred Oak, Magic Wood, and Hellbark. These extraordinary woods, each derived from unique and challenging environments, will amplify your woodcraft mastery in Minefantasy Reforged.",
+		"",
+		"Explore the mystical Sacred Springs biome, navigate the rare and valuable Mystic Grove, and brave the perilous depths of the Nether to harvest these woods. The Sacred Oak, Magic Wood, and Hellbark possess qualities that elevate them beyond the commonplace, offering new dimensions to your tool and weapon crafting endeavors.",
+		"",
+		"Wield your axe with precision and gather these exceptional woods that stand as a testament to your woodcraft expertise. Feel the energy within each wood type, a reflection of the environments from which they hail.",
+		"",
+		"May your Rarefied Timber quest be a showcase of your resilience and determination in the pursuit of excellence within the Cultivating the Fields chapter."
+	],
+	dependencies: [
+		"4b7c5eea"
+	],
+	tasks: [{
+		uid: "35d9a242",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "sacred_oak_wood"
+				}
+			}
+		}],
+		count: 8L
+	},
+	{
+		uid: "d0c09608",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "magic_wood"
+				}
+			}
+		}],
+		count: 8L
+	},
+	{
+		uid: "ce450e27",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "hellbark_wood"
+				}
+			}
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "39831ea2",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "37a85c31",
+		type: "loot",
+		table: 15
+	},
+	{
+		uid: "10a9c287",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "crystal_tree_wood"
+				}
+			}
+		},
+		count: 8
+	}]
+}

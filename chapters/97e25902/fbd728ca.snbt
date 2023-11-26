@@ -1,0 +1,59 @@
+{
+	title: "Nutty Grandeur",
+	x: 9.5d,
+	y: 4.0d,
+	description: "Harvesting the Nut Abundance",
+	text: [
+		"Embark on the final nut challenge, \"Nutty Grandeur,\" a monumental task that beckons you to gather a staggering 1728 tree nuts—equivalent to 27 stacks. This colossal undertaking represents the zenith of your nut exploration within Pam's Harvestcraft.",
+		"",
+		"Wander through the abundant orchards, where the branches offer an extensive array of cashews, pecans, pistachios, hazelnuts, almonds, chestnuts, walnuts, and nutmeg. Harness your commitment and tenacity as you collect this vast nutty abundance, showcasing your mastery of the tree nut families.",
+		"",
+		"As you gather these towering stacks of tree nuts, feel the magnitude of accomplishment and envision the myriad of culinary wonders that can be crafted from such a diverse and nutty harvest.",
+		"",
+		"May your Nutty Grandeur quest be a monumental achievement within the Orchard Exploration chapter, leaving an indelible mark as a true virtuoso of tree nuts."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3e3a2c7b",
+		"eb5902bb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "83c2d02d",
+		type: "item",
+		title: "A colossal abundance of nuts.",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "listAllnut",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any listAllnut"
+				}
+			}
+		}],
+		count: 1728L
+	}],
+	rewards: [{
+		uid: "38515a30",
+		type: "xp",
+		title: "A grand reward for achieving mastery in harvesting tree nuts within the Orchard Exploration chapter.",
+		xp: 1000
+	},
+	{
+		uid: "bfb10427",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 3s
+		}
+	}]
+}

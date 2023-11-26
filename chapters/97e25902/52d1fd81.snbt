@@ -1,0 +1,38 @@
+{
+	title: "Ground Trap Bounty - Venison Harvest",
+	x: -3.0d,
+	y: -5.0d,
+	description: "Venison from the Trap",
+	text: [
+		"The forest has shared its bounty through the Ground Trap, providing you with the savory meat of deer. Explore the wild flavors by collecting raw venison from the trap's yield."
+	],
+	dependencies: [
+		"385b4697"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b294de49",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:venisonrawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "178bc07d",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "ada872f5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

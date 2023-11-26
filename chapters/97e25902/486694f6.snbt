@@ -1,0 +1,77 @@
+{
+	title: "Citrus Diversity",
+	x: 8.0d,
+	y: 2.5d,
+	description: "Harvesting the Rainbow of Citrus",
+	text: [
+		"Continue your citrus exploration with the \"Citrus Diversity\" quest, a delightful journey into the vibrant spectrum of citrus fruits within Pam's Harvestcraft. This secondary task challenges you to gather 4 each of the following citrus varieties: lemon, lime, orange, and grapefruit.",
+		"",
+		"Roam the diverse orchards where these citrus treasures flourish, picking the fruits with care. From the zesty tang of lemons to the refreshing burst of limes, the sweet juiciness of oranges to the robust flavor of grapefruits, each citrus variety adds its unique charm to your bounty.",
+		"",
+		"As you collect these diverse citrus fruits, relish the medley of colors and flavors that paint a citrus rainbow. Envision the culinary masterpieces that await, fueled by the rich palette of citrus fruits.",
+		"",
+		"May your Citrus Diversity quest be a celebration of the colorful and flavorful world within the Orchard Exploration chapter."
+	],
+	dependencies: [
+		"b48bb0f3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9cd3a4a3",
+		type: "item",
+		title: "Refreshing and vibrant green citrus delights.",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:limeitem"
+		}],
+		count: 4L
+	},
+	{
+		uid: "c9ecf999",
+		type: "item",
+		title: "Zesty and tangy citrus treasures",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:lemonitem"
+		}],
+		count: 4L
+	},
+	{
+		uid: "1b19131f",
+		type: "item",
+		title: "Sweet and juicy citrus gems.",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:orangeitem"
+		}],
+		count: 4L
+	},
+	{
+		uid: "258400f0",
+		type: "item",
+		title: "Robust and flavorful citrus wonders.",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:grapefruititem"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "3840014d",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "253b219b",
+		type: "loot",
+		table: 6
+	}]
+}

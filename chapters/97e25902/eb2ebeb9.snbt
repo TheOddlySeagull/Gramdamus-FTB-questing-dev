@@ -1,0 +1,38 @@
+{
+	title: "Ground Trap Bounty - Mutton Harvest",
+	x: -4.0d,
+	y: -5.0d,
+	description: "Mutton from the Trap",
+	text: [
+		"The Ground Trap has proven its effectiveness once again, this time delivering the tender meat of sheep straight to your hands. Capture the flavor of the fields by gathering raw mutton from the trap's output."
+	],
+	dependencies: [
+		"385b4697"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cd2ee65b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:mutton"
+		}]
+	}],
+	rewards: [{
+		uid: "529ab2f6",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "2bb76bf3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

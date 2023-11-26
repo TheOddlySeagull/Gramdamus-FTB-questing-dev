@@ -1,7 +1,7 @@
 {
 	title: "Bountiful Orchard: Biomes O' Plenty Edition",
-	x: 10.0d,
-	y: 1.5d,
+	x: 9.5d,
+	y: -1.5d,
 	description: "Harvesting Nature's Bounty",
 	text: [
 		"Delve into the diverse landscapes of the Biomes O' Plenty world and discover the unique fruits that adorn its trees.",

@@ -1,0 +1,38 @@
+{
+	title: "Ground Trap Bounty - Pork Harvest",
+	x: -4.5d,
+	y: -6.0d,
+	description: "Pork from the Trap",
+	text: [
+		"The fertile soil beneath the Ground Trap has proven to be a haven for pigs, offering succulent pork as a result. Uncover the deliciousness by gathering raw porkchops from the trap's yield."
+	],
+	dependencies: [
+		"385b4697"
+	],
+	hide: true,
+	tasks: [{
+		uid: "81e6ce0b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:porkchop"
+		}]
+	}],
+	rewards: [{
+		uid: "dde505f2",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "34824390",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

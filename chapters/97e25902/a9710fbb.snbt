@@ -1,0 +1,38 @@
+{
+	title: "Ground Trap Bounty - Beef Bonanza",
+	x: -4.0d,
+	y: -7.0d,
+	description: "Raising the Steaks",
+	text: [
+		"The Ground Trap has proven its prowess once again, this time drawing in a variety of bovine wonders. Embark on a journey to harvest the savory bounty of raw beef from the trap's output."
+	],
+	dependencies: [
+		"385b4697"
+	],
+	hide: true,
+	tasks: [{
+		uid: "eb94c81d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:beef"
+		}]
+	}],
+	rewards: [{
+		uid: "494d6840",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "4f9a8982",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

@@ -1,0 +1,149 @@
+{
+	title: "Nutty Medley",
+	x: 9.5d,
+	y: 2.5d,
+	description: "Harvesting the Array of Tree Nuts",
+	text: [
+		"Expand your nutty exploration with the \"Nutty Medley\" quest, a delightful venture into the diverse world of tree nuts within Pam's Harvestcraft. This secondary task challenges you to gather 4 each of the following tree nuts: cashew, pecan, pistachio, hazelnut, almond, chestnut, walnut, and nutmeg.",
+		"",
+		"Stroll through the orchards, where the branches abound with these nutty treasures. From the buttery richness of cashews to the sweet indulgence of pecans, the vibrant green pistachios to the aromatic nutmeg, each tree nut brings its distinct flavor to your collection.",
+		"",
+		"As you gather this medley of tree nuts, savor the unique qualities that each variety adds to your culinary arsenal. Envision the nutty symphony that will unfold as you incorporate this diverse range into your recipes.",
+		"",
+		"May your Nutty Medley quest be a celebration of the rich and varied world of tree nuts within the Orchard Exploration chapter."
+	],
+	dependencies: [
+		"f249e383"
+	],
+	hide: true,
+	tasks: [{
+		uid: "74ca1590",
+		type: "item",
+		title: "Buttery and rich tree nuts.",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:cashewitem"
+		}],
+		count: 4L
+	},
+	{
+		uid: "f994cbf4",
+		type: "item",
+		title: "Sweet and indulgent tree nuts.",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:pecanitem"
+		}],
+		count: 4L
+	},
+	{
+		uid: "9c1c587e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:pistachioitem",
+			tag: {
+				display: {
+					Name: "Vibrant green and flavorful tree nuts."
+				}
+			}
+		}],
+		count: 4L
+	},
+	{
+		uid: "f3764482",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:hazelnutitem",
+			tag: {
+				display: {
+					Name: "Aromatic and versatile tree nuts."
+				}
+			}
+		}],
+		count: 4L
+	},
+	{
+		uid: "aa4ecb2f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:almonditem",
+			tag: {
+				display: {
+					Name: "Nutty delights with a crunchy texture."
+				}
+			}
+		}],
+		count: 4L
+	},
+	{
+		uid: "a762d92b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:chestnutitem",
+			tag: {
+				display: {
+					Name: "Roastable and hearty tree nuts."
+				}
+			}
+		}],
+		count: 4L
+	},
+	{
+		uid: "89377180",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:walnutitem",
+			tag: {
+				display: {
+					Name: "Robust and earthy tree nuts."
+				}
+			}
+		}],
+		count: 4L
+	},
+	{
+		uid: "2377bfa7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:nutmegitem",
+			tag: {
+				display: {
+					Name: "Aromatic and spice-infused tree nuts."
+				}
+			}
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "6c646873",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "e1826749",
+		type: "loot",
+		table: 6
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	title: "Nut Haven",
+	x: 9.5d,
+	y: 1.0d,
+	description: "Gathering the Nutty Abundance",
+	text: [
+		"Embark on a quest to explore the rich world of nuts within the Orchard Exploration chapter. \"Nut Haven\" invites you to gather 16 assorted nuts from the diverse trees of Pam's Harvestcraft, unlocking the flavorsome potential that nuts bring to the culinary tapestry.",
+		"",
+		"Roam through the orchards, where the branches play host to a variety of nuts. From almonds to walnuts, pecans to pistachios, collect this nutty abundance with care. Each nut, a tiny treasure packed with flavor, shall become a versatile ingredient in your culinary endeavors.",
+		"",
+		"As you gather these nuts, feel the texture and taste of each variety, envisioning the delightful recipes that will come to life. May your Nut Haven quest be a delightful exploration into the diverse world of nuts within the Orchard Exploration chapter."
+	],
+	dependencies: [
+		"b48bb0f3"
+	],
+	tasks: [{
+		uid: "2b450633",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "listAllnut",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any listAllnut"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "030fd2a8",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "10184ee3",
+		type: "loot",
+		table: 16
+	}]
+}

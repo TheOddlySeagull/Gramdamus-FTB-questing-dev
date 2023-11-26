@@ -1,0 +1,60 @@
+{
+	title: "Woodland Prowess",
+	x: 5.5d,
+	y: 2.0d,
+	description: "Harvesting the First Tiers",
+	text: [
+		"Embark on a journey into the heart of Gramdamus' woodlands to uncover the secrets of superior woodcraft. This quest, \"Woodland Prowess,\" marks the beginning of your exploration into the world of tiered woods, a vital component in the crafting of refined tools and weapons within the Minefantasy Reforged mod.",
+		"",
+		"Your initial task is to gather two types of tier 1 woods—sturdy Oak and the prized Ironwood. Explore the verdant landscapes, wield your trusty axe, and harvest these woods that shall become the foundation of your future crafting endeavors.",
+		"",
+		"As you collect Oak and Ironwood, feel the potential within these tier 1 woods, each possessing unique qualities that shall contribute to the artistry of your tool and weapon crafting.",
+		"",
+		"May your Woodland Prowess set the stage for the mastery of tiered woods within the Cultivating the Fields chapter."
+	],
+	dependencies: [
+		"749aacdf"
+	],
+	tasks: [{
+		uid: "83125ca1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "oak_wood"
+				}
+			}
+		}],
+		count: 8L
+	},
+	{
+		uid: "f71c45ed",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "ironwood_wood"
+				}
+			}
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "888c7e16",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "6ceab95a",
+		type: "loot",
+		table: 15
+	}]
+}

@@ -1,0 +1,76 @@
+{
+	title: "Sylvan Mastery",
+	x: 4.0d,
+	y: 2.0d,
+	description: "Harvesting the Tier 2 Woods",
+	text: [
+		"Elevate your woodcraft mastery by venturing deeper into Gramdamus' lush woodlands. \"Sylvan Mastery\" beckons you to gather the most common tier 2 woods—Forest Ebony, Yew, and Ironbark. These esteemed woods, with their enhanced properties, shall be the building blocks for crafting better tools and weapons.",
+		"",
+		"Navigate through the enchanted forests, where the trees stand tall and proud. Wield your axe with purpose, harvesting the rich bounty of Forest Ebony, the resilient Yew, and the sturdy Ironbark. Each wood type, a testament to nature's craftsmanship, carries unique characteristics that will be harnessed in the art of Minefantasy Reforged tool and weapon smithing.",
+		"",
+		"As you collect these tier 2 woods, feel the progression in your woodcraft journey, unlocking new possibilities and refining your approach to crafting better equipment.",
+		"",
+		"May your Sylvan Mastery pave the way for the crafting excellence that awaits in the Cultivating the Fields chapter."
+	],
+	dependencies: [
+		"31fe034d"
+	],
+	tasks: [{
+		uid: "da39641a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "forest_ebony_wood"
+				}
+			}
+		}],
+		count: 8L
+	},
+	{
+		uid: "e9e42a47",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "yew_wood"
+				}
+			}
+		}],
+		count: 8L
+	},
+	{
+		uid: "4f319357",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:timber",
+			tag: {
+				mf_custom_materials: {
+					main_material: "ironbark_wood"
+				}
+			}
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "1c536c21",
+		type: "xp",
+		xp: 150
+	},
+	{
+		uid: "31bb97d4",
+		type: "loot",
+		table: 15
+	}]
+}

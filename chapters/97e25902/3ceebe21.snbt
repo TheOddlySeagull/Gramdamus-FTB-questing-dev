@@ -1,0 +1,38 @@
+{
+	title: "Ground Trap Bounty - Duck Delight",
+	x: -2.5d,
+	y: -6.0d,
+	description: "Quack Attack",
+	text: [
+		"The Ground Trap, with its lure of Grain Bait, has enticed ducks to its fertile grounds. Seek out the delectable reward of raw duck as you explore this feathered phenomenon."
+	],
+	dependencies: [
+		"385b4697"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0225cfcc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:duckrawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "7959a66b",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "42474003",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

@@ -1,0 +1,51 @@
+{
+	title: "Citrus Harvest",
+	x: 8.0d,
+	y: 1.0d,
+	description: "Gathering the Zesty Bounty",
+	text: [
+		"Embark on a quest to embrace the tangy allure of citrus fruits from the sprawling orchards of Pam's Harvestcraft. \"Citrus Harvest\" beckons you to gather 16 succulent citrus fruits, a vibrant and zesty bounty that will mark the beginning of your exploration into the diverse fruit families.",
+		"",
+		"Navigate the lush orchards, where the branches hang heavy with citrus treasures. Pluck the ripe fruits with care, feeling the zest burst forth with every harvest. From lemons to oranges, grapefruits to limes, let the variety of citrus fruits enchant your senses.",
+		"",
+		"As you collect these citrus fruits, envision the culinary delights that await, from refreshing beverages to delectable desserts. May your Citrus Harvest be the first step in a flavorful journey through the Orchard Exploration chapter."
+	],
+	dependencies: [
+		"749aacdf"
+	],
+	tasks: [{
+		uid: "eb0dd6f9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "listAllcitrus",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any listAllcitrus"
+				}
+			}
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "2d46fe92",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "777a8401",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:citrussaladitem"
+		}
+	}]
+}

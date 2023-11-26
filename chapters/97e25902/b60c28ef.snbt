@@ -1,0 +1,38 @@
+{
+	title: "Ground Trap Bounty - Clucks and Feathers",
+	x: -3.0d,
+	y: -7.0d,
+	description: "Poultry Pilfering",
+	text: [
+		"The Ground Trap has clucked its way to success, drawing in a feathery assortment of avian delights. Venture forth and gather the delectable raw chicken from the trap's offerings."
+	],
+	dependencies: [
+		"385b4697"
+	],
+	hide: true,
+	tasks: [{
+		uid: "115abaa3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:chicken"
+		}]
+	}],
+	rewards: [{
+		uid: "6a2201db",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "00db81c2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

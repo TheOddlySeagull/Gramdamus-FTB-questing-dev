@@ -1,0 +1,44 @@
+{
+	title: "Nut Butter",
+	loot_size: 4,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:peanutbutteritem"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:pistachiobutteritem"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:almondbutteritem"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:cashewbutteritem"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:chestnutbutteritem"
+		}
+	}]
+}

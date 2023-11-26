@@ -1,0 +1,38 @@
+{
+	title: "Ground Trap Bounty - Gobble Galore",
+	x: -3.5d,
+	y: -8.0d,
+	description: "Turkey Tidings",
+	text: [
+		"The Ground Trap has managed to attract the majestic turkeys roaming the wild. Embark on a hunt for the savory raw turkey provided by the trap."
+	],
+	dependencies: [
+		"385b4697"
+	],
+	hide: true,
+	tasks: [{
+		uid: "51d18f0c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:turkeyrawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "eb4e5173",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "bef2a8ee",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}

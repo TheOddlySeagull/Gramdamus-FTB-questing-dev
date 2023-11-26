@@ -1,0 +1,76 @@
+{
+	title: "Master Trapper's Bounty",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:beef"
+	},
+	x: -3.5d,
+	y: -9.5d,
+	description: "Meat Extravaganza",
+	text: [
+		"Become the ultimate trapper by amassing a staggering collection of various meats using the Ground Trap. This challenge will test your trapping prowess and resource gathering skills."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"52d1fd81",
+		"78a801a8",
+		"8bb65d47",
+		"b60c28ef",
+		"eb2ebeb9",
+		"5dcf8876",
+		"d06357e9",
+		"a9710fbb",
+		"eba5ba08",
+		"3ceebe21"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3f49b311",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:groundtrap"
+		}],
+		count: 16L
+	},
+	{
+		uid: "1dbf7976",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "listAllmeatraw",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any listAllmeatraw"
+				}
+			}
+		}],
+		count: 1024L
+	}],
+	rewards: [{
+		uid: "1010716d",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "7c6b35aa",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin",
+			Damage: 3s
+		}
+	}]
+}

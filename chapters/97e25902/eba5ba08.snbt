@@ -1,0 +1,40 @@
+{
+	title: "Ground Trap Bounty - Rabbit Haul",
+	x: -3.5d,
+	y: -4.0d,
+	description: "Harvesting the Hare",
+	text: [
+		"The Ground Trap has yielded a bounty, and this time, it's the elusive rabbit.",
+		"These fast and furry creatures can now be obtained without the need for a bow.",
+		"Time to gather these raw rabbits and put them to good use!"
+	],
+	dependencies: [
+		"385b4697"
+	],
+	hide: true,
+	tasks: [{
+		uid: "85a8182a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:rabbit"
+		}]
+	}],
+	rewards: [{
+		uid: "68f87446",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "a53ed45c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscontent:coin"
+		}
+	}]
+}
