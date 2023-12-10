@@ -1,0 +1,50 @@
+{
+	title: "Mailbox Mastery",
+	x: 2.0d,
+	y: 3.0d,
+	description: "Harnessing the Ancient Postal Network",
+	text: [
+		"Delve into the intricacies of the Ancient Warfare mailboxes with the \"Mailbox Mastery\" quest, a journey into the late-game art of item teleportation. Discover the power of this efficient system, where items traverse distances with grace and speed, transforming the way you manage resources.",
+		"",
+		"Learn to wield the Ancient Warfare mailboxes, understanding the distinction between 'public' and 'private' networks. In this quest, your task is twofold:",
+		"",
+		"Public Network Exploration:",
+		"	- Interact with a public mailbox, experiencing the accessibility and openness of the public network.",
+		"	- Add and remove names from the public mailbox list, showcasing your ability to navigate the shared network.",
+		"",
+		"Private Network Prowess:",
+		"	- Acquire or craft a private mailbox and claim it as your own.",
+		"	- Send items from your private mailbox to another private mailbox, demonstrating the exclusivity and security of the private network.",
+		"	- Add or remove mailbox names and assign private names to boxes within your private network, asserting your control over this personalized system.",
+		"",
+		"As you master the Ancient Warfare mailboxes, envision the possibilities for seamless item transportation within the Art of Storage chapter."
+	],
+	dependencies: [
+		"0b355ee4"
+	],
+	tasks: [{
+		uid: "7c0a177f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:mailbox"
+		}]
+	}],
+	rewards: [{
+		uid: "251b5b54",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfareautomation:mailbox"
+		}
+	},
+	{
+		uid: "3c680a18",
+		type: "xp",
+		xp: 200
+	}]
+}
