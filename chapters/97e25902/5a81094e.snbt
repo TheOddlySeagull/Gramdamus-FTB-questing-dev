@@ -1,7 +1,7 @@
 {
 	title: "Bark Harvest",
 	x: 11.0d,
-	y: 1.0d,
+	y: 1.5d,
 	description: "Collecting Cinnamon and Maple Syrup",
 	text: [
 		"Embark on a quest to unravel the sweet secrets hidden within the barks of Pam's Harvestcraft trees. \"Bark Harvest\" challenges you to gather 8 fragrant cinnamon and 8 luscious maple syrup, unlocking the aromatic and sweet treasures that add depth to your culinary repertoire.",

@@ -1,0 +1,259 @@
+{
+	title: "Biome Arboretum",
+	x: 16.5d,
+	y: 0.0d,
+	description: "Collecting the Spectrum of Bountiful Saplings",
+	text: [
+		"Embark on the grand quest of \"Biome Arboretum,\" a challenge that invites you to gather a comprehensive collection of saplings from the diverse and vibrant trees found in the Biomes O Plenty mod. This task will test your exploration skills as you seek out saplings from common to extremely rare tree types across varied landscapes."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"749aacdf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c942b34e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:sapling_0"
+		}]
+	},
+	{
+		uid: "c80d9ea4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:sapling_0",
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "e4088252",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:sapling_0",
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "c3154634",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:sapling_0",
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "6af09fb0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:sapling_0",
+			Damage: 4s
+		}]
+	},
+	{
+		uid: "cd4818e4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:sapling_0",
+			Damage: 5s
+		}]
+	},
+	{
+		uid: "1af4ab99",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:sapling_0",
+			Damage: 6s
+		}]
+	},
+	{
+		uid: "fb21b31d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:sapling_1",
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "f76e5972",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:sapling_1",
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "158a9d04",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:sapling_1",
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "3cb10663",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:sapling_1",
+			Damage: 4s
+		}]
+	},
+	{
+		uid: "557359bd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:sapling_1",
+			Damage: 5s
+		}]
+	},
+	{
+		uid: "80763a87",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:sapling_1",
+			Damage: 6s
+		}]
+	},
+	{
+		uid: "fbc2bf3e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:sapling_1",
+			Damage: 7s
+		}]
+	},
+	{
+		uid: "7aec6917",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:sapling_2"
+		}]
+	},
+	{
+		uid: "0a88a80d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:sapling_2",
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "05fec095",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:sapling_2",
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "32d2e4cf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:sapling_2",
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "3041a84b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:sapling_2",
+			Damage: 4s
+		}]
+	},
+	{
+		uid: "906fe206",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:sapling_2",
+			Damage: 5s
+		}]
+	},
+	{
+		uid: "2924fc9c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:sapling_2",
+			Damage: 6s
+		}]
+	},
+	{
+		uid: "2b9a1fe8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:sapling_2",
+			Damage: 7s
+		}]
+	}],
+	rewards: [{
+		uid: "fb163602",
+		type: "xp",
+		xp: 300
+	}]
+}

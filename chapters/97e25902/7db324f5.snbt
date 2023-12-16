@@ -1,0 +1,85 @@
+{
+	title: "Sylvan Diversity",
+	x: 14.5d,
+	y: -0.5d,
+	description: "Harvesting the Pantheon of Vanilla Saplings",
+	text: [
+		"Embark on the quest of \"Sylvan Diversity,\" a challenge that calls you to gather a comprehensive collection of all vanilla saplings available in the world of Minecraft. This task will require keen observation and exploration to locate and harvest saplings from each unique tree species."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"749aacdf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "47448af8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sapling"
+		}]
+	},
+	{
+		uid: "f17ba2ba",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sapling",
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "1f44da50",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sapling",
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "999881a2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sapling",
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "2c40f212",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sapling",
+			Damage: 4s
+		}]
+	},
+	{
+		uid: "849fbe0e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sapling",
+			Damage: 5s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "1eb50d41",
+		type: "xp",
+		xp: 100
+	}]
+}

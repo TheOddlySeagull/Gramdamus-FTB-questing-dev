@@ -1,0 +1,49 @@
+{
+	title: "Forging Nature's Bounty",
+	x: 15.5d,
+	y: 1.0d,
+	description: "Gathering Minefantasy Reforged Essences",
+	text: [
+		"Embark on the formidable quest of \"Forging Nature's Bounty,\" a journey that challenges you to gather the essence of Minefantasy Reforged's most coveted trees—Ebony, Ironbark, and Yew. These essences hold immense value, serving as the cornerstone for crafting exceptional tools and exquisite furniture within the mod."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"749aacdf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1b4534b5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:ebony_sapling"
+		}]
+	},
+	{
+		uid: "54d2159f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:ironbark_sapling"
+		}]
+	},
+	{
+		uid: "ce1b60e0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minefantasyreforged:yew_sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "2e1b0650",
+		type: "xp",
+		xp: 200
+	}]
+}

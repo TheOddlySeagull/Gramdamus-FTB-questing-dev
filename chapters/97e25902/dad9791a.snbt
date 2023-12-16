@@ -1,0 +1,459 @@
+{
+	title: "Arboreal Harvest",
+	x: 15.5d,
+	y: -1.0d,
+	description: "Gathering the Bounty of Fruit Tree Saplings",
+	text: [
+		"Embark on the ambitious quest of \"Arboreal Harvest,\" a challenge that beckons you to gather all the fruit tree saplings from the expansive orchards of Pam's Harvestcraft. This quest requires you to obtain one sapling from each unique fruit tree, and the journey will demand extensive exploration to locate these diverse specimens."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"749aacdf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b32ab9f3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:cherry_sapling"
+		}]
+	},
+	{
+		uid: "7358d71c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:fig_sapling"
+		}]
+	},
+	{
+		uid: "07fe1974",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:rambutan_sapling"
+		}]
+	},
+	{
+		uid: "18a50760",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:jackfruit_sapling"
+		}]
+	},
+	{
+		uid: "dd55d683",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:apple_sapling"
+		}]
+	},
+	{
+		uid: "3fe6bea6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:pear_sapling"
+		}]
+	},
+	{
+		uid: "e57d04c1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:cashew_sapling"
+		}]
+	},
+	{
+		uid: "e1a59a86",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:date_sapling"
+		}]
+	},
+	{
+		uid: "f0ea25b5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:vanillabean_sapling"
+		}]
+	},
+	{
+		uid: "51388cb7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:starfruit_sapling"
+		}]
+	},
+	{
+		uid: "47fa49be",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:avocado_sapling"
+		}]
+	},
+	{
+		uid: "66eed154",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:lime_sapling"
+		}]
+	},
+	{
+		uid: "15a7130d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:peppercorn_sapling"
+		}]
+	},
+	{
+		uid: "feb79f47",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:almond_sapling"
+		}]
+	},
+	{
+		uid: "dbd79ea9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:pawpaw_sapling"
+		}]
+	},
+	{
+		uid: "12697a31",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:coconut_sapling"
+		}]
+	},
+	{
+		uid: "4e164ac9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:mango_sapling"
+		}]
+	},
+	{
+		uid: "cc321f8c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:walnut_sapling"
+		}]
+	},
+	{
+		uid: "e02a970d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:lychee_sapling"
+		}]
+	},
+	{
+		uid: "9e1e04e6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:persimmon_sapling"
+		}]
+	},
+	{
+		uid: "1d244257",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:nutmeg_sapling"
+		}]
+	},
+	{
+		uid: "59555358",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:tamarind_sapling"
+		}]
+	},
+	{
+		uid: "c3212356",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:cinnamon_sapling"
+		}]
+	},
+	{
+		uid: "7fd45406",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:gooseberry_sapling"
+		}]
+	},
+	{
+		uid: "263120bf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:pistachio_sapling"
+		}]
+	},
+	{
+		uid: "8975f5a7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:durian_sapling"
+		}]
+	},
+	{
+		uid: "66c87e54",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:peach_sapling"
+		}]
+	},
+	{
+		uid: "c76e6200",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:breadfruit_sapling"
+		}]
+	},
+	{
+		uid: "49fda7fc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:grapefruit_sapling"
+		}]
+	},
+	{
+		uid: "bf05dfeb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:orange_sapling"
+		}]
+	},
+	{
+		uid: "c9fb1efb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:pecan_sapling"
+		}]
+	},
+	{
+		uid: "73ef3478",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:hazelnut_sapling"
+		}]
+	},
+	{
+		uid: "59861794",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:chestnut_sapling"
+		}]
+	},
+	{
+		uid: "56147f2a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:papaya_sapling"
+		}]
+	},
+	{
+		uid: "9a0a76a1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:soursop_sapling"
+		}]
+	},
+	{
+		uid: "c564071f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:lemon_sapling"
+		}]
+	},
+	{
+		uid: "8b2a1ebb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:pomegranate_sapling"
+		}]
+	},
+	{
+		uid: "74dfc81d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:apricot_sapling"
+		}]
+	},
+	{
+		uid: "36a2e342",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:olive_sapling"
+		}]
+	},
+	{
+		uid: "986cf9db",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:guava_sapling"
+		}]
+	},
+	{
+		uid: "c999a1f7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:plum_sapling"
+		}]
+	},
+	{
+		uid: "d3074903",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:passionfruit_sapling"
+		}]
+	},
+	{
+		uid: "ea43d815",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:banana_sapling"
+		}]
+	},
+	{
+		uid: "7da958ba",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:dragonfruit_sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "5e518ef9",
+		type: "xp",
+		xp: 300
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "Rustic Harvest: Ironwood and Olive",
+	x: 14.5d,
+	y: 0.5d,
+	description: "Gathering the Distinct Essences",
+	text: [
+		"Embark on the specialized quest of \"Rustic Harvest,\" a mission that tasks you with gathering the unique and valuable saplings from the Rustic mod—Ironwood and Olive. These essences, each with its distinctive properties, play a pivotal role in the Rustic mod's offerings."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"749aacdf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1e143fbb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:sapling"
+		}]
+	},
+	{
+		uid: "00014afa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:sapling",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "d1f68536",
+		type: "xp",
+		xp: 100
+	}]
+}

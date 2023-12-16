@@ -1,0 +1,62 @@
+{
+	title: "Sylvan Conquest",
+	x: 15.5d,
+	y: 0.0d,
+	description: "Harvesting the Arboreal Empire",
+	text: [
+		"Embark on the saga of \"Sylvan Conquest,\" an epic odyssey that beckons you to seize control of an Arboreal Empire. This monumental challenge transcends the ordinary, as you endeavor to gather an awe-inspiring 1728 saplings—equivalent to 27 stacks—of diverse tree types. This quest is not merely a task; it is a testament to your mastery, a chronicle of your ascendancy over the very essence of nature."
+	],
+	dependencies: [
+		"1cb6d07d",
+		"dad9791a",
+		"546d8d13",
+		"7db324f5",
+		"e2849603"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c6a11e61",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "treeSapling",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any treeSapling"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d4a488cc",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "612d7409",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:sapling_0",
+			Damage: 7s
+		}
+	},
+	{
+		uid: "5fec38ae",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:sapling_1"
+		}
+	}]
+}
