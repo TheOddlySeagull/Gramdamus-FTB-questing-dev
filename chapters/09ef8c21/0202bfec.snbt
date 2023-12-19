@@ -53,7 +53,7 @@
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "gramdamuscontent:coin"
+			id: "gramdamuscore:coin"
 		},
 		count: 3
 	}]

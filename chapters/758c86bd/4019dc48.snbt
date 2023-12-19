@@ -91,7 +91,7 @@
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "gramdamuscontent:coin",
+			id: "gramdamuscore:coin",
 			Damage: 3s
 		},
 		count: 10

@@ -28,7 +28,7 @@
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "gramdamuscontent:coin"
+			id: "gramdamuscore:coin"
 		}
 	},
 	{

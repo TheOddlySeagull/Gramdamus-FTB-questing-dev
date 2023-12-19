@@ -57,7 +57,7 @@
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "gramdamuscontent:coin",
+			id: "gramdamuscore:coin",
 			Damage: 2s
 		}
 	},
