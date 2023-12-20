@@ -32,5 +32,25 @@
 				npcType: "trader"
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "a6a67d70",
+		type: "random",
+		table: 6
+	},
+	{
+		uid: "8f575c52",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "73ebb713",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:book"
+		}
 	}]
 }

@@ -34,5 +34,23 @@
 				npcType: "priest"
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "abf3d639",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "52e7a898",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:strong_healing"
+			}
+		}
 	}]
 }
