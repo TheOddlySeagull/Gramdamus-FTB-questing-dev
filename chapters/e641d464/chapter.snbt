@@ -1,10 +1,10 @@
 {
-	title: "Building an Empire",
+	title: "Rise to Power: From Vagrant to Emperor",
 	icon: {
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
 		},
-		id: "ancientwarfarenpc:town_hall"
+		id: "ancientwarfarestructure:golden_throne"
 	},
 	always_invisible: false,
 	group: 0,

@@ -1,0 +1,32 @@
+{
+	title: "The Vagrant",
+	x: -6.5d,
+	y: 2.0d,
+	description: "The Beginning of the Journey",
+	text: [
+		"As a Vagrant, you stand at the inception of your journey in Gramdamus. This default rank accompanies you as you step into the realm for the first time. Begin your adventure with 8 claimable chunks, laying the groundwork for your rise to power.",
+		"",
+		"- Claimable Chunks: 8",
+		"- Loaded Chunks: 0",
+		"",
+		"No specific requirements accompany this rank, as it serves as the initial step for every newcomer to the Gramdamus realm."
+	],
+	dependencies: [
+		"9356a863"
+	],
+	tasks: [{
+		uid: "d081b74c",
+		type: "gramdamuscore:rankup",
+		rankId: "vagrant"
+	}],
+	rewards: [{
+		uid: "08e77dc1",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "793c1964",
+		type: "random",
+		table: 6
+	}]
+}

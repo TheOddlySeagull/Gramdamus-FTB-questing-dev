@@ -1,0 +1,64 @@
+{
+	title: "The Duke",
+	x: -8.0d,
+	y: 15.5d,
+	description: "Royal Dominion",
+	text: [
+		"Ascend to the pinnacle of leadership as \"The Duke,\" establishing a royal dominion of unprecedented influence in Gramdamus. To claim this regal title, cultivate seven farms, each featuring a minimum of five fields, establish a kennel housing four loyal dogs, lead a vast workforce of fifty NPCs, provide residences for each, fortify your lands with a tier 3 defense and keep, command a formidable force of twenty-four soldiers stationed in two barracks under your banner, create a road to spawn within 7500 blocks, and master the extraordinary crafts of enderforged, mithium, and eximite metalsmithing.",
+		"",
+		"- Claimable Chunks: 768",
+		"- Loaded Chunks: 60",
+		"",
+		"Requirements:",
+		"",
+		"- Harvest Dominion:",
+		"        Cultivate seven farms, each with a minimum of five fields, showcasing your unmatched proficiency in agricultural abundance.",
+		"",
+		"- Loyal Companions:",
+		"        Establish a kennel housing four loyal dogs, exemplifying your connection with and protection of loyal companions.",
+		"",
+		"- Commanding Workforce:",
+		"        Lead a vast workforce of fifty NPCs, each contributing to the prosperity and development of your royal dominion.",
+		"",
+		"- Residential Majesty II:",
+		"        Provide residences for all fifty NPCs, creating a harmonious living environment that reflects the grandeur of your royal court.",
+		"",
+		"- Advanced Defensive Structures III:",
+		"        Fortify your realm with both a tier 3 defense and a tier 3 keep, demonstrating unprecedented defensive capabilities.",
+		"",
+		"- Military Dominion IV:",
+		"        Command a formidable force of twenty-four soldiers stationed in two dedicated barracks under your banner, solidifying military dominance.",
+		"",
+		"- Symbol of Royal Authority:",
+		"        Craft and display a banner, symbolizing your royal authority and leadership within Gramdamus.",
+		"",
+		"- Infrastructure Expansion IV:",
+		"        Create a road connecting your domain to spawn, if within 7500 blocks, fostering improved connectivity and accessibility.",
+		"",
+		"-  Masterful Metalsmithing IV:",
+		"        Master the crafts of enderforged, mithium, and eximite metalsmithing, showcasing your unrivaled expertise in crafting the most formidable tools and armor.",
+		"",
+		"- Price of Royal Ascension:",
+		"    Pay the price of 30 gold coins, a substantial investment reflecting your commitment to royal dominion and the lasting legacy of your reign.",
+		"",
+		"Embrace the title of Duke as you ascend to the highest echelons of leadership, establishing a royal dominion that will be remembered throughout the ages."
+	],
+	dependencies: [
+		"77daaed2"
+	],
+	tasks: [{
+		uid: "5bfdaaec",
+		type: "gramdamuscore:rankup",
+		rankId: "duke"
+	}],
+	rewards: [{
+		uid: "94bcc445",
+		type: "xp",
+		xp: 6000
+	},
+	{
+		uid: "eaefa2ba",
+		type: "random",
+		table: 6
+	}]
+}

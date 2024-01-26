@@ -1,0 +1,76 @@
+{
+	title: "The Emperor",
+	x: -8.0d,
+	y: 18.5d,
+	description: "Imperial Ascendancy",
+	text: [
+		"Ascend to the apogee of leadership as \"The Emperor,\" achieving imperial ascendancy and standing as the ultimate authority in Gramdamus. To claim this peerless title, cultivate fifteen farms, each featuring a minimum of five fields, establish a vast kennel housing thirty loyal dogs, lead an expansive workforce of one hundred sixty NPCs, provide residences for each, fortify your lands with a tier 4 defense and keep, command a formidable force of sixty-four soldiers stationed in five barracks under your banner, create a road to spawn, and master every metalsmithing craft available in Gramdamus.",
+		"",
+		"- Claimable Chunks: 2048",
+		"- Loaded Chunks: 80",
+		"",
+		"Requirements:",
+		"",
+		"- Harvest Dominion III:",
+		"        Cultivate fifteen farms, each with a minimum of five fields, showcasing your unparalleled proficiency in agricultural abundance.",
+		"",
+		"- Loyal Companions III:",
+		"        Establish a vast kennel housing thirty loyal dogs, exemplifying your connection with and protection of a substantial and loyal pack.",
+		"",
+		"- Commanding Workforce III:",
+		"        Lead an expansive workforce of one hundred sixty NPCs, each contributing to the prosperity and development of your imperial ascendancy.",
+		"",
+		"- Residential Majesty IV:",
+		"        Provide residences for all one hundred sixty NPCs, creating a harmonious living environment that reflects the grandeur of your imperial court.",
+		"",
+		"- Advanced Defensive Structures V:",
+		"        Fortify your realm with both a tier 4 defense and a tier 4 keep, demonstrating unprecedented defensive capabilities.",
+		"",
+		"- Military Dominion VI:",
+		"        Command a formidable force of sixty-four soldiers stationed in five dedicated barracks under your banner, solidifying military dominance.",
+		"",
+		"- Symbol of Imperial Authority:",
+		"        Craft and display a banner, symbolizing your imperial authority and leadership within Gramdamus.",
+		"",
+		"- Infrastructure Expansion VI:",
+		"        Create a road connecting your domain to spawn, fostering improved connectivity and accessibility.",
+		"",
+		"- Masterful Metalsmithing VI:",
+		"        Master every metalsmithing craft available in Gramdamus, showcasing your unrivaled expertise in crafting the most formidable tools and armor.",
+		"",
+		"- Price of Imperial Ascendancy:",
+		"        Pay the legendary price of 2 legendary coins, a monumental investment reflecting your commitment to imperial ascendancy and the lasting legacy of your reign.",
+		"",
+		"Embrace the title of Emperor as you ascend to the zenith of leadership, standing as the ultimate authority in Gramdamus."
+	],
+	dependencies: [
+		"6e08c857"
+	],
+	tasks: [{
+		uid: "388665df",
+		type: "gramdamuscore:rankup",
+		rankId: "emperor"
+	}],
+	rewards: [{
+		uid: "7191c6b9",
+		type: "xp",
+		xp: 8000
+	},
+	{
+		uid: "60f79c73",
+		type: "loot",
+		table: 6
+	},
+	{
+		uid: "af49bc80",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscore:coin",
+			Damage: 3s
+		},
+		count: 20
+	}]
+}

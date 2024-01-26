@@ -1,0 +1,61 @@
+{
+	title: "The Baron",
+	x: -8.0d,
+	y: 9.5d,
+	description: "Lords of the Realm",
+	text: [
+		"Rise to the esteemed rank of \"The Baron,\" solidifying your place as a leader within Gramdamus. To achieve this title, cultivate a farm with a minimum of eight fields, oversee a workforce of five NPCs, provide residences for each, fortify your lands with a tier 1 defense and keep, train two soldiers under your banner, create a road to spawn within 1000 blocks, and master the arts of steel and encrusted metalsmithing.",
+		"",
+		"- Claimable Chunks: 192",
+		"- Loaded Chunks: 20",
+		"",
+		"Requirements:",
+		"",
+		"- Agricultural Mastery:",
+		"        Cultivate a farm featuring a minimum of eight fields, showcasing advanced agricultural proficiency.",
+		"",
+		"- Workforce Expansion:",
+		"        Oversee a workforce of five NPCs, each assigned to specific roles, demonstrating your ability to manage a sizable community.",
+		"",
+		"- Residential Harmony:",
+		"        Provide five NPC residences, ensuring a comfortable living environment for your growing community.",
+		"",
+		"- Defensive Excellence:",
+		"        Fortify your realm with both a tier 1 defense and a tier 1 keep, elevating your defensive capabilities.",
+		"",
+		"- Military Command:",
+		"        Train and command two soldiers under your banner, enhancing the military might of your domain.",
+		"",
+		"- Symbol of Authority:",
+		"        Craft and display a banner, symbolizing your authority and leadership within Gramdamus.",
+		"",
+		"- Infrastructure Expansion:",
+		"        Create a road connecting your domain to spawn, if within 1000 blocks, improving accessibility and connectivity.",
+		"",
+		"- Masterful Metalsmithing:",
+		"        Master both steel and encrusted metalsmithing, showcasing your expertise in crafting top-tier tools and armor.",
+		"",
+		"- Price of Leadership:",
+		"        Pay the price of 1 silver coin, a testament to your commitment to leadership and advancement.",
+		"",
+		"Embrace the title of Baron as you ascend to the upper echelons of leadership, guiding your realm toward prosperity."
+	],
+	dependencies: [
+		"7755fb14"
+	],
+	tasks: [{
+		uid: "8a4f30e0",
+		type: "gramdamuscore:rankup",
+		rankId: "baron"
+	}],
+	rewards: [{
+		uid: "29b616a9",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "c244f887",
+		type: "random",
+		table: 6
+	}]
+}

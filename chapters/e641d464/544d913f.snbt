@@ -1,0 +1,46 @@
+{
+	title: "The Yeoman",
+	x: -6.5d,
+	y: 6.5d,
+	description: "Rural Nobility",
+	text: [
+		"Attain the prestigious rank of \"The Yeoman,\" solidifying your status as rural nobility in Gramdamus. To ascend to this rank, cultivate a farm with a minimum of four fields, fortify your lands with a tier 0 defense, and master the art of bronze metalsmithing.",
+		"",
+		"- Claimable Chunks: 64",
+		"- Loaded Chunks: 8",
+		"",
+		"Requirements:",
+		"",
+		"- Agricultural Mastery:",
+		"Expand your farm to feature a minimum of four fields, showcasing your dedication to agricultural excellence.",
+		"",
+		"- Defensive Fortification:",
+		"Establish a tier 0 defense, demonstrating your commitment to safeguarding your realm.",
+		"",
+		"- Bronze Smithing Proficiency:",
+		"Master the intricate craft of bronze metalsmithing, proving your skill in crafting superior tools and armor.",
+		"",
+		"- Price of Progress:",
+		"Pay the price of 3 copper coins as a symbol of your commitment to progress and advancement.",
+		"",
+		"Embrace the title of Yeoman as you ascend to a higher echelon of rural leadership."
+	],
+	dependencies: [
+		"c3d1c238"
+	],
+	tasks: [{
+		uid: "d3fb77bd",
+		type: "gramdamuscore:rankup",
+		rankId: "yeoman"
+	}],
+	rewards: [{
+		uid: "5893e874",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "95a9a681",
+		type: "random",
+		table: 6
+	}]
+}

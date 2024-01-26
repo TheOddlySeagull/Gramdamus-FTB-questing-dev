@@ -26,5 +26,15 @@
 		uid: "44aeeb01",
 		type: "checkmark",
 		title: "Path to Mastery: NPC Leveling Unveiled"
+	}],
+	rewards: [{
+		uid: "cc70fc7c",
+		type: "loot",
+		table: 8
+	},
+	{
+		uid: "ab822c81",
+		type: "loot",
+		table: 7
 	}]
 }

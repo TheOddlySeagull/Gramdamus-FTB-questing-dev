@@ -1,0 +1,40 @@
+{
+	title: "The Smallholder",
+	x: -6.5d,
+	y: 5.0d,
+	description: "Cultivating Prosperity",
+	text: [
+		"Transition into \"The Smallholder,\" where your cultivation efforts expand, and your mastery in metalsmithing begins to shine. To claim this rank, cultivate a farm with at least two fields and showcase your expertise in copper or tin metalsmithing.",
+		"",
+		"- Claimable Chunks: 32",
+		"- Loaded Chunks: 4",
+		"",
+		"Requirements:",
+		"",
+		"- Agricultural Expansion:",
+		"Cultivate a farm with at least two fields, demonstrating your commitment to agricultural prosperity.",
+		"",
+		"- Metalsmithing Mastery:",
+		"Master either copper or tin metalsmithing, showcasing your proficiency in crafting essential tools for your expanding empire.",
+		"",
+		"Embrace the title of Smallholder as you advance in both agricultural and metallurgical pursuits."
+	],
+	dependencies: [
+		"33a8d92a"
+	],
+	tasks: [{
+		uid: "a8eef66d",
+		type: "gramdamuscore:rankup",
+		rankId: "smallholder"
+	}],
+	rewards: [{
+		uid: "33f3913b",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "63a6db3a",
+		type: "random",
+		table: 6
+	}]
+}

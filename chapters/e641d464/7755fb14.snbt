@@ -1,0 +1,55 @@
+{
+	title: "The Squire",
+	x: -8.0d,
+	y: 8.0d,
+	description: "Burgeoning Leadership",
+	text: [
+		"Ascend to the rank of \"The Squire,\" the first milestone in the esteemed leader tree. To attain this title, cultivate a farm with a minimum of six fields, employ two NPCs with designated jobs, establish two NPC residences, fortify your lands with a tier 0 defense and keep, create a road to spawn if within 500 blocks, and master the art of iron metalsmithing.",
+		"",
+		"- Claimable Chunks: 128",
+		"- Loaded Chunks: 15",
+		"",
+		"Requirements:",
+		"",
+		"- Agricultural Mastery:",
+		"Expand your farm to include a minimum of six fields, showcasing your advanced agricultural capabilities.",
+		"",
+		"- Workforce Development:",
+		"Employ two NPCs with distinct jobs, reflecting your ability to manage a growing workforce.",
+		"",
+		"- Residential Expansion:",
+		"Construct two NPC residences, providing comfortable abodes for your expanding workforce.",
+		"",
+		"- Defensive Prowess:",
+		"Establish both a tier 0 defense and a tier 0 keep, fortifying your realm against external threats.",
+		"",
+		"- Infrastructure Development:",
+		"Create a road connecting your domain to spawn, if within 500 blocks, fostering improved connectivity.",
+		"",
+		"- Iron Forging Mastery:",
+		"Master iron metalsmithing, showcasing your skill in crafting advanced tools and armor.",
+		"",
+		"- Price of Advancement:",
+		"Pay the price of 1 bronze coin, symbolizing your commitment to leadership and progress.",
+		"",
+		"Embrace the title of Squire as you step into the role of a burgeoning leader, laying the groundwork for your future ascent."
+	],
+	dependencies: [
+		"544d913f"
+	],
+	tasks: [{
+		uid: "e1e9b690",
+		type: "gramdamuscore:rankup",
+		rankId: "squire"
+	}],
+	rewards: [{
+		uid: "36b71989",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "1d084050",
+		type: "random",
+		table: 6
+	}]
+}

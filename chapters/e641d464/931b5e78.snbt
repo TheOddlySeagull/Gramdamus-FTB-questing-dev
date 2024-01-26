@@ -1,0 +1,61 @@
+{
+	title: "The Ear",
+	x: -8.0d,
+	y: 12.5d,
+	description: "Dominion and Legacy",
+	text: [
+		"Achieve the eminent rank of \"The Earl,\" solidifying your dominion and leaving a lasting legacy in Gramdamus. To claim this title, cultivate three farms, each featuring a minimum of five fields, lead a workforce of twenty NPCs, provide residences for each, fortify your lands with a tier 2 defense and keep, command a force of ten soldiers stationed in a barracks under your banner, create a road to spawn within 3500 blocks, and master the challenging crafts of red and blue steel metalsmithing.",
+		"",
+		"- Claimable Chunks: 448",
+		"- Loaded Chunks: 40",
+		"",
+		"Requirements:",
+		"",
+		"- Expansive Harvests:",
+		"        Cultivate three farms, each with a minimum of five fields, showcasing your prowess in agricultural abundance.",
+		"",
+		"- Leadership Magnitude:",
+		"        Lead a workforce of twenty NPCs, each contributing to the prosperity and development of your expanding domain.",
+		"",
+		"- Residential Grandeur:",
+		"        Provide residences for all twenty NPCs, fostering a thriving and harmonious living environment.",
+		"",
+		"- Advanced Defensive Structures:",
+		"        Fortify your realm with both a tier 2 defense and a tier 2 keep, showcasing advanced defensive capabilities.",
+		"",
+		"- Military Dominion II:",
+		"        Command a formidable force of ten soldiers stationed in a dedicated barracks under your banner, asserting military dominance.",
+		"",
+		"- Symbol of Authority:",
+		"        Craft and display a banner, symbolizing your authority and leadership within Gramdamus.",
+		"",
+		"- Infrastructure Expansion II:",
+		"        Create a road connecting your domain to spawn, if within 3500 blocks, enhancing connectivity and accessibility.",
+		"",
+		"- Masterful Metalsmithing II:",
+		"        Master both red and blue steel metalsmithing, demonstrating your unmatched expertise in crafting superior tools and armor.",
+		"",
+		"- Price of Legacy:",
+		"        Pay the price of 5 gold coins, a significant investment reflecting your commitment to leadership and the lasting legacy of your rule.",
+		"",
+		"Embrace the title of Earl as you assert your dominion and establish a legacy that will echo through the ages."
+	],
+	dependencies: [
+		"a7b14eaa"
+	],
+	tasks: [{
+		uid: "08ccae8f",
+		type: "gramdamuscore:rankup",
+		rankId: "earl"
+	}],
+	rewards: [{
+		uid: "406b4e35",
+		type: "xp",
+		xp: 4000
+	},
+	{
+		uid: "c1e85242",
+		type: "random",
+		table: 6
+	}]
+}

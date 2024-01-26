@@ -1,0 +1,75 @@
+{
+	title: "The King",
+	x: -8.0d,
+	y: 17.0d,
+	description: "Majestic Sovereignty",
+	text: [
+		"Ascend to the zenith of leadership as \"The King,\" embodying majestic sovereignty and ruling over Gramdamus with unparalleled influence. To claim this regal title, cultivate ten farms, each featuring a minimum of five fields, establish a large kennel housing ten loyal dogs, lead an expansive workforce of eighty NPCs, provide residences for each, fortify your lands with a tier 4 defense and keep, command a formidable force of thirty-two soldiers stationed in three barracks under your banner, create a road to spawn within 10,000 blocks, and master the extraordinary crafts of tartarite and etherium metalsmithing.",
+		"",
+		"- Claimable Chunks: 1024",
+		"- Loaded Chunks: 70",
+		"",
+		"Requirements:",
+		"",
+		"- Harvest Dominion II:",
+		"        Cultivate ten farms, each with a minimum of five fields, showcasing your unparalleled proficiency in agricultural abundance.",
+		"",
+		"- Loyal Companions II:",
+		"        Establish a large kennel housing ten loyal dogs, exemplifying your connection with and protection of a loyal pack.",
+		"",
+		"- Commanding Workforce II:",
+		"        Lead an expansive workforce of eighty NPCs, each contributing to the prosperity and development of your majestic sovereignty.",
+		"",
+		"- Residential Majesty III:",
+		"        Provide residences for all eighty NPCs, creating a harmonious living environment that reflects the grandeur of your royal court.",
+		"",
+		"- Advanced Defensive Structures IV:",
+		"        Fortify your realm with both a tier 4 defense and a tier 4 keep, demonstrating unprecedented defensive capabilities.",
+		"",
+		"- Military Dominion V:",
+		"        Command a formidable force of thirty-two soldiers stationed in three dedicated barracks under your banner, solidifying military dominance.",
+		"",
+		"- Symbol of Royal Authority:",
+		"        Craft and display a banner, symbolizing your royal authority and leadership within Gramdamus.",
+		"",
+		"- Infrastructure Expansion V:",
+		"        Create a road connecting your domain to spawn, if within 10,000 blocks, fostering improved connectivity and accessibility.",
+		"",
+		"- Masterful Metalsmithing V:",
+		"        Master the crafts of tartarite and etherium metalsmithing, showcasing your unrivaled expertise in crafting the most formidable tools and armor.",
+		"",
+		"- Price of Majestic Ascension:",
+		"    Pay the legendary price of 1 legendary coin, a monumental investment reflecting your commitment to majestic sovereignty and the lasting legacy of your reign.",
+		"",
+		"Embrace the title of King as you ascend to the highest peak of leadership, ruling over Gramdamus with majestic sovereignty."
+	],
+	dependencies: [
+		"a5f33adc"
+	],
+	tasks: [{
+		uid: "3c1a3830",
+		type: "gramdamuscore:rankup",
+		rankId: "king"
+	}],
+	rewards: [{
+		uid: "04b9f824",
+		type: "xp",
+		xp: 7000
+	},
+	{
+		uid: "a5d2144c",
+		type: "random",
+		table: 6
+	},
+	{
+		uid: "1c25085f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscore:coin",
+			Damage: 3s
+		}
+	}]
+}

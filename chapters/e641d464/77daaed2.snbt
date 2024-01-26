@@ -1,0 +1,61 @@
+{
+	title: "The Marquis",
+	x: -8.0d,
+	y: 14.0d,
+	description: "Supreme Rule",
+	text: [
+		"Ascend to the pinnacle of leadership as \"The Marquis,\" embodying supreme rule and influence in Gramdamus. To attain this exalted title, cultivate four farms, each boasting a minimum of five fields, lead a workforce of thirty NPCs, provide residences for each, fortify your lands with a tier 3 defense and keep, command a force of sixteen soldiers stationed in a barracks under your banner, establish a road to spawn within 5000 blocks, and master the rare and powerful crafts of mithril, adamantium, and vulcanite metalsmithing.",
+		"",
+		"- Claimable Chunks: 512",
+		"- Loaded Chunks: 50",
+		"",
+		"Requirements:",
+		"",
+		"- Limitless Harvests:",
+		"        Cultivate four farms, each with a minimum of five fields, showcasing your unparalleled proficiency in agricultural productivity.",
+		"",
+		"- Commanding Leadership:",
+		"        Lead a workforce of thirty NPCs, each contributing to the prosperity and development of your expansive domain.",
+		"",
+		"- Residential Majesty:",
+		"        Provide residences for all thirty NPCs, creating a harmonious living environment that reflects the grandeur of your rule.",
+		"",
+		"- Advanced Defensive Structures II:",
+		"        Fortify your realm with both a tier 3 defense and a tier 3 keep, demonstrating unparalleled defensive capabilities.",
+		"",
+		"- Military Dominion III:",
+		"        Command a formidable force of sixteen soldiers stationed in a dedicated barracks under your banner, solidifying military dominance.",
+		"",
+		"- Symbol of Authority:",
+		"        Craft and display a banner, symbolizing your supreme authority and leadership within Gramdamus.",
+		"",
+		"- Infrastructure Expansion III:",
+		"        Create a road connecting your domain to spawn, if within 5000 blocks, fostering improved connectivity and accessibility.",
+		"",
+		"- Masterful Metalsmithing III:",
+		"        Master the crafts of mithril, adamantium, and vulcanite metalsmithing, showcasing your unrivaled expertise in crafting the most formidable tools and armor.",
+		"",
+		"- Price of Supremacy:",
+		"        Pay the price of 10 gold coins, a substantial investment reflecting your commitment to supreme rule and the lasting legacy of your reign.",
+		"",
+		"Embrace the title of Marquis as you ascend to the summit of leadership, marking a chapter of supreme rule and influence."
+	],
+	dependencies: [
+		"931b5e78"
+	],
+	tasks: [{
+		uid: "59a08e51",
+		type: "gramdamuscore:rankup",
+		rankId: "marquis"
+	}],
+	rewards: [{
+		uid: "00256652",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "32540ef6",
+		type: "random",
+		table: 6
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "Embarking on the Journey",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "ancientwarfarestructure:tribal_stool"
+	},
+	x: -8.0d,
+	y: 2.5d,
+	description: "Rise to Power: From Vagrant to Emperor",
+	text: [
+		"As a newcomer to the realm of Gramdamus, your journey begins with the humble rank of Vagrant. This gateway quest, \"Embarking on the Journey,\" marks the initiation of your rise to power. To become a Vagrant, claim your first 8 chunks and step into the vast world that awaits."
+	],
+	dependencies: [
+		"11aa7b21"
+	],
+	tasks: [{
+		uid: "bdfd9237",
+		type: "gramdamuscore:rankup",
+		title: "Embarking on the Journey",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfarestructure:tribal_stool"
+		},
+		rankId: "vagrant"
+	},
+	{
+		uid: "e75f5c0a",
+		type: "checkmark",
+		title: "Start Rising"
+	}],
+	rewards: [{
+		uid: "8e53ddad",
+		type: "loot",
+		table: 6
+	}]
+}

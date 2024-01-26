@@ -1,0 +1,61 @@
+{
+	title: "The Count",
+	x: -8.0d,
+	y: 11.0d,
+	description: "Domain Expansion",
+	text: [
+		"Ascend to the distinguished rank of \"The Count,\" expanding your domain and influence within Gramdamus. To achieve this title, cultivate two farms, each with a minimum of five fields, oversee a workforce of ten NPCs, provide residences for each, fortify your lands with a tier 2 defense and keep, lead a force of six soldiers stationed in a barracks under your banner, create a road to spawn within 2000 blocks, and master the intricate craft of black steel metalsmithing.",
+		"",
+		"- Claimable Chunks: 256",
+		"- Loaded Chunks: 30",
+		"",
+		"Requirements:",
+		"",
+		"- Bountiful Harvest:",
+		"        Cultivate two farms, each featuring a minimum of five fields, showcasing your mastery in agricultural productivity.",
+		"",
+		"- Expanded Workforce:",
+		"        Oversee a workforce of ten NPCs, each contributing to the prosperity and development of your domain.",
+		"",
+		"- Residential Abundance:",
+		"        Provide residences for all ten NPCs, ensuring a thriving and harmonious living environment.",
+		"",
+		"- Advanced Defense Structures:",
+		"        Fortify your realm with both a tier 2 defense and a tier 2 keep, demonstrating advanced defensive capabilities.",
+		"",
+		"- Military Dominion:",
+		"        Lead a force of six soldiers stationed in a dedicated barracks under your banner, asserting military dominance.",
+		"",
+		"- Symbol of Authority:",
+		"        Craft and display a banner, symbolizing your authority and leadership within Gramdamus.",
+		"",
+		"- Infrastructure Extension:",
+		"        Create a road connecting your domain to spawn, if within 2000 blocks, enhancing connectivity and accessibility.",
+		"",
+		"- Masterful Metalsmithing:",
+		"        Master the art of black steel metalsmithing, showcasing your expertise in crafting top-tier tools and armor.",
+		"",
+		"- Price of Dominion:",
+		"        Pay the price of 1 gold coin, signifying your commitment to leadership and the expansion of your domain.",
+		"",
+		"Embrace the title of Count as you expand your influence, guiding your realm towards greater prosperity and power."
+	],
+	dependencies: [
+		"a78a9982"
+	],
+	tasks: [{
+		uid: "73a2d380",
+		type: "gramdamuscore:rankup",
+		rankId: "count"
+	}],
+	rewards: [{
+		uid: "89c1ea36",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "d5e7cb0c",
+		type: "random",
+		table: 6
+	}]
+}

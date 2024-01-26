@@ -1,0 +1,40 @@
+{
+	title: "The Crofter",
+	x: -6.5d,
+	y: 3.5d,
+	description: "Cultivating the Homestead",
+	text: [
+		"Elevate yourself from the vagabond life to become \"The Crofter.\" With 16 claimable chunks and 2 loaded chunks, your homestead takes root. To achieve this rank, you must secure the land you'll cultivate and establish your initial dwelling.",
+		"",
+		"- Claimable Chunks: 16",
+		"- Loaded Chunks: 2",
+		"",
+		"Requirements:",
+		"",
+		"- Land Acquisition:",
+		"   Find a suitable expanse of land where your homestead will flourish.",
+		"",
+		"- Homestead Establishment:",
+		"  Construct a basic starter hut, signifying the commencement of your cultivation efforts.",
+		"",
+		"Embrace the title of Crofter as you expand your domain and cultivate the beginnings of your empire."
+	],
+	dependencies: [
+		"5b76de9d"
+	],
+	tasks: [{
+		uid: "35b9cbfa",
+		type: "gramdamuscore:rankup",
+		rankId: "crofter"
+	}],
+	rewards: [{
+		uid: "fd92aca3",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "adf50010",
+		type: "random",
+		table: 6
+	}]
+}
