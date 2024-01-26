@@ -16,10 +16,11 @@
 	tasks: [{
 		uid: "7150654b",
 		type: "location",
+		title: "Stand at Spawn",
 		location: [I;
 			0,
 			0,
-			65,
+			64,
 			0,
 			1,
 			1,

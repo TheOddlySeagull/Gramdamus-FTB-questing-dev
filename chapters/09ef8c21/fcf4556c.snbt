@@ -30,5 +30,21 @@
 				npcType: "courier"
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "ca13d1ba",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ancientwarfare:backpack",
+			Damage: 1s
+		}
+	},
+	{
+		uid: "20f6ba46",
+		type: "xp",
+		xp: 100
 	}]
 }

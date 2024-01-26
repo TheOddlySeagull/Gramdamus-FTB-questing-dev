@@ -28,13 +28,28 @@
 		title: "Path to Mastery: NPC Leveling Unveiled"
 	}],
 	rewards: [{
-		uid: "cc70fc7c",
+		uid: "4e686b97",
 		type: "loot",
 		table: 8
 	},
 	{
-		uid: "ab822c81",
+		uid: "266ed449",
 		type: "loot",
 		table: 7
+	},
+	{
+		uid: "0ec56fe9",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "3f0cb7b3",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "b6762b23",
+		type: "random",
+		table: 6
 	}]
 }
