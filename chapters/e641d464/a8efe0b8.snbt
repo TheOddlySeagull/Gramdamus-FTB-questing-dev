@@ -1,0 +1,52 @@
+{
+	title: "The Bourgeois",
+	x: -5.0d,
+	y: 14.0d,
+	description: "Architect of Prosperity",
+	text: [
+		"Elevate yourself to the esteemed title of \"The Bourgeois,\" becoming an architect of prosperity within your town under the leadership of an earl or higher-ranked town leader. To attain this distinguished title, reside in a town with a thriving population of at least twenty NPCs. Ensure the town leader holds the rank of earl or higher, and actively contribute to the town's growth with essential structures such as a brewery, a church, a chapel, and a flourishing market.",
+		"",
+		"- Claimable Chunks: 192",
+		"- Loaded Chunks: 10",
+		"",
+		"Requirements:",
+		"",
+		"- Town Residence V:",
+		"        Be a dedicated resident of a town with a flourishing population of at least twenty NPCs, showcasing your commitment to fostering a diverse and thriving community.",
+		"",
+		"- Guiding Leadership V:",
+		"        Ensure that the town leader holds a rank of earl or higher, signifying influential and distinguished leadership within the town.",
+		"",
+		"- Brewery Hub:",
+		"        Play a pivotal role in the establishment and advanced operations of a brewery within your town, contributing to the town's prosperity through crafted beverages.",
+		"",
+		"- Sacred Gathering Places:",
+		"        Contribute to the establishment of both a church and a chapel within your town, providing sacred gathering places for The Holy Seagull.",
+		"",
+		"- Marketplace Mastery:",
+		"        Demonstrate a high level of involvement in the development and management of a flourishing market within your town, solidifying your role as an architect of prosperity.",
+		"",
+		"- Investment in Prosperity:",
+		"        Make a substantial investment in the continued prosperity and growth of your town by paying the worthy price of 1 gold coin.",
+		"",
+		"Embrace the title of The Bourgeois as you become an architect of prosperity, contributing significantly to the economic, cultural, and spiritual advancement of your town."
+	],
+	dependencies: [
+		"e0a26505"
+	],
+	tasks: [{
+		uid: "041dcb87",
+		type: "gramdamuscore:rankup",
+		rankId: "bourgeois"
+	}],
+	rewards: [{
+		uid: "dfd15d22",
+		type: "xp",
+		xp: 3100
+	},
+	{
+		uid: "ed858dd3",
+		type: "random",
+		table: 6
+	}]
+}

@@ -1,0 +1,77 @@
+{
+	title: "The Master Artisan",
+	x: -3.5d,
+	y: 18.5d,
+	shape: "hexagon",
+	description: "Crafting Excellence",
+	text: [
+		"Ascend to the esteemed title of \"The Master Artisan,\" showcasing unparalleled expertise in crafting within your town led by a king or higher-ranked town leader. To achieve this pinnacle of craftsmanship, contribute significantly to a town boasting a vibrant population of at least eighty NPCs. Ensure the town leader holds the esteemed rank of king or higher and actively participate in crafting excellence with the establishment of four breweries, a basilica, a church, an arena, and three bustling markets. Additionally, play a key role in the town's logistical efficiency with at least two roads connecting your town to other settlements over 1000 blocks away and the presence of five warehouses. Showcase your mastery in mass production by successfully manufacturing and selling three distinct products, whether they be food, weapons, armor, or other sought-after items.",
+		"",
+		"- Claimable Chunks: 512",
+		"- Loaded Chunks: 14",
+		"",
+		"Requirements:",
+		"",
+		"- Town Residence:",
+		"        Be a dedicated resident of a town with a thriving population of at least eighty NPCs, emphasizing your unwavering commitment to fostering a diverse and thriving community.",
+		"",
+		"- Guiding Leadership:",
+		"        Ensure that the town leader holds a rank of king or higher, signifying influential and distinguished leadership within the town.",
+		"",
+		"- Brewery Hub:",
+		"        Play a pivotal role in the establishment and advanced operations of four breweries within your town, contributing significantly to the town's prosperity through crafted beverages.",
+		"",
+		"- Sacred Gathering Places:",
+		"        Contribute to the establishment of a basilica and a church within your town, providing sacred gathering places for The Holy Seagull.",
+		"",
+		"- Arena of Prestige:",
+		"        Contribute to the establishment of an arena within your town, showcasing your dedication to entertainment, competition, and the cultural development of the community.",
+		"",
+		"- Marketplace Mastery:",
+		"        Demonstrate an exceptional level of involvement in the development and management of three thriving markets within your town, solidifying your role as a master of commerce.",
+		"",
+		"- Roads to Prosperity:",
+		"        Establish at least two roads connecting your town to other settlements, each road extending over 1000 blocks away, fostering extensive connectivity and trade between distant kingdoms.",
+		"",
+		"- Warehousing Excellence:",
+		"        Contribute to the logistical efficiency of your town by ensuring the presence of at least five warehouses, facilitating the storage and distribution of vast resources.",
+		"",
+		"- Mass Production Mastery:",
+		"        Showcase your mastery in mass production by successfully manufacturing and selling three distinct products within your town. These products can range from food and beverages to weapons, armor, or other sought-after items.",
+		"",
+		"- Investment in Artisan Excellence:",
+		"        Make a monumental investment in artisan excellence and continued prosperity of your town by paying the prestigious price of 1 legendary coin.",
+		"",
+		"Embrace the title of The Master Artisan as you become a paragon of crafting excellence, leading your town to unparalleled heights in the art of creation and commerce."
+	],
+	dependencies: [
+		"048f78fe"
+	],
+	tasks: [{
+		uid: "26c9d297",
+		type: "gramdamuscore:rankup",
+		rankId: "master_artisan"
+	}],
+	rewards: [{
+		uid: "38164471",
+		type: "xp",
+		xp: 6100
+	},
+	{
+		uid: "a4b3e71a",
+		type: "random",
+		table: 6
+	},
+	{
+		uid: "283f72fd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscore:coin",
+			Damage: 3s
+		},
+		count: 5
+	}]
+}

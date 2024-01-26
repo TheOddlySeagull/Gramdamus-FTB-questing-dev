@@ -2,6 +2,7 @@
 	title: "The Emperor",
 	x: -8.0d,
 	y: 18.5d,
+	shape: "hexagon",
 	description: "Imperial Ascendancy",
 	text: [
 		"Ascend to the apogee of leadership as \"The Emperor,\" achieving imperial ascendancy and standing as the ultimate authority in Gramdamus. To claim this peerless title, cultivate fifteen farms, each featuring a minimum of five fields, establish a vast kennel housing thirty loyal dogs, lead an expansive workforce of one hundred sixty NPCs, provide residences for each, fortify your lands with a tier 4 defense and keep, command a formidable force of sixty-four soldiers stationed in five barracks under your banner, create a road to spawn, and master every metalsmithing craft available in Gramdamus.",

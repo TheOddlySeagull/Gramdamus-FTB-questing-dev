@@ -1,0 +1,46 @@
+{
+	title: "The Serf",
+	x: -5.0d,
+	y: 8.0d,
+	description: "Foundations of Service",
+	text: [
+		"Embark on the path of service as \"The Serf,\" contributing to the growth of your town under the guidance of a squire or higher-ranked town leader. To achieve this humble title, be part of a town with a population of at least two NPCs and a chapel. Additionally, ensure that the town leader holds the rank of squire or higher.",
+		"",
+		"- Claimable Chunks: 64",
+		"- Loaded Chunks: 2",
+		"",
+		"Requirements:",
+		"",
+		"- Town Residence:",
+		"        Be a resident of a town with a minimum population of two NPCs, fostering the foundation of community.",
+		"",
+		"- Guiding Leadership:",
+		"        Ensure that the town leader holds a rank of squire or higher, signifying competent and guiding leadership within the town.",
+		"",
+		"- Sacred Gathering Place:",
+		"        Contribute to the establishment of a chapel within your town, a sacred gathering place for The Holy Seagull.",
+		"",
+		"- Price of Humble Service:",
+		"        Pay the humble price of 1 copper coin, symbolizing your commitment to the growth and prosperity of your town.",
+		"",
+		"Embrace the title of Serf as you begin your journey of service, laying the foundations for the growth and prosperity of your town."
+	],
+	dependencies: [
+		"544d913f"
+	],
+	tasks: [{
+		uid: "7c561ebd",
+		type: "gramdamuscore:rankup",
+		rankId: "serf"
+	}],
+	rewards: [{
+		uid: "af713067",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "379d08a8",
+		type: "random",
+		table: 6
+	}]
+}

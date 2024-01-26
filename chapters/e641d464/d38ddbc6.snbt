@@ -1,0 +1,52 @@
+{
+	title: "The Burgher",
+	x: -5.0d,
+	y: 11.0d,
+	description: "Marketplace Steward",
+	text: [
+		"Rise to the role of \"The Burgher,\" becoming a vital steward of the marketplace in your town under the leadership of a count or higher-ranked town leader. To attain this esteemed title, be a resident of a town with a flourishing population of at least ten NPCs. Ensure the town leader holds the rank of count or higher and that the town features essential structures such as a brewery, a church, and a vibrant market.",
+		"",
+		"- Claimable Chunks: 128",
+		"- Loaded Chunks: 6",
+		"",
+		"Requirements:",
+		"",
+		"- Town Residence III:",
+		"        Be a resident of a town with a thriving population of at least ten NPCs, showcasing your commitment to fostering a bustling community.",
+		"",
+		"- Guiding Leadership III:",
+		"        Ensure that the town leader holds a rank of count or higher, signifying influential and distinguished leadership within the town.",
+		"",
+		"- Brewery Hub:",
+		"        Play an essential role in the establishment of a brewery within your town, contributing to the development of unique and crafted beverages.",
+		"",
+		"- Sacred Gathering Place:",
+		"        Contribute to the establishment of a church within your town, a sacred gathering place for The Holy Seagull.",
+		"",
+		"- Marketplace Stewardship:",
+		"        Actively participate in the development and management of a vibrant market within your town, becoming a steward of the marketplace.",
+		"",
+		"- Price of Burgeoning Commerce:",
+		"        Pay the worthy price of 1 silver coin, symbolizing your commitment to the prosperity and commerce of your town.",
+		"",
+		"Embrace the title of Burgher as you become a steward of the marketplace, contributing to the economic vitality and growth of your town."
+	],
+	dependencies: [
+		"e9107d3d"
+	],
+	tasks: [{
+		uid: "6b1620d1",
+		type: "gramdamuscore:rankup",
+		rankId: "burgher"
+	}],
+	rewards: [{
+		uid: "e79acdf3",
+		type: "xp",
+		xp: 2100
+	},
+	{
+		uid: "c707e432",
+		type: "random",
+		table: 6
+	}]
+}

@@ -1,0 +1,77 @@
+{
+	title: "The Master Builder",
+	x: -2.0d,
+	y: 18.5d,
+	shape: "hexagon",
+	description: "Architectural Grandeur",
+	text: [
+		"Achieve the prestigious title of \"The Master Builder,\" a pinnacle of architectural prowess and innovation within a town led by a king or higher-ranked town leader. To earn this esteemed rank, contribute significantly to a town with a vibrant population of at least eighty NPCs. Ensure the town leader holds the distinguished rank of king or higher and play a key role in crafting a town of unparalleled beauty and grandeur. Establish two breweries, a basilica, a cathedral, two arenas, and two thriving markets. Demonstrate your commitment to connectivity and logistical efficiency with at least two roads connecting your town to other settlements over 1000 blocks away and the presence of three warehouses. Leave an indelible mark on your town's landscape with the creation of a monumental structure, symbolizing your mastery in architectural excellence.",
+		"",
+		"- Claimable Chunks: 512",
+		"- Loaded Chunks: 14",
+		"",
+		"Requirements:",
+		"",
+		"- Town Residence:",
+		"        Be a dedicated resident of a town with a thriving population of at least eighty NPCs, embodying your commitment to fostering a diverse and vibrant community.",
+		"",
+		"- Guiding Leadership:",
+		"        Ensure that the town leader holds a rank of king or higher, signifying influential and distinguished leadership within the town.",
+		"",
+		"- Brewery Hub:",
+		"        Play a pivotal role in the establishment and advanced operations of two breweries within your town, contributing significantly to the town's prosperity through crafted beverages.",
+		"",
+		"- Sacred Gathering Places:",
+		"        Contribute to the establishment of a basilica and a cathedral within your town, providing sacred gathering places for The Holy Seagull.",
+		"",
+		"- Arena of Prestige:",
+		"        Contribute to the establishment of two arenas within your town, showcasing your dedication to entertainment, competition, and the cultural development of the community.",
+		"",
+		" -Marketplace Mastery:",
+		"        Demonstrate an exceptional level of involvement in the development and management of two thriving markets within your town, solidifying your role as a master of commerce.",
+		"",
+		"- Roads to Prosperity:",
+		"        Establish at least two roads connecting your town to other settlements, each road extending over 1000 blocks away, fostering extensive connectivity and trade between distant kingdoms.",
+		"",
+		"- Warehousing Excellence:",
+		"        Contribute to the logistical efficiency of your town by ensuring the presence of at least three warehouses, facilitating the storage and distribution of vast resources.",
+		"",
+		"- Monumental Legacy:",
+		"        Leave an indelible mark on your town's landscape by creating a monumental structure that stands as a testament to your architectural prowess and creativity.",
+		"",
+		"- Investment in Architectural Mastery:",
+		"        Make a monumental investment in architectural mastery and the continued prosperity of your town by paying the prestigious price of 1 legendary coin.",
+		"",
+		"Embrace the title of The Master Builder as you become a paragon of architectural grandeur, shaping the skyline of your town and leaving a lasting legacy of beauty and innovation."
+	],
+	dependencies: [
+		"048f78fe"
+	],
+	tasks: [{
+		uid: "decedad6",
+		type: "gramdamuscore:rankup",
+		rankId: "master_builder"
+	}],
+	rewards: [{
+		uid: "dbded071",
+		type: "xp",
+		xp: 6100
+	},
+	{
+		uid: "d90819c1",
+		type: "random",
+		table: 6
+	},
+	{
+		uid: "9bda5e7e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscore:coin",
+			Damage: 3s
+		},
+		count: 5
+	}]
+}

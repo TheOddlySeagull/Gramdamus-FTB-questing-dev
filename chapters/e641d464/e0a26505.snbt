@@ -1,0 +1,52 @@
+{
+	title: "The Little Bourgeois",
+	x: -5.0d,
+	y: 12.5d,
+	description: "Prosperity's Apprentice",
+	text: [
+		"Ascend to the role of \"The Little Bourgeois,\" an apprentice of prosperity within your town under the leadership of a count or higher-ranked town leader. To attain this prestigious title, reside in a town with a thriving population of at least fifteen NPCs. Ensure the town leader holds the rank of count or higher, and contribute to the town's growth with essential structures such as a brewery, a church, and a bustling market.",
+		"",
+		"- Claimable Chunks: 160",
+		"- Loaded Chunks: 8",
+		"",
+		"Requirements:",
+		"",
+		"- Town Residence IV:",
+		"        Be a dedicated resident of a town with a flourishing population of at least fifteen NPCs, showcasing your commitment to fostering a vibrant and dynamic community.",
+		"",
+		"- Guiding Leadership IV:",
+		"        Ensure that the town leader holds a rank of count or higher, signifying influential and distinguished leadership within the town.",
+		"",
+		"- Brewery Hub:",
+		"        Play a substantial role in the establishment and ongoing operations of a brewery within your town, contributing to the town's prosperity through crafted beverages.",
+		"",
+		"- Sacred Gathering Place:",
+		"        Contribute to the establishment of a church within your town, a sacred gathering place for The Holy Seagull.",
+		"",
+		"- Marketplace Mastery:",
+		"        Demonstrate an advanced level of involvement in the development and management of a bustling market within your town, showcasing your apprenticeship in the art of prosperity.",
+		"",
+		"- Investment in Prosperity:",
+		"        Make a substantial investment in the prosperity and growth of your town by paying the worthy price of 5 silver coins.",
+		"",
+		"Embrace the title of The Little Bourgeois as you continue your apprenticeship in the art of prosperity, contributing to the economic and cultural advancement of your town."
+	],
+	dependencies: [
+		"d38ddbc6"
+	],
+	tasks: [{
+		uid: "b5b5f422",
+		type: "gramdamuscore:rankup",
+		rankId: "little_bourgeois"
+	}],
+	rewards: [{
+		uid: "37e40580",
+		type: "xp",
+		xp: 2200
+	},
+	{
+		uid: "b176fbc0",
+		type: "random",
+		table: 6
+	}]
+}

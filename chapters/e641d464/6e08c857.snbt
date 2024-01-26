@@ -2,6 +2,7 @@
 	title: "The King",
 	x: -8.0d,
 	y: 17.0d,
+	shape: "pentagon",
 	description: "Majestic Sovereignty",
 	text: [
 		"Ascend to the zenith of leadership as \"The King,\" embodying majestic sovereignty and ruling over Gramdamus with unparalleled influence. To claim this regal title, cultivate ten farms, each featuring a minimum of five fields, establish a large kennel housing ten loyal dogs, lead an expansive workforce of eighty NPCs, provide residences for each, fortify your lands with a tier 4 defense and keep, command a formidable force of thirty-two soldiers stationed in three barracks under your banner, create a road to spawn within 10,000 blocks, and master the extraordinary crafts of tartarite and etherium metalsmithing.",

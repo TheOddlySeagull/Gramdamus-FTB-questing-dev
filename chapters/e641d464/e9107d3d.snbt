@@ -1,0 +1,49 @@
+{
+	title: "The Apprentice",
+	x: -5.0d,
+	y: 9.5d,
+	description: "Crafting Connections",
+	text: [
+		"Enter the realm of apprenticeship as \"The Apprentice,\" contributing to the development of your town under the leadership of a baron or higher-ranked town leader. To attain this role, be a resident of a town with a population of at least five NPCs and the presence of a chapel and a bustling market. Ensure that the town leader holds the rank of baron or higher.",
+		"",
+		"- Claimable Chunks: 96",
+		"- Loaded Chunks: 4",
+		"",
+		"Requirements:",
+		"",
+		"- Town Residence II:",
+		"        Be a resident of a town with a thriving population of at least five NPCs, fostering the growth and diversity of the community.",
+		"",
+		"- Guiding Leadership II:",
+		"        Ensure that the town leader holds a rank of baron or higher, signifying capable and influential leadership within the town.",
+		"",
+		"- Sacred Gathering Place:",
+		"        Contribute to the establishment of a chapel within your town, a sacred gathering place for The Holy Seagull.",
+		"",
+		"- Market Hub:",
+		"        Play a role in the development of a market within your town, creating a bustling hub of trade and connection.",
+		"",
+		"- Price of Aspiring Craftsmanship:",
+		"        Pay the modest price of 5 copper coins, symbolizing your commitment to the development and prosperity of your town.",
+		"",
+		"Embrace the title of Apprentice as you embark on a journey of crafting connections, contributing to the growth and prosperity of your town."
+	],
+	dependencies: [
+		"374a0fd6"
+	],
+	tasks: [{
+		uid: "fd010da1",
+		type: "gramdamuscore:rankup",
+		rankId: "apprentice"
+	}],
+	rewards: [{
+		uid: "0afc218f",
+		type: "xp",
+		xp: 1100
+	},
+	{
+		uid: "d1d4f0ad",
+		type: "random",
+		table: 6
+	}]
+}
