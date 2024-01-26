@@ -1,0 +1,35 @@
+{
+	title: "Fortune's Gamble: Unclaimed Lands",
+	x: 2.25d,
+	y: 8.25d,
+	shape: "gear",
+	description: "Roll the Dice of Expansion",
+	text: [
+		"Take a gamble on the unclaimed lands as you invest 2 bronze coins to acquire a random amount of claimed chunks, ranging from 3 to 10. Leave the fate of your empire's expansion to chance and see how fortune smiles upon your quest for dominance."
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"931b5e78"
+	],
+	hide_text_until_complete: true,
+	size: 1.5d,
+	optional: true,
+	tasks: [{
+		uid: "b5d99143",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscore:coin",
+			Damage: 1s
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "7e94fd1e",
+		type: "loot",
+		table: 18
+	}]
+}

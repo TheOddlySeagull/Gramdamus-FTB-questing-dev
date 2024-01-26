@@ -1,0 +1,41 @@
+{
+	title: "Land Expansion: Claimed Territory",
+	x: 2.25d,
+	y: 6.75d,
+	shape: "gear",
+	description: "Expand Your Dominion",
+	text: [
+		"Embark on a journey to expand your dominion by purchasing an additional claimed chunk for 3 copper coins. This investment will bolster your influence and allow for further expansion of your burgeoning empire."
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"544d913f"
+	],
+	hide: true,
+	size: 1.5d,
+	optional: true,
+	tasks: [{
+		uid: "2c56a614",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscore:coin"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "ce773f66",
+		type: "gramdamuscore:extraclaims",
+		title: "You get 1 new chunk claim!",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:map"
+		},
+		extraClaims: 1
+	}]
+}

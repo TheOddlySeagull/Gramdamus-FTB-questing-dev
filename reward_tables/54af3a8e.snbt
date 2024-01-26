@@ -1,0 +1,45 @@
+{
+	title: "FTB claims",
+	loot_size: 1,
+	rewards: [{
+		title: "You get 3 new chunk claims!",
+		team_reward: true,
+		extraClaims: 3,
+		type: "gramdamuscore:extraclaims"
+	},
+	{
+		title: "You get 4 new chunk claims!",
+		extraClaims: 4,
+		type: "gramdamuscore:extraclaims"
+	},
+	{
+		title: "You get 5 new chunk claims!",
+		extraClaims: 5,
+		type: "gramdamuscore:extraclaims"
+	},
+	{
+		title: "You get 6 new chunk claims!",
+		extraClaims: 6,
+		type: "gramdamuscore:extraclaims"
+	},
+	{
+		title: "You get 7 new chunk claims!",
+		extraClaims: 7,
+		type: "gramdamuscore:extraclaims"
+	},
+	{
+		title: "You get 8 new chunk claims!",
+		extraClaims: 8,
+		type: "gramdamuscore:extraclaims"
+	},
+	{
+		title: "You get 9 new chunk claims!",
+		extraClaims: 9,
+		type: "gramdamuscore:extraclaims"
+	},
+	{
+		title: "You get 10 new chunk claims!",
+		extraClaims: 10,
+		type: "gramdamuscore:extraclaims"
+	}]
+}
