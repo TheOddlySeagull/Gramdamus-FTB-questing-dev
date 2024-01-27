@@ -18,7 +18,7 @@
 	dependencies: [
 		"544d913f"
 	],
-	hide_text_until_complete: true,
+	hide: true,
 	size: 1.5d,
 	optional: true,
 	tasks: [{
