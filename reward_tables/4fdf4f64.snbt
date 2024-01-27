@@ -1,0 +1,59 @@
+{
+	title: "FTB claims gamble II",
+	loot_size: 1,
+	rewards: [{
+		title: "You get 10 new chunk claim!",
+		extraClaims: 10,
+		type: "gramdamuscore:extraclaims"
+	},
+	{
+		title: "You get 12 new chunk claim!",
+		extraClaims: 12,
+		type: "gramdamuscore:extraclaims"
+	},
+	{
+		title: "You get 14 new chunk claim!",
+		extraClaims: 14,
+		type: "gramdamuscore:extraclaims"
+	},
+	{
+		title: "You get 16 new chunk claim!",
+		extraClaims: 16,
+		type: "gramdamuscore:extraclaims"
+	},
+	{
+		title: "You get 18 new chunk claim!",
+		extraClaims: 18,
+		type: "gramdamuscore:extraclaims"
+	},
+	{
+		title: "You get 20 new chunk claim!",
+		extraClaims: 20,
+		type: "gramdamuscore:extraclaims"
+	},
+	{
+		title: "You get 22 new chunk claim!",
+		extraClaims: 22,
+		type: "gramdamuscore:extraclaims"
+	},
+	{
+		title: "You get 24 new chunk claim!",
+		extraClaims: 24,
+		type: "gramdamuscore:extraclaims"
+	},
+	{
+		title: "You get 26 new chunk claim!",
+		extraClaims: 26,
+		type: "gramdamuscore:extraclaims"
+	},
+	{
+		title: "You get 28 new chunk claim!",
+		extraClaims: 28,
+		type: "gramdamuscore:extraclaims"
+	},
+	{
+		title: "You get 30 new chunk claim!",
+		extraClaims: 30,
+		type: "gramdamuscore:extraclaims"
+	}]
+}

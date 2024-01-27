@@ -1,0 +1,41 @@
+{
+	title: "Risk and Reward: The Gambler's Cache",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "ancientwarfarevehicle:iron_core_wood"
+	},
+	x: 2.25d,
+	y: 11.25d,
+	shape: "gear",
+	description: "Roll the Dice for Empire Expansion",
+	text: [
+		"Embrace the thrill of uncertainty and roll the dice for empire expansion! Invest 5 bronze coins to purchase a gambling cache that could reward you with a random amount of claimed chunks, ranging from 10 to 30. Fortune favors the bold on this quest for uncharted territories."
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a5f33adc"
+	],
+	hide_text_until_complete: true,
+	size: 1.5d,
+	optional: true,
+	tasks: [{
+		uid: "4884b98b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscore:coin",
+			Damage: 1s
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "5935380d",
+		type: "loot",
+		table: 19
+	}]
+}

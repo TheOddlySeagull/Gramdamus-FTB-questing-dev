@@ -1,0 +1,42 @@
+{
+	title: "Dominion Package: Land Bundle",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "ancientwarfarevehicle:ironshod_wood"
+	},
+	x: 2.25d,
+	y: 9.75d,
+	shape: "gear",
+	description: "Secure Your Empire's Foundations",
+	text: [
+		"Secure the foundations of your empire by acquiring a bundle of 20 claimed chunks for the modest price of 5 bronze coins. This bundle offers a substantial addition to your territorial influence, fortifying your realm and providing ample space for growth."
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"931b5e78"
+	],
+	hide_text_until_complete: true,
+	size: 1.5d,
+	optional: true,
+	tasks: [{
+		uid: "91b8b3b9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscore:coin",
+			Damage: 1s
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "3714588a",
+		type: "gramdamuscore:extraclaims",
+		title: "You get 20 new chunk claim!",
+		extraClaims: 20
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "Empire Expansion Extravaganza",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "ancientwarfarevehicle:rough_iron"
+	},
+	x: 2.25d,
+	y: 12.75d,
+	shape: "gear",
+	description: "Unleash the Might of Your Dominion",
+	text: [
+		"Embark on a monumental expansion as you invest 2 silver coins to acquire the Empire Expansion Extravaganza—a grand bundle of 100 claimed chunks. This massive addition to your dominion ensures unparalleled territorial influence and lays the groundwork for a colossal and prosperous empire."
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"88bde5a0"
+	],
+	hide_text_until_complete: true,
+	size: 1.5d,
+	optional: true,
+	tasks: [{
+		uid: "ae0d1488",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gramdamuscore:coin",
+			Damage: 2s
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "e883f5dd",
+		type: "gramdamuscore:extraclaims",
+		title: "You get 100 new chunk claim!",
+		extraClaims: 100
+	}]
+}

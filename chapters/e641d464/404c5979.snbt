@@ -1,5 +1,11 @@
 {
 	title: "Land Expansion: Claimed Territory",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "ancientwarfarevehicle:rough_wood"
+	},
 	x: 2.25d,
 	y: 6.75d,
 	shape: "gear",
@@ -12,7 +18,7 @@
 	dependencies: [
 		"544d913f"
 	],
-	hide: true,
+	hide_text_until_complete: true,
 	size: 1.5d,
 	optional: true,
 	tasks: [{

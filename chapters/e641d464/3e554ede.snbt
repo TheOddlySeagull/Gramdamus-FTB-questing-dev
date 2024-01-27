@@ -1,5 +1,11 @@
 {
 	title: "Fortune's Gamble: Unclaimed Lands",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "ancientwarfarevehicle:treated_wood"
+	},
 	x: 2.25d,
 	y: 8.25d,
 	shape: "gear",
@@ -10,7 +16,7 @@
 	can_repeat: true,
 	hide_dependency_lines: true,
 	dependencies: [
-		"931b5e78"
+		"a78a9982"
 	],
 	hide_text_until_complete: true,
 	size: 1.5d,
