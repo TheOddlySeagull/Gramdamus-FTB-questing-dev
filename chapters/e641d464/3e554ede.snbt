@@ -36,6 +36,13 @@
 	rewards: [{
 		uid: "7e94fd1e",
 		type: "loot",
+		title: "You get 3 to 10 new chunk claims!",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:map"
+		},
 		table: 18
 	}]
 }

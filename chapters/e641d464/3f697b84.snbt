@@ -37,6 +37,12 @@
 		uid: "e883f5dd",
 		type: "gramdamuscore:extraclaims",
 		title: "You get 100 new chunk claim!",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:map"
+		},
 		extraClaims: 100
 	}]
 }
